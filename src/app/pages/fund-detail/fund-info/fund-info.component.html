@@ -1,1 +1,21 @@
-<p>fund-info works!</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-2xl p-4 shadow">
+        <h2 class="text-lg font-bold mb-4">اطلاعات پایه صندوق</h2>
+        <ul>
+            <li *ngFor="let info of fundBasicInfo" class="py-1 border-b border-gray-200 flex justify-between">
+                <span>{{ info.label }}</span>
+                <span>{{ info.value }}</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bg-white rounded-2xl p-4 shadow">
+        <h2 class="text-lg font-bold mb-4">اطلاعات بازده صندوق</h2>
+        <ul>
+            <li *ngFor="let info of fundReturnInfo" class="py-1 border-b border-gray-200 flex justify-between">
+                <span>{{ info.label }}</span>
+                <span>{{ info.value }}</span>
+            </li>
+        </ul>
+    </div>
+</div>
