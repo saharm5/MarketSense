@@ -1,13 +1,7 @@
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-white rounded-2xl p-4 shadow">
-        <h2 class="text-lg font-bold mb-4">ترکیب دارایی</h2>
-        <canvas baseChart [data]="pieChartData" [type]="'pie'">
-        </canvas>
-    </div>
-
-    <div class="bg-white rounded-2xl p-4 shadow">
-        <h2 class="text-lg font-bold mb-4">ارزش خالص دارایی</h2>
-        <canvas baseChart [data]="lineChartData" [type]="'line'">
-        </canvas>
-    </div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+    <app-asset-composition-chart></app-asset-composition-chart>
+    <app-ownership-composition-chart></app-ownership-composition-chart>
+    <app-realized-profit-chart></app-realized-profit-chart>
+    <app-fund-return-chart></app-fund-return-chart>
+    <app-net-asset-value-chart></app-net-asset-value-chart>
 </div>

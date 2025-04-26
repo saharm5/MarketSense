@@ -1,33 +1,23 @@
+// src/app/pages/fund-detail/fund-performance/fund-performance.component.ts
+
 import { Component } from '@angular/core';
-import { BaseChartDirective } from 'ng2-charts';
-import { ChartConfiguration } from 'chart.js';
+import { AssetCompositionChartComponent } from './asset-composition-chart/asset-composition-chart.component';
+import { OwnershipCompositionChartComponent } from './ownership-composition-chart/ownership-composition-chart.component';
+import { RealizedProfitChartComponent } from './realized-profit-chart/realized-profit-chart.component';
+import { FundReturnChartComponent } from './fund-return-chart/fund-return-chart.component';
+import { NetAssetValueChartComponent } from './net-asset-value-chart/net-asset-value-chart.component';
 
 @Component({
   selector: 'app-fund-performance',
   standalone: true,
-  imports: [BaseChartDirective],
+  imports: [
+    AssetCompositionChartComponent,
+    OwnershipCompositionChartComponent,
+    RealizedProfitChartComponent,
+    FundReturnChartComponent,
+    NetAssetValueChartComponent
+  ],
   templateUrl: './fund-performance.component.html',
   styleUrls: ['./fund-performance.component.css']
 })
-export class FundPerformanceComponent {
-  pieChartData: ChartConfiguration<'pie'>['data'] = {
-    labels: ['سهام', 'اوراق بدهی', 'سپرده بانکی'],
-    datasets: [{
-      data: [40, 35, 25],
-      backgroundColor: ['#4ade80', '#60a5fa', '#facc15']
-    }]
-  };
-
-  lineChartData: ChartConfiguration<'line'>['data'] = {
-    labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر'],
-    datasets: [
-      {
-        data: [10, 20, 30, 40],
-        label: 'ارزش خالص دارایی',
-        fill: false,
-        tension: 0.4,
-        borderColor: '#60a5fa'
-      }
-    ]
-  };
-}
+export class FundPerformanceComponent { }
