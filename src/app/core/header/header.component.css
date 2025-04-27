@@ -1,0 +1,40 @@
+/* چون بیشتر استایل‌ها با Tailwind داده شده نیازی به css زیاد نیست
+اما برای اطمینان کمی تنظیم اضافی می‌کنیم */
+
+header {
+  background-color: rgb(225,233,241); /* رنگ پس‌زمینه‌ی هدر */
+}
+
+nav a {
+  transition: color 0.3s;
+}
+/* استایل‌های کلی */
+header {
+  position: relative;
+  z-index: 50;
+}
+
+/* برای موبایل منو */
+.mobile-menu {
+  transition: all 0.3s ease-in-out;
+}
+
+/* دکمه‌های ایکن */
+.icon-button {
+  width: 48px;
+  height: 48px;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* دارک مود حالت‌های مختلف */
+.dark-mode-bg {
+  background-color: #1f2937;
+}
+
+.dark-mode-text {
+  color: #f9fafb;
+}

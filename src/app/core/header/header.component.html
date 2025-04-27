@@ -1,1 +1,74 @@
-<p>header works!</p>
+<header class="bg-white dark:bg-gray-900 shadow-md" dir="rtl">
+    <nav class="mx-auto flex items-end justify-between p-2 lg:px-11" aria-label="Global">
+
+        <!-- سمت راست: لوگو -->
+        <div class="flex lg:flex-1 items-center">
+            <a href="#" class="flex items-end">
+                <img class="h-16 w-auto" src="/img/MarketSenseLogo.png" alt="MarketSenseLogo">
+                <span class="text-[#95c0cf] font-bold text-xl pb-4">Market Sense</span>
+            </a>
+        </div>
+
+        <!-- موبایل: دکمه باز کردن منو -->
+        <div class="flex lg:hidden">
+            <button type="button" (click)="toggleMenu()"
+                class="inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-800">
+                <fa-icon [icon]="['fas', 'bars']" class="w-6 h-6"></fa-icon>
+            </button>
+        </div>
+
+        <!-- لینک‌های اصلی -->
+        <div class="hidden lg:flex lg:gap-x-12 pb-5">
+            <a href="#" class="text-base font-medium text-black hover:text-[#688b99]">صندوق ها</a>
+            <a href="#" class="text-base font-medium text-black hover:text-[#688b99]">بازار</a>
+            <a href="#" class="text-base font-medium text-black hover:text-[#688b99]">تحلیل</a>
+            <a href="#" class="text-base font-medium text-black hover:text-[#688b99]">اخبار</a>
+        </div>
+
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4 pb-5">
+            <!-- پروفایل -->
+            <a routerLink="/login" class="px-2" aria-label="User Profile">
+                <fa-icon [icon]="['fas', 'user']"
+                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer"></fa-icon>
+            </a>
+
+            <!-- دکمه ستینگ و پنل داخل div relative -->
+            <div class="relative">
+                <button type="button" (click)="toggleSetting()" class="px-2 setting-button">
+                    <fa-icon [icon]="['fas', 'cogs']" class="text-gray-700 hover:text-gray-900 w-6 h-6"></fa-icon>
+                </button>
+
+                <div *ngIf="settingOpen"
+                    class="setting-panel bg-[#d0dce9] p-4 shadow-lg rounded-md absolute top-full left-0  w-20 z-10">
+                    <div class="flex flex-col items-center gap-2">
+                        <button (click)="toggleTheme()"
+                            class="relative flex items-center justify-center w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
+                            <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'"
+                                class="flex items-center justify-center">
+                                <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']"
+                                    class="text-yellow-400 text-2xl"></fa-icon>
+                                <fa-icon *ngIf="!isDarkTheme" [icon]="['fas', 'moon']"
+                                    class="text-blue-400 text-2xl"></fa-icon>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- منوی موبایل -->
+    <div *ngIf="menuOpen" class="lg:hidden bg-white dark:bg-gray-900">
+        <div class="space-y-2 py-6">
+            <a href="#" class="block px-6 text-black font-semibold hover:text-[#F26827]">بازار</a>
+            <a href="#" class="block px-6 text-black font-semibold hover:text-[#F26827]">تحلیل</a>
+            <a href="#" class="block px-6 text-black font-semibold hover:text-[#F26827]">اخبار</a>
+            <a href="#" class="block px-6 text-[#F26827] font-semibold">صندوق ها</a>
+            <button
+                class="block w-full text-center mt-4 text-white bg-[#F26827] hover:bg-[#e05a1f] py-2 rounded-lg mx-6">
+                ورود
+            </button>
+        </div>
+    </div>
+</header>
