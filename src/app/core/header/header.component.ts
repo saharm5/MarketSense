@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faSun, faMoon, faUser, faCogs, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   standalone: true,
@@ -22,12 +22,55 @@ import { faSun, faMoon, faUser, faCogs, faBars } from '@fortawesome/free-solid-s
   ]
 })
 export class HeaderComponent {
-  menuOpen = false;
+
+  toggleSubMenu(label: string) {
+    if (this.openSubMenu === label) {
+      this.openSubMenu = null;
+    } else {
+      this.openSubMenu = label;
+    }
+  }
+
   settingOpen = false;
   isDarkTheme = false;
+  menuOpen = false;
+  openSubMenu: string | null = null;
+
+  menuItems = [
+    {
+      label: 'صندوق‌ها',
+      submenu: [
+        { title: 'اطلاعات صندوقها', links: [' فهرست صندوق های سرمایه گذاری', 'نقشه صندوق های سرمایه گذاری', ' گراف وابستگی صندوق های سرمایه گذاری', 'اطلاعات تجمیعی انواع صندوق های سرمایه گذاری', 'مقایسه بازده', 'گزارشات ماهانه صندوقها'] }
+      ]
+    },
+    {
+      label: 'تحلیل',
+      submenu: [
+        { title: ' نمودارها', links: ['مقایسه بازده'] },
+        { title: 'مقایسه اطلاعات مالی شرکتها', links: [' مقایسه ی ترازنامه شرکتها', 'مقایسه ی صورت سود و زیان شرکتها'] },
+      ]
+    },
+    {
+      label: 'اخبار',
+      submenu: [
+        { title: 'موضوعات', links: [' بازار سرمایه', ' بورس و فرابورس', ' کالا و انرژی', 'مجامع و شرکتها', 'اقتصاد'] },
+        { title: ' خبرگزاری ها', links: ['سنا', 'بورس نیوز', ' بورس پرس', 'دنیای اقتصاد', 'فارس', 'ایسنا', ' جهان اقتصاد'] }
+      ]
+    },
+    {
+      label: 'بازار',
+      submenu: [
+        { title: 'بورس', links: ['سهام', 'حق پیشروی', ' اوراق مشارکت', ' آمار و اطلاعات'] },
+        { title: 'فرابورس', links: ['سهام', 'حق پیشروی', ' اوراق مشارکت', ' آمار و اطلاعات', 'پایه فرابورس'] },
+        { title: 'شاخص ها و صنایع', links: [' لیست شاخصها', ' بازده شاخصها و منابع'] },
+        { title: 'صنایع', links: ['نمودارها'] },
+
+      ]
+    }
+  ];
 
   constructor(library: FaIconLibrary) {
-    library.addIcons(faSun, faMoon, faUser, faCogs, faBars);
+    library.addIcons(faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown);
   }
 
   ngOnInit(): void {
@@ -41,11 +84,8 @@ export class HeaderComponent {
     }
   }
 
-  toggleMenu() {
-    this.menuOpen = !this.menuOpen;
-  }
-
-  toggleSetting() {
+  toggleSetting(event: MouseEvent) {
+    event.stopPropagation();
     this.settingOpen = !this.settingOpen;
   }
 
@@ -58,6 +98,14 @@ export class HeaderComponent {
       localStorage.setItem('theme', 'light');
       document.body.classList.remove('dark');
     }
+  }
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  toggleMobileSubMenu(label: string) {
+    this.openSubMenu = this.openSubMenu === label ? null : label;
   }
 
   @HostListener('document:click', ['$event'])

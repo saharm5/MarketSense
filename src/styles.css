@@ -2,15 +2,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* استایل‌های عمومی */
+
 body {
+  font-family: 'Vazirmatn', sans-serif !important;
+  direction: rtl;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* تم روشن */
+
 body {
   background-color: #F8F9FB;
-  color: #000000 ;
+  color: #000000;
 }
 
 /* تم تاریک */
