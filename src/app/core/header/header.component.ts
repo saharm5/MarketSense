@@ -73,39 +73,38 @@ export class HeaderComponent {
     library.addIcons(faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown);
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       this.isDarkTheme = true;
-      document.body.classList.add('dark');
+      document.documentElement.classList.add('dark');
     } else {
       this.isDarkTheme = false;
-      document.body.classList.remove('dark');
+      document.documentElement.classList.remove('dark');
     }
   }
-
-  toggleSetting(event: MouseEvent) {
-    event.stopPropagation();
-    this.settingOpen = !this.settingOpen;
-  }
-
   toggleTheme() {
     this.isDarkTheme = !this.isDarkTheme;
+
     if (this.isDarkTheme) {
+      document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
-      document.body.classList.add('dark');
     } else {
+      document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
-      document.body.classList.remove('dark');
     }
   }
 
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
   }
-
   toggleMobileSubMenu(label: string) {
     this.openSubMenu = this.openSubMenu === label ? null : label;
+  }
+
+  toggleSetting(event: MouseEvent) {
+    event.stopPropagation();
+    this.settingOpen = !this.settingOpen;
   }
 
   @HostListener('document:click', ['$event'])

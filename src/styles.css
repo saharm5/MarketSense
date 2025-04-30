@@ -12,11 +12,4 @@ body {
 
 body {
   background-color: #F8F9FB;
-  color: #000000;
-}
-
-/* تم تاریک */
-body.dark {
-  background-color: #264553;
-  color: #ffffff;
 }
