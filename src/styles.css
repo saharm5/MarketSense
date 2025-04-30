@@ -7,9 +7,5 @@ body {
   font-family: 'Vazirmatn', sans-serif !important;
   direction: rtl;
   transition: background-color 0.3s, color 0.3s;
-}
-
-
-body {
   background-color: #F8F9FB;
 }
