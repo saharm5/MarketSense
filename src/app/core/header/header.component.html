@@ -1,7 +1,6 @@
 <header class="sticky top-0  w-full z-50 bg-[#e1e9f1] shadow-md">
     <nav class="mx-auto flex items-end justify-between lg:px-11" aria-label="Global">
 
-        <!-- لوگو و نام سایت -->
         <div class="flex lg:flex-1  items-center">
             <a href="#" class="flex items-end">
                 <img class="h-16 w-auto" src="/img/MarketSenseLogo.png" alt="MarketSenseLogo">
@@ -9,7 +8,6 @@
             </a>
         </div>
 
-        <!-- منوی دسکتاپ (نمایش فقط در دسکتاپ - بزرگتر از lg) -->
         <div class="hidden lg:flex lg:gap-x-5">
             <ng-container *ngFor="let item of menuItems">
                 <div class="relative group">
@@ -33,31 +31,25 @@
             </ng-container>
         </div>
 
- 
-        <!-- آیکون‌های پروفایل و تنظیمات (فقط در دسکتاپ) -->
+
         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4 pb-3">
-            <!-- لینک به صفحه ورود کاربر -->
             <a routerLink="/login" class="px-2" aria-label="User Profile">
                 <fa-icon [icon]="['fas', 'user']"
                     class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer"></fa-icon>
             </a>
 
-            <!-- دکمه باز کردن پنل تنظیمات -->
             <div class="relative">
                 <button type="button" (click)="toggleSetting($event)" class="px-2 setting-button">
                     <fa-icon [icon]="['fas', 'cogs']" class="text-gray-700 hover:text-gray-900 w-6 h-6"></fa-icon>
                 </button>
 
-                <!-- پنل تنظیمات (بازشدنی) -->
                 <div *ngIf="settingOpen"
                     class="setting-panel bg-[#d0dce9] p-4 shadow-lg rounded-md absolute top-full -left-1/2 w-20 z-10">
                     <div class="flex flex-col items-center gap-2">
-                        <!-- دکمه تغییر حالت روشن/تاریک -->
                         <button (click)="toggleTheme()"
                             class="relative flex items-center justify-center w-10 h-10 pt-1 rounded-full bg-gray-200 overflow-hidden">
                             <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'"
                                 class="flex items-center justify-center">
-                                <!-- آیکون خورشید/ماه بر اساس تم -->
                                 <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']"
                                     class="text-yellow-400 text-2xl"></fa-icon>
                                 <fa-icon *ngIf="!isDarkTheme" [icon]="['fas', 'moon']"
@@ -69,7 +61,6 @@
             </div>
         </div>
 
-        <!-- منوی موبایل (فقط در موبایل - کوچکتر از lg) -->
         <div class="flex lg:hidden items-center gap-2">
             <!-- دکمه تغییر تم -->
             <button (click)="toggleTheme()"
@@ -80,13 +71,11 @@
                 </div>
             </button>
 
-            <!-- لینک به صفحه ورود -->
             <a routerLink="/login" class="px-2" aria-label="User Profile">
                 <fa-icon [icon]="['fas', 'user']"
                     class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer"></fa-icon>
             </a>
 
-            <!-- دکمه باز کردن منوی موبایل -->
             <button type="button" (click)="toggleMenu()" class="p-2">
                 <fa-icon [icon]="['fas', 'bars']" class="w-6 h-6"></fa-icon>
             </button>
@@ -94,13 +83,10 @@
 
     </nav>
 
-    <!-- بخش منوی کشویی موبایل (باز شدن با کلیک روی bars) -->
     <div *ngIf="menuOpen" class="lg:hidden bg-[#e1e9f1] transition-all duration-500 overflow-hidden">
         <div class="flex flex-col space-y-2 py-6">
-            <!-- لیست منوهای موبایل -->
             <div *ngFor="let item of menuItems">
 
-                <!-- دکمه برای باز/بسته کردن هر زیرمنو -->
                 <button type="button" (click)="toggleMobileSubMenu(item.label)"
                     class="w-full flex justify-between items-center px-6 text-black hover:text-[#688b99] focus:outline-none">
                     {{ item.label }}
@@ -108,7 +94,6 @@
                         class="w-4 h-4"></fa-icon>
                 </button>
 
-                <!-- زیرمنوی موبایل (در صورت باز شدن) -->
                 <div *ngIf="openSubMenu === item.label"
                     class="mt-2 flex flex-col gap-2 px-8 text-sm text-gray-700 transition-all duration-300">
                     <ng-container *ngFor="let sub of item.submenu">

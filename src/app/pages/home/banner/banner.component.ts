@@ -25,7 +25,7 @@ export class BannerComponent implements OnInit, OnDestroy {
   startBannerRotation(): void {
     this.intervalId = setInterval(() => {
       this.currentBannerIndex = (this.currentBannerIndex + 1) % this.bannerData.length;
-    }, 1000); // هر 10 ثانیه یکبار
+    }, 10000); // هر 10 ثانیه یکبار
   }
 
   ngOnDestroy(): void {
