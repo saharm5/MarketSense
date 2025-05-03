@@ -5,7 +5,18 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        chart: {
+          light: '#ffffff',
+          dark: '#264553',
+        },
+        text: {
+          light: '#000000',
+          dark: '#ffffff',
+        }
+      }
+    }
   },
   plugins: [],
 }

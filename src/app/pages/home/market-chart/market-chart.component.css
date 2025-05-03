@@ -1,0 +1,56 @@
+:root {
+  --chart-bg: #ffffff;
+  --chart-text: #000000;
+  --chart-grid: #e0e0e0;
+  --chart-line: #007bff;
+  --chart-tooltip-bg: #f8f9fa;
+  --chart-tooltip-text: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --chart-bg: #264553;
+    --chart-text: #ffffff;
+    --chart-grid: #406174;
+    --chart-line: #00d1ff;
+    --chart-tooltip-bg: #1e2f3a;
+    --chart-tooltip-text: #ffffff;
+  }
+}
+
+.highcharts-background {
+  fill: var(--chart-bg);
+}
+
+.highcharts-title,
+.highcharts-axis-title,
+.highcharts-axis-labels,
+.highcharts-legend-item text {
+  fill: var(--chart-text);
+}
+
+.highcharts-grid-line,
+.highcharts-axis-line,
+.highcharts-tick {
+  stroke: var(--chart-grid);
+}
+
+.highcharts-series line,
+.highcharts-graph {
+  stroke: var(--chart-line);
+}
+
+.highcharts-point {
+  fill: var(--chart-line);
+  stroke: var(--chart-line);
+}
+
+.highcharts-tooltip {
+  fill: var(--chart-tooltip-bg);
+  stroke: var(--chart-tooltip-bg);
+  color: var(--chart-tooltip-text);
+}
+
+.highcharts-tooltip text {
+  fill: var(--chart-tooltip-text);
+}

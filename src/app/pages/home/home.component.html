@@ -1,13 +1,44 @@
+<!-- C:\Users\Sanay\MarketSense\src\app\pages\home\home.component.html -->
 <app-banner></app-banner>
 <div class="flex justify-center py-6">
     <app-search-bar></app-search-bar>
 </div>
-<div class="flex ">
-    <app-top-funds class="w-full "></app-top-funds>
+<div class="flex">
+    <app-top-funds class="w-full"></app-top-funds>
 </div>
-<div class="max-w-4xl mx-96 my-40"><app-market-chart></app-market-chart></div>
-<div  class="max-w-4xl mx-96"><app-market-candlestick></app-market-candlestick></div>
-<section class="p-8">
+<div class="my-16 flex flex-row justify-evenly p-2 gap-16 mx-20">
+
+    <div
+        class="bg-white flex flex-col w-full justify-center p-10 gap-10 dark:bg-[#264553] border border-gray-200 rounded-lg shadow-sm dark:border-gray-700">
+        <div class="flex flex-row justify-between">
+            <a href="" class="text-2xl font-semibold text-center dark:text-white">نمودار شاخص بازار بورس </a>
+            <a href="#"
+                class="inline-flex items-center px-4 py-2 text-sm font-medium justify-center text-center text-white bg-[#F26827] hover:bg-[#faa67e] hover:text-black dark:text-black hover:dark:text-white hover:dark:bg-[#F26827] dark:bg-[#95c0cf] rounded-lg focus:outline-none">
+                مشاهده آمار
+            </a>
+        </div>
+        <app-market-chart *ngIf="volumeData.length" [title]="''" [seriesData]="volumeData" [seriesName]="'بورس'"
+            [color]="'#00C8B5'" [isDarkMode]="isDarkMode"></app-market-chart>
+    </div>
+
+    <div
+        class="bg-white flex flex-col w-full items-stretch p-10 gap-10 dark:bg-[#264553] border border-gray-200 rounded-lg shadow-sm dark:border-gray-700">
+        <div class="flex flex-row justify-between">
+            <a href="" class="text-2xl font-semibold text-center dark:text-white">نمودار شاخص بازار فرابورس </a>
+            <a href="#"
+                class="inline-flex items-center px-4 py-2 text-sm font-medium justify-center text-center text-white bg-[#F26827] hover:bg-[#faa67e] hover:text-black dark:text-black hover:dark:text-white hover:dark:bg-[#F26827] dark:bg-[#95c0cf] rounded-lg focus:outline-none">
+                مشاهده آمار
+            </a>
+        </div>
+        <app-market-chart *ngIf="priceData.length" [title]="''" [seriesData]="priceData" [seriesName]="'فرابورس'"
+            [color]="'#00C8B5'" [isDarkMode]="isDarkMode"></app-market-chart>
+    </div>
+
+</div>
+<!-- نمودار شمعی -->
+<!-- <div class="max-w-4xl mx-96"><app-market-candlestick></app-market-candlestick></div> -->
+
+<!-- <section class="p-8">
     <h1 class="text-3xl font-bold mb-6">به مارکت‌سنس خوش آمدید!</h1>
     <p class="text-gray-600 mb-4">
         در اینجا می‌توانید انواع صندوق‌های سرمایه‌گذاری را بررسی، مقایسه و تحلیل کنید.
@@ -15,4 +46,4 @@
     <a href="/fund/:id" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
         مشاهده صندوق‌ها
     </a>
-</section>
+</section> -->

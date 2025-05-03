@@ -1,3 +1,4 @@
+// C: \Users\Sanay\MarketSense\src\app\core\header\header.component.ts
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { trigger, state, style, transition, animate } from '@angular/animations';

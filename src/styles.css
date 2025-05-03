@@ -4,8 +4,17 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Vazirmatn', sans-serif !important;
+  font-family: "Vazirmatn", sans-serif !important;
   direction: rtl;
   transition: background-color 0.3s, color 0.3s;
-  background-color: #F8F9FB;
+  background-color: #f8f9fb;
+}
+:root {
+  --chart-bg: theme("colors.chart.light");
+  --text-color: theme("colors.text.light");
+}
+
+.dark {
+  --chart-bg: theme("colors.chart.dark");
+  --text-color: theme("colors.text.dark");
 }
