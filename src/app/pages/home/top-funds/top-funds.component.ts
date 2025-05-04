@@ -18,7 +18,7 @@ export class TopFundsComponent {
   intervalId: any;
 
   ngOnInit(): void {
-    this.http.get<any[]>('/assets/top-fund-data.json').subscribe((data) => {
+    this.http.get<any[]>('assets/json/top-fund-data.json').subscribe((data) => {
       this.topfunds = data;
     });
   }

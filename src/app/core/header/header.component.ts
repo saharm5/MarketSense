@@ -1,4 +1,3 @@
-// C: \Users\Sanay\MarketSense\src\app\core\header\header.component.ts
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { trigger, state, style, transition, animate } from '@angular/animations';
@@ -22,15 +21,17 @@ import { faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown } fro
     ])
   ]
 })
+
 export class HeaderComponent {
 
-  toggleSubMenu(label: string) {
-    if (this.openSubMenu === label) {
-      this.openSubMenu = null;
-    } else {
-      this.openSubMenu = label;
-    }
-  }
+  // toggleSubMenu(label: string) {
+  //   if (this.openSubMenu === label) {
+  //     this.openSubMenu = null;
+  //   } else {
+  //     this.openSubMenu = label;
+  //   }
+  // }
+
 
   settingOpen = false;
   isDarkTheme = false;
@@ -84,6 +85,7 @@ export class HeaderComponent {
       document.documentElement.classList.remove('dark');
     }
   }
+
   toggleTheme() {
     this.isDarkTheme = !this.isDarkTheme;
 
@@ -99,6 +101,7 @@ export class HeaderComponent {
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
   }
+
   toggleMobileSubMenu(label: string) {
     this.openSubMenu = this.openSubMenu === label ? null : label;
   }

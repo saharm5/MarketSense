@@ -1,0 +1,44 @@
+[
+    {
+        "title": "صندوق درآمد ثابت کاریزما",
+        "ProfitPercentage": 12,
+        "buttonLink": "/investment-analysis",
+        "type": "درآمد ثابت"
+    },
+    {
+        "title": "صندوق سهامی آگاه",
+        "ProfitPercentage": 10,
+        "buttonLink": "/technical-tools",
+        "type": "سهامی"
+    },
+    {
+        "title": "صندوق طلا لوتوس پارسیان",
+        "ProfitPercentage": 7.5,
+        "buttonLink": "/market-news",
+        "type": "طلا"
+    },
+    {
+        "title": "صندوق مختلط گنجینه رفاه",
+        "ProfitPercentage": 6,
+        "buttonLink": "/portfolio-builder",
+        "type": "مختلط"
+    },
+    {
+        "title": "صندوق شاخصی سرو",
+        "ProfitPercentage": 4.1,
+        "buttonLink": "/stock-analysis",
+        "type": "شاخصی"
+    },
+    {
+        "title": "صندوق قابل معامله پالایشی یکم",
+        "ProfitPercentage": 3,
+        "buttonLink": "/stock-comparison",
+        "type": "ETF (قابل معامله)"
+    },
+    {
+        "title": "صندوق جسورانه ستاپ",
+        "ProfitPercentage": 1,
+        "buttonLink": "/education",
+        "type": "جسورانه (VC)"
+    }
+]

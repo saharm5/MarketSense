@@ -54,3 +54,26 @@
 .highcharts-tooltip text {
   fill: var(--chart-tooltip-text);
 }
+
+nav a {
+  transition: color 0.3s;
+}
+
+.mobile-menu {
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-mode-bg {
+  background-color: #1f2937;
+}
+
+.dark-mode-text {
+  color: #f9fafb;
+}
+
+@media (max-width: 1024px) {
+  .setting-panel {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}

@@ -1,5 +1,5 @@
-import { Component, Input, OnInit, OnChanges, SimpleChanges, AfterViewInit, ElementRef } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, Input, OnInit, OnChanges, SimpleChanges, AfterViewInit, ElementRef, Inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import * as Highcharts from 'highcharts/highstock';
 import { HighchartsChartModule } from 'highcharts-angular';
 
@@ -23,39 +23,47 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
 
   private chartRef?: Highcharts.Chart;
 
-  constructor(private el: ElementRef) { }
+  constructor(
+    private el: ElementRef,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) { }
 
   ngOnInit(): void {
     this.setChartOptions();
   }
 
   ngAfterViewInit(): void {
-    // ذخیره رفرنس چارت برای رفرش در آینده
-    setTimeout(() => {
-      this.chartRef = this.el.nativeElement.querySelector('highcharts-chart')?.chart;
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        this.chartRef = this.el.nativeElement.querySelector('highcharts-chart')?.chart;
+      });
+    }
   }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['isDarkMode'] && !changes['isDarkMode'].firstChange) {
       this.setChartOptions();
-
-      // رفرش دستی چارت (در صورت موجود بودن رفرنس)
-      if (this.chartRef) {
-        this.chartRef.update(this.chartOptions as any);
-      }
+      this.chartRef?.update(this.chartOptions as any);
     }
   }
 
   setChartOptions(): void {
-    const textColor = getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
-    const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
-    const gridColor = this.isDarkMode ? '#444' : '#e6e6e6';
+    let textColor = '#000';
+    let bgColor = '#ffffff';
+    let gridColor = '#e6e6e6';
+
+    if (isPlatformBrowser(this.platformId)) {
+      const root = this.document.documentElement;
+      textColor = getComputedStyle(root).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
+      bgColor = getComputedStyle(root).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
+      gridColor = this.isDarkMode ? '#444' : '#e6e6e6';
+    }
 
     this.chartOptions = {
       chart: {
         backgroundColor: bgColor,
-        styledMode: false // اگر از styledMode استفاده نمی‌کنی
+        styledMode: false
       },
       title: {
         text: this.title,

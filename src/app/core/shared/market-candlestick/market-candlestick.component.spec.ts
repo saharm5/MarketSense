@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MarketChartComponent } from '../market-chart/market-chart.component';
 
-import { MarketChartComponent } from './market-candlestick.component';
 
 describe('MarketChartComponent', () => {
   let component: MarketChartComponent;

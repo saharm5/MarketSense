@@ -1,0 +1,51 @@
+[
+    {
+        "image": "/img/banner-img-1.jpg",
+        "title": "بورس را با دید باز تجربه کن",
+        "description": "با تحلیل‌های دقیق و به‌روز ما، بهترین تصمیم‌ها را در بازار بورس بگیرید. تیم ما به شما کمک می‌کند تا به هدف‌های سرمایه‌گذاری خود برسید.",
+        "buttonText": "تحلیل سرمایه‌گذاری",
+        "buttonLink": "/investment-analysis"
+    },
+    {
+        "image": "/img/banner-img-2.png",
+        "title": "هوشمند سرمایه‌گذاری کن!",
+        "description": "با استفاده از ابزارهای تحلیل تکنیکال و سیگنال‌های حرفه‌ای، قدمی مطمئن به‌سوی سود بیشتر بردار.",
+        "buttonText": "شروع تحلیل",
+        "buttonLink": "/technical-tools"
+    },
+    {
+        "image": "/img/banner-img-3.png",
+        "title": "هر لحظه با بازار باش",
+        "description": "دریافت اخبار لحظه‌ای و معتبر بازار سرمایه، با فیلترهای هوشمند مخصوص شما.",
+        "buttonText": "مشاهده اخبار",
+        "buttonLink": "/market-news"
+    },
+    {
+        "image": "/img/banner-img-4.webp",
+        "title": "سبد سرمایه‌گذاری خودت رو بساز",
+        "description": "ابزار هوشمند ما بهت کمک می‌کنه تا یک سبد پربازده و متنوع طراحی کنی.",
+        "buttonText": "ساخت سبد",
+        "buttonLink": "/portfolio-builder"
+    },
+    {
+        "image": "/img/banner-img-5.webp",
+        "title": "تحلیل سهم به سبک حرفه‌ای‌ها",
+        "description": "با مشاهده روند قیمتی، سیگنال‌ها، و تحلیل بنیادی هر سهم، تصمیمی مطمئن بگیر.",
+        "buttonText": "بررسی سهم",
+        "buttonLink": "/stock-analysis"
+    },
+    {
+        "image": "/img/banner-img-6.png",
+        "title": "مقایسه کن و انتخاب کن",
+        "description": "دو یا چند سهم رو باهم مقایسه کن تا بهترین گزینه برای سرمایه‌گذاری رو انتخاب کنی.",
+        "buttonText": "مقایسه سهام",
+        "buttonLink": "/stock-comparison"
+    },
+    {
+        "image": "/img/banner-img-7.jpg",
+        "title": "یادگیری بورس از صفر تا حرفه‌ای",
+        "description": "با دوره‌های آموزشی رایگان و کاربردی ما، در مسیر موفقیت سرمایه‌گذاری قدم بگذار.",
+        "buttonText": "شروع آموزش",
+        "buttonLink": "/education"
+    }
+]

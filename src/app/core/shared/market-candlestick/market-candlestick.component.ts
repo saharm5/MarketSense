@@ -28,7 +28,7 @@ export class MarketCandlestickComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get<any[]>('assets/ohlc-data.json').subscribe(data => {
+    this.http.get<any[]>('assets/json/ohlc-data.json').subscribe(data => {
       // اطمینان از ساختار داده‌ها با استفاده از console.log
       console.log(data);  // بررسی داده‌های دریافتی
 

@@ -1,23 +1,25 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root' })
 export class ThemeService {
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) { }
 
-  constructor() { }
-
-  // برای تنظیم تم روشن/تاریک
   setDarkMode(isDarkMode: boolean): void {
-    if (isDarkMode) {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
+    if (isPlatformBrowser(this.platformId)) {
+      const body = this.document.body;
+      if (isDarkMode) {
+        body.classList.add('dark');
+      } else {
+        body.classList.remove('dark');
+      }
     }
   }
 
-  // برای گرفتن وضعیت فعلی تم
   getCurrentTheme(): boolean {
-    return document.body.classList.contains('dark');
+    return isPlatformBrowser(this.platformId) && this.document.body.classList.contains('dark');
   }
 }
