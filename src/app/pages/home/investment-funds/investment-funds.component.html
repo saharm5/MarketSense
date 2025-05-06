@@ -1,0 +1,17 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+    <a *ngFor="let fund of funds" [href]="fund.link"
+        class="group flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-transparent hover:border-[#e97329] hover:shadow-lg hover:scale-[1.03] transition-all duration-300 ease-in-out cursor-pointer">
+
+        <!-- آیکون -->
+        <fa-icon [icon]="['fas', fund.icon]"
+            class="text-[#95c0cf] group-hover:text-[#e97329] text-3xl min-w-10 transition duration-300 ease-in-out mx-3"></fa-icon>
+
+        <!-- متن -->
+        <div>
+            <h2 class="text-lg font-semibold text-black group-hover:text-[#e97329] transition duration-300">
+                {{ fund.title }}
+            </h2>
+            <p class="text-sm text-gray-600">{{ fund.description }}</p>
+        </div>
+    </a>
+</div>

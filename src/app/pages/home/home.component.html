@@ -4,7 +4,10 @@
     <div class="flex justify-center px-4">
         <app-search-bar></app-search-bar>
     </div>
-    <div class="flex justify-center sm:px-4 px-0">
+    <div class=" sm:px-4 px-0">
+        <div>
+            <h2 class="text-2xl font-semibold text-right px-16">صندوق های برتر روز</h2>
+        </div>
         <app-top-funds class="w-full"></app-top-funds>
     </div>
 
@@ -38,6 +41,15 @@
                 [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
             </app-market-chart>
         </div>
+    </div>
+    <div class="px-10">
+        <div>
+            <h2 class="text-2xl font-semibold px-6 py-2">
+                انواع صندوق های سرمایه گذاری
+            </h2>
+        </div>
+
+        <app-investment-funds />
     </div>
     <div class="my-16  sm:m-4 sm:px-4 m-2  flex flex-wrap justify-center gap-8 text-center lg:text-right ">
         <!-- نمودار حجم معاملات بورس -->

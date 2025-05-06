@@ -6,6 +6,7 @@ import { TopFundsComponent } from "./top-funds/top-funds.component";
 import { BannerComponent } from "./banner/banner.component";
 import { SearchBarComponent } from "../../core/shared/search-bar/search-bar.component";
 import { forkJoin, Subscription } from 'rxjs';
+import { InvestmentFundsComponent } from "./investment-funds/investment-funds.component";
 
 interface MarketData {
   time: number;
@@ -17,7 +18,7 @@ interface MarketData {
   standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  imports: [MarketChartComponent, TopFundsComponent, BannerComponent, SearchBarComponent, CommonModule]
+  imports: [MarketChartComponent, TopFundsComponent, BannerComponent, SearchBarComponent, CommonModule, InvestmentFundsComponent]
 })
 export class HomeComponent implements OnInit, OnDestroy {
   volumeData: [number, number][] = [];

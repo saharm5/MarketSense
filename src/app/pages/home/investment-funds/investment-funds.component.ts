@@ -1,0 +1,86 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import {
+  faPiggyBank,
+  faChartLine,
+  faBalanceScale,
+  faCoins,
+  faRandom,
+  faChartArea,
+  faProjectDiagram,
+  faBuilding
+} from '@fortawesome/free-solid-svg-icons';
+
+@Component({
+  selector: 'app-investment-funds',
+  standalone: true,
+  imports: [CommonModule, FontAwesomeModule],
+  templateUrl: './investment-funds.component.html',
+  styleUrl: './investment-funds.component.css'
+})
+export class InvestmentFundsComponent {
+  funds = [
+    {
+      title: 'صندوق درآمد ثابت',
+      link:"#",
+      icon: 'piggy-bank',
+      description: 'سرمایه‌گذاری با ریسک پایین و سود ثابت.',
+    },
+    {
+      title: 'صندوق سهامی',
+      link:"#",
+      icon: 'chart-line',
+      description: 'تمرکز بر سهام بورس با ریسک و بازده بیشتر.',
+    },
+    {
+      title: 'صندوق مختلط',
+      link:"#",
+      icon: 'balance-scale',
+      description: 'ترکیبی از سهام و اوراق با درآمد ثابت.',
+    },
+    {
+      title: 'صندوق طلا',
+      link:"#",
+      icon: 'coins',
+      description: 'سرمایه‌گذاری در اوراق بهادار مبتنی بر طلا.',
+    },
+    {
+      title: 'صندوق ETF',
+      link:"#",
+      icon: 'random',
+      description: 'صندوق قابل معامله در بورس مانند سهام.',
+    },
+    {
+      title: 'صندوق شاخصی',
+      link:"#",
+      icon: 'chart-area',
+      description: 'پیروی از شاخص‌های بازار مثل شاخص کل.',
+    },
+    {
+      title: 'صندوق پروژه‌ای / خصوصی',
+      link:"#",
+      icon: 'project-diagram',
+      description: 'سرمایه‌گذاری در پروژه‌ها یا شرکت‌های خاص.',
+    },
+    {
+      title: 'صندوق زمین و ساختمان',
+      link:"#",
+      icon: 'building',
+      description: 'متمرکز بر املاک، زمین و ساخت‌وساز.',
+    },
+  ];
+
+  constructor(private faLibrary: FaIconLibrary) {
+    this.faLibrary.addIcons(
+      faPiggyBank,
+      faChartLine,
+      faBalanceScale,
+      faCoins,
+      faRandom,
+      faChartArea,
+      faProjectDiagram,
+      faBuilding
+    );
+  }
+}
