@@ -1,122 +1,60 @@
-<!-- <footer
-    class="w-full z-50 p-10 flex flex-row justify-between shadow-md bg-[#E1E9F1] text-black dark:bg-[#264553] dark:text-white">
-    <div class="flex lg:flex-1  items-center">
-        <a href="#" class="flex items-center flex-col">
-            <img class="h-24 w-auto" src="/img/MarketSenseLogo.png" alt="MarketSenseLogo">
-            <span class="text-[#95c0cf] font-bold text-xl pb-3">Market Sense</span>
-        </a>
-    </div>
-
-    <div class="flex lg:flex-1 flex-col items-center">
-        <p class="text-lg ">
-            تماس با ما
-        </p>
-        <ul class="flex flex-col gap-5 p-5">
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-mail-icon></app-mail-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
+<footer class=" mt-2 w-full z-50 bg-[#e1e9f1] dark:bg-[#264553] text-[#000000] dark:text-[#fff] shadow-md">
+    <div class="mx-auto max-w-7xl px-6 py-10">
+        <!-- Desktop -->
+        <div class="hidden lg:flex justify-between gap-8 ">
+            <!-- لوگو -->
+            <div class="flex flex-col items-center ">
+                <img class="h-24 w-auto" src="/img/MarketSenseLogo.png" alt="MarketSense Logo" />
+                <span class="text-xl font-bold text-[#95c0cf] mt-2">Market Sense</span>
+            </div>
+            <div class="lg:grid grid-cols-3 gap-8">
+                <!-- بخش‌ها -->
+                <div *ngFor="let section of footerSections">
+                    <h3 class="font-bold pr-4  pb-4">{{ section.label }}</h3>
+                    <ul class="space-y-2 text-sm px-1">
+                        <li *ngFor="let item of section.items">
+                            <a *ngIf="item.href" [href]="item.href"
+                                class="flex items-center gap-2 hover:text-[#F26827]">
+                                <span>{{ item.icon }}</span>
+                                {{ item.label }}
+                            </a>
+                            <div *ngIf="!item.href" class="flex items-center gap-2">
+                                <span>{{ item.icon }}</span>
+                                <span>{{ item.label }}</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-hamburger-icon></app-hamburger-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-moon-icon></app-moon-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-phone-icon></app-phone-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-sun-icon></app-sun-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-                        <app-sun-icon></app-sun-icon>
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-            <li class="flex flex-row gap-10">
-                <div class="flex flex-row gap-2">
-                    <span>
-
-                    </span>
-                    <p>
-                        پشتیبان سایت
-                    </p>
-                </div>
-                <p>09123456789</p>
-            </li>
-        </ul>
-
-    </div>
-    <div class="flex lg:flex-1 flex-col items-center">
-        <p>تماس با ما</p>
-        <p>تماس با ما</p>
-        <p>تماس با ما</p>
-    </div>
-</footer> -->
-
-<footer class="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 py-6">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-right">
-        <div>
-            <h3 class="text-lg font-bold mb-2">درباره ما</h3>
-            <p>ما ارائه‌دهنده خدمات طراحی سایت، سئو و توسعه وب هستیم.</p>
+            </div>
         </div>
-        <div>
-            <h3 class="text-lg font-bold mb-2">پشتیبانی</h3>
-            <ul>
-                <li *ngFor="let item of supportList">
-                    <a href="#" class="hover:underline">{{ item }}</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3 class="text-lg font-bold mb-2">تماس با ما</h3>
-            <p>ایمیل: info.com</p>
-            <p>تلفن: 021-12345678</p>
+        <!-- Mobile -->
+        <div class="lg:hidden flex flex-col gap-4">
+            <!-- لوگو -->
+            <div class="flex flex-col items-center">
+                <img class="h-20 w-auto" src="/img/MarketSenseLogo.png" alt="MarketSense Logo" />
+                <span class="text-xl font-bold text-[#95c0cf] mt-2">Market Sense</span>
+            </div>
+
+            <!-- آکاردئون -->
+            <div class="border-b-2 border-gray-200" *ngFor="let section of footerSections">
+                <button type="button" (click)="toggleMobileSubMenu(section.label)"
+                    class="w-full flex justify-between items-center pt-1  p-3 font-bold hover:text-[#688b99]">
+                    {{ section.label }}
+                    <span>{{ openSubMenu === section.label ? '−' : '+' }}</span>
+                </button>
+                <div *ngIf="openSubMenu === section.label" class="px-6 pb-3 space-y-2 text-sm">
+                    <div *ngFor="let item of section.items">
+                        <a *ngIf="item.href" [href]="item.href" class="flex items-center gap-2 hover:text-[#F26827]">
+                            <span>{{ item.icon }}</span>
+                            {{ item.label }}
+                        </a>
+                        <div *ngIf="!item.href" class="flex items-center gap-2">
+                            <span>{{ item.icon }}</span>
+                            <span>{{ item.label }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

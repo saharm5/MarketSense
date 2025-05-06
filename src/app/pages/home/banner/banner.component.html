@@ -15,10 +15,10 @@
 
         <!-- متن -->
         <div class="w-full md:max-w-sm flex flex-col items-center text-center gap-4 md:ml-20 lg:ml-32">
-            <h1 class="text-2xl sm:text-3xl font-bold text-black dark:text-white">{{ banner.title }}</h1>
+            <h1 class="text-2xl sm:text-3xl font-bold text-[#000000] dark:text-[#fff]">{{ banner.title }}</h1>
             <p class="text-base sm:text-lg text-gray-600 dark:text-gray-200">{{ banner.description }}</p>
             <button [routerLink]="banner.buttonLink"
-                class="text-gray-600 bg-[#95c0cf] hover:bg-[#faa67e] hover:text-black hover:dark:text-white focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 w-full ">
+                class="text-gray-600 bg-[#95c0cf] hover:bg-[#faa67e] hover:text-[#000000] hover:dark:text-[#fff] focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 w-full ">
                 {{ banner.buttonText }}
             </button>
         </div>

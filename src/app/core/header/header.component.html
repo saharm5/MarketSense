@@ -1,5 +1,5 @@
 <!-- C:\Users\Sanay\MarketSense\src\app\core\header\header.component.html -->
-<header class="sticky top-0  w-full z-50 bg-[#e1e9f1] shadow-md text-black dark:bg-[#264553] dark:text-white">
+<header class="sticky top-0  w-full z-50 bg-[#e1e9f1] shadow-md text-[#000000] dark:bg-[#264553] dark:text-[#fff]">
     <nav class="mx-auto flex items-end justify-between lg:px-11" aria-label="Global">
 
         <div class="flex lg:flex-1  items-center">
@@ -35,13 +35,13 @@
         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4 pb-3">
             <a routerLink="/login" class="px-2" aria-label="User Profile">
                 <fa-icon [icon]="['fas', 'user']"
-                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-white"></fa-icon>
+                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-[#fff]"></fa-icon>
             </a>
 
             <div class="relative">
                 <button type="button" (click)="toggleSetting($event)" class="px-2 setting-button">
                     <fa-icon [icon]="['fas', 'cogs']"
-                        class="text-gray-700 hover:text-gray-900 w-6 h-6 dark:text-white"></fa-icon>
+                        class="text-gray-700 hover:text-gray-900 w-6 h-6 dark:text-[#fff]"></fa-icon>
                 </button>
 
                 <div *ngIf="settingOpen"
@@ -74,11 +74,11 @@
 
             <a routerLink="/login" class="px-2" aria-label="User Profile">
                 <fa-icon [icon]="['fas', 'user']"
-                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-white"></fa-icon>
+                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-[#fff]"></fa-icon>
             </a>
 
             <button type="button" (click)="toggleMenu()" class="p-2">
-                <fa-icon [icon]="['fas', 'bars']" class="w-6 h-6 dark:text-white"></fa-icon>
+                <fa-icon [icon]="['fas', 'bars']" class="w-6 h-6 dark:text-[#fff]"></fa-icon>
             </button>
         </div>
 
@@ -98,7 +98,7 @@
                 <div *ngIf="openSubMenu === item.label"
                     class="mt-2 flex flex-col gap-2 px-8 text-sm text-gray-700 transition-all duration-300 dark:text-gray-200">
                     <ng-container *ngFor="let sub of item.submenu">
-                        <div class="font-bold dark:text-white">{{ sub.title }}</div>
+                        <div class="font-bold dark:text-[#fff]">{{ sub.title }}</div>
                         <div *ngFor="let link of sub.links">
                             <a href="#" class="hover:text-[#688b99]">{{ link }}</a>
                         </div>

@@ -2,9 +2,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-mail-icon',
-    standalone: true,
-    template: `
+  selector: 'app-mail-icon',
+  standalone: true,
+  template: `
     <svg xmlns="http://www.w3.org/2000/svg"
          viewBox="0 0 24 24"
          width="20"
@@ -15,4 +15,4 @@ import { Component } from '@angular/core';
     </svg>
   `
 })
-export class MailSvg { }
+export class MailIconComponent { }
