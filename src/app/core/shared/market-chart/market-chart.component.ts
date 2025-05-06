@@ -1,4 +1,15 @@
-import { Component, Input, OnInit, OnChanges, SimpleChanges, AfterViewInit, ElementRef, Inject, PLATFORM_ID } from '@angular/core';
+// C:\Users\Sanay\market-sense-ssr\src\app\core\shared\market-chart\market-chart.component.ts
+import {
+  Component,
+  Input,
+  OnInit,
+  OnChanges,
+  SimpleChanges,
+  AfterViewInit,
+  ElementRef,
+  Inject,
+  PLATFORM_ID,
+} from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import * as Highcharts from 'highcharts/highstock';
 import { HighchartsChartModule } from 'highcharts-angular';
@@ -8,25 +19,25 @@ import { HighchartsChartModule } from 'highcharts-angular';
   standalone: true,
   imports: [CommonModule, HighchartsChartModule],
   templateUrl: './market-chart.component.html',
-  styleUrls: ['./market-chart.component.css']
+  styleUrls: ['./market-chart.component.css'],
 })
 export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   Highcharts: typeof Highcharts = Highcharts;
   chartConstructor = 'stockChart';
   chartOptions!: Highcharts.Options;
 
-  @Input() title: string = 'چارت پیش‌فرض';
-  @Input() seriesData: any[] = [];
-  @Input() seriesName: string = 'داده‌ها';
-  @Input() color: string = '#00C8B5';
-  @Input() isDarkMode: boolean = false;
+  @Input() title = 'چارت پیش‌فرض';
+  @Input() seriesData: Highcharts.SeriesLineOptions['data'] = [];
+  @Input() seriesName = 'داده‌ها';
+  @Input() color = '#00C8B5';
+  @Input() isDarkMode = false;
 
   private chartRef?: Highcharts.Chart;
 
   constructor(
     private el: ElementRef,
     @Inject(DOCUMENT) private document: Document,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: object
   ) { }
 
   ngOnInit(): void {
@@ -44,7 +55,7 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['isDarkMode'] && !changes['isDarkMode'].firstChange) {
       this.setChartOptions();
-      this.chartRef?.update(this.chartOptions as any);
+      this.chartRef?.update(this.chartOptions as Highcharts.Options);
     }
   }
 
@@ -55,50 +66,54 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
 
     if (isPlatformBrowser(this.platformId)) {
       const root = this.document.documentElement;
-      textColor = getComputedStyle(root).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
-      bgColor = getComputedStyle(root).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
+      textColor =
+        getComputedStyle(root).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
+      bgColor =
+        getComputedStyle(root).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
       gridColor = this.isDarkMode ? '#444' : '#e6e6e6';
     }
 
     this.chartOptions = {
       chart: {
         backgroundColor: bgColor,
-        styledMode: false
+        styledMode: false,
       },
       title: {
         text: this.title,
         align: 'right',
         style: {
-          color: textColor
-        }
+          color: textColor,
+        },
       },
       xAxis: {
         labels: {
           style: {
-            color: textColor
-          }
-        }
+            color: textColor,
+          },
+        },
       },
       yAxis: {
         labels: {
           style: {
-            color: textColor
-          }
+            color: textColor,
+          },
         },
-        gridLineColor: gridColor
+        gridLineColor: gridColor,
       },
       legend: {
         itemStyle: {
-          color: textColor
-        }
+          color: textColor,
+        },
       },
       credits: { enabled: false },
-      series: [{
-        type: 'line',
-        name: this.seriesName,
-        data: this.seriesData,
-        color: this.color
-      }]
+      series: [
+        {
+          type: 'line',
+          name: this.seriesName,
+          data: this.seriesData,
+          color: this.color,
+        },
+      ],
     };
   }
 }

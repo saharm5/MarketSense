@@ -1,48 +1,58 @@
-import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID, OnDestroy } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { BannerComponent } from './banner/banner.component';
-import { SearchBarComponent } from "../../core/shared/search-bar/search-bar.component";
+import { MarketChartComponent } from "../../core/shared/market-chart/market-chart.component";
 import { TopFundsComponent } from "./top-funds/top-funds.component";
-import { MarketChartComponent } from '../../core/shared/market-chart/market-chart.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BannerComponent } from "./banner/banner.component";
+import { SearchBarComponent } from "../../core/shared/search-bar/search-bar.component";
+import { forkJoin, Subscription } from 'rxjs';
+
+interface MarketData {
+  time: number;
+  volume: number;
+}
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, BannerComponent, SearchBarComponent, TopFundsComponent, MarketChartComponent, HttpClientModule],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  imports: [MarketChartComponent, TopFundsComponent, BannerComponent, SearchBarComponent, CommonModule]
 })
-export class HomeComponent implements OnInit {
-  volumeData: any[] = [];
-  priceData: any[] = [];
-  isDarkMode: boolean = false;
+export class HomeComponent implements OnInit, OnDestroy {
+  volumeData: [number, number][] = [];
+  priceData: [number, number][] = [];
+  isDarkMode = false;
+
+  private observer?: MutationObserver;
+  private dataSubscription?: Subscription;
 
   constructor(
     private http: HttpClient,
     @Inject(DOCUMENT) private document: Document,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: object
   ) { }
 
   ngOnInit(): void {
+    
     if (isPlatformBrowser(this.platformId)) {
       this.updateTheme();
 
-      const observer = new MutationObserver(() => {
+      this.observer = new MutationObserver(() => {
         this.updateTheme();
       });
 
-      observer.observe(this.document.documentElement, {
+      this.observer.observe(this.document.documentElement, {
         attributes: true,
         attributeFilter: ['class']
       });
 
-      this.http.get<any[]>('assets/json/volume-data.json').subscribe(data => {
-        this.volumeData = data.map(d => [d.time, d.volume]);
-      });
-
-      this.http.get<any[]>('assets/json/volume-data.json').subscribe(data => {
-        this.priceData = data.map(d => [d.time, d.volume]);
+      this.dataSubscription = forkJoin({
+        volume: this.http.get<MarketData[]>('/assets/json/volume-data.json'),
+        price: this.http.get<MarketData[]>('/assets/json/volume-data.json')
+      }).subscribe(({ volume, price }) => {
+        this.volumeData = volume.map(item => [item.time, item.volume]);
+        this.priceData = price.map(item => [item.time, item.volume]);
       });
     }
   }
@@ -58,5 +68,10 @@ export class HomeComponent implements OnInit {
       this.document.documentElement.classList.toggle('dark');
       this.updateTheme();
     }
+  }
+
+  ngOnDestroy(): void {
+    this.observer?.disconnect();
+    this.dataSubscription?.unsubscribe();
   }
 }

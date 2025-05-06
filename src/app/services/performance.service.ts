@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
+// import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class PerformanceService {
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class PerformanceService {
 
-  constructor() { }
-}
+//   constructor() { }
+// }

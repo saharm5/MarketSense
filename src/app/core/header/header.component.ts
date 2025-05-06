@@ -1,9 +1,10 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   standalone: true,
@@ -22,79 +23,72 @@ import { faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown } fro
   ]
 })
 
-export class HeaderComponent {
-
-  // toggleSubMenu(label: string) {
-  //   if (this.openSubMenu === label) {
-  //     this.openSubMenu = null;
-  //   } else {
-  //     this.openSubMenu = label;
-  //   }
-  // }
-
-
+export class HeaderComponent implements OnInit {
   settingOpen = false;
   isDarkTheme = false;
   menuOpen = false;
   openSubMenu: string | null = null;
-
   menuItems = [
     {
       label: 'صندوق‌ها',
       submenu: [
-        { title: 'اطلاعات صندوقها', links: [' فهرست صندوق های سرمایه گذاری', 'نقشه صندوق های سرمایه گذاری', ' گراف وابستگی صندوق های سرمایه گذاری', 'اطلاعات تجمیعی انواع صندوق های سرمایه گذاری', 'مقایسه بازده', 'گزارشات ماهانه صندوقها'] }
+        { title: 'اطلاعات صندوقها', links: ['فهرست صندوق های سرمایه گذاری', 'نقشه صندوق های سرمایه گذاری', 'گراف وابستگی صندوق های سرمایه گذاری', 'اطلاعات تجمیعی انواع صندوق های سرمایه گذاری', 'مقایسه بازده', 'گزارشات ماهانه صندوقها'] }
       ]
     },
     {
       label: 'تحلیل',
       submenu: [
-        { title: ' نمودارها', links: ['مقایسه بازده'] },
-        { title: 'مقایسه اطلاعات مالی شرکتها', links: [' مقایسه ی ترازنامه شرکتها', 'مقایسه ی صورت سود و زیان شرکتها'] },
+        { title: 'نمودارها', links: ['مقایسه بازده'] },
+        { title: 'مقایسه اطلاعات مالی شرکتها', links: ['مقایسه ی ترازنامه شرکتها', 'مقایسه ی صورت سود و زیان شرکتها'] },
       ]
     },
     {
       label: 'اخبار',
       submenu: [
-        { title: 'موضوعات', links: [' بازار سرمایه', ' بورس و فرابورس', ' کالا و انرژی', 'مجامع و شرکتها', 'اقتصاد'] },
-        { title: ' خبرگزاری ها', links: ['سنا', 'بورس نیوز', ' بورس پرس', 'دنیای اقتصاد', 'فارس', 'ایسنا', ' جهان اقتصاد'] }
+        { title: 'موضوعات', links: ['بازار سرمایه', 'بورس و فرابورس', 'کالا و انرژی', 'مجامع و شرکتها', 'اقتصاد'] },
+        { title: 'خبرگزاری ها', links: ['سنا', 'بورس نیوز', 'بورس پرس', 'دنیای اقتصاد', 'فارس', 'ایسنا', 'جهان اقتصاد'] }
       ]
     },
     {
       label: 'بازار',
       submenu: [
-        { title: 'بورس', links: ['سهام', 'حق پیشروی', ' اوراق مشارکت', ' آمار و اطلاعات'] },
-        { title: 'فرابورس', links: ['سهام', 'حق پیشروی', ' اوراق مشارکت', ' آمار و اطلاعات', 'پایه فرابورس'] },
-        { title: 'شاخص ها و صنایع', links: [' لیست شاخصها', ' بازده شاخصها و منابع'] },
+        { title: 'بورس', links: ['سهام', 'حق پیشروی', 'اوراق مشارکت', 'آمار و اطلاعات'] },
+        { title: 'فرابورس', links: ['سهام', 'حق پیشروی', 'اوراق مشارکت', 'آمار و اطلاعات', 'پایه فرابورس'] },
+        { title: 'شاخص ها و صنایع', links: ['لیست شاخصها', 'بازده شاخصها و منابع'] },
         { title: 'صنایع', links: ['نمودارها'] },
-
       ]
     }
   ];
 
-  constructor(library: FaIconLibrary) {
+  constructor(library: FaIconLibrary, @Inject(PLATFORM_ID) private platformId: object) {
     library.addIcons(faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown);
   }
 
   ngOnInit() {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      this.isDarkTheme = true;
-      document.documentElement.classList.add('dark');
-    } else {
-      this.isDarkTheme = false;
-      document.documentElement.classList.remove('dark');
+    if (isPlatformBrowser(this.platformId)) {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        this.isDarkTheme = true;
+        document.documentElement.classList.add('dark');
+      } else {
+        this.isDarkTheme = false;
+        document.documentElement.classList.remove('dark');
+      }
     }
   }
 
   toggleTheme() {
     this.isDarkTheme = !this.isDarkTheme;
-
     if (this.isDarkTheme) {
       document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
+      if (isPlatformBrowser(this.platformId)) {
+        localStorage.setItem('theme', 'dark');
+      }
     } else {
       document.documentElement.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
+      if (isPlatformBrowser(this.platformId)) {
+        localStorage.setItem('theme', 'light');
+      }
     }
   }
 

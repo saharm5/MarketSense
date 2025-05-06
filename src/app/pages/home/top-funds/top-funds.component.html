@@ -1,15 +1,15 @@
-<div class="flex flex-col gap-6 mx-4 sm:mx-8 md:mx-14">
+<div class="lg:mx-24 lg:px-4 flex flex-col gap-6 sm:mx-8 max-sm:mx-2 max-sm:p-0 md:mx-14 pt-4">
     <div>
         <h2 class="text-2xl font-semibold text-right">صندوق های برتر روز</h2>
     </div>
 
-    <div class="flex flex-wrap justify-center gap-6" *ngIf="topfunds.length > 0">
+    <div class="flex flex-wrap justify-around lg:gap-10 gap-y-5 m-2" *ngIf="topfunds.length > 0">
         <div *ngFor="let funds of topfunds | slice:0:4" class="w-full 2xl:w-80 sm:w-64 max-sm:w-48">
             <div
-                class="p-6 max-sm:px-4 bg-white dark:bg-[#264553] border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 h-full min-h-60 flex flex-col justify-between items-center">
-
-                <a [href]="funds.buttonLink">
-                    <h5 class="text-xl  max-sm:text-lg font-semibold tracking-tight text-gray-900 dark:text-white text-centerm ">
+                class="p-6 max-sm:px-4 bg-[#fff] dark:bg-[#264553] border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 h-full min-h-60 flex flex-col justify-between items-center">
+                <a [href]="sanitizeUrl(funds.buttonLink)">
+                    <h5
+                        class="text-xl  max-sm:text-lg font-semibold tracking-tight text-gray-900 dark:text-white text-center">
                         {{ funds.title }}
                     </h5>
                 </a>
@@ -22,7 +22,7 @@
                     % {{ funds.ProfitPercentage }} +
                 </p>
 
-                <a [href]="funds.buttonLink" class="inline-flex items-center px-3 py-2 text-sm font-medium justify-center text-center
+                <a [href]="sanitizeUrl(funds.buttonLink)" class="inline-flex items-center px-3 py-2 text-sm font-medium justify-center text-center
                     text-white bg-[#F26827] hover:bg-[#faa67e] hover:text-black dark:text-black hover:dark:text-white hover:dark:bg-[#F26827]
                     dark:bg-[#95c0cf] rounded-lg focus:outline-none w-full">
                     مشاهده جزئیات صندوق

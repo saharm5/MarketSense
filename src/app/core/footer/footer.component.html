@@ -1,4 +1,4 @@
-<footer
+<!-- <footer
     class="w-full z-50 p-10 flex flex-row justify-between shadow-md bg-[#E1E9F1] text-black dark:bg-[#264553] dark:text-white">
     <div class="flex lg:flex-1  items-center">
         <a href="#" class="flex items-center flex-col">
@@ -15,7 +15,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-mail-icon></app-mail-icon> -->
+                        <app-mail-icon></app-mail-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -26,7 +26,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-hamburger-icon></app-hamburger-icon> -->
+                        <app-hamburger-icon></app-hamburger-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -37,7 +37,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-moon-icon></app-moon-icon> -->
+                        <app-moon-icon></app-moon-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -48,7 +48,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-phone-icon></app-phone-icon> -->
+                        <app-phone-icon></app-phone-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -59,7 +59,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-sun-icon></app-sun-icon> -->
+                        <app-sun-icon></app-sun-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -70,7 +70,7 @@
             <li class="flex flex-row gap-10">
                 <div class="flex flex-row gap-2">
                     <span>
-                        <!-- <app-sun-icon></app-sun-icon> -->
+                        <app-sun-icon></app-sun-icon>
                     </span>
                     <p>
                         پشتیبان سایت
@@ -96,5 +96,27 @@
         <p>تماس با ما</p>
         <p>تماس با ما</p>
         <p>تماس با ما</p>
+    </div>
+</footer> -->
+
+<footer class="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-right">
+        <div>
+            <h3 class="text-lg font-bold mb-2">درباره ما</h3>
+            <p>ما ارائه‌دهنده خدمات طراحی سایت، سئو و توسعه وب هستیم.</p>
+        </div>
+        <div>
+            <h3 class="text-lg font-bold mb-2">پشتیبانی</h3>
+            <ul>
+                <li *ngFor="let item of supportList">
+                    <a href="#" class="hover:underline">{{ item }}</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-lg font-bold mb-2">تماس با ما</h3>
+            <p>ایمیل: info.com</p>
+            <p>تلفن: 021-12345678</p>
+        </div>
     </div>
 </footer>

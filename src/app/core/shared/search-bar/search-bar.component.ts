@@ -12,7 +12,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './search-bar.component.html',
 })
 export class SearchBarComponent {
-  search: string = '';
+  search = '';
   faSearch = faSearch;
 
   constructor(private router: Router) { }
