@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "market-sense-ssr": {
+    "MarketSense": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/market-sense-ssr",
+            "outputPath": "dist/MarketSense",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -76,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "market-sense-ssr:build:production"
+              "buildTarget": "MarketSense:build:production"
             },
             "development": {
-              "buildTarget": "market-sense-ssr:build:development"
+              "buildTarget": "MarketSense:build:development"
             }
           },
           "defaultConfiguration": "development"
