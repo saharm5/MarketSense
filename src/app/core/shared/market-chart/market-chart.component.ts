@@ -1,4 +1,3 @@
-// C:\Users\Sanay\market-sense-ssr\src\app\core\shared\market-chart\market-chart.component.ts
 import {
   Component,
   Input,
@@ -8,7 +7,7 @@ import {
   AfterViewInit,
   ElementRef,
   Inject,
-  PLATFORM_ID,
+  PLATFORM_ID
 } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import * as Highcharts from 'highcharts/highstock';
@@ -26,7 +25,7 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   chartConstructor = 'stockChart';
   chartOptions!: Highcharts.Options;
 
-  @Input() title = 'چارت پیش‌فرض';
+  @Input() title = 'نمودار پیش‌فرض';
   @Input() seriesData: Highcharts.SeriesLineOptions['data'] = [];
   @Input() seriesName = 'داده‌ها';
   @Input() color = '#00C8B5';
@@ -55,7 +54,7 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['isDarkMode'] && !changes['isDarkMode'].firstChange) {
       this.setChartOptions();
-      this.chartRef?.update(this.chartOptions as Highcharts.Options);
+      this.chartRef?.update(this.chartOptions);
     }
   }
 
@@ -66,10 +65,8 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
 
     if (isPlatformBrowser(this.platformId)) {
       const root = this.document.documentElement;
-      textColor =
-        getComputedStyle(root).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
-      bgColor =
-        getComputedStyle(root).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
+      textColor = getComputedStyle(root).getPropertyValue('--text-color').trim() || (this.isDarkMode ? '#fff' : '#000');
+      bgColor = getComputedStyle(root).getPropertyValue('--chart-bg').trim() || (this.isDarkMode ? '#264553' : '#ffffff');
       gridColor = this.isDarkMode ? '#444' : '#e6e6e6';
     }
 
@@ -81,29 +78,28 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
       title: {
         text: this.title,
         align: 'right',
-        style: {
-          color: textColor,
-        },
+        style: { color: textColor },
       },
       xAxis: {
         labels: {
-          style: {
-            color: textColor,
-          },
-        },
+          style: { color: textColor }
+        }
       },
       yAxis: {
         labels: {
-          style: {
-            color: textColor,
-          },
+          style: { color: textColor }
         },
-        gridLineColor: gridColor,
+        gridLineColor: gridColor
       },
       legend: {
         itemStyle: {
           color: textColor,
         },
+      },
+      tooltip: {
+        shared: true,
+        backgroundColor: bgColor,
+        style: { color: textColor }
       },
       credits: { enabled: false },
       series: [

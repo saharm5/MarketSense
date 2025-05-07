@@ -12,7 +12,7 @@ import { provideRouter } from '@angular/router';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideHttpClient } from '@angular/common/http';
-
+import { provideCharts } from 'ng2-charts';
 import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
@@ -22,5 +22,6 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(withEventReplay()),
     provideAnimations(), // ← انیمیشن‌ها مثل fadeRotate
     provideHttpClient(), // ← برای HttpClient در SSR یا مرورگر
+    provideCharts(),
   ]
 };

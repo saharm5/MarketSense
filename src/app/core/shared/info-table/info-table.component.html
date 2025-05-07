@@ -1,0 +1,23 @@
+<div *ngFor="let section of fundPerformance">
+    <table class="min-w-full divide-y divide-gray-200 text-sm text-right rtl:text-right">
+        <thead class="bg-green-100 font-bold text-gray-800">
+            <tr>
+                <th scope="col" class="px-4 py-3 text-center" colspan="2">
+                    {{ section.name }}
+                </th>
+            </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-100">
+            <tr *ngFor="let item of section.items">
+                <td class="px-4 py-2 text-gray-600">{{ item.title }}</td>
+                <td class="px-4 py-2 text-left font-semibold" [ngClass]="{
+            'text-red-500': item.value < 0,
+            'text-gray-500': item.value === 0,
+            'text-green-600': item.value > 0
+          }">
+                    {{ item.value | number: '1.2-2' }}%
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
