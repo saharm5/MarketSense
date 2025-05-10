@@ -1,20 +1,6 @@
-<!-- <app-market-pie-chart [title]="'سهم بازار'" [seriesData]="pieData" [isDarkMode]="true"></app-market-pie-chart>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
-    <div class="my-16  sm:m-4 sm:px-4 m-2  flex flex-wrap justify-center gap-8 text-center lg:text-right ">
- 
-        <div
-            class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
-            <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
-                <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار حجم معاملات بورس</a>
-                <a href="#"
-                    class="inline-flex sm:max-w-[150px] w-full justify-center items-center px-3 py-2 text-sm font-medium text-[#fff] bg-[#F26827] hover:bg-[#faa67e] hover:text-[#000000] dark:text-[#000000] hover:dark:text-[#fff] hover:dark:bg-[#F26827] dark:bg-[#95c0cf] rounded-lg">
-                    مشاهده آمار
-                </a>
-            </div>
-            <app-market-chart *ngIf="volumeData.length" [title]="''" [seriesData]="volumeData" [seriesName]="'بورس'"
-                [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
-            </app-market-chart>
-        </div>
-    </div>
+<div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow">
+    <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">نمودار اصلی Pie</h2>
+    <app-pie-chart [data]="pieData" [isDarkMode]="isDarkMode" title="ترکیب دارایی با legend"></app-pie-chart>
+
+
 </div>
-<div> -->

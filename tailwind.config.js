@@ -6,6 +6,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Vazirmatn', 'sans-serif'],
+      },
       colors: {
         'chart-bg': '#264553',
         chart: {

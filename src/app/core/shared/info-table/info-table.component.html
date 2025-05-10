@@ -1,6 +1,7 @@
+
 <div *ngFor="let section of fundPerformance">
     <table class="min-w-full divide-y divide-gray-200 text-sm text-right rtl:text-right">
-        <thead class="bg-green-100 font-bold text-gray-800">
+        <thead [ngClass]="getHeaderClass(section)" class="font-bold text-gray-800">
             <tr>
                 <th scope="col" class="px-4 py-3 text-center" colspan="2">
                     {{ section.name }}
@@ -11,11 +12,15 @@
             <tr *ngFor="let item of section.items">
                 <td class="px-4 py-2 text-gray-600">{{ item.title }}</td>
                 <td class="px-4 py-2 text-left font-semibold" [ngClass]="{
-            'text-red-500': item.value < 0,
-            'text-gray-500': item.value === 0,
-            'text-green-600': item.value > 0
-          }">
-                    {{ item.value | number: '1.2-2' }}%
+          'text-black': isString(item.value),
+          'text-red-500': isNegative(item.value),
+          'text-gray-500': isZero(item.value),
+          'text-green-600': isPositive(item.value)
+        }">
+                    <ng-container *ngIf="!isString(item.value); else stringVal">
+                        {{ item.value | number: '1.2-2' }}%
+                    </ng-container>
+                    <ng-template #stringVal>{{ item.value }}</ng-template>
                 </td>
             </tr>
         </tbody>
