@@ -6,6 +6,7 @@ import { Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { PieChartComponent } from "../../../core/shared/pie-chart/pie-chart.component";
 
+// نوع داده‌های دریافتی از فایل JSON
 interface MarketData {
     date: string;
     volume: number;
@@ -19,6 +20,13 @@ interface MarketData {
     commodity: number;
 }
 
+// نوع داده‌های مورد استفاده در نمودار دایره‌ای
+interface PieChartData {
+    name: string;
+    percentage: number;
+    color: string;
+}
+
 @Component({
     selector: 'app-fund-performance',
     standalone: true,
@@ -27,8 +35,8 @@ interface MarketData {
     styleUrls: ['./fund-performance.component.css']
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
-    pieData: { name: string, percentage: number }[] = [];
-    assetData: { name: string; percentage: number }[] = [];
+    pieData: PieChartData[] = [];
+    assetData: PieChartData[] = [];
     isDarkMode = false;
     private observer?: MutationObserver;
     private dataSub?: Subscription;
@@ -48,14 +56,14 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
                 .subscribe(data => {
                     const latest = data[data.length - 1];
                     this.pieData = [
-                        { name: 'واحد صندوق', percentage: latest.fundUnit },
-                        { name: 'گواهی سپرده کالایی', percentage: latest.commodity },
-                        { name: 'سایر سهام', percentage: latest.stock },
-                        { name: 'سایر دارایی ها', percentage: latest.other },
-                        { name: 'اوراق مشارکت', percentage: latest.bond },
-                        { name: 'وجه نقد', percentage: latest.cash },
-                        { name: 'سپرده بانکی', percentage: latest.deposit },
-                        { name: 'پنج سهم با بیشترین سهم', percentage: latest.fiveBest },
+                        { name: 'واحد صندوق', percentage: latest.fundUnit, color: '#8B5CF6' },
+                        { name: 'گواهی سپرده کالایی', percentage: latest.commodity, color: '#6366F1' },
+                        { name: 'سایر سهام', percentage: latest.stock, color: '#00C8B5' },
+                        { name: 'سایر دارایی ها', percentage: latest.other, color: '#22C55E' },
+                        { name: 'اوراق مشارکت', percentage: latest.bond, color: '#F26827' },
+                        { name: 'وجه نقد', percentage: latest.cash, color: '#14B8A6' },
+                        { name: 'سپرده بانکی', percentage: latest.deposit, color: '#0EA5E9' },
+                        { name: 'پنج سهم با بیشترین سهم', percentage: latest.fiveBest, color: '#A855F7' },
                     ];
                     this.assetData = [...this.pieData];
                 });

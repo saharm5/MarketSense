@@ -1,11 +1,4 @@
-import {
-    Component,
-    Input,
-    OnChanges,
-    SimpleChanges,
-    Inject,
-    PLATFORM_ID
-} from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, DOCUMENT, CommonModule } from '@angular/common';
 import * as Highcharts from 'highcharts';
 import { HighchartsChartModule } from 'highcharts-angular';
@@ -17,7 +10,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     imports: [HighchartsChartModule, CommonModule]
 })
 export class PieChartComponent implements OnChanges {
-    @Input() data!: { name: string; percentage: number }[];
+    @Input() data!: { name: string; percentage: number; color: string }[];
     @Input() isDarkMode = false;
     @Input() title = '';
 
@@ -78,11 +71,12 @@ export class PieChartComponent implements OnChanges {
             series: [{
                 name: 'درصد',
                 type: 'pie',
-                colorByPoint: true,
+                colorByPoint: false, 
                 data: this.data?.map(item => ({
                     name: item.name,
                     // eslint-disable-next-line id-length
-                    y: item.percentage
+                    y: item.percentage,
+                    color: item.color 
                 })) || []
             } as Highcharts.SeriesPieOptions]
         };

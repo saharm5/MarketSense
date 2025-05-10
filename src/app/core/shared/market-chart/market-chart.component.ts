@@ -18,7 +18,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
   standalone: true,
   imports: [CommonModule, HighchartsChartModule],
   templateUrl: './market-chart.component.html',
-  styleUrls: ['./market-chart.component.css'],
+  styleUrls: ['./market-chart.component.css']
 })
 export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   Highcharts: typeof Highcharts = Highcharts;
@@ -30,6 +30,7 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() seriesName = 'داده‌ها';
   @Input() color = '#00C8B5';
   @Input() isDarkMode = false;
+  @Input() customSeries: Highcharts.SeriesOptionsType[] = [];
 
   private chartRef?: Highcharts.Chart;
 
@@ -81,20 +82,15 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
         style: { color: textColor },
       },
       xAxis: {
-        labels: {
-          style: { color: textColor }
-        }
+        labels: { style: { color: textColor } },
+        type: 'datetime',
       },
       yAxis: {
-        labels: {
-          style: { color: textColor }
-        },
+        labels: { style: { color: textColor } },
         gridLineColor: gridColor
       },
       legend: {
-        itemStyle: {
-          color: textColor,
-        },
+        itemStyle: { color: textColor },
       },
       tooltip: {
         shared: true,
@@ -102,13 +98,13 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
         style: { color: textColor }
       },
       credits: { enabled: false },
-      series: [
+      series: this.customSeries.length ? this.customSeries : [
         {
           type: 'line',
           name: this.seriesName,
           data: this.seriesData,
           color: this.color,
-        },
+        }
       ],
     };
   }

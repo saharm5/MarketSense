@@ -30,6 +30,7 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() seriesName = 'داده‌ها';
   @Input() color = '#00C8B5';
   @Input() isDarkMode = false;
+  @Input() customSeries: Highcharts.SeriesAreaOptions[] = [];
 
   private chartRef?: Highcharts.Chart;
 
@@ -96,7 +97,7 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
         style: { color: textColor }
       },
       credits: { enabled: false },
-      series: [
+      series: this.customSeries.length ? this.customSeries : [
         {
           type: 'area',
           name: this.seriesName,

@@ -8024,7 +8024,7 @@
         "stock": 13.79,
         "bond": 42.344,
         "other": 1.17,
-        "cash": 0.0,
+        "cash": 10.0,
         "deposit": 38.945,
         "fundUnit": 1.53,
         "commodity": 0.651
@@ -8035,7 +8035,7 @@
         "stock": 17.193,
         "bond": 48.018,
         "other": 1.839,
-        "cash": 0.0,
+        "cash": 10.0,
         "deposit": 37.14,
         "fundUnit": 3.028,
         "commodity": 0.826

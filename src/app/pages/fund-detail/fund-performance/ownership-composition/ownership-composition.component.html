@@ -1,34 +1,10 @@
-<div class="my-16 sm:m-4 sm:px-4 m-2 flex flex-wrap justify-between gap-8 text-center lg:text-right">
-    <!-- نمودار سهم پنج بازیگر برتر -->
-    <div
-        class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
-        <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
-            <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">سهم پنج بازیگر برتر</a>
-        </div>
-        <app-area-chart *ngIf="fiveBestData.length" [title]="'سهم پنج بازیگر برتر'" [seriesData]="fiveBestData"
-            [seriesName]="'Five Best'" [color]="'#A855F7'" [isDarkMode]="isDarkMode">
-        </app-area-chart>
+<div
+    class="my-16 p-4 flex flex-col gap-8 text-center lg:text-right bg-white dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+    <div class="flex flex-row gap-4 justify-between items-center">
+        <h2 class="text-xl md:text-2xl font-semibold dark:text-white">ترکیب دارایی‌ها</h2>
     </div>
 
-    <!-- نمودار بازار بورس -->
-    <div
-        class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
-        <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
-            <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">بازار بورس</a>
-        </div>
-        <app-area-chart *ngIf="stockData.length" [title]="'بازار بورس'" [seriesData]="stockData" [seriesName]="'Stock'"
-            [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
-        </app-area-chart>
-    </div>
-
-    <!-- نمودار اوراق قرضه -->
-    <div
-        class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
-        <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
-            <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">اوراق قرضه</a>
-        </div>
-        <app-area-chart *ngIf="bondData.length" [title]="'اوراق قرضه'" [seriesData]="bondData" [seriesName]="'Bond'"
-            [color]="'#F26827'" [isDarkMode]="isDarkMode">
-        </app-area-chart>
-    </div>
+    <app-area-chart *ngIf="allSeries.length" [title]="'ترکیب دارایی‌ها'" [seriesData]="[]" [seriesName]="''"
+        [color]="''" [isDarkMode]="isDarkMode" [customSeries]="allSeries">
+    </app-area-chart>
 </div>
