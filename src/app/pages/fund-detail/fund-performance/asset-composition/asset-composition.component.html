@@ -1,1 +1,23 @@
-<p>asset-composition works!</p>
+<div class="my-16 sm:m-4 sm:px-4 m-2 flex flex-wrap justify-between gap-8 text-center lg:text-right">
+    <!-- نمودار بازار بورس (stock) -->
+    <div
+        class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+        <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار بازار بورس (Stock)</a>
+        </div>
+        <app-market-chart *ngIf="stockData.length" [title]="'شاخص بورس'" [seriesData]="stockData" [seriesName]="'Stock'"
+            [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
+        </app-market-chart>
+    </div>
+
+    <!-- نمودار اوراق قرضه (bond) -->
+    <div
+        class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+        <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار اوراق قرضه (Bond)</a>
+        </div>
+        <app-market-chart *ngIf="bondData.length" [title]="'شاخص اوراق قرضه'" [seriesData]="bondData"
+            [seriesName]="'Bond'" [color]="'#F26827'" [isDarkMode]="isDarkMode">
+        </app-market-chart>
+    </div>
+</div>
