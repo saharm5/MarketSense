@@ -5,16 +5,11 @@ import { Subscription } from 'rxjs';
 import { MarketChartComponent } from "../../../../core/shared/market-chart/market-chart.component";
 import * as Highcharts from 'highcharts';
 
-interface MarketData {
+interface MarketLineData {
   date: string;
-  fiveBest: number;
-  stock: number;
-  bond: number;
-  other: number;
-  cash: number;
-  deposit: number;
-  fundUnit: number;
-  commodity: number;
+  netAsset: number;
+  unitsSubDAY: number;
+  unitsRedDAY: number;
 }
 
 @Component({
@@ -47,12 +42,12 @@ export class AssetCompositionComponent implements OnInit, OnDestroy {
         attributeFilter: ['class']
       });
 
-      this.dataSubscription = this.http.get<MarketData[]>('/assets/json/volume-data.json')
+      this.dataSubscription = this.http.get<MarketLineData[]>('/assets/json/asset-comparison-value-data.json')
         .subscribe((data) => {
           const getSeries = (
             name: string,
             color: string,
-            extract: (item: MarketData) => number
+            extract: (item: MarketLineData) => number
           ): Highcharts.SeriesLineOptions => ({
             type: 'line',
             name,
@@ -61,14 +56,9 @@ export class AssetCompositionComponent implements OnInit, OnDestroy {
           });
 
           this.allSeries = [
-            getSeries('واحد صندوق', '#8B5CF6', item => item.fundUnit),
-            getSeries('گواهی سپرده کالایی', '#6366F1', item => item.commodity),
-            getSeries('سایر سهام', '#00C8B5', item => item.stock),
-            getSeries('سایر دارایی ها', '#22C55E', item => item.other),
-            getSeries('اوراق مشارکت', '#F26827', item => item.bond),
-            getSeries('وجه نقد', '#14B8A6', item => item.cash),
-            getSeries('سپرده بانکی', '#0EA5E9', item => item.deposit),
-            getSeries('پنج سهم با بیشترین سهم', '#A855F7', item => item.fiveBest),
+            getSeries('ارزش ابطال', '#F87171', item => item.unitsSubDAY),
+            getSeries('ارزش صدور', '#60A5FA', item => item.netAsset),
+            getSeries('NAV آماری', '#34D399', item => item.unitsRedDAY),
           ];
         });
     }

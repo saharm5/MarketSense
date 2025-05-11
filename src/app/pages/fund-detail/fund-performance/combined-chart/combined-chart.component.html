@@ -1,0 +1,23 @@
+<!-- src/app/pages/fund-detail/fund-performance/combined-chart/combined-chart.component.html -->
+
+<div class="flex flex-col lg:flex-row w-full">
+
+    <div class="w-full lg:w-1/3  ">
+        <h2 class="text-xl sm:text-2xl font-bold text-gray-800 dark:text-[#fff] mb-4">
+
+        </h2>
+        <app-pie-chart [data]="pieData" [isDarkMode]="isDarkMode" title=""></app-pie-chart>
+    </div>
+
+    <div
+        class="w-full lg:w-2/3 p-2 md:pl-8 flex flex-col gap-6">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-[#fff]">
+
+            </h2>
+        </div>
+
+        <app-area-chart *ngIf="AreaData.length" [isDarkMode]="isDarkMode"
+            [customSeries]="AreaData"></app-area-chart>
+    </div>
+</div>

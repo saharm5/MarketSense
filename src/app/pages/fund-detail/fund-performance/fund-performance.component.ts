@@ -1,26 +1,44 @@
-import { Component, Inject, OnInit, OnDestroy } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { PLATFORM_ID } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PieChartComponent } from "../../../core/shared/pie-chart/pie-chart.component";
+import { HttpClient } from '@angular/common/http';
+import { Subscription } from 'rxjs';
+import { isPlatformBrowser } from '@angular/common';
+import { DOCUMENT } from '@angular/common';
+import { CombinedChartComponent } from './combined-chart/combined-chart.component';
+import { MarketChartComponent } from '../../../core/shared/market-chart/market-chart.component';
 
-// نوع داده‌های دریافتی از فایل JSON
+import * as Highcharts from 'highcharts';
+
+interface NetAssetData {
+    date: string;
+    netAsset: number;
+}
+
+interface MarketLineData {
+    date: string;
+    issueNav: number;
+    cancelNav: number;
+    statisticalNav: number;
+}
+
 interface MarketData {
     date: string;
-    volume: number;
+    fiveBest: number;
     stock: number;
     bond: number;
     other: number;
     cash: number;
     deposit: number;
-    fiveBest: number;
     fundUnit: number;
     commodity: number;
 }
 
-// نوع داده‌های مورد استفاده در نمودار دایره‌ای
+interface OwnershipData {
+    date: string;
+    insInvPercent: number;
+    retInvPercent: number;
+}
+
 interface PieChartData {
     name: string;
     percentage: number;
@@ -30,16 +48,51 @@ interface PieChartData {
 @Component({
     selector: 'app-fund-performance',
     standalone: true,
-    imports: [CommonModule, PieChartComponent],
+    imports: [CommonModule, CombinedChartComponent, MarketChartComponent],
     templateUrl: './fund-performance.component.html',
     styleUrls: ['./fund-performance.component.css']
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
-    pieData: PieChartData[] = [];
-    assetData: PieChartData[] = [];
     isDarkMode = false;
+    allSeries: Highcharts.SeriesSplineOptions[] = []; 
+    netAssetSeries: Highcharts.SeriesSplineOptions[] = [];
+
+    
     private observer?: MutationObserver;
-    private dataSub?: Subscription;
+    private dataSubscription?: Subscription;
+
+    marketData: MarketData[] = [];
+    ownershipData: OwnershipData[] = [];
+
+    AssetPieData: PieChartData[] = [];
+    AssetAreaData: Highcharts.SeriesAreaOptions[] = [];
+
+    OwnershipPieData: PieChartData[] = [];
+    OwnershipAreaData: Highcharts.SeriesAreaOptions[] = [];
+
+    readonly assetConfigs: {
+        name: string;
+        key: keyof MarketData;
+        color: string;
+    }[] = [
+            { name: 'واحد صندوق', key: 'fundUnit', color: '#8B5CF6' },
+            { name: 'گواهی سپرده کالایی', key: 'commodity', color: '#6366F1' },
+            { name: 'سایر سهام', key: 'stock', color: '#00C8B5' },
+            { name: 'سایر دارایی ها', key: 'other', color: '#22C55E' },
+            { name: 'اوراق مشارکت', key: 'bond', color: '#F26827' },
+            { name: 'وجه نقد', key: 'cash', color: '#14B8A6' },
+            { name: 'سپرده بانکی', key: 'deposit', color: '#0EA5E9' },
+            { name: 'پنج سهم با بیشترین سهم', key: 'fiveBest', color: '#A855F7' }
+        ];
+
+    readonly ownershipConfigs: {
+        name: string;
+        key: keyof OwnershipData;
+        color: string;
+    }[] = [
+            { name: 'سرمایه‌گذاران حقوقی', key: 'insInvPercent', color: '#71d2e4' },
+            { name: 'سرمایه‌گذاران حقیقی', key: 'retInvPercent', color: '#f26827' }
+        ];
 
     constructor(
         private http: HttpClient,
@@ -48,47 +101,111 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
     ) { }
 
     ngOnInit(): void {
+        this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json').subscribe(data => {
+            this.netAssetSeries = [{
+                type: 'spline',
+                name: 'ارزش خالص دارایی‌ها',
+                color: '#f59e0b',
+                data: data.map(item => [new Date(item.date).getTime(), item.netAsset])
+            }];
+        });
+        
+
         if (isPlatformBrowser(this.platformId)) {
             this.updateTheme();
-            this.observeTheme();
 
-            this.dataSub = this.http.get<MarketData[]>('/assets/json/volume-data.json')
-                .subscribe(data => {
-                    const latest = data[data.length - 1];
-                    this.pieData = [
-                        { name: 'واحد صندوق', percentage: latest.fundUnit, color: '#8B5CF6' },
-                        { name: 'گواهی سپرده کالایی', percentage: latest.commodity, color: '#6366F1' },
-                        { name: 'سایر سهام', percentage: latest.stock, color: '#00C8B5' },
-                        { name: 'سایر دارایی ها', percentage: latest.other, color: '#22C55E' },
-                        { name: 'اوراق مشارکت', percentage: latest.bond, color: '#F26827' },
-                        { name: 'وجه نقد', percentage: latest.cash, color: '#14B8A6' },
-                        { name: 'سپرده بانکی', percentage: latest.deposit, color: '#0EA5E9' },
-                        { name: 'پنج سهم با بیشترین سهم', percentage: latest.fiveBest, color: '#A855F7' },
+            this.observer = new MutationObserver(() => this.updateTheme());
+            this.observer.observe(this.document.documentElement, {
+                attributes: true,
+                attributeFilter: ['class']
+            });
+
+            this.dataSubscription = this.http.get<MarketLineData[]>('/assets/json/nav-comparison-data.json')
+                .subscribe((data) => {
+                    const getSeries = (
+                        name: string,
+                        color: string,
+                        extract: (item: MarketLineData) => number
+                    ): Highcharts.SeriesSplineOptions => ({
+                        type: 'spline', 
+                        name,
+                        color,
+                        data: data.map(item => [new Date(item.date).getTime(), extract(item)])
+                    });
+
+                    this.allSeries = [
+                        getSeries('ارزش ابطال', '#F87171', item => item.cancelNav),
+                        getSeries('ارزش صدور', '#60A5FA', item => item.issueNav),
+                        getSeries('NAV آماری', '#34D399', item => item.statisticalNav),
                     ];
-                    this.assetData = [...this.pieData];
                 });
         }
-    }
 
-    observeTheme(): void {
-        this.observer = new MutationObserver(() => this.updateTheme());
-        this.observer.observe(this.document.documentElement, {
-            attributes: true,
-            attributeFilter: ['class']
+
+        this.http.get<MarketData[]>('/assets/json/Asset-data.json').subscribe(data => {
+            this.marketData = data;
+            this.generateAssetData();
+        });
+
+        this.http.get<OwnershipData[]>('/assets/json/Ownership-data.json').subscribe(data => {
+            this.ownershipData = data;
+            this.generateOwnershipData();
         });
     }
+
 
     updateTheme(): void {
         this.isDarkMode = this.document.documentElement.classList.contains('dark');
     }
 
-    toggleTheme(): void {
-        this.document.documentElement.classList.toggle('dark');
-        this.updateTheme();
+    generateAssetData(): void {
+        if (!this.marketData.length) return;
+
+        const latest = this.marketData[this.marketData.length - 1];
+
+        this.AssetPieData = this.assetConfigs.map(cfg => ({
+            name: cfg.name,
+            percentage: Number(latest[cfg.key as keyof MarketData]),
+            color: cfg.color
+        }));
+
+        this.AssetAreaData = this.assetConfigs.map(cfg => ({
+            type: 'area',
+            name: cfg.name,
+            data: this.marketData.map(item => [
+                new Date(item.date).getTime(),
+                Number(item[cfg.key as keyof MarketData])
+            ]),
+            color: cfg.color,
+            fillOpacity: 0.3
+        }));
+    }
+
+    generateOwnershipData(): void {
+        if (!this.ownershipData.length) return;
+
+        const latest = this.ownershipData[this.ownershipData.length - 1];
+
+        this.OwnershipPieData = this.ownershipConfigs.map(cfg => ({
+            name: cfg.name,
+            percentage: Number(latest[cfg.key as keyof OwnershipData]),
+            color: cfg.color
+        }));
+
+        this.OwnershipAreaData = this.ownershipConfigs.map(cfg => ({
+            type: 'area',
+            name: cfg.name,
+            data: this.ownershipData.map(item => [
+                new Date(item.date).getTime(),
+                Number(item[cfg.key as keyof OwnershipData])
+            ]),
+            color: cfg.color,
+            fillOpacity: 0.3
+        }));
     }
 
     ngOnDestroy(): void {
         this.observer?.disconnect();
-        this.dataSub?.unsubscribe();
+        this.dataSubscription?.unsubscribe();
     }
 }

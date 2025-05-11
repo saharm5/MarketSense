@@ -1,0 +1,4388 @@
+[
+  {
+    "date": "2023-04-22",
+    "netAsset": 552572826610404,
+    "unitsSubDAY": 3396645,
+    "unitsRedDAY": 4557670
+  },
+  {
+    "date": "2023-04-23",
+    "netAsset": 552572829170758,
+    "unitsSubDAY": 3396898,
+    "unitsRedDAY": 4558166
+  },
+  {
+    "date": "2023-04-24",
+    "netAsset": 552572831014294,
+    "unitsSubDAY": 3397064,
+    "unitsRedDAY": 4558285
+  },
+  {
+    "date": "2023-04-25",
+    "netAsset": 552572834270273,
+    "unitsSubDAY": 3397563,
+    "unitsRedDAY": 4558673
+  },
+  {
+    "date": "2023-04-26",
+    "netAsset": 552572836221638,
+    "unitsSubDAY": 3398052,
+    "unitsRedDAY": 4559033
+  },
+  {
+    "date": "2023-04-27",
+    "netAsset": 552572838359067,
+    "unitsSubDAY": 3398307,
+    "unitsRedDAY": 4559354
+  },
+  {
+    "date": "2023-04-28",
+    "netAsset": 552572842803007,
+    "unitsSubDAY": 3398742,
+    "unitsRedDAY": 4559515
+  },
+  {
+    "date": "2023-04-29",
+    "netAsset": 552572845267850,
+    "unitsSubDAY": 3398918,
+    "unitsRedDAY": 4559959
+  },
+  {
+    "date": "2023-04-30",
+    "netAsset": 552572848741264,
+    "unitsSubDAY": 3399315,
+    "unitsRedDAY": 4560153
+  },
+  {
+    "date": "2023-05-01",
+    "netAsset": 552572850684625,
+    "unitsSubDAY": 3399639,
+    "unitsRedDAY": 4560570
+  },
+  {
+    "date": "2023-05-02",
+    "netAsset": 552572853053851,
+    "unitsSubDAY": 3400057,
+    "unitsRedDAY": 4560890
+  },
+  {
+    "date": "2023-05-03",
+    "netAsset": 552572856057408,
+    "unitsSubDAY": 3400409,
+    "unitsRedDAY": 4561227
+  },
+  {
+    "date": "2023-05-04",
+    "netAsset": 552572857740726,
+    "unitsSubDAY": 3400548,
+    "unitsRedDAY": 4561583
+  },
+  {
+    "date": "2023-05-05",
+    "netAsset": 552572859673937,
+    "unitsSubDAY": 3400678,
+    "unitsRedDAY": 4561992
+  },
+  {
+    "date": "2023-05-06",
+    "netAsset": 552572862668008,
+    "unitsSubDAY": 3401101,
+    "unitsRedDAY": 4562396
+  },
+  {
+    "date": "2023-05-07",
+    "netAsset": 552572863885562,
+    "unitsSubDAY": 3401281,
+    "unitsRedDAY": 4562763
+  },
+  {
+    "date": "2023-05-08",
+    "netAsset": 552572867459082,
+    "unitsSubDAY": 3401658,
+    "unitsRedDAY": 4563112
+  },
+  {
+    "date": "2023-05-09",
+    "netAsset": 552572868800579,
+    "unitsSubDAY": 3401795,
+    "unitsRedDAY": 4563596
+  },
+  {
+    "date": "2023-05-10",
+    "netAsset": 552572870768046,
+    "unitsSubDAY": 3402198,
+    "unitsRedDAY": 4564037
+  },
+  {
+    "date": "2023-05-11",
+    "netAsset": 552572873345720,
+    "unitsSubDAY": 3402595,
+    "unitsRedDAY": 4564426
+  },
+  {
+    "date": "2023-05-12",
+    "netAsset": 552572874974637,
+    "unitsSubDAY": 3402737,
+    "unitsRedDAY": 4564909
+  },
+  {
+    "date": "2023-05-13",
+    "netAsset": 552572879844310,
+    "unitsSubDAY": 3403027,
+    "unitsRedDAY": 4565275
+  },
+  {
+    "date": "2023-05-14",
+    "netAsset": 552572884521110,
+    "unitsSubDAY": 3403187,
+    "unitsRedDAY": 4565403
+  },
+  {
+    "date": "2023-05-15",
+    "netAsset": 552572886563730,
+    "unitsSubDAY": 3403629,
+    "unitsRedDAY": 4565756
+  },
+  {
+    "date": "2023-05-16",
+    "netAsset": 552572888637921,
+    "unitsSubDAY": 3403863,
+    "unitsRedDAY": 4566033
+  },
+  {
+    "date": "2023-05-17",
+    "netAsset": 552572892461528,
+    "unitsSubDAY": 3404152,
+    "unitsRedDAY": 4566284
+  },
+  {
+    "date": "2023-05-18",
+    "netAsset": 552572895736303,
+    "unitsSubDAY": 3404638,
+    "unitsRedDAY": 4566502
+  },
+  {
+    "date": "2023-05-19",
+    "netAsset": 552572899358757,
+    "unitsSubDAY": 3405124,
+    "unitsRedDAY": 4566738
+  },
+  {
+    "date": "2023-05-20",
+    "netAsset": 552572903835519,
+    "unitsSubDAY": 3405326,
+    "unitsRedDAY": 4566862
+  },
+  {
+    "date": "2023-05-21",
+    "netAsset": 552572908241998,
+    "unitsSubDAY": 3405548,
+    "unitsRedDAY": 4567008
+  },
+  {
+    "date": "2023-05-22",
+    "netAsset": 552572910142836,
+    "unitsSubDAY": 3406036,
+    "unitsRedDAY": 4567117
+  },
+  {
+    "date": "2023-05-23",
+    "netAsset": 552572912251875,
+    "unitsSubDAY": 3406219,
+    "unitsRedDAY": 4567579
+  },
+  {
+    "date": "2023-05-24",
+    "netAsset": 552572915652263,
+    "unitsSubDAY": 3406398,
+    "unitsRedDAY": 4567713
+  },
+  {
+    "date": "2023-05-25",
+    "netAsset": 552572917547856,
+    "unitsSubDAY": 3406747,
+    "unitsRedDAY": 4568192
+  },
+  {
+    "date": "2023-05-26",
+    "netAsset": 552572920829504,
+    "unitsSubDAY": 3406999,
+    "unitsRedDAY": 4568494
+  },
+  {
+    "date": "2023-05-27",
+    "netAsset": 552572925742487,
+    "unitsSubDAY": 3407156,
+    "unitsRedDAY": 4568646
+  },
+  {
+    "date": "2023-05-28",
+    "netAsset": 552572927510872,
+    "unitsSubDAY": 3407501,
+    "unitsRedDAY": 4568890
+  },
+  {
+    "date": "2023-05-29",
+    "netAsset": 552572932344045,
+    "unitsSubDAY": 3407857,
+    "unitsRedDAY": 4569029
+  },
+  {
+    "date": "2023-05-30",
+    "netAsset": 552572934432829,
+    "unitsSubDAY": 3408236,
+    "unitsRedDAY": 4569223
+  },
+  {
+    "date": "2023-05-31",
+    "netAsset": 552572937070532,
+    "unitsSubDAY": 3408352,
+    "unitsRedDAY": 4569679
+  },
+  {
+    "date": "2023-06-01",
+    "netAsset": 552572940564212,
+    "unitsSubDAY": 3408592,
+    "unitsRedDAY": 4569817
+  },
+  {
+    "date": "2023-06-02",
+    "netAsset": 552572943513730,
+    "unitsSubDAY": 3408737,
+    "unitsRedDAY": 4570187
+  },
+  {
+    "date": "2023-06-03",
+    "netAsset": 552572945086901,
+    "unitsSubDAY": 3409087,
+    "unitsRedDAY": 4570460
+  },
+  {
+    "date": "2023-06-04",
+    "netAsset": 552572947669385,
+    "unitsSubDAY": 3409265,
+    "unitsRedDAY": 4570702
+  },
+  {
+    "date": "2023-06-05",
+    "netAsset": 552572951179042,
+    "unitsSubDAY": 3409663,
+    "unitsRedDAY": 4571034
+  },
+  {
+    "date": "2023-06-06",
+    "netAsset": 552572954607780,
+    "unitsSubDAY": 3410091,
+    "unitsRedDAY": 4571241
+  },
+  {
+    "date": "2023-06-07",
+    "netAsset": 552572958012284,
+    "unitsSubDAY": 3410217,
+    "unitsRedDAY": 4571352
+  },
+  {
+    "date": "2023-06-08",
+    "netAsset": 552572962232628,
+    "unitsSubDAY": 3410512,
+    "unitsRedDAY": 4571504
+  },
+  {
+    "date": "2023-06-09",
+    "netAsset": 552572963584177,
+    "unitsSubDAY": 3411012,
+    "unitsRedDAY": 4571771
+  },
+  {
+    "date": "2023-06-10",
+    "netAsset": 552572967384480,
+    "unitsSubDAY": 3411183,
+    "unitsRedDAY": 4572211
+  },
+  {
+    "date": "2023-06-11",
+    "netAsset": 552572969053399,
+    "unitsSubDAY": 3411318,
+    "unitsRedDAY": 4572446
+  },
+  {
+    "date": "2023-06-12",
+    "netAsset": 552572972185487,
+    "unitsSubDAY": 3411661,
+    "unitsRedDAY": 4572549
+  },
+  {
+    "date": "2023-06-13",
+    "netAsset": 552572974629436,
+    "unitsSubDAY": 3411940,
+    "unitsRedDAY": 4573026
+  },
+  {
+    "date": "2023-06-14",
+    "netAsset": 552572977371279,
+    "unitsSubDAY": 3412343,
+    "unitsRedDAY": 4573455
+  },
+  {
+    "date": "2023-06-15",
+    "netAsset": 552572980503994,
+    "unitsSubDAY": 3412820,
+    "unitsRedDAY": 4573926
+  },
+  {
+    "date": "2023-06-16",
+    "netAsset": 552572984953930,
+    "unitsSubDAY": 3413262,
+    "unitsRedDAY": 4574120
+  },
+  {
+    "date": "2023-06-17",
+    "netAsset": 552572987099420,
+    "unitsSubDAY": 3413478,
+    "unitsRedDAY": 4574448
+  },
+  {
+    "date": "2023-06-18",
+    "netAsset": 552572989343747,
+    "unitsSubDAY": 3413812,
+    "unitsRedDAY": 4574881
+  },
+  {
+    "date": "2023-06-19",
+    "netAsset": 552572990718477,
+    "unitsSubDAY": 3414041,
+    "unitsRedDAY": 4575329
+  },
+  {
+    "date": "2023-06-20",
+    "netAsset": 552572994335310,
+    "unitsSubDAY": 3414164,
+    "unitsRedDAY": 4575604
+  },
+  {
+    "date": "2023-06-21",
+    "netAsset": 552572998571031,
+    "unitsSubDAY": 3414350,
+    "unitsRedDAY": 4575754
+  },
+  {
+    "date": "2023-06-22",
+    "netAsset": 552573003348122,
+    "unitsSubDAY": 3414524,
+    "unitsRedDAY": 4575929
+  },
+  {
+    "date": "2023-06-23",
+    "netAsset": 552573007322172,
+    "unitsSubDAY": 3414704,
+    "unitsRedDAY": 4576275
+  },
+  {
+    "date": "2023-06-24",
+    "netAsset": 552573011587103,
+    "unitsSubDAY": 3414954,
+    "unitsRedDAY": 4576751
+  },
+  {
+    "date": "2023-06-25",
+    "netAsset": 552573014897800,
+    "unitsSubDAY": 3415444,
+    "unitsRedDAY": 4576952
+  },
+  {
+    "date": "2023-06-26",
+    "netAsset": 552573016265308,
+    "unitsSubDAY": 3415817,
+    "unitsRedDAY": 4577375
+  },
+  {
+    "date": "2023-06-27",
+    "netAsset": 552573018509121,
+    "unitsSubDAY": 3416104,
+    "unitsRedDAY": 4577833
+  },
+  {
+    "date": "2023-06-28",
+    "netAsset": 552573019809567,
+    "unitsSubDAY": 3416356,
+    "unitsRedDAY": 4578331
+  },
+  {
+    "date": "2023-06-29",
+    "netAsset": 552573021287475,
+    "unitsSubDAY": 3416508,
+    "unitsRedDAY": 4578716
+  },
+  {
+    "date": "2023-06-30",
+    "netAsset": 552573023948943,
+    "unitsSubDAY": 3416820,
+    "unitsRedDAY": 4578871
+  },
+  {
+    "date": "2023-07-01",
+    "netAsset": 552573025658122,
+    "unitsSubDAY": 3417262,
+    "unitsRedDAY": 4579195
+  },
+  {
+    "date": "2023-07-02",
+    "netAsset": 552573030285282,
+    "unitsSubDAY": 3417733,
+    "unitsRedDAY": 4579351
+  },
+  {
+    "date": "2023-07-03",
+    "netAsset": 552573034046261,
+    "unitsSubDAY": 3418052,
+    "unitsRedDAY": 4579829
+  },
+  {
+    "date": "2023-07-04",
+    "netAsset": 552573035116028,
+    "unitsSubDAY": 3418299,
+    "unitsRedDAY": 4580223
+  },
+  {
+    "date": "2023-07-05",
+    "netAsset": 552573039855588,
+    "unitsSubDAY": 3418719,
+    "unitsRedDAY": 4580468
+  },
+  {
+    "date": "2023-07-06",
+    "netAsset": 552573041736135,
+    "unitsSubDAY": 3418958,
+    "unitsRedDAY": 4580781
+  },
+  {
+    "date": "2023-07-07",
+    "netAsset": 552573043038275,
+    "unitsSubDAY": 3419363,
+    "unitsRedDAY": 4581244
+  },
+  {
+    "date": "2023-07-08",
+    "netAsset": 552573045058961,
+    "unitsSubDAY": 3419726,
+    "unitsRedDAY": 4581650
+  },
+  {
+    "date": "2023-07-09",
+    "netAsset": 552573046060148,
+    "unitsSubDAY": 3420050,
+    "unitsRedDAY": 4581844
+  },
+  {
+    "date": "2023-07-10",
+    "netAsset": 552573049530466,
+    "unitsSubDAY": 3420421,
+    "unitsRedDAY": 4582147
+  },
+  {
+    "date": "2023-07-11",
+    "netAsset": 552573051340694,
+    "unitsSubDAY": 3420887,
+    "unitsRedDAY": 4582561
+  },
+  {
+    "date": "2023-07-12",
+    "netAsset": 552573054995458,
+    "unitsSubDAY": 3421095,
+    "unitsRedDAY": 4583045
+  },
+  {
+    "date": "2023-07-13",
+    "netAsset": 552573057347784,
+    "unitsSubDAY": 3421459,
+    "unitsRedDAY": 4583508
+  },
+  {
+    "date": "2023-07-14",
+    "netAsset": 552573061221832,
+    "unitsSubDAY": 3421633,
+    "unitsRedDAY": 4583941
+  },
+  {
+    "date": "2023-07-15",
+    "netAsset": 552573063337535,
+    "unitsSubDAY": 3421992,
+    "unitsRedDAY": 4584348
+  },
+  {
+    "date": "2023-07-16",
+    "netAsset": 552573064544611,
+    "unitsSubDAY": 3422305,
+    "unitsRedDAY": 4584595
+  },
+  {
+    "date": "2023-07-17",
+    "netAsset": 552573065555317,
+    "unitsSubDAY": 3422498,
+    "unitsRedDAY": 4584724
+  },
+  {
+    "date": "2023-07-18",
+    "netAsset": 552573066778845,
+    "unitsSubDAY": 3422964,
+    "unitsRedDAY": 4584945
+  },
+  {
+    "date": "2023-07-19",
+    "netAsset": 552573069844485,
+    "unitsSubDAY": 3423252,
+    "unitsRedDAY": 4585054
+  },
+  {
+    "date": "2023-07-20",
+    "netAsset": 552573073191108,
+    "unitsSubDAY": 3423535,
+    "unitsRedDAY": 4585276
+  },
+  {
+    "date": "2023-07-21",
+    "netAsset": 552573077357184,
+    "unitsSubDAY": 3423856,
+    "unitsRedDAY": 4585414
+  },
+  {
+    "date": "2023-07-22",
+    "netAsset": 552573079101436,
+    "unitsSubDAY": 3424185,
+    "unitsRedDAY": 4585670
+  },
+  {
+    "date": "2023-07-23",
+    "netAsset": 552573080589122,
+    "unitsSubDAY": 3424596,
+    "unitsRedDAY": 4585922
+  },
+  {
+    "date": "2023-07-24",
+    "netAsset": 552573083442122,
+    "unitsSubDAY": 3425059,
+    "unitsRedDAY": 4586370
+  },
+  {
+    "date": "2023-07-25",
+    "netAsset": 552573087469765,
+    "unitsSubDAY": 3425333,
+    "unitsRedDAY": 4586617
+  },
+  {
+    "date": "2023-07-26",
+    "netAsset": 552573091456649,
+    "unitsSubDAY": 3425810,
+    "unitsRedDAY": 4586739
+  },
+  {
+    "date": "2023-07-27",
+    "netAsset": 552573095930460,
+    "unitsSubDAY": 3425927,
+    "unitsRedDAY": 4586980
+  },
+  {
+    "date": "2023-07-28",
+    "netAsset": 552573097822383,
+    "unitsSubDAY": 3426220,
+    "unitsRedDAY": 4587126
+  },
+  {
+    "date": "2023-07-29",
+    "netAsset": 552573100087951,
+    "unitsSubDAY": 3426572,
+    "unitsRedDAY": 4587301
+  },
+  {
+    "date": "2023-07-30",
+    "netAsset": 552573102923205,
+    "unitsSubDAY": 3427059,
+    "unitsRedDAY": 4587573
+  },
+  {
+    "date": "2023-07-31",
+    "netAsset": 552573105692932,
+    "unitsSubDAY": 3427320,
+    "unitsRedDAY": 4587992
+  },
+  {
+    "date": "2023-08-01",
+    "netAsset": 552573107744864,
+    "unitsSubDAY": 3427809,
+    "unitsRedDAY": 4588255
+  },
+  {
+    "date": "2023-08-02",
+    "netAsset": 552573110933214,
+    "unitsSubDAY": 3428268,
+    "unitsRedDAY": 4588692
+  },
+  {
+    "date": "2023-08-03",
+    "netAsset": 552573114452271,
+    "unitsSubDAY": 3428537,
+    "unitsRedDAY": 4589175
+  },
+  {
+    "date": "2023-08-04",
+    "netAsset": 552573117748170,
+    "unitsSubDAY": 3428638,
+    "unitsRedDAY": 4589371
+  },
+  {
+    "date": "2023-08-05",
+    "netAsset": 552573120467721,
+    "unitsSubDAY": 3428898,
+    "unitsRedDAY": 4589541
+  },
+  {
+    "date": "2023-08-06",
+    "netAsset": 552573123391097,
+    "unitsSubDAY": 3429124,
+    "unitsRedDAY": 4589921
+  },
+  {
+    "date": "2023-08-07",
+    "netAsset": 552573125198980,
+    "unitsSubDAY": 3429397,
+    "unitsRedDAY": 4590093
+  },
+  {
+    "date": "2023-08-08",
+    "netAsset": 552573128435575,
+    "unitsSubDAY": 3429779,
+    "unitsRedDAY": 4590310
+  },
+  {
+    "date": "2023-08-09",
+    "netAsset": 552573131446688,
+    "unitsSubDAY": 3430021,
+    "unitsRedDAY": 4590685
+  },
+  {
+    "date": "2023-08-10",
+    "netAsset": 552573135363270,
+    "unitsSubDAY": 3430253,
+    "unitsRedDAY": 4591006
+  },
+  {
+    "date": "2023-08-11",
+    "netAsset": 552573137505552,
+    "unitsSubDAY": 3430525,
+    "unitsRedDAY": 4591443
+  },
+  {
+    "date": "2023-08-12",
+    "netAsset": 552573140059058,
+    "unitsSubDAY": 3430901,
+    "unitsRedDAY": 4591571
+  },
+  {
+    "date": "2023-08-13",
+    "netAsset": 552573141829620,
+    "unitsSubDAY": 3431311,
+    "unitsRedDAY": 4592034
+  },
+  {
+    "date": "2023-08-14",
+    "netAsset": 552573143199947,
+    "unitsSubDAY": 3431732,
+    "unitsRedDAY": 4592301
+  },
+  {
+    "date": "2023-08-15",
+    "netAsset": 552573146739797,
+    "unitsSubDAY": 3432104,
+    "unitsRedDAY": 4592744
+  },
+  {
+    "date": "2023-08-16",
+    "netAsset": 552573148843031,
+    "unitsSubDAY": 3432401,
+    "unitsRedDAY": 4593214
+  },
+  {
+    "date": "2023-08-17",
+    "netAsset": 552573152278195,
+    "unitsSubDAY": 3432681,
+    "unitsRedDAY": 4593657
+  },
+  {
+    "date": "2023-08-18",
+    "netAsset": 552573154385329,
+    "unitsSubDAY": 3432794,
+    "unitsRedDAY": 4594125
+  },
+  {
+    "date": "2023-08-19",
+    "netAsset": 552573156776598,
+    "unitsSubDAY": 3432900,
+    "unitsRedDAY": 4594491
+  },
+  {
+    "date": "2023-08-20",
+    "netAsset": 552573158289961,
+    "unitsSubDAY": 3433268,
+    "unitsRedDAY": 4594748
+  },
+  {
+    "date": "2023-08-21",
+    "netAsset": 552573162009805,
+    "unitsSubDAY": 3433452,
+    "unitsRedDAY": 4595033
+  },
+  {
+    "date": "2023-08-22",
+    "netAsset": 552573163557114,
+    "unitsSubDAY": 3433675,
+    "unitsRedDAY": 4595278
+  },
+  {
+    "date": "2023-08-23",
+    "netAsset": 552573165556084,
+    "unitsSubDAY": 3433778,
+    "unitsRedDAY": 4595568
+  },
+  {
+    "date": "2023-08-24",
+    "netAsset": 552573169367312,
+    "unitsSubDAY": 3434114,
+    "unitsRedDAY": 4595677
+  },
+  {
+    "date": "2023-08-25",
+    "netAsset": 552573171969296,
+    "unitsSubDAY": 3434565,
+    "unitsRedDAY": 4595973
+  },
+  {
+    "date": "2023-08-26",
+    "netAsset": 552573175652663,
+    "unitsSubDAY": 3434802,
+    "unitsRedDAY": 4596306
+  },
+  {
+    "date": "2023-08-27",
+    "netAsset": 552573178007791,
+    "unitsSubDAY": 3435098,
+    "unitsRedDAY": 4596575
+  },
+  {
+    "date": "2023-08-28",
+    "netAsset": 552573179761156,
+    "unitsSubDAY": 3435481,
+    "unitsRedDAY": 4596856
+  },
+  {
+    "date": "2023-08-29",
+    "netAsset": 552573183506404,
+    "unitsSubDAY": 3435939,
+    "unitsRedDAY": 4597265
+  },
+  {
+    "date": "2023-08-30",
+    "netAsset": 552573185365532,
+    "unitsSubDAY": 3436193,
+    "unitsRedDAY": 4597645
+  },
+  {
+    "date": "2023-08-31",
+    "netAsset": 552573186404040,
+    "unitsSubDAY": 3436644,
+    "unitsRedDAY": 4597851
+  },
+  {
+    "date": "2023-09-01",
+    "netAsset": 552573189071054,
+    "unitsSubDAY": 3437038,
+    "unitsRedDAY": 4598154
+  },
+  {
+    "date": "2023-09-02",
+    "netAsset": 552573192798520,
+    "unitsSubDAY": 3437433,
+    "unitsRedDAY": 4598467
+  },
+  {
+    "date": "2023-09-03",
+    "netAsset": 552573195720382,
+    "unitsSubDAY": 3437668,
+    "unitsRedDAY": 4598568
+  },
+  {
+    "date": "2023-09-04",
+    "netAsset": 552573199080034,
+    "unitsSubDAY": 3437807,
+    "unitsRedDAY": 4598751
+  },
+  {
+    "date": "2023-09-05",
+    "netAsset": 552573203812473,
+    "unitsSubDAY": 3438234,
+    "unitsRedDAY": 4599056
+  },
+  {
+    "date": "2023-09-06",
+    "netAsset": 552573207505515,
+    "unitsSubDAY": 3438391,
+    "unitsRedDAY": 4599369
+  },
+  {
+    "date": "2023-09-07",
+    "netAsset": 552573209335125,
+    "unitsSubDAY": 3438634,
+    "unitsRedDAY": 4599557
+  },
+  {
+    "date": "2023-09-08",
+    "netAsset": 552573211518059,
+    "unitsSubDAY": 3438861,
+    "unitsRedDAY": 4599846
+  },
+  {
+    "date": "2023-09-09",
+    "netAsset": 552573216333206,
+    "unitsSubDAY": 3438975,
+    "unitsRedDAY": 4600125
+  },
+  {
+    "date": "2023-09-10",
+    "netAsset": 552573218211198,
+    "unitsSubDAY": 3439185,
+    "unitsRedDAY": 4600614
+  },
+  {
+    "date": "2023-09-11",
+    "netAsset": 552573221182149,
+    "unitsSubDAY": 3439457,
+    "unitsRedDAY": 4600871
+  },
+  {
+    "date": "2023-09-12",
+    "netAsset": 552573222699525,
+    "unitsSubDAY": 3439866,
+    "unitsRedDAY": 4601109
+  },
+  {
+    "date": "2023-09-13",
+    "netAsset": 552573225663449,
+    "unitsSubDAY": 3440069,
+    "unitsRedDAY": 4601308
+  },
+  {
+    "date": "2023-09-14",
+    "netAsset": 552573228714224,
+    "unitsSubDAY": 3440282,
+    "unitsRedDAY": 4601412
+  },
+  {
+    "date": "2023-09-15",
+    "netAsset": 552573232313714,
+    "unitsSubDAY": 3440505,
+    "unitsRedDAY": 4601639
+  },
+  {
+    "date": "2023-09-16",
+    "netAsset": 552573234499655,
+    "unitsSubDAY": 3440915,
+    "unitsRedDAY": 4601978
+  },
+  {
+    "date": "2023-09-17",
+    "netAsset": 552573235851021,
+    "unitsSubDAY": 3441075,
+    "unitsRedDAY": 4602145
+  },
+  {
+    "date": "2023-09-18",
+    "netAsset": 552573240458531,
+    "unitsSubDAY": 3441464,
+    "unitsRedDAY": 4602596
+  },
+  {
+    "date": "2023-09-19",
+    "netAsset": 552573242409081,
+    "unitsSubDAY": 3441585,
+    "unitsRedDAY": 4602725
+  },
+  {
+    "date": "2023-09-20",
+    "netAsset": 552573246019599,
+    "unitsSubDAY": 3441993,
+    "unitsRedDAY": 4603212
+  },
+  {
+    "date": "2023-09-21",
+    "netAsset": 552573250969808,
+    "unitsSubDAY": 3442269,
+    "unitsRedDAY": 4603623
+  },
+  {
+    "date": "2023-09-22",
+    "netAsset": 552573254917336,
+    "unitsSubDAY": 3442678,
+    "unitsRedDAY": 4603801
+  },
+  {
+    "date": "2023-09-23",
+    "netAsset": 552573257133922,
+    "unitsSubDAY": 3443097,
+    "unitsRedDAY": 4604069
+  },
+  {
+    "date": "2023-09-24",
+    "netAsset": 552573261506988,
+    "unitsSubDAY": 3443269,
+    "unitsRedDAY": 4604395
+  },
+  {
+    "date": "2023-09-25",
+    "netAsset": 552573264209581,
+    "unitsSubDAY": 3443420,
+    "unitsRedDAY": 4604704
+  },
+  {
+    "date": "2023-09-26",
+    "netAsset": 552573266308021,
+    "unitsSubDAY": 3443641,
+    "unitsRedDAY": 4604844
+  },
+  {
+    "date": "2023-09-27",
+    "netAsset": 552573270471405,
+    "unitsSubDAY": 3443888,
+    "unitsRedDAY": 4605203
+  },
+  {
+    "date": "2023-09-28",
+    "netAsset": 552573273117106,
+    "unitsSubDAY": 3444297,
+    "unitsRedDAY": 4605642
+  },
+  {
+    "date": "2023-09-29",
+    "netAsset": 552573277926417,
+    "unitsSubDAY": 3444437,
+    "unitsRedDAY": 4606035
+  },
+  {
+    "date": "2023-09-30",
+    "netAsset": 552573280862295,
+    "unitsSubDAY": 3444714,
+    "unitsRedDAY": 4606408
+  },
+  {
+    "date": "2023-10-01",
+    "netAsset": 552573285004687,
+    "unitsSubDAY": 3444954,
+    "unitsRedDAY": 4606905
+  },
+  {
+    "date": "2023-10-02",
+    "netAsset": 552573288468966,
+    "unitsSubDAY": 3445309,
+    "unitsRedDAY": 4607242
+  },
+  {
+    "date": "2023-10-03",
+    "netAsset": 552573290353514,
+    "unitsSubDAY": 3445503,
+    "unitsRedDAY": 4607556
+  },
+  {
+    "date": "2023-10-04",
+    "netAsset": 552573293014681,
+    "unitsSubDAY": 3445927,
+    "unitsRedDAY": 4607663
+  },
+  {
+    "date": "2023-10-05",
+    "netAsset": 552573297010810,
+    "unitsSubDAY": 3446289,
+    "unitsRedDAY": 4608116
+  },
+  {
+    "date": "2023-10-06",
+    "netAsset": 552573301001410,
+    "unitsSubDAY": 3446528,
+    "unitsRedDAY": 4608592
+  },
+  {
+    "date": "2023-10-07",
+    "netAsset": 552573303421658,
+    "unitsSubDAY": 3446629,
+    "unitsRedDAY": 4608871
+  },
+  {
+    "date": "2023-10-08",
+    "netAsset": 552573305824789,
+    "unitsSubDAY": 3446753,
+    "unitsRedDAY": 4608975
+  },
+  {
+    "date": "2023-10-09",
+    "netAsset": 552573308346196,
+    "unitsSubDAY": 3447228,
+    "unitsRedDAY": 4609211
+  },
+  {
+    "date": "2023-10-10",
+    "netAsset": 552573309507985,
+    "unitsSubDAY": 3447714,
+    "unitsRedDAY": 4609537
+  },
+  {
+    "date": "2023-10-11",
+    "netAsset": 552573314046620,
+    "unitsSubDAY": 3448141,
+    "unitsRedDAY": 4609764
+  },
+  {
+    "date": "2023-10-12",
+    "netAsset": 552573317333258,
+    "unitsSubDAY": 3448391,
+    "unitsRedDAY": 4610190
+  },
+  {
+    "date": "2023-10-13",
+    "netAsset": 552573321563502,
+    "unitsSubDAY": 3448545,
+    "unitsRedDAY": 4610342
+  },
+  {
+    "date": "2023-10-14",
+    "netAsset": 552573326215117,
+    "unitsSubDAY": 3449008,
+    "unitsRedDAY": 4610841
+  },
+  {
+    "date": "2023-10-15",
+    "netAsset": 552573328287919,
+    "unitsSubDAY": 3449347,
+    "unitsRedDAY": 4611078
+  },
+  {
+    "date": "2023-10-16",
+    "netAsset": 552573332467248,
+    "unitsSubDAY": 3449817,
+    "unitsRedDAY": 4611194
+  },
+  {
+    "date": "2023-10-17",
+    "netAsset": 552573335704035,
+    "unitsSubDAY": 3450257,
+    "unitsRedDAY": 4611609
+  },
+  {
+    "date": "2023-10-18",
+    "netAsset": 552573338919132,
+    "unitsSubDAY": 3450739,
+    "unitsRedDAY": 4611865
+  },
+  {
+    "date": "2023-10-19",
+    "netAsset": 552573342076743,
+    "unitsSubDAY": 3450942,
+    "unitsRedDAY": 4611980
+  },
+  {
+    "date": "2023-10-20",
+    "netAsset": 552573344767763,
+    "unitsSubDAY": 3451132,
+    "unitsRedDAY": 4612333
+  },
+  {
+    "date": "2023-10-21",
+    "netAsset": 552573347893396,
+    "unitsSubDAY": 3451482,
+    "unitsRedDAY": 4612444
+  },
+  {
+    "date": "2023-10-22",
+    "netAsset": 552573350552569,
+    "unitsSubDAY": 3451802,
+    "unitsRedDAY": 4612827
+  },
+  {
+    "date": "2023-10-23",
+    "netAsset": 552573351730595,
+    "unitsSubDAY": 3452282,
+    "unitsRedDAY": 4613325
+  },
+  {
+    "date": "2023-10-24",
+    "netAsset": 552573353561427,
+    "unitsSubDAY": 3452604,
+    "unitsRedDAY": 4613679
+  },
+  {
+    "date": "2023-10-25",
+    "netAsset": 552573354925368,
+    "unitsSubDAY": 3452805,
+    "unitsRedDAY": 4613918
+  },
+  {
+    "date": "2023-10-26",
+    "netAsset": 552573359870135,
+    "unitsSubDAY": 3452923,
+    "unitsRedDAY": 4614416
+  },
+  {
+    "date": "2023-10-27",
+    "netAsset": 552573361264460,
+    "unitsSubDAY": 3453109,
+    "unitsRedDAY": 4614686
+  },
+  {
+    "date": "2023-10-28",
+    "netAsset": 552573366188270,
+    "unitsSubDAY": 3453367,
+    "unitsRedDAY": 4614918
+  },
+  {
+    "date": "2023-10-29",
+    "netAsset": 552573368266905,
+    "unitsSubDAY": 3453754,
+    "unitsRedDAY": 4615028
+  },
+  {
+    "date": "2023-10-30",
+    "netAsset": 552573369443532,
+    "unitsSubDAY": 3453880,
+    "unitsRedDAY": 4615377
+  },
+  {
+    "date": "2023-10-31",
+    "netAsset": 552573373826640,
+    "unitsSubDAY": 3454343,
+    "unitsRedDAY": 4615567
+  },
+  {
+    "date": "2023-11-01",
+    "netAsset": 552573376820723,
+    "unitsSubDAY": 3454735,
+    "unitsRedDAY": 4615793
+  },
+  {
+    "date": "2023-11-02",
+    "netAsset": 552573379949841,
+    "unitsSubDAY": 3454873,
+    "unitsRedDAY": 4616009
+  },
+  {
+    "date": "2023-11-03",
+    "netAsset": 552573384883097,
+    "unitsSubDAY": 3455333,
+    "unitsRedDAY": 4616219
+  },
+  {
+    "date": "2023-11-04",
+    "netAsset": 552573386041140,
+    "unitsSubDAY": 3455446,
+    "unitsRedDAY": 4616652
+  },
+  {
+    "date": "2023-11-05",
+    "netAsset": 552573388923391,
+    "unitsSubDAY": 3455742,
+    "unitsRedDAY": 4617070
+  },
+  {
+    "date": "2023-11-06",
+    "netAsset": 552573393470751,
+    "unitsSubDAY": 3456034,
+    "unitsRedDAY": 4617234
+  },
+  {
+    "date": "2023-11-07",
+    "netAsset": 552573397148722,
+    "unitsSubDAY": 3456287,
+    "unitsRedDAY": 4617362
+  },
+  {
+    "date": "2023-11-08",
+    "netAsset": 552573401892826,
+    "unitsSubDAY": 3456741,
+    "unitsRedDAY": 4617662
+  },
+  {
+    "date": "2023-11-09",
+    "netAsset": 552573405937996,
+    "unitsSubDAY": 3457081,
+    "unitsRedDAY": 4618061
+  },
+  {
+    "date": "2023-11-10",
+    "netAsset": 552573408240014,
+    "unitsSubDAY": 3457252,
+    "unitsRedDAY": 4618223
+  },
+  {
+    "date": "2023-11-11",
+    "netAsset": 552573412169135,
+    "unitsSubDAY": 3457409,
+    "unitsRedDAY": 4618400
+  },
+  {
+    "date": "2023-11-12",
+    "netAsset": 552573415933108,
+    "unitsSubDAY": 3457708,
+    "unitsRedDAY": 4618811
+  },
+  {
+    "date": "2023-11-13",
+    "netAsset": 552573419199742,
+    "unitsSubDAY": 3458153,
+    "unitsRedDAY": 4619270
+  },
+  {
+    "date": "2023-11-14",
+    "netAsset": 552573423518084,
+    "unitsSubDAY": 3458494,
+    "unitsRedDAY": 4619613
+  },
+  {
+    "date": "2023-11-15",
+    "netAsset": 552573428398768,
+    "unitsSubDAY": 3458836,
+    "unitsRedDAY": 4619871
+  },
+  {
+    "date": "2023-11-16",
+    "netAsset": 552573430267969,
+    "unitsSubDAY": 3459078,
+    "unitsRedDAY": 4620006
+  },
+  {
+    "date": "2023-11-17",
+    "netAsset": 552573434607765,
+    "unitsSubDAY": 3459409,
+    "unitsRedDAY": 4620470
+  },
+  {
+    "date": "2023-11-18",
+    "netAsset": 552573437960801,
+    "unitsSubDAY": 3459655,
+    "unitsRedDAY": 4620945
+  },
+  {
+    "date": "2023-11-19",
+    "netAsset": 552573439952643,
+    "unitsSubDAY": 3460154,
+    "unitsRedDAY": 4621109
+  },
+  {
+    "date": "2023-11-20",
+    "netAsset": 552573443426998,
+    "unitsSubDAY": 3460427,
+    "unitsRedDAY": 4621602
+  },
+  {
+    "date": "2023-11-21",
+    "netAsset": 552573446265010,
+    "unitsSubDAY": 3460700,
+    "unitsRedDAY": 4622064
+  },
+  {
+    "date": "2023-11-22",
+    "netAsset": 552573447877589,
+    "unitsSubDAY": 3460817,
+    "unitsRedDAY": 4622231
+  },
+  {
+    "date": "2023-11-23",
+    "netAsset": 552573450161545,
+    "unitsSubDAY": 3460925,
+    "unitsRedDAY": 4622358
+  },
+  {
+    "date": "2023-11-24",
+    "netAsset": 552573455100931,
+    "unitsSubDAY": 3461074,
+    "unitsRedDAY": 4622508
+  },
+  {
+    "date": "2023-11-25",
+    "netAsset": 552573457872694,
+    "unitsSubDAY": 3461383,
+    "unitsRedDAY": 4622980
+  },
+  {
+    "date": "2023-11-26",
+    "netAsset": 552573460600645,
+    "unitsSubDAY": 3461595,
+    "unitsRedDAY": 4623444
+  },
+  {
+    "date": "2023-11-27",
+    "netAsset": 552573465235227,
+    "unitsSubDAY": 3461925,
+    "unitsRedDAY": 4623669
+  },
+  {
+    "date": "2023-11-28",
+    "netAsset": 552573469776597,
+    "unitsSubDAY": 3462104,
+    "unitsRedDAY": 4624057
+  },
+  {
+    "date": "2023-11-29",
+    "netAsset": 552573473587911,
+    "unitsSubDAY": 3462315,
+    "unitsRedDAY": 4624374
+  },
+  {
+    "date": "2023-11-30",
+    "netAsset": 552573474966406,
+    "unitsSubDAY": 3462701,
+    "unitsRedDAY": 4624836
+  },
+  {
+    "date": "2023-12-01",
+    "netAsset": 552573477627250,
+    "unitsSubDAY": 3462839,
+    "unitsRedDAY": 4625035
+  },
+  {
+    "date": "2023-12-02",
+    "netAsset": 552573482347787,
+    "unitsSubDAY": 3463238,
+    "unitsRedDAY": 4625255
+  },
+  {
+    "date": "2023-12-03",
+    "netAsset": 552573484126602,
+    "unitsSubDAY": 3463653,
+    "unitsRedDAY": 4625449
+  },
+  {
+    "date": "2023-12-04",
+    "netAsset": 552573488216547,
+    "unitsSubDAY": 3463864,
+    "unitsRedDAY": 4625881
+  },
+  {
+    "date": "2023-12-05",
+    "netAsset": 552573490915497,
+    "unitsSubDAY": 3464231,
+    "unitsRedDAY": 4626128
+  },
+  {
+    "date": "2023-12-06",
+    "netAsset": 552573492771129,
+    "unitsSubDAY": 3464530,
+    "unitsRedDAY": 4626609
+  },
+  {
+    "date": "2023-12-07",
+    "netAsset": 552573497289859,
+    "unitsSubDAY": 3464877,
+    "unitsRedDAY": 4626799
+  },
+  {
+    "date": "2023-12-08",
+    "netAsset": 552573498572949,
+    "unitsSubDAY": 3465031,
+    "unitsRedDAY": 4626939
+  },
+  {
+    "date": "2023-12-09",
+    "netAsset": 552573500527936,
+    "unitsSubDAY": 3465145,
+    "unitsRedDAY": 4627109
+  },
+  {
+    "date": "2023-12-10",
+    "netAsset": 552573501582643,
+    "unitsSubDAY": 3465602,
+    "unitsRedDAY": 4627333
+  },
+  {
+    "date": "2023-12-11",
+    "netAsset": 552573503472693,
+    "unitsSubDAY": 3465826,
+    "unitsRedDAY": 4627492
+  },
+  {
+    "date": "2023-12-12",
+    "netAsset": 552573505726705,
+    "unitsSubDAY": 3466241,
+    "unitsRedDAY": 4627840
+  },
+  {
+    "date": "2023-12-13",
+    "netAsset": 552573508797741,
+    "unitsSubDAY": 3466482,
+    "unitsRedDAY": 4627988
+  },
+  {
+    "date": "2023-12-14",
+    "netAsset": 552573513327866,
+    "unitsSubDAY": 3466907,
+    "unitsRedDAY": 4628147
+  },
+  {
+    "date": "2023-12-15",
+    "netAsset": 552573518107487,
+    "unitsSubDAY": 3467075,
+    "unitsRedDAY": 4628308
+  },
+  {
+    "date": "2023-12-16",
+    "netAsset": 552573520483189,
+    "unitsSubDAY": 3467384,
+    "unitsRedDAY": 4628579
+  },
+  {
+    "date": "2023-12-17",
+    "netAsset": 552573523104917,
+    "unitsSubDAY": 3467679,
+    "unitsRedDAY": 4628998
+  },
+  {
+    "date": "2023-12-18",
+    "netAsset": 552573524885509,
+    "unitsSubDAY": 3467861,
+    "unitsRedDAY": 4629445
+  },
+  {
+    "date": "2023-12-19",
+    "netAsset": 552573528559821,
+    "unitsSubDAY": 3468227,
+    "unitsRedDAY": 4629659
+  },
+  {
+    "date": "2023-12-20",
+    "netAsset": 552573530309024,
+    "unitsSubDAY": 3468342,
+    "unitsRedDAY": 4629941
+  },
+  {
+    "date": "2023-12-21",
+    "netAsset": 552573535205721,
+    "unitsSubDAY": 3468769,
+    "unitsRedDAY": 4630272
+  },
+  {
+    "date": "2023-12-22",
+    "netAsset": 552573538827762,
+    "unitsSubDAY": 3468883,
+    "unitsRedDAY": 4630412
+  },
+  {
+    "date": "2023-12-23",
+    "netAsset": 552573543011168,
+    "unitsSubDAY": 3469332,
+    "unitsRedDAY": 4630621
+  },
+  {
+    "date": "2023-12-24",
+    "netAsset": 552573547598994,
+    "unitsSubDAY": 3469654,
+    "unitsRedDAY": 4630919
+  },
+  {
+    "date": "2023-12-25",
+    "netAsset": 552573550018708,
+    "unitsSubDAY": 3469896,
+    "unitsRedDAY": 4631308
+  },
+  {
+    "date": "2023-12-26",
+    "netAsset": 552573552202055,
+    "unitsSubDAY": 3470016,
+    "unitsRedDAY": 4631526
+  },
+  {
+    "date": "2023-12-27",
+    "netAsset": 552573553770719,
+    "unitsSubDAY": 3470435,
+    "unitsRedDAY": 4631943
+  },
+  {
+    "date": "2023-12-28",
+    "netAsset": 552573557094259,
+    "unitsSubDAY": 3470619,
+    "unitsRedDAY": 4632300
+  },
+  {
+    "date": "2023-12-29",
+    "netAsset": 552573561769795,
+    "unitsSubDAY": 3471116,
+    "unitsRedDAY": 4632523
+  },
+  {
+    "date": "2023-12-30",
+    "netAsset": 552573563259285,
+    "unitsSubDAY": 3471324,
+    "unitsRedDAY": 4632746
+  },
+  {
+    "date": "2023-12-31",
+    "netAsset": 552573565831470,
+    "unitsSubDAY": 3471731,
+    "unitsRedDAY": 4632950
+  },
+  {
+    "date": "2024-01-01",
+    "netAsset": 552573568745694,
+    "unitsSubDAY": 3472139,
+    "unitsRedDAY": 4633168
+  },
+  {
+    "date": "2024-01-02",
+    "netAsset": 552573572238656,
+    "unitsSubDAY": 3472444,
+    "unitsRedDAY": 4633380
+  },
+  {
+    "date": "2024-01-03",
+    "netAsset": 552573574323945,
+    "unitsSubDAY": 3472689,
+    "unitsRedDAY": 4633499
+  },
+  {
+    "date": "2024-01-04",
+    "netAsset": 552573577993682,
+    "unitsSubDAY": 3472848,
+    "unitsRedDAY": 4633903
+  },
+  {
+    "date": "2024-01-05",
+    "netAsset": 552573582261087,
+    "unitsSubDAY": 3473073,
+    "unitsRedDAY": 4634051
+  },
+  {
+    "date": "2024-01-06",
+    "netAsset": 552573584374098,
+    "unitsSubDAY": 3473416,
+    "unitsRedDAY": 4634200
+  },
+  {
+    "date": "2024-01-07",
+    "netAsset": 552573587448450,
+    "unitsSubDAY": 3473751,
+    "unitsRedDAY": 4634438
+  },
+  {
+    "date": "2024-01-08",
+    "netAsset": 552573592406521,
+    "unitsSubDAY": 3473900,
+    "unitsRedDAY": 4634743
+  },
+  {
+    "date": "2024-01-09",
+    "netAsset": 552573594567176,
+    "unitsSubDAY": 3474328,
+    "unitsRedDAY": 4634964
+  },
+  {
+    "date": "2024-01-10",
+    "netAsset": 552573596545905,
+    "unitsSubDAY": 3474441,
+    "unitsRedDAY": 4635074
+  },
+  {
+    "date": "2024-01-11",
+    "netAsset": 552573600432689,
+    "unitsSubDAY": 3474864,
+    "unitsRedDAY": 4635486
+  },
+  {
+    "date": "2024-01-12",
+    "netAsset": 552573602880803,
+    "unitsSubDAY": 3475258,
+    "unitsRedDAY": 4635723
+  },
+  {
+    "date": "2024-01-13",
+    "netAsset": 552573606052544,
+    "unitsSubDAY": 3475489,
+    "unitsRedDAY": 4636045
+  },
+  {
+    "date": "2024-01-14",
+    "netAsset": 552573607064908,
+    "unitsSubDAY": 3475643,
+    "unitsRedDAY": 4636395
+  },
+  {
+    "date": "2024-01-15",
+    "netAsset": 552573610989251,
+    "unitsSubDAY": 3475869,
+    "unitsRedDAY": 4636696
+  },
+  {
+    "date": "2024-01-16",
+    "netAsset": 552573614574817,
+    "unitsSubDAY": 3476314,
+    "unitsRedDAY": 4636944
+  },
+  {
+    "date": "2024-01-17",
+    "netAsset": 552573617461409,
+    "unitsSubDAY": 3476681,
+    "unitsRedDAY": 4637440
+  },
+  {
+    "date": "2024-01-18",
+    "netAsset": 552573620829932,
+    "unitsSubDAY": 3476827,
+    "unitsRedDAY": 4637745
+  },
+  {
+    "date": "2024-01-19",
+    "netAsset": 552573622633316,
+    "unitsSubDAY": 3477030,
+    "unitsRedDAY": 4638233
+  },
+  {
+    "date": "2024-01-20",
+    "netAsset": 552573624112274,
+    "unitsSubDAY": 3477529,
+    "unitsRedDAY": 4638689
+  },
+  {
+    "date": "2024-01-21",
+    "netAsset": 552573625965767,
+    "unitsSubDAY": 3477785,
+    "unitsRedDAY": 4638814
+  },
+  {
+    "date": "2024-01-22",
+    "netAsset": 552573629418543,
+    "unitsSubDAY": 3478117,
+    "unitsRedDAY": 4639244
+  },
+  {
+    "date": "2024-01-23",
+    "netAsset": 552573631663077,
+    "unitsSubDAY": 3478494,
+    "unitsRedDAY": 4639474
+  },
+  {
+    "date": "2024-01-24",
+    "netAsset": 552573634596947,
+    "unitsSubDAY": 3478916,
+    "unitsRedDAY": 4639901
+  },
+  {
+    "date": "2024-01-25",
+    "netAsset": 552573638415130,
+    "unitsSubDAY": 3479231,
+    "unitsRedDAY": 4640004
+  },
+  {
+    "date": "2024-01-26",
+    "netAsset": 552573640371625,
+    "unitsSubDAY": 3479449,
+    "unitsRedDAY": 4640384
+  },
+  {
+    "date": "2024-01-27",
+    "netAsset": 552573643494771,
+    "unitsSubDAY": 3479937,
+    "unitsRedDAY": 4640710
+  },
+  {
+    "date": "2024-01-28",
+    "netAsset": 552573646002451,
+    "unitsSubDAY": 3480067,
+    "unitsRedDAY": 4641078
+  },
+  {
+    "date": "2024-01-29",
+    "netAsset": 552573649376031,
+    "unitsSubDAY": 3480502,
+    "unitsRedDAY": 4641375
+  },
+  {
+    "date": "2024-01-30",
+    "netAsset": 552573652620486,
+    "unitsSubDAY": 3480818,
+    "unitsRedDAY": 4641724
+  },
+  {
+    "date": "2024-01-31",
+    "netAsset": 552573657043801,
+    "unitsSubDAY": 3481188,
+    "unitsRedDAY": 4642154
+  },
+  {
+    "date": "2024-02-01",
+    "netAsset": 552573661818574,
+    "unitsSubDAY": 3481639,
+    "unitsRedDAY": 4642587
+  },
+  {
+    "date": "2024-02-02",
+    "netAsset": 552573665433628,
+    "unitsSubDAY": 3482079,
+    "unitsRedDAY": 4642866
+  },
+  {
+    "date": "2024-02-03",
+    "netAsset": 552573666998762,
+    "unitsSubDAY": 3482182,
+    "unitsRedDAY": 4643041
+  },
+  {
+    "date": "2024-02-04",
+    "netAsset": 552573670313126,
+    "unitsSubDAY": 3482523,
+    "unitsRedDAY": 4643497
+  },
+  {
+    "date": "2024-02-05",
+    "netAsset": 552573671429832,
+    "unitsSubDAY": 3482932,
+    "unitsRedDAY": 4643881
+  },
+  {
+    "date": "2024-02-06",
+    "netAsset": 552573674575900,
+    "unitsSubDAY": 3483292,
+    "unitsRedDAY": 4644076
+  },
+  {
+    "date": "2024-02-07",
+    "netAsset": 552573675812149,
+    "unitsSubDAY": 3483560,
+    "unitsRedDAY": 4644491
+  },
+  {
+    "date": "2024-02-08",
+    "netAsset": 552573676928152,
+    "unitsSubDAY": 3483967,
+    "unitsRedDAY": 4644963
+  },
+  {
+    "date": "2024-02-09",
+    "netAsset": 552573680241027,
+    "unitsSubDAY": 3484158,
+    "unitsRedDAY": 4645369
+  },
+  {
+    "date": "2024-02-10",
+    "netAsset": 552573685098405,
+    "unitsSubDAY": 3484351,
+    "unitsRedDAY": 4645805
+  },
+  {
+    "date": "2024-02-11",
+    "netAsset": 552573686143897,
+    "unitsSubDAY": 3484542,
+    "unitsRedDAY": 4646085
+  },
+  {
+    "date": "2024-02-12",
+    "netAsset": 552573689242634,
+    "unitsSubDAY": 3484973,
+    "unitsRedDAY": 4646554
+  },
+  {
+    "date": "2024-02-13",
+    "netAsset": 552573692629657,
+    "unitsSubDAY": 3485307,
+    "unitsRedDAY": 4646719
+  },
+  {
+    "date": "2024-02-14",
+    "netAsset": 552573695031241,
+    "unitsSubDAY": 3485460,
+    "unitsRedDAY": 4647144
+  },
+  {
+    "date": "2024-02-15",
+    "netAsset": 552573698238773,
+    "unitsSubDAY": 3485880,
+    "unitsRedDAY": 4647628
+  },
+  {
+    "date": "2024-02-16",
+    "netAsset": 552573700566764,
+    "unitsSubDAY": 3486312,
+    "unitsRedDAY": 4647769
+  },
+  {
+    "date": "2024-02-17",
+    "netAsset": 552573705113103,
+    "unitsSubDAY": 3486590,
+    "unitsRedDAY": 4648144
+  },
+  {
+    "date": "2024-02-18",
+    "netAsset": 552573707554724,
+    "unitsSubDAY": 3486843,
+    "unitsRedDAY": 4648255
+  },
+  {
+    "date": "2024-02-19",
+    "netAsset": 552573710000828,
+    "unitsSubDAY": 3487281,
+    "unitsRedDAY": 4648668
+  },
+  {
+    "date": "2024-02-20",
+    "netAsset": 552573713486755,
+    "unitsSubDAY": 3487733,
+    "unitsRedDAY": 4648780
+  },
+  {
+    "date": "2024-02-21",
+    "netAsset": 552573716280251,
+    "unitsSubDAY": 3487894,
+    "unitsRedDAY": 4648970
+  },
+  {
+    "date": "2024-02-22",
+    "netAsset": 552573718699659,
+    "unitsSubDAY": 3488000,
+    "unitsRedDAY": 4649453
+  },
+  {
+    "date": "2024-02-23",
+    "netAsset": 552573720036978,
+    "unitsSubDAY": 3488260,
+    "unitsRedDAY": 4649721
+  },
+  {
+    "date": "2024-02-24",
+    "netAsset": 552573724448692,
+    "unitsSubDAY": 3488373,
+    "unitsRedDAY": 4649944
+  },
+  {
+    "date": "2024-02-25",
+    "netAsset": 552573726669816,
+    "unitsSubDAY": 3488812,
+    "unitsRedDAY": 4650316
+  },
+  {
+    "date": "2024-02-26",
+    "netAsset": 552573728123984,
+    "unitsSubDAY": 3489033,
+    "unitsRedDAY": 4650435
+  },
+  {
+    "date": "2024-02-27",
+    "netAsset": 552573729179520,
+    "unitsSubDAY": 3489228,
+    "unitsRedDAY": 4650762
+  },
+  {
+    "date": "2024-02-28",
+    "netAsset": 552573730319975,
+    "unitsSubDAY": 3489567,
+    "unitsRedDAY": 4650944
+  },
+  {
+    "date": "2024-02-29",
+    "netAsset": 552573733651132,
+    "unitsSubDAY": 3489776,
+    "unitsRedDAY": 4651194
+  },
+  {
+    "date": "2024-03-01",
+    "netAsset": 552573738079724,
+    "unitsSubDAY": 3490079,
+    "unitsRedDAY": 4651515
+  },
+  {
+    "date": "2024-03-02",
+    "netAsset": 552573740062133,
+    "unitsSubDAY": 3490347,
+    "unitsRedDAY": 4651976
+  },
+  {
+    "date": "2024-03-03",
+    "netAsset": 552573743761601,
+    "unitsSubDAY": 3490515,
+    "unitsRedDAY": 4652167
+  },
+  {
+    "date": "2024-03-04",
+    "netAsset": 552573748241656,
+    "unitsSubDAY": 3490738,
+    "unitsRedDAY": 4652411
+  },
+  {
+    "date": "2024-03-05",
+    "netAsset": 552573752037206,
+    "unitsSubDAY": 3490916,
+    "unitsRedDAY": 4652806
+  },
+  {
+    "date": "2024-03-06",
+    "netAsset": 552573754781909,
+    "unitsSubDAY": 3491252,
+    "unitsRedDAY": 4653203
+  },
+  {
+    "date": "2024-03-07",
+    "netAsset": 552573758830439,
+    "unitsSubDAY": 3491509,
+    "unitsRedDAY": 4653634
+  },
+  {
+    "date": "2024-03-08",
+    "netAsset": 552573763551307,
+    "unitsSubDAY": 3491944,
+    "unitsRedDAY": 4654006
+  },
+  {
+    "date": "2024-03-09",
+    "netAsset": 552573764966774,
+    "unitsSubDAY": 3492235,
+    "unitsRedDAY": 4654478
+  },
+  {
+    "date": "2024-03-10",
+    "netAsset": 552573769373101,
+    "unitsSubDAY": 3492429,
+    "unitsRedDAY": 4654598
+  },
+  {
+    "date": "2024-03-11",
+    "netAsset": 552573770408693,
+    "unitsSubDAY": 3492637,
+    "unitsRedDAY": 4654701
+  },
+  {
+    "date": "2024-03-12",
+    "netAsset": 552573772891606,
+    "unitsSubDAY": 3492997,
+    "unitsRedDAY": 4654923
+  },
+  {
+    "date": "2024-03-13",
+    "netAsset": 552573775682002,
+    "unitsSubDAY": 3493200,
+    "unitsRedDAY": 4655344
+  },
+  {
+    "date": "2024-03-14",
+    "netAsset": 552573777905995,
+    "unitsSubDAY": 3493409,
+    "unitsRedDAY": 4655828
+  },
+  {
+    "date": "2024-03-15",
+    "netAsset": 552573781255912,
+    "unitsSubDAY": 3493660,
+    "unitsRedDAY": 4655931
+  },
+  {
+    "date": "2024-03-16",
+    "netAsset": 552573785024368,
+    "unitsSubDAY": 3493922,
+    "unitsRedDAY": 4656371
+  },
+  {
+    "date": "2024-03-17",
+    "netAsset": 552573787417274,
+    "unitsSubDAY": 3494317,
+    "unitsRedDAY": 4656471
+  },
+  {
+    "date": "2024-03-18",
+    "netAsset": 552573791960985,
+    "unitsSubDAY": 3494740,
+    "unitsRedDAY": 4656885
+  },
+  {
+    "date": "2024-03-19",
+    "netAsset": 552573794840496,
+    "unitsSubDAY": 3495044,
+    "unitsRedDAY": 4657158
+  },
+  {
+    "date": "2024-03-20",
+    "netAsset": 552573799014464,
+    "unitsSubDAY": 3495285,
+    "unitsRedDAY": 4657476
+  },
+  {
+    "date": "2024-03-21",
+    "netAsset": 552573803775534,
+    "unitsSubDAY": 3495440,
+    "unitsRedDAY": 4657894
+  },
+  {
+    "date": "2024-03-22",
+    "netAsset": 552573808728676,
+    "unitsSubDAY": 3495543,
+    "unitsRedDAY": 4658280
+  },
+  {
+    "date": "2024-03-23",
+    "netAsset": 552573810607300,
+    "unitsSubDAY": 3495644,
+    "unitsRedDAY": 4658410
+  },
+  {
+    "date": "2024-03-24",
+    "netAsset": 552573813853195,
+    "unitsSubDAY": 3495834,
+    "unitsRedDAY": 4658639
+  },
+  {
+    "date": "2024-03-25",
+    "netAsset": 552573817235558,
+    "unitsSubDAY": 3496063,
+    "unitsRedDAY": 4658983
+  },
+  {
+    "date": "2024-03-26",
+    "netAsset": 552573819243053,
+    "unitsSubDAY": 3496194,
+    "unitsRedDAY": 4659203
+  },
+  {
+    "date": "2024-03-27",
+    "netAsset": 552573820922798,
+    "unitsSubDAY": 3496496,
+    "unitsRedDAY": 4659404
+  },
+  {
+    "date": "2024-03-28",
+    "netAsset": 552573823155135,
+    "unitsSubDAY": 3496765,
+    "unitsRedDAY": 4659731
+  },
+  {
+    "date": "2024-03-29",
+    "netAsset": 552573824933785,
+    "unitsSubDAY": 3497252,
+    "unitsRedDAY": 4660104
+  },
+  {
+    "date": "2024-03-30",
+    "netAsset": 552573826469981,
+    "unitsSubDAY": 3497406,
+    "unitsRedDAY": 4660343
+  },
+  {
+    "date": "2024-03-31",
+    "netAsset": 552573827770041,
+    "unitsSubDAY": 3497800,
+    "unitsRedDAY": 4660554
+  },
+  {
+    "date": "2024-04-01",
+    "netAsset": 552573828905378,
+    "unitsSubDAY": 3498296,
+    "unitsRedDAY": 4661008
+  },
+  {
+    "date": "2024-04-02",
+    "netAsset": 552573832877393,
+    "unitsSubDAY": 3498558,
+    "unitsRedDAY": 4661243
+  },
+  {
+    "date": "2024-04-03",
+    "netAsset": 552573837280255,
+    "unitsSubDAY": 3498907,
+    "unitsRedDAY": 4661582
+  },
+  {
+    "date": "2024-04-04",
+    "netAsset": 552573838549838,
+    "unitsSubDAY": 3499103,
+    "unitsRedDAY": 4661861
+  },
+  {
+    "date": "2024-04-05",
+    "netAsset": 552573839811731,
+    "unitsSubDAY": 3499304,
+    "unitsRedDAY": 4662023
+  },
+  {
+    "date": "2024-04-06",
+    "netAsset": 552573844695976,
+    "unitsSubDAY": 3499727,
+    "unitsRedDAY": 4662143
+  },
+  {
+    "date": "2024-04-07",
+    "netAsset": 552573848760166,
+    "unitsSubDAY": 3499892,
+    "unitsRedDAY": 4662267
+  },
+  {
+    "date": "2024-04-08",
+    "netAsset": 552573853233692,
+    "unitsSubDAY": 3500245,
+    "unitsRedDAY": 4662653
+  },
+  {
+    "date": "2024-04-09",
+    "netAsset": 552573857806456,
+    "unitsSubDAY": 3500521,
+    "unitsRedDAY": 4662872
+  },
+  {
+    "date": "2024-04-10",
+    "netAsset": 552573860715752,
+    "unitsSubDAY": 3500844,
+    "unitsRedDAY": 4663073
+  },
+  {
+    "date": "2024-04-11",
+    "netAsset": 552573865619063,
+    "unitsSubDAY": 3501145,
+    "unitsRedDAY": 4663397
+  },
+  {
+    "date": "2024-04-12",
+    "netAsset": 552573867908009,
+    "unitsSubDAY": 3501518,
+    "unitsRedDAY": 4663651
+  },
+  {
+    "date": "2024-04-13",
+    "netAsset": 552573872746458,
+    "unitsSubDAY": 3501736,
+    "unitsRedDAY": 4664062
+  },
+  {
+    "date": "2024-04-14",
+    "netAsset": 552573874190722,
+    "unitsSubDAY": 3501900,
+    "unitsRedDAY": 4664530
+  },
+  {
+    "date": "2024-04-15",
+    "netAsset": 552573875907723,
+    "unitsSubDAY": 3502293,
+    "unitsRedDAY": 4664791
+  },
+  {
+    "date": "2024-04-16",
+    "netAsset": 552573879917621,
+    "unitsSubDAY": 3502779,
+    "unitsRedDAY": 4665218
+  },
+  {
+    "date": "2024-04-17",
+    "netAsset": 552573884486733,
+    "unitsSubDAY": 3503000,
+    "unitsRedDAY": 4665611
+  },
+  {
+    "date": "2024-04-18",
+    "netAsset": 552573886695655,
+    "unitsSubDAY": 3503497,
+    "unitsRedDAY": 4665918
+  },
+  {
+    "date": "2024-04-19",
+    "netAsset": 552573889819501,
+    "unitsSubDAY": 3503630,
+    "unitsRedDAY": 4666135
+  },
+  {
+    "date": "2024-04-20",
+    "netAsset": 552573892442615,
+    "unitsSubDAY": 3503734,
+    "unitsRedDAY": 4666286
+  },
+  {
+    "date": "2024-04-21",
+    "netAsset": 552573893992920,
+    "unitsSubDAY": 3503840,
+    "unitsRedDAY": 4666494
+  },
+  {
+    "date": "2024-04-22",
+    "netAsset": 552573895736284,
+    "unitsSubDAY": 3504165,
+    "unitsRedDAY": 4666716
+  },
+  {
+    "date": "2024-04-23",
+    "netAsset": 552573899767215,
+    "unitsSubDAY": 3504536,
+    "unitsRedDAY": 4667014
+  },
+  {
+    "date": "2024-04-24",
+    "netAsset": 552573903670585,
+    "unitsSubDAY": 3504768,
+    "unitsRedDAY": 4667491
+  },
+  {
+    "date": "2024-04-25",
+    "netAsset": 552573908439160,
+    "unitsSubDAY": 3504990,
+    "unitsRedDAY": 4667893
+  },
+  {
+    "date": "2024-04-26",
+    "netAsset": 552573910788239,
+    "unitsSubDAY": 3505476,
+    "unitsRedDAY": 4668241
+  },
+  {
+    "date": "2024-04-27",
+    "netAsset": 552573913278609,
+    "unitsSubDAY": 3505907,
+    "unitsRedDAY": 4668508
+  },
+  {
+    "date": "2024-04-28",
+    "netAsset": 552573914453517,
+    "unitsSubDAY": 3506176,
+    "unitsRedDAY": 4668664
+  },
+  {
+    "date": "2024-04-29",
+    "netAsset": 552573919401970,
+    "unitsSubDAY": 3506535,
+    "unitsRedDAY": 4669129
+  },
+  {
+    "date": "2024-04-30",
+    "netAsset": 552573922110308,
+    "unitsSubDAY": 3506738,
+    "unitsRedDAY": 4669332
+  },
+  {
+    "date": "2024-05-01",
+    "netAsset": 552573925445447,
+    "unitsSubDAY": 3507009,
+    "unitsRedDAY": 4669568
+  },
+  {
+    "date": "2024-05-02",
+    "netAsset": 552573928798702,
+    "unitsSubDAY": 3507193,
+    "unitsRedDAY": 4669852
+  },
+  {
+    "date": "2024-05-03",
+    "netAsset": 552573933097759,
+    "unitsSubDAY": 3507482,
+    "unitsRedDAY": 4670024
+  },
+  {
+    "date": "2024-05-04",
+    "netAsset": 552573934563740,
+    "unitsSubDAY": 3507821,
+    "unitsRedDAY": 4670202
+  },
+  {
+    "date": "2024-05-05",
+    "netAsset": 552573937257610,
+    "unitsSubDAY": 3507952,
+    "unitsRedDAY": 4670526
+  },
+  {
+    "date": "2024-05-06",
+    "netAsset": 552573941704893,
+    "unitsSubDAY": 3508083,
+    "unitsRedDAY": 4670744
+  },
+  {
+    "date": "2024-05-07",
+    "netAsset": 552573946255947,
+    "unitsSubDAY": 3508264,
+    "unitsRedDAY": 4671073
+  },
+  {
+    "date": "2024-05-08",
+    "netAsset": 552573951079451,
+    "unitsSubDAY": 3508674,
+    "unitsRedDAY": 4671368
+  },
+  {
+    "date": "2024-05-09",
+    "netAsset": 552573952790527,
+    "unitsSubDAY": 3509011,
+    "unitsRedDAY": 4671590
+  },
+  {
+    "date": "2024-05-10",
+    "netAsset": 552573954140572,
+    "unitsSubDAY": 3509122,
+    "unitsRedDAY": 4671876
+  },
+  {
+    "date": "2024-05-11",
+    "netAsset": 552573957235854,
+    "unitsSubDAY": 3509480,
+    "unitsRedDAY": 4672142
+  },
+  {
+    "date": "2024-05-12",
+    "netAsset": 552573961096146,
+    "unitsSubDAY": 3509812,
+    "unitsRedDAY": 4672634
+  },
+  {
+    "date": "2024-05-13",
+    "netAsset": 552573965493627,
+    "unitsSubDAY": 3510041,
+    "unitsRedDAY": 4672850
+  },
+  {
+    "date": "2024-05-14",
+    "netAsset": 552573969899978,
+    "unitsSubDAY": 3510430,
+    "unitsRedDAY": 4673272
+  },
+  {
+    "date": "2024-05-15",
+    "netAsset": 552573971862084,
+    "unitsSubDAY": 3510869,
+    "unitsRedDAY": 4673512
+  },
+  {
+    "date": "2024-05-16",
+    "netAsset": 552573976495094,
+    "unitsSubDAY": 3511282,
+    "unitsRedDAY": 4673788
+  },
+  {
+    "date": "2024-05-17",
+    "netAsset": 552573979205382,
+    "unitsSubDAY": 3511672,
+    "unitsRedDAY": 4674132
+  },
+  {
+    "date": "2024-05-18",
+    "netAsset": 552573982770735,
+    "unitsSubDAY": 3512097,
+    "unitsRedDAY": 4674491
+  },
+  {
+    "date": "2024-05-19",
+    "netAsset": 552573984106319,
+    "unitsSubDAY": 3512411,
+    "unitsRedDAY": 4674987
+  },
+  {
+    "date": "2024-05-20",
+    "netAsset": 552573988109628,
+    "unitsSubDAY": 3512830,
+    "unitsRedDAY": 4675471
+  },
+  {
+    "date": "2024-05-21",
+    "netAsset": 552573989378090,
+    "unitsSubDAY": 3513044,
+    "unitsRedDAY": 4675619
+  },
+  {
+    "date": "2024-05-22",
+    "netAsset": 552573992822203,
+    "unitsSubDAY": 3513158,
+    "unitsRedDAY": 4675806
+  },
+  {
+    "date": "2024-05-23",
+    "netAsset": 552573994741606,
+    "unitsSubDAY": 3513449,
+    "unitsRedDAY": 4676038
+  },
+  {
+    "date": "2024-05-24",
+    "netAsset": 552573999298887,
+    "unitsSubDAY": 3513895,
+    "unitsRedDAY": 4676221
+  },
+  {
+    "date": "2024-05-25",
+    "netAsset": 552574000344720,
+    "unitsSubDAY": 3514333,
+    "unitsRedDAY": 4676617
+  },
+  {
+    "date": "2024-05-26",
+    "netAsset": 552574002135159,
+    "unitsSubDAY": 3514803,
+    "unitsRedDAY": 4676767
+  },
+  {
+    "date": "2024-05-27",
+    "netAsset": 552574006476598,
+    "unitsSubDAY": 3515046,
+    "unitsRedDAY": 4676963
+  },
+  {
+    "date": "2024-05-28",
+    "netAsset": 552574008342407,
+    "unitsSubDAY": 3515484,
+    "unitsRedDAY": 4677316
+  },
+  {
+    "date": "2024-05-29",
+    "netAsset": 552574011473282,
+    "unitsSubDAY": 3515864,
+    "unitsRedDAY": 4677628
+  },
+  {
+    "date": "2024-05-30",
+    "netAsset": 552574012898213,
+    "unitsSubDAY": 3516217,
+    "unitsRedDAY": 4678070
+  },
+  {
+    "date": "2024-05-31",
+    "netAsset": 552574015745870,
+    "unitsSubDAY": 3516614,
+    "unitsRedDAY": 4678294
+  },
+  {
+    "date": "2024-06-01",
+    "netAsset": 552574017728538,
+    "unitsSubDAY": 3516837,
+    "unitsRedDAY": 4678475
+  },
+  {
+    "date": "2024-06-02",
+    "netAsset": 552574019247445,
+    "unitsSubDAY": 3517132,
+    "unitsRedDAY": 4678688
+  },
+  {
+    "date": "2024-06-03",
+    "netAsset": 552574021966323,
+    "unitsSubDAY": 3517415,
+    "unitsRedDAY": 4678907
+  },
+  {
+    "date": "2024-06-04",
+    "netAsset": 552574025506117,
+    "unitsSubDAY": 3517746,
+    "unitsRedDAY": 4679267
+  },
+  {
+    "date": "2024-06-05",
+    "netAsset": 552574030078007,
+    "unitsSubDAY": 3518049,
+    "unitsRedDAY": 4679470
+  },
+  {
+    "date": "2024-06-06",
+    "netAsset": 552574032714527,
+    "unitsSubDAY": 3518181,
+    "unitsRedDAY": 4679931
+  },
+  {
+    "date": "2024-06-07",
+    "netAsset": 552574035090314,
+    "unitsSubDAY": 3518617,
+    "unitsRedDAY": 4680302
+  },
+  {
+    "date": "2024-06-08",
+    "netAsset": 552574039624578,
+    "unitsSubDAY": 3519109,
+    "unitsRedDAY": 4680448
+  },
+  {
+    "date": "2024-06-09",
+    "netAsset": 552574040913526,
+    "unitsSubDAY": 3519389,
+    "unitsRedDAY": 4680886
+  },
+  {
+    "date": "2024-06-10",
+    "netAsset": 552574045763091,
+    "unitsSubDAY": 3519589,
+    "unitsRedDAY": 4681183
+  },
+  {
+    "date": "2024-06-11",
+    "netAsset": 552574047923222,
+    "unitsSubDAY": 3519860,
+    "unitsRedDAY": 4681334
+  },
+  {
+    "date": "2024-06-12",
+    "netAsset": 552574049813406,
+    "unitsSubDAY": 3520109,
+    "unitsRedDAY": 4681444
+  },
+  {
+    "date": "2024-06-13",
+    "netAsset": 552574053930430,
+    "unitsSubDAY": 3520346,
+    "unitsRedDAY": 4681730
+  },
+  {
+    "date": "2024-06-14",
+    "netAsset": 552574057454745,
+    "unitsSubDAY": 3520662,
+    "unitsRedDAY": 4681914
+  },
+  {
+    "date": "2024-06-15",
+    "netAsset": 552574060381728,
+    "unitsSubDAY": 3520880,
+    "unitsRedDAY": 4682102
+  },
+  {
+    "date": "2024-06-16",
+    "netAsset": 552574062153217,
+    "unitsSubDAY": 3521160,
+    "unitsRedDAY": 4682208
+  },
+  {
+    "date": "2024-06-17",
+    "netAsset": 552574066580798,
+    "unitsSubDAY": 3521489,
+    "unitsRedDAY": 4682314
+  },
+  {
+    "date": "2024-06-18",
+    "netAsset": 552574068524596,
+    "unitsSubDAY": 3521839,
+    "unitsRedDAY": 4682421
+  },
+  {
+    "date": "2024-06-19",
+    "netAsset": 552574070851045,
+    "unitsSubDAY": 3522086,
+    "unitsRedDAY": 4682798
+  },
+  {
+    "date": "2024-06-20",
+    "netAsset": 552574074747208,
+    "unitsSubDAY": 3522389,
+    "unitsRedDAY": 4683013
+  },
+  {
+    "date": "2024-06-21",
+    "netAsset": 552574075846649,
+    "unitsSubDAY": 3522709,
+    "unitsRedDAY": 4683231
+  },
+  {
+    "date": "2024-06-22",
+    "netAsset": 552574080025012,
+    "unitsSubDAY": 3522979,
+    "unitsRedDAY": 4683427
+  },
+  {
+    "date": "2024-06-23",
+    "netAsset": 552574081115822,
+    "unitsSubDAY": 3523185,
+    "unitsRedDAY": 4683879
+  },
+  {
+    "date": "2024-06-24",
+    "netAsset": 552574085065528,
+    "unitsSubDAY": 3523492,
+    "unitsRedDAY": 4684369
+  },
+  {
+    "date": "2024-06-25",
+    "netAsset": 552574089683693,
+    "unitsSubDAY": 3523671,
+    "unitsRedDAY": 4684818
+  },
+  {
+    "date": "2024-06-26",
+    "netAsset": 552574092315309,
+    "unitsSubDAY": 3524145,
+    "unitsRedDAY": 4685010
+  },
+  {
+    "date": "2024-06-27",
+    "netAsset": 552574094167065,
+    "unitsSubDAY": 3524341,
+    "unitsRedDAY": 4685313
+  },
+  {
+    "date": "2024-06-28",
+    "netAsset": 552574097365428,
+    "unitsSubDAY": 3524648,
+    "unitsRedDAY": 4685722
+  },
+  {
+    "date": "2024-06-29",
+    "netAsset": 552574099204303,
+    "unitsSubDAY": 3525111,
+    "unitsRedDAY": 4686053
+  },
+  {
+    "date": "2024-06-30",
+    "netAsset": 552574101519660,
+    "unitsSubDAY": 3525538,
+    "unitsRedDAY": 4686470
+  },
+  {
+    "date": "2024-07-01",
+    "netAsset": 552574103226757,
+    "unitsSubDAY": 3525670,
+    "unitsRedDAY": 4686955
+  },
+  {
+    "date": "2024-07-02",
+    "netAsset": 552574104412200,
+    "unitsSubDAY": 3525932,
+    "unitsRedDAY": 4687226
+  },
+  {
+    "date": "2024-07-03",
+    "netAsset": 552574108748889,
+    "unitsSubDAY": 3526419,
+    "unitsRedDAY": 4687480
+  },
+  {
+    "date": "2024-07-04",
+    "netAsset": 552574109957468,
+    "unitsSubDAY": 3526890,
+    "unitsRedDAY": 4687782
+  },
+  {
+    "date": "2024-07-05",
+    "netAsset": 552574112755468,
+    "unitsSubDAY": 3527273,
+    "unitsRedDAY": 4688243
+  },
+  {
+    "date": "2024-07-06",
+    "netAsset": 552574116303572,
+    "unitsSubDAY": 3527556,
+    "unitsRedDAY": 4688600
+  },
+  {
+    "date": "2024-07-07",
+    "netAsset": 552574119743203,
+    "unitsSubDAY": 3527877,
+    "unitsRedDAY": 4689056
+  },
+  {
+    "date": "2024-07-08",
+    "netAsset": 552574121145053,
+    "unitsSubDAY": 3528174,
+    "unitsRedDAY": 4689211
+  },
+  {
+    "date": "2024-07-09",
+    "netAsset": 552574122371697,
+    "unitsSubDAY": 3528435,
+    "unitsRedDAY": 4689601
+  },
+  {
+    "date": "2024-07-10",
+    "netAsset": 552574126901629,
+    "unitsSubDAY": 3528626,
+    "unitsRedDAY": 4690086
+  },
+  {
+    "date": "2024-07-11",
+    "netAsset": 552574130295291,
+    "unitsSubDAY": 3529065,
+    "unitsRedDAY": 4690378
+  },
+  {
+    "date": "2024-07-12",
+    "netAsset": 552574132953841,
+    "unitsSubDAY": 3529367,
+    "unitsRedDAY": 4690525
+  },
+  {
+    "date": "2024-07-13",
+    "netAsset": 552574135275688,
+    "unitsSubDAY": 3529748,
+    "unitsRedDAY": 4690837
+  },
+  {
+    "date": "2024-07-14",
+    "netAsset": 552574138751588,
+    "unitsSubDAY": 3530049,
+    "unitsRedDAY": 4691006
+  },
+  {
+    "date": "2024-07-15",
+    "netAsset": 552574141823634,
+    "unitsSubDAY": 3530479,
+    "unitsRedDAY": 4691478
+  },
+  {
+    "date": "2024-07-16",
+    "netAsset": 552574143570170,
+    "unitsSubDAY": 3530759,
+    "unitsRedDAY": 4691923
+  },
+  {
+    "date": "2024-07-17",
+    "netAsset": 552574147640635,
+    "unitsSubDAY": 3530917,
+    "unitsRedDAY": 4692157
+  },
+  {
+    "date": "2024-07-18",
+    "netAsset": 552574148866212,
+    "unitsSubDAY": 3531208,
+    "unitsRedDAY": 4692579
+  },
+  {
+    "date": "2024-07-19",
+    "netAsset": 552574153022893,
+    "unitsSubDAY": 3531627,
+    "unitsRedDAY": 4692751
+  },
+  {
+    "date": "2024-07-20",
+    "netAsset": 552574154365349,
+    "unitsSubDAY": 3531920,
+    "unitsRedDAY": 4693235
+  },
+  {
+    "date": "2024-07-21",
+    "netAsset": 552574157818433,
+    "unitsSubDAY": 3532256,
+    "unitsRedDAY": 4693355
+  },
+  {
+    "date": "2024-07-22",
+    "netAsset": 552574161264082,
+    "unitsSubDAY": 3532619,
+    "unitsRedDAY": 4693833
+  },
+  {
+    "date": "2024-07-23",
+    "netAsset": 552574162755095,
+    "unitsSubDAY": 3532973,
+    "unitsRedDAY": 4694109
+  },
+  {
+    "date": "2024-07-24",
+    "netAsset": 552574166750682,
+    "unitsSubDAY": 3533325,
+    "unitsRedDAY": 4694592
+  },
+  {
+    "date": "2024-07-25",
+    "netAsset": 552574168378596,
+    "unitsSubDAY": 3533673,
+    "unitsRedDAY": 4694891
+  },
+  {
+    "date": "2024-07-26",
+    "netAsset": 552574170073733,
+    "unitsSubDAY": 3534053,
+    "unitsRedDAY": 4695386
+  },
+  {
+    "date": "2024-07-27",
+    "netAsset": 552574173594574,
+    "unitsSubDAY": 3534512,
+    "unitsRedDAY": 4695553
+  },
+  {
+    "date": "2024-07-28",
+    "netAsset": 552574178415376,
+    "unitsSubDAY": 3534922,
+    "unitsRedDAY": 4695907
+  },
+  {
+    "date": "2024-07-29",
+    "netAsset": 552574180493233,
+    "unitsSubDAY": 3535122,
+    "unitsRedDAY": 4696031
+  },
+  {
+    "date": "2024-07-30",
+    "netAsset": 552574184150850,
+    "unitsSubDAY": 3535432,
+    "unitsRedDAY": 4696313
+  },
+  {
+    "date": "2024-07-31",
+    "netAsset": 552574186517647,
+    "unitsSubDAY": 3535808,
+    "unitsRedDAY": 4696471
+  },
+  {
+    "date": "2024-08-01",
+    "netAsset": 552574190431709,
+    "unitsSubDAY": 3536097,
+    "unitsRedDAY": 4696905
+  },
+  {
+    "date": "2024-08-02",
+    "netAsset": 552574194541891,
+    "unitsSubDAY": 3536397,
+    "unitsRedDAY": 4697164
+  },
+  {
+    "date": "2024-08-03",
+    "netAsset": 552574196461610,
+    "unitsSubDAY": 3536695,
+    "unitsRedDAY": 4697288
+  },
+  {
+    "date": "2024-08-04",
+    "netAsset": 552574197739464,
+    "unitsSubDAY": 3536942,
+    "unitsRedDAY": 4697586
+  },
+  {
+    "date": "2024-08-05",
+    "netAsset": 552574200788048,
+    "unitsSubDAY": 3537158,
+    "unitsRedDAY": 4697929
+  },
+  {
+    "date": "2024-08-06",
+    "netAsset": 552574204676606,
+    "unitsSubDAY": 3537393,
+    "unitsRedDAY": 4698056
+  },
+  {
+    "date": "2024-08-07",
+    "netAsset": 552574207173369,
+    "unitsSubDAY": 3537550,
+    "unitsRedDAY": 4698163
+  },
+  {
+    "date": "2024-08-08",
+    "netAsset": 552574211826098,
+    "unitsSubDAY": 3537960,
+    "unitsRedDAY": 4698398
+  },
+  {
+    "date": "2024-08-09",
+    "netAsset": 552574216634851,
+    "unitsSubDAY": 3538285,
+    "unitsRedDAY": 4698661
+  },
+  {
+    "date": "2024-08-10",
+    "netAsset": 552574218475244,
+    "unitsSubDAY": 3538471,
+    "unitsRedDAY": 4699072
+  },
+  {
+    "date": "2024-08-11",
+    "netAsset": 552574219929095,
+    "unitsSubDAY": 3538927,
+    "unitsRedDAY": 4699535
+  },
+  {
+    "date": "2024-08-12",
+    "netAsset": 552574221493105,
+    "unitsSubDAY": 3539056,
+    "unitsRedDAY": 4700000
+  },
+  {
+    "date": "2024-08-13",
+    "netAsset": 552574226490168,
+    "unitsSubDAY": 3539367,
+    "unitsRedDAY": 4700321
+  },
+  {
+    "date": "2024-08-14",
+    "netAsset": 552574228128517,
+    "unitsSubDAY": 3539735,
+    "unitsRedDAY": 4700534
+  },
+  {
+    "date": "2024-08-15",
+    "netAsset": 552574231809657,
+    "unitsSubDAY": 3540221,
+    "unitsRedDAY": 4700797
+  },
+  {
+    "date": "2024-08-16",
+    "netAsset": 552574233316690,
+    "unitsSubDAY": 3540325,
+    "unitsRedDAY": 4701197
+  },
+  {
+    "date": "2024-08-17",
+    "netAsset": 552574238139328,
+    "unitsSubDAY": 3540584,
+    "unitsRedDAY": 4701609
+  },
+  {
+    "date": "2024-08-18",
+    "netAsset": 552574241362838,
+    "unitsSubDAY": 3540994,
+    "unitsRedDAY": 4701903
+  },
+  {
+    "date": "2024-08-19",
+    "netAsset": 552574244181879,
+    "unitsSubDAY": 3541164,
+    "unitsRedDAY": 4702243
+  },
+  {
+    "date": "2024-08-20",
+    "netAsset": 552574246120805,
+    "unitsSubDAY": 3541609,
+    "unitsRedDAY": 4702450
+  },
+  {
+    "date": "2024-08-21",
+    "netAsset": 552574248260426,
+    "unitsSubDAY": 3542081,
+    "unitsRedDAY": 4702797
+  },
+  {
+    "date": "2024-08-22",
+    "netAsset": 552574252537591,
+    "unitsSubDAY": 3542312,
+    "unitsRedDAY": 4702971
+  },
+  {
+    "date": "2024-08-23",
+    "netAsset": 552574256096044,
+    "unitsSubDAY": 3542620,
+    "unitsRedDAY": 4703415
+  },
+  {
+    "date": "2024-08-24",
+    "netAsset": 552574260795455,
+    "unitsSubDAY": 3542897,
+    "unitsRedDAY": 4703874
+  },
+  {
+    "date": "2024-08-25",
+    "netAsset": 552574264926637,
+    "unitsSubDAY": 3543369,
+    "unitsRedDAY": 4704265
+  },
+  {
+    "date": "2024-08-26",
+    "netAsset": 552574269609859,
+    "unitsSubDAY": 3543640,
+    "unitsRedDAY": 4704387
+  },
+  {
+    "date": "2024-08-27",
+    "netAsset": 552574273999665,
+    "unitsSubDAY": 3543803,
+    "unitsRedDAY": 4704771
+  },
+  {
+    "date": "2024-08-28",
+    "netAsset": 552574277036382,
+    "unitsSubDAY": 3544103,
+    "unitsRedDAY": 4705095
+  },
+  {
+    "date": "2024-08-29",
+    "netAsset": 552574279294724,
+    "unitsSubDAY": 3544259,
+    "unitsRedDAY": 4705447
+  },
+  {
+    "date": "2024-08-30",
+    "netAsset": 552574281779723,
+    "unitsSubDAY": 3544482,
+    "unitsRedDAY": 4705597
+  },
+  {
+    "date": "2024-08-31",
+    "netAsset": 552574283775147,
+    "unitsSubDAY": 3544948,
+    "unitsRedDAY": 4705758
+  },
+  {
+    "date": "2024-09-01",
+    "netAsset": 552574287544617,
+    "unitsSubDAY": 3545422,
+    "unitsRedDAY": 4706074
+  },
+  {
+    "date": "2024-09-02",
+    "netAsset": 552574290347389,
+    "unitsSubDAY": 3545913,
+    "unitsRedDAY": 4706375
+  },
+  {
+    "date": "2024-09-03",
+    "netAsset": 552574293510727,
+    "unitsSubDAY": 3546129,
+    "unitsRedDAY": 4706579
+  },
+  {
+    "date": "2024-09-04",
+    "netAsset": 552574295958931,
+    "unitsSubDAY": 3546555,
+    "unitsRedDAY": 4707032
+  },
+  {
+    "date": "2024-09-05",
+    "netAsset": 552574297938177,
+    "unitsSubDAY": 3546779,
+    "unitsRedDAY": 4707439
+  },
+  {
+    "date": "2024-09-06",
+    "netAsset": 552574302777181,
+    "unitsSubDAY": 3547234,
+    "unitsRedDAY": 4707915
+  },
+  {
+    "date": "2024-09-07",
+    "netAsset": 552574307348801,
+    "unitsSubDAY": 3547696,
+    "unitsRedDAY": 4708093
+  },
+  {
+    "date": "2024-09-08",
+    "netAsset": 552574308741348,
+    "unitsSubDAY": 3548028,
+    "unitsRedDAY": 4708313
+  },
+  {
+    "date": "2024-09-09",
+    "netAsset": 552574311881626,
+    "unitsSubDAY": 3548253,
+    "unitsRedDAY": 4708442
+  },
+  {
+    "date": "2024-09-10",
+    "netAsset": 552574314897387,
+    "unitsSubDAY": 3548724,
+    "unitsRedDAY": 4708662
+  },
+  {
+    "date": "2024-09-11",
+    "netAsset": 552574319203521,
+    "unitsSubDAY": 3548882,
+    "unitsRedDAY": 4708828
+  },
+  {
+    "date": "2024-09-12",
+    "netAsset": 552574320714729,
+    "unitsSubDAY": 3549194,
+    "unitsRedDAY": 4708962
+  },
+  {
+    "date": "2024-09-13",
+    "netAsset": 552574324461985,
+    "unitsSubDAY": 3549494,
+    "unitsRedDAY": 4709095
+  },
+  {
+    "date": "2024-09-14",
+    "netAsset": 552574328874004,
+    "unitsSubDAY": 3549700,
+    "unitsRedDAY": 4709307
+  },
+  {
+    "date": "2024-09-15",
+    "netAsset": 552574330742717,
+    "unitsSubDAY": 3549854,
+    "unitsRedDAY": 4709557
+  },
+  {
+    "date": "2024-09-16",
+    "netAsset": 552574334551418,
+    "unitsSubDAY": 3550096,
+    "unitsRedDAY": 4709906
+  },
+  {
+    "date": "2024-09-17",
+    "netAsset": 552574337631906,
+    "unitsSubDAY": 3550357,
+    "unitsRedDAY": 4710085
+  },
+  {
+    "date": "2024-09-18",
+    "netAsset": 552574341170137,
+    "unitsSubDAY": 3550811,
+    "unitsRedDAY": 4710193
+  },
+  {
+    "date": "2024-09-19",
+    "netAsset": 552574342499424,
+    "unitsSubDAY": 3551251,
+    "unitsRedDAY": 4710508
+  },
+  {
+    "date": "2024-09-20",
+    "netAsset": 552574346665330,
+    "unitsSubDAY": 3551413,
+    "unitsRedDAY": 4710869
+  },
+  {
+    "date": "2024-09-21",
+    "netAsset": 552574350591229,
+    "unitsSubDAY": 3551763,
+    "unitsRedDAY": 4711046
+  },
+  {
+    "date": "2024-09-22",
+    "netAsset": 552574353743481,
+    "unitsSubDAY": 3552043,
+    "unitsRedDAY": 4711238
+  },
+  {
+    "date": "2024-09-23",
+    "netAsset": 552574355587335,
+    "unitsSubDAY": 3552378,
+    "unitsRedDAY": 4711702
+  },
+  {
+    "date": "2024-09-24",
+    "netAsset": 552574357063358,
+    "unitsSubDAY": 3552640,
+    "unitsRedDAY": 4711929
+  },
+  {
+    "date": "2024-09-25",
+    "netAsset": 552574360049590,
+    "unitsSubDAY": 3552875,
+    "unitsRedDAY": 4712348
+  },
+  {
+    "date": "2024-09-26",
+    "netAsset": 552574361706084,
+    "unitsSubDAY": 3553319,
+    "unitsRedDAY": 4712596
+  },
+  {
+    "date": "2024-09-27",
+    "netAsset": 552574365658598,
+    "unitsSubDAY": 3553589,
+    "unitsRedDAY": 4712857
+  },
+  {
+    "date": "2024-09-28",
+    "netAsset": 552574369237263,
+    "unitsSubDAY": 3554056,
+    "unitsRedDAY": 4713010
+  },
+  {
+    "date": "2024-09-29",
+    "netAsset": 552574373144877,
+    "unitsSubDAY": 3554504,
+    "unitsRedDAY": 4713501
+  },
+  {
+    "date": "2024-09-30",
+    "netAsset": 552574376516706,
+    "unitsSubDAY": 3554830,
+    "unitsRedDAY": 4713717
+  },
+  {
+    "date": "2024-10-01",
+    "netAsset": 552574379501510,
+    "unitsSubDAY": 3555173,
+    "unitsRedDAY": 4714102
+  },
+  {
+    "date": "2024-10-02",
+    "netAsset": 552574383527317,
+    "unitsSubDAY": 3555413,
+    "unitsRedDAY": 4714506
+  },
+  {
+    "date": "2024-10-03",
+    "netAsset": 552574386768470,
+    "unitsSubDAY": 3555701,
+    "unitsRedDAY": 4714921
+  },
+  {
+    "date": "2024-10-04",
+    "netAsset": 552574390790521,
+    "unitsSubDAY": 3556147,
+    "unitsRedDAY": 4715293
+  },
+  {
+    "date": "2024-10-05",
+    "netAsset": 552574394980458,
+    "unitsSubDAY": 3556491,
+    "unitsRedDAY": 4715653
+  },
+  {
+    "date": "2024-10-06",
+    "netAsset": 552574397345151,
+    "unitsSubDAY": 3556958,
+    "unitsRedDAY": 4715892
+  },
+  {
+    "date": "2024-10-07",
+    "netAsset": 552574401069152,
+    "unitsSubDAY": 3557391,
+    "unitsRedDAY": 4716236
+  },
+  {
+    "date": "2024-10-08",
+    "netAsset": 552574404207685,
+    "unitsSubDAY": 3557870,
+    "unitsRedDAY": 4716677
+  },
+  {
+    "date": "2024-10-09",
+    "netAsset": 552574405432921,
+    "unitsSubDAY": 3558293,
+    "unitsRedDAY": 4716807
+  },
+  {
+    "date": "2024-10-10",
+    "netAsset": 552574406585191,
+    "unitsSubDAY": 3558652,
+    "unitsRedDAY": 4716985
+  },
+  {
+    "date": "2024-10-11",
+    "netAsset": 552574409496442,
+    "unitsSubDAY": 3558768,
+    "unitsRedDAY": 4717233
+  },
+  {
+    "date": "2024-10-12",
+    "netAsset": 552574413232368,
+    "unitsSubDAY": 3559207,
+    "unitsRedDAY": 4717463
+  },
+  {
+    "date": "2024-10-13",
+    "netAsset": 552574418130292,
+    "unitsSubDAY": 3559492,
+    "unitsRedDAY": 4717812
+  },
+  {
+    "date": "2024-10-14",
+    "netAsset": 552574422091360,
+    "unitsSubDAY": 3559726,
+    "unitsRedDAY": 4718266
+  },
+  {
+    "date": "2024-10-15",
+    "netAsset": 552574423909482,
+    "unitsSubDAY": 3559870,
+    "unitsRedDAY": 4718698
+  },
+  {
+    "date": "2024-10-16",
+    "netAsset": 552574426875644,
+    "unitsSubDAY": 3560267,
+    "unitsRedDAY": 4719114
+  },
+  {
+    "date": "2024-10-17",
+    "netAsset": 552574429832333,
+    "unitsSubDAY": 3560754,
+    "unitsRedDAY": 4719550
+  },
+  {
+    "date": "2024-10-18",
+    "netAsset": 552574433101715,
+    "unitsSubDAY": 3560885,
+    "unitsRedDAY": 4719932
+  },
+  {
+    "date": "2024-10-19",
+    "netAsset": 552574435037767,
+    "unitsSubDAY": 3561340,
+    "unitsRedDAY": 4720170
+  },
+  {
+    "date": "2024-10-20",
+    "netAsset": 552574438623432,
+    "unitsSubDAY": 3561493,
+    "unitsRedDAY": 4720370
+  },
+  {
+    "date": "2024-10-21",
+    "netAsset": 552574440289136,
+    "unitsSubDAY": 3561818,
+    "unitsRedDAY": 4720635
+  },
+  {
+    "date": "2024-10-22",
+    "netAsset": 552574442133913,
+    "unitsSubDAY": 3561946,
+    "unitsRedDAY": 4720824
+  },
+  {
+    "date": "2024-10-23",
+    "netAsset": 552574446484208,
+    "unitsSubDAY": 3562186,
+    "unitsRedDAY": 4721264
+  },
+  {
+    "date": "2024-10-24",
+    "netAsset": 552574451070951,
+    "unitsSubDAY": 3562293,
+    "unitsRedDAY": 4721494
+  },
+  {
+    "date": "2024-10-25",
+    "netAsset": 552574455144938,
+    "unitsSubDAY": 3562669,
+    "unitsRedDAY": 4721717
+  },
+  {
+    "date": "2024-10-26",
+    "netAsset": 552574457283417,
+    "unitsSubDAY": 3563054,
+    "unitsRedDAY": 4721891
+  },
+  {
+    "date": "2024-10-27",
+    "netAsset": 552574461632580,
+    "unitsSubDAY": 3563477,
+    "unitsRedDAY": 4722192
+  },
+  {
+    "date": "2024-10-28",
+    "netAsset": 552574463159318,
+    "unitsSubDAY": 3563718,
+    "unitsRedDAY": 4722473
+  },
+  {
+    "date": "2024-10-29",
+    "netAsset": 552574465841168,
+    "unitsSubDAY": 3564138,
+    "unitsRedDAY": 4722744
+  },
+  {
+    "date": "2024-10-30",
+    "netAsset": 552574467627905,
+    "unitsSubDAY": 3564616,
+    "unitsRedDAY": 4723084
+  },
+  {
+    "date": "2024-10-31",
+    "netAsset": 552574469382504,
+    "unitsSubDAY": 3564775,
+    "unitsRedDAY": 4723401
+  },
+  {
+    "date": "2024-11-01",
+    "netAsset": 552574470456210,
+    "unitsSubDAY": 3565164,
+    "unitsRedDAY": 4723619
+  },
+  {
+    "date": "2024-11-02",
+    "netAsset": 552574474182764,
+    "unitsSubDAY": 3565327,
+    "unitsRedDAY": 4723956
+  },
+  {
+    "date": "2024-11-03",
+    "netAsset": 552574477125367,
+    "unitsSubDAY": 3565749,
+    "unitsRedDAY": 4724348
+  },
+  {
+    "date": "2024-11-04",
+    "netAsset": 552574478784800,
+    "unitsSubDAY": 3565925,
+    "unitsRedDAY": 4724806
+  },
+  {
+    "date": "2024-11-05",
+    "netAsset": 552574481081839,
+    "unitsSubDAY": 3566209,
+    "unitsRedDAY": 4725201
+  },
+  {
+    "date": "2024-11-06",
+    "netAsset": 552574484383220,
+    "unitsSubDAY": 3566630,
+    "unitsRedDAY": 4725581
+  },
+  {
+    "date": "2024-11-07",
+    "netAsset": 552574486670640,
+    "unitsSubDAY": 3566747,
+    "unitsRedDAY": 4725710
+  },
+  {
+    "date": "2024-11-08",
+    "netAsset": 552574489247060,
+    "unitsSubDAY": 3567194,
+    "unitsRedDAY": 4726050
+  },
+  {
+    "date": "2024-11-09",
+    "netAsset": 552574492599581,
+    "unitsSubDAY": 3567667,
+    "unitsRedDAY": 4726286
+  },
+  {
+    "date": "2024-11-10",
+    "netAsset": 552574494068039,
+    "unitsSubDAY": 3568126,
+    "unitsRedDAY": 4726428
+  },
+  {
+    "date": "2024-11-11",
+    "netAsset": 552574496384232,
+    "unitsSubDAY": 3568238,
+    "unitsRedDAY": 4726656
+  },
+  {
+    "date": "2024-11-12",
+    "netAsset": 552574499577582,
+    "unitsSubDAY": 3568499,
+    "unitsRedDAY": 4726848
+  },
+  {
+    "date": "2024-11-13",
+    "netAsset": 552574503893030,
+    "unitsSubDAY": 3568697,
+    "unitsRedDAY": 4727238
+  },
+  {
+    "date": "2024-11-14",
+    "netAsset": 552574506633275,
+    "unitsSubDAY": 3569137,
+    "unitsRedDAY": 4727479
+  },
+  {
+    "date": "2024-11-15",
+    "netAsset": 552574510041178,
+    "unitsSubDAY": 3569430,
+    "unitsRedDAY": 4727632
+  },
+  {
+    "date": "2024-11-16",
+    "netAsset": 552574513044538,
+    "unitsSubDAY": 3569773,
+    "unitsRedDAY": 4727843
+  },
+  {
+    "date": "2024-11-17",
+    "netAsset": 552574516458772,
+    "unitsSubDAY": 3569908,
+    "unitsRedDAY": 4728255
+  },
+  {
+    "date": "2024-11-18",
+    "netAsset": 552574519618673,
+    "unitsSubDAY": 3570252,
+    "unitsRedDAY": 4728610
+  },
+  {
+    "date": "2024-11-19",
+    "netAsset": 552574523765621,
+    "unitsSubDAY": 3570657,
+    "unitsRedDAY": 4728819
+  },
+  {
+    "date": "2024-11-20",
+    "netAsset": 552574526787929,
+    "unitsSubDAY": 3570882,
+    "unitsRedDAY": 4729249
+  },
+  {
+    "date": "2024-11-21",
+    "netAsset": 552574530427046,
+    "unitsSubDAY": 3571352,
+    "unitsRedDAY": 4729421
+  },
+  {
+    "date": "2024-11-22",
+    "netAsset": 552574534080360,
+    "unitsSubDAY": 3571669,
+    "unitsRedDAY": 4729845
+  },
+  {
+    "date": "2024-11-23",
+    "netAsset": 552574538528251,
+    "unitsSubDAY": 3571915,
+    "unitsRedDAY": 4730067
+  },
+  {
+    "date": "2024-11-24",
+    "netAsset": 552574540250398,
+    "unitsSubDAY": 3572116,
+    "unitsRedDAY": 4730409
+  },
+  {
+    "date": "2024-11-25",
+    "netAsset": 552574544169911,
+    "unitsSubDAY": 3572564,
+    "unitsRedDAY": 4730652
+  },
+  {
+    "date": "2024-11-26",
+    "netAsset": 552574546736332,
+    "unitsSubDAY": 3573029,
+    "unitsRedDAY": 4730781
+  },
+  {
+    "date": "2024-11-27",
+    "netAsset": 552574548852057,
+    "unitsSubDAY": 3573369,
+    "unitsRedDAY": 4731185
+  },
+  {
+    "date": "2024-11-28",
+    "netAsset": 552574552767564,
+    "unitsSubDAY": 3573489,
+    "unitsRedDAY": 4731322
+  },
+  {
+    "date": "2024-11-29",
+    "netAsset": 552574554646272,
+    "unitsSubDAY": 3573845,
+    "unitsRedDAY": 4731651
+  },
+  {
+    "date": "2024-11-30",
+    "netAsset": 552574558104483,
+    "unitsSubDAY": 3574302,
+    "unitsRedDAY": 4732083
+  },
+  {
+    "date": "2024-12-01",
+    "netAsset": 552574561898465,
+    "unitsSubDAY": 3574424,
+    "unitsRedDAY": 4732494
+  },
+  {
+    "date": "2024-12-02",
+    "netAsset": 552574566357539,
+    "unitsSubDAY": 3574834,
+    "unitsRedDAY": 4732854
+  },
+  {
+    "date": "2024-12-03",
+    "netAsset": 552574567751657,
+    "unitsSubDAY": 3574975,
+    "unitsRedDAY": 4733100
+  },
+  {
+    "date": "2024-12-04",
+    "netAsset": 552574570413311,
+    "unitsSubDAY": 3575267,
+    "unitsRedDAY": 4733226
+  },
+  {
+    "date": "2024-12-05",
+    "netAsset": 552574572044218,
+    "unitsSubDAY": 3575554,
+    "unitsRedDAY": 4733573
+  },
+  {
+    "date": "2024-12-06",
+    "netAsset": 552574576912991,
+    "unitsSubDAY": 3575715,
+    "unitsRedDAY": 4733817
+  },
+  {
+    "date": "2024-12-07",
+    "netAsset": 552574581797659,
+    "unitsSubDAY": 3575901,
+    "unitsRedDAY": 4733938
+  },
+  {
+    "date": "2024-12-08",
+    "netAsset": 552574584950617,
+    "unitsSubDAY": 3576344,
+    "unitsRedDAY": 4734214
+  },
+  {
+    "date": "2024-12-09",
+    "netAsset": 552574587826020,
+    "unitsSubDAY": 3576588,
+    "unitsRedDAY": 4734334
+  },
+  {
+    "date": "2024-12-10",
+    "netAsset": 552574592165180,
+    "unitsSubDAY": 3576990,
+    "unitsRedDAY": 4734824
+  },
+  {
+    "date": "2024-12-11",
+    "netAsset": 552574595259460,
+    "unitsSubDAY": 3577249,
+    "unitsRedDAY": 4735263
+  },
+  {
+    "date": "2024-12-12",
+    "netAsset": 552574598926183,
+    "unitsSubDAY": 3577563,
+    "unitsRedDAY": 4735620
+  },
+  {
+    "date": "2024-12-13",
+    "netAsset": 552574601540919,
+    "unitsSubDAY": 3578000,
+    "unitsRedDAY": 4736016
+  },
+  {
+    "date": "2024-12-14",
+    "netAsset": 552574603894663,
+    "unitsSubDAY": 3578271,
+    "unitsRedDAY": 4736248
+  },
+  {
+    "date": "2024-12-15",
+    "netAsset": 552574606102813,
+    "unitsSubDAY": 3578741,
+    "unitsRedDAY": 4736618
+  },
+  {
+    "date": "2024-12-16",
+    "netAsset": 552574609215504,
+    "unitsSubDAY": 3579206,
+    "unitsRedDAY": 4736941
+  },
+  {
+    "date": "2024-12-17",
+    "netAsset": 552574613380372,
+    "unitsSubDAY": 3579626,
+    "unitsRedDAY": 4737433
+  },
+  {
+    "date": "2024-12-18",
+    "netAsset": 552574618146526,
+    "unitsSubDAY": 3579976,
+    "unitsRedDAY": 4737833
+  },
+  {
+    "date": "2024-12-19",
+    "netAsset": 552574619601117,
+    "unitsSubDAY": 3580378,
+    "unitsRedDAY": 4738297
+  },
+  {
+    "date": "2024-12-20",
+    "netAsset": 552574622163593,
+    "unitsSubDAY": 3580685,
+    "unitsRedDAY": 4738544
+  },
+  {
+    "date": "2024-12-21",
+    "netAsset": 552574624124438,
+    "unitsSubDAY": 3580830,
+    "unitsRedDAY": 4738934
+  },
+  {
+    "date": "2024-12-22",
+    "netAsset": 552574627012881,
+    "unitsSubDAY": 3581235,
+    "unitsRedDAY": 4739225
+  },
+  {
+    "date": "2024-12-23",
+    "netAsset": 552574630553853,
+    "unitsSubDAY": 3581653,
+    "unitsRedDAY": 4739469
+  },
+  {
+    "date": "2024-12-24",
+    "netAsset": 552574632312071,
+    "unitsSubDAY": 3581798,
+    "unitsRedDAY": 4739724
+  },
+  {
+    "date": "2024-12-25",
+    "netAsset": 552574636821557,
+    "unitsSubDAY": 3582292,
+    "unitsRedDAY": 4740010
+  },
+  {
+    "date": "2024-12-26",
+    "netAsset": 552574640130880,
+    "unitsSubDAY": 3582560,
+    "unitsRedDAY": 4740167
+  },
+  {
+    "date": "2024-12-27",
+    "netAsset": 552574644480796,
+    "unitsSubDAY": 3583059,
+    "unitsRedDAY": 4740526
+  },
+  {
+    "date": "2024-12-28",
+    "netAsset": 552574648085774,
+    "unitsSubDAY": 3583429,
+    "unitsRedDAY": 4740900
+  },
+  {
+    "date": "2024-12-29",
+    "netAsset": 552574651691779,
+    "unitsSubDAY": 3583888,
+    "unitsRedDAY": 4741257
+  },
+  {
+    "date": "2024-12-30",
+    "netAsset": 552574656404222,
+    "unitsSubDAY": 3584043,
+    "unitsRedDAY": 4741419
+  },
+  {
+    "date": "2024-12-31",
+    "netAsset": 552574660961200,
+    "unitsSubDAY": 3584328,
+    "unitsRedDAY": 4741785
+  },
+  {
+    "date": "2025-01-01",
+    "netAsset": 552574665578527,
+    "unitsSubDAY": 3584590,
+    "unitsRedDAY": 4742036
+  },
+  {
+    "date": "2025-01-02",
+    "netAsset": 552574669795987,
+    "unitsSubDAY": 3585079,
+    "unitsRedDAY": 4742391
+  },
+  {
+    "date": "2025-01-03",
+    "netAsset": 552574672515994,
+    "unitsSubDAY": 3585183,
+    "unitsRedDAY": 4742775
+  },
+  {
+    "date": "2025-01-04",
+    "netAsset": 552574676222007,
+    "unitsSubDAY": 3585343,
+    "unitsRedDAY": 4743108
+  },
+  {
+    "date": "2025-01-05",
+    "netAsset": 552574680404759,
+    "unitsSubDAY": 3585569,
+    "unitsRedDAY": 4743416
+  },
+  {
+    "date": "2025-01-06",
+    "netAsset": 552574683096675,
+    "unitsSubDAY": 3585861,
+    "unitsRedDAY": 4743672
+  },
+  {
+    "date": "2025-01-07",
+    "netAsset": 552574684915628,
+    "unitsSubDAY": 3586260,
+    "unitsRedDAY": 4743989
+  },
+  {
+    "date": "2025-01-08",
+    "netAsset": 552574688426078,
+    "unitsSubDAY": 3586657,
+    "unitsRedDAY": 4744293
+  },
+  {
+    "date": "2025-01-09",
+    "netAsset": 552574691056694,
+    "unitsSubDAY": 3586825,
+    "unitsRedDAY": 4744778
+  },
+  {
+    "date": "2025-01-10",
+    "netAsset": 552574695296096,
+    "unitsSubDAY": 3587164,
+    "unitsRedDAY": 4744931
+  },
+  {
+    "date": "2025-01-11",
+    "netAsset": 552574697444891,
+    "unitsSubDAY": 3587420,
+    "unitsRedDAY": 4745330
+  },
+  {
+    "date": "2025-01-12",
+    "netAsset": 552574702181378,
+    "unitsSubDAY": 3587624,
+    "unitsRedDAY": 4745597
+  },
+  {
+    "date": "2025-01-13",
+    "netAsset": 552574703203826,
+    "unitsSubDAY": 3587998,
+    "unitsRedDAY": 4745941
+  },
+  {
+    "date": "2025-01-14",
+    "netAsset": 552574707976228,
+    "unitsSubDAY": 3588148,
+    "unitsRedDAY": 4746089
+  },
+  {
+    "date": "2025-01-15",
+    "netAsset": 552574710875034,
+    "unitsSubDAY": 3588643,
+    "unitsRedDAY": 4746477
+  },
+  {
+    "date": "2025-01-16",
+    "netAsset": 552574714604794,
+    "unitsSubDAY": 3588885,
+    "unitsRedDAY": 4746588
+  },
+  {
+    "date": "2025-01-17",
+    "netAsset": 552574717597443,
+    "unitsSubDAY": 3589251,
+    "unitsRedDAY": 4746853
+  },
+  {
+    "date": "2025-01-18",
+    "netAsset": 552574720805805,
+    "unitsSubDAY": 3589642,
+    "unitsRedDAY": 4747003
+  },
+  {
+    "date": "2025-01-19",
+    "netAsset": 552574723961420,
+    "unitsSubDAY": 3589832,
+    "unitsRedDAY": 4747441
+  },
+  {
+    "date": "2025-01-20",
+    "netAsset": 552574727298307,
+    "unitsSubDAY": 3590330,
+    "unitsRedDAY": 4747831
+  },
+  {
+    "date": "2025-01-21",
+    "netAsset": 552574731640131,
+    "unitsSubDAY": 3590752,
+    "unitsRedDAY": 4748286
+  },
+  {
+    "date": "2025-01-22",
+    "netAsset": 552574733647564,
+    "unitsSubDAY": 3591011,
+    "unitsRedDAY": 4748445
+  },
+  {
+    "date": "2025-01-23",
+    "netAsset": 552574735441460,
+    "unitsSubDAY": 3591168,
+    "unitsRedDAY": 4748881
+  },
+  {
+    "date": "2025-01-24",
+    "netAsset": 552574738603245,
+    "unitsSubDAY": 3591655,
+    "unitsRedDAY": 4749331
+  },
+  {
+    "date": "2025-01-25",
+    "netAsset": 552574740398480,
+    "unitsSubDAY": 3591833,
+    "unitsRedDAY": 4749578
+  },
+  {
+    "date": "2025-01-26",
+    "netAsset": 552574743546983,
+    "unitsSubDAY": 3591969,
+    "unitsRedDAY": 4749928
+  },
+  {
+    "date": "2025-01-27",
+    "netAsset": 552574745176476,
+    "unitsSubDAY": 3592345,
+    "unitsRedDAY": 4750218
+  },
+  {
+    "date": "2025-01-28",
+    "netAsset": 552574749531146,
+    "unitsSubDAY": 3592530,
+    "unitsRedDAY": 4750654
+  },
+  {
+    "date": "2025-01-29",
+    "netAsset": 552574753033135,
+    "unitsSubDAY": 3592995,
+    "unitsRedDAY": 4751095
+  },
+  {
+    "date": "2025-01-30",
+    "netAsset": 552574757490653,
+    "unitsSubDAY": 3593263,
+    "unitsRedDAY": 4751542
+  },
+  {
+    "date": "2025-01-31",
+    "netAsset": 552574759724484,
+    "unitsSubDAY": 3593398,
+    "unitsRedDAY": 4751763
+  },
+  {
+    "date": "2025-02-01",
+    "netAsset": 552574761519528,
+    "unitsSubDAY": 3593881,
+    "unitsRedDAY": 4752152
+  },
+  {
+    "date": "2025-02-02",
+    "netAsset": 552574764420535,
+    "unitsSubDAY": 3594130,
+    "unitsRedDAY": 4752374
+  },
+  {
+    "date": "2025-02-03",
+    "netAsset": 552574768055283,
+    "unitsSubDAY": 3594575,
+    "unitsRedDAY": 4752649
+  },
+  {
+    "date": "2025-02-04",
+    "netAsset": 552574771226685,
+    "unitsSubDAY": 3594694,
+    "unitsRedDAY": 4753060
+  },
+  {
+    "date": "2025-02-05",
+    "netAsset": 552574773807211,
+    "unitsSubDAY": 3594830,
+    "unitsRedDAY": 4753442
+  },
+  {
+    "date": "2025-02-06",
+    "netAsset": 552574778290307,
+    "unitsSubDAY": 3595217,
+    "unitsRedDAY": 4753933
+  },
+  {
+    "date": "2025-02-07",
+    "netAsset": 552574782029630,
+    "unitsSubDAY": 3595459,
+    "unitsRedDAY": 4754253
+  },
+  {
+    "date": "2025-02-08",
+    "netAsset": 552574783070598,
+    "unitsSubDAY": 3595745,
+    "unitsRedDAY": 4754505
+  },
+  {
+    "date": "2025-02-09",
+    "netAsset": 552574786804619,
+    "unitsSubDAY": 3596139,
+    "unitsRedDAY": 4754803
+  },
+  {
+    "date": "2025-02-10",
+    "netAsset": 552574789382822,
+    "unitsSubDAY": 3596262,
+    "unitsRedDAY": 4755059
+  },
+  {
+    "date": "2025-02-11",
+    "netAsset": 552574791148228,
+    "unitsSubDAY": 3596470,
+    "unitsRedDAY": 4755384
+  },
+  {
+    "date": "2025-02-12",
+    "netAsset": 552574793071928,
+    "unitsSubDAY": 3596645,
+    "unitsRedDAY": 4755498
+  },
+  {
+    "date": "2025-02-13",
+    "netAsset": 552574796824000,
+    "unitsSubDAY": 3596970,
+    "unitsRedDAY": 4755810
+  },
+  {
+    "date": "2025-02-14",
+    "netAsset": 552574798444560,
+    "unitsSubDAY": 3597434,
+    "unitsRedDAY": 4756141
+  },
+  {
+    "date": "2025-02-15",
+    "netAsset": 552574801815964,
+    "unitsSubDAY": 3597713,
+    "unitsRedDAY": 4756257
+  },
+  {
+    "date": "2025-02-16",
+    "netAsset": 552574803618802,
+    "unitsSubDAY": 3598055,
+    "unitsRedDAY": 4756680
+  },
+  {
+    "date": "2025-02-17",
+    "netAsset": 552574804624074,
+    "unitsSubDAY": 3598354,
+    "unitsRedDAY": 4756847
+  },
+  {
+    "date": "2025-02-18",
+    "netAsset": 552574805846391,
+    "unitsSubDAY": 3598847,
+    "unitsRedDAY": 4757075
+  },
+  {
+    "date": "2025-02-19",
+    "netAsset": 552574807171988,
+    "unitsSubDAY": 3598949,
+    "unitsRedDAY": 4757470
+  },
+  {
+    "date": "2025-02-20",
+    "netAsset": 552574810310165,
+    "unitsSubDAY": 3599167,
+    "unitsRedDAY": 4757674
+  },
+  {
+    "date": "2025-02-21",
+    "netAsset": 552574811561460,
+    "unitsSubDAY": 3599632,
+    "unitsRedDAY": 4757940
+  },
+  {
+    "date": "2025-02-22",
+    "netAsset": 552574813771867,
+    "unitsSubDAY": 3599887,
+    "unitsRedDAY": 4758256
+  },
+  {
+    "date": "2025-02-23",
+    "netAsset": 552574815482286,
+    "unitsSubDAY": 3600350,
+    "unitsRedDAY": 4758590
+  },
+  {
+    "date": "2025-02-24",
+    "netAsset": 552574816497644,
+    "unitsSubDAY": 3600492,
+    "unitsRedDAY": 4758882
+  },
+  {
+    "date": "2025-02-25",
+    "netAsset": 552574818034670,
+    "unitsSubDAY": 3600859,
+    "unitsRedDAY": 4759380
+  },
+  {
+    "date": "2025-02-26",
+    "netAsset": 552574819041971,
+    "unitsSubDAY": 3601063,
+    "unitsRedDAY": 4759751
+  },
+  {
+    "date": "2025-02-27",
+    "netAsset": 552574820139136,
+    "unitsSubDAY": 3601482,
+    "unitsRedDAY": 4760152
+  },
+  {
+    "date": "2025-02-28",
+    "netAsset": 552574822298035,
+    "unitsSubDAY": 3601942,
+    "unitsRedDAY": 4760462
+  },
+  {
+    "date": "2025-03-01",
+    "netAsset": 552574826271517,
+    "unitsSubDAY": 3602101,
+    "unitsRedDAY": 4760656
+  },
+  {
+    "date": "2025-03-02",
+    "netAsset": 552574828355050,
+    "unitsSubDAY": 3602554,
+    "unitsRedDAY": 4761038
+  },
+  {
+    "date": "2025-03-03",
+    "netAsset": 552574832445249,
+    "unitsSubDAY": 3602675,
+    "unitsRedDAY": 4761183
+  },
+  {
+    "date": "2025-03-04",
+    "netAsset": 552574833798515,
+    "unitsSubDAY": 3603001,
+    "unitsRedDAY": 4761469
+  },
+  {
+    "date": "2025-03-05",
+    "netAsset": 552574835460187,
+    "unitsSubDAY": 3603239,
+    "unitsRedDAY": 4761772
+  },
+  {
+    "date": "2025-03-06",
+    "netAsset": 552574837290967,
+    "unitsSubDAY": 3603579,
+    "unitsRedDAY": 4761962
+  },
+  {
+    "date": "2025-03-07",
+    "netAsset": 552574842075682,
+    "unitsSubDAY": 3603801,
+    "unitsRedDAY": 4762132
+  },
+  {
+    "date": "2025-03-08",
+    "netAsset": 552574844554634,
+    "unitsSubDAY": 3604100,
+    "unitsRedDAY": 4762630
+  },
+  {
+    "date": "2025-03-09",
+    "netAsset": 552574849311601,
+    "unitsSubDAY": 3604226,
+    "unitsRedDAY": 4763038
+  },
+  {
+    "date": "2025-03-10",
+    "netAsset": 552574850341411,
+    "unitsSubDAY": 3604602,
+    "unitsRedDAY": 4763355
+  },
+  {
+    "date": "2025-03-11",
+    "netAsset": 552574851698304,
+    "unitsSubDAY": 3605049,
+    "unitsRedDAY": 4763721
+  },
+  {
+    "date": "2025-03-12",
+    "netAsset": 552574854455833,
+    "unitsSubDAY": 3605545,
+    "unitsRedDAY": 4764058
+  },
+  {
+    "date": "2025-03-13",
+    "netAsset": 552574858968678,
+    "unitsSubDAY": 3606022,
+    "unitsRedDAY": 4764416
+  },
+  {
+    "date": "2025-03-14",
+    "netAsset": 552574860139518,
+    "unitsSubDAY": 3606200,
+    "unitsRedDAY": 4764896
+  },
+  {
+    "date": "2025-03-15",
+    "netAsset": 552574862974922,
+    "unitsSubDAY": 3606480,
+    "unitsRedDAY": 4765046
+  },
+  {
+    "date": "2025-03-16",
+    "netAsset": 552574865548907,
+    "unitsSubDAY": 3606952,
+    "unitsRedDAY": 4765285
+  },
+  {
+    "date": "2025-03-17",
+    "netAsset": 552574868532059,
+    "unitsSubDAY": 3607238,
+    "unitsRedDAY": 4765580
+  },
+  {
+    "date": "2025-03-18",
+    "netAsset": 552574873090608,
+    "unitsSubDAY": 3607450,
+    "unitsRedDAY": 4765938
+  },
+  {
+    "date": "2025-03-19",
+    "netAsset": 552574874548848,
+    "unitsSubDAY": 3607850,
+    "unitsRedDAY": 4766317
+  },
+  {
+    "date": "2025-03-20",
+    "netAsset": 552574879138839,
+    "unitsSubDAY": 3608003,
+    "unitsRedDAY": 4766739
+  },
+  {
+    "date": "2025-03-21",
+    "netAsset": 552574880489305,
+    "unitsSubDAY": 3608471,
+    "unitsRedDAY": 4766886
+  },
+  {
+    "date": "2025-03-22",
+    "netAsset": 552574885437910,
+    "unitsSubDAY": 3608625,
+    "unitsRedDAY": 4767122
+  },
+  {
+    "date": "2025-03-23",
+    "netAsset": 552574889079750,
+    "unitsSubDAY": 3609115,
+    "unitsRedDAY": 4767233
+  },
+  {
+    "date": "2025-03-24",
+    "netAsset": 552574891044473,
+    "unitsSubDAY": 3609327,
+    "unitsRedDAY": 4767515
+  },
+  {
+    "date": "2025-03-25",
+    "netAsset": 552574894880798,
+    "unitsSubDAY": 3609748,
+    "unitsRedDAY": 4767657
+  },
+  {
+    "date": "2025-03-26",
+    "netAsset": 552574896088412,
+    "unitsSubDAY": 3610044,
+    "unitsRedDAY": 4767869
+  },
+  {
+    "date": "2025-03-27",
+    "netAsset": 552574899743634,
+    "unitsSubDAY": 3610145,
+    "unitsRedDAY": 4768342
+  },
+  {
+    "date": "2025-03-28",
+    "netAsset": 552574904335574,
+    "unitsSubDAY": 3610260,
+    "unitsRedDAY": 4768483
+  },
+  {
+    "date": "2025-03-29",
+    "netAsset": 552574908978648,
+    "unitsSubDAY": 3610399,
+    "unitsRedDAY": 4768662
+  },
+  {
+    "date": "2025-03-30",
+    "netAsset": 552574912645436,
+    "unitsSubDAY": 3610672,
+    "unitsRedDAY": 4769039
+  },
+  {
+    "date": "2025-03-31",
+    "netAsset": 552574915213497,
+    "unitsSubDAY": 3610883,
+    "unitsRedDAY": 4769207
+  },
+  {
+    "date": "2025-04-01",
+    "netAsset": 552574919958244,
+    "unitsSubDAY": 3611058,
+    "unitsRedDAY": 4769346
+  },
+  {
+    "date": "2025-04-02",
+    "netAsset": 552574922674717,
+    "unitsSubDAY": 3611258,
+    "unitsRedDAY": 4769579
+  },
+  {
+    "date": "2025-04-03",
+    "netAsset": 552574926821013,
+    "unitsSubDAY": 3611446,
+    "unitsRedDAY": 4770059
+  },
+  {
+    "date": "2025-04-04",
+    "netAsset": 552574931257772,
+    "unitsSubDAY": 3611584,
+    "unitsRedDAY": 4770408
+  },
+  {
+    "date": "2025-04-05",
+    "netAsset": 552574936257623,
+    "unitsSubDAY": 3611881,
+    "unitsRedDAY": 4770715
+  },
+  {
+    "date": "2025-04-06",
+    "netAsset": 552574939111296,
+    "unitsSubDAY": 3612301,
+    "unitsRedDAY": 4770938
+  },
+  {
+    "date": "2025-04-07",
+    "netAsset": 552574943677718,
+    "unitsSubDAY": 3612495,
+    "unitsRedDAY": 4771436
+  },
+  {
+    "date": "2025-04-08",
+    "netAsset": 552574947952070,
+    "unitsSubDAY": 3612767,
+    "unitsRedDAY": 4771865
+  },
+  {
+    "date": "2025-04-09",
+    "netAsset": 552574951483412,
+    "unitsSubDAY": 3613068,
+    "unitsRedDAY": 4772113
+  },
+  {
+    "date": "2025-04-10",
+    "netAsset": 552574953904202,
+    "unitsSubDAY": 3613383,
+    "unitsRedDAY": 4772492
+  },
+  {
+    "date": "2025-04-11",
+    "netAsset": 552574955608320,
+    "unitsSubDAY": 3613498,
+    "unitsRedDAY": 4772679
+  },
+  {
+    "date": "2025-04-12",
+    "netAsset": 552574960463849,
+    "unitsSubDAY": 3613676,
+    "unitsRedDAY": 4772827
+  },
+  {
+    "date": "2025-04-13",
+    "netAsset": 552574965237281,
+    "unitsSubDAY": 3613883,
+    "unitsRedDAY": 4773301
+  },
+  {
+    "date": "2025-04-14",
+    "netAsset": 552574966462887,
+    "unitsSubDAY": 3614355,
+    "unitsRedDAY": 4773762
+  },
+  {
+    "date": "2025-04-15",
+    "netAsset": 552574970089292,
+    "unitsSubDAY": 3614544,
+    "unitsRedDAY": 4774035
+  },
+  {
+    "date": "2025-04-16",
+    "netAsset": 552574973648180,
+    "unitsSubDAY": 3614725,
+    "unitsRedDAY": 4774421
+  },
+  {
+    "date": "2025-04-17",
+    "netAsset": 552574977683301,
+    "unitsSubDAY": 3614926,
+    "unitsRedDAY": 4774871
+  },
+  {
+    "date": "2025-04-18",
+    "netAsset": 552574981386473,
+    "unitsSubDAY": 3615079,
+    "unitsRedDAY": 4775282
+  },
+  {
+    "date": "2025-04-19",
+    "netAsset": 552574986335145,
+    "unitsSubDAY": 3615483,
+    "unitsRedDAY": 4775529
+  },
+  {
+    "date": "2025-04-20",
+    "netAsset": 552574987575349,
+    "unitsSubDAY": 3615750,
+    "unitsRedDAY": 4775887
+  },
+  {
+    "date": "2025-04-21",
+    "netAsset": 552574991297808,
+    "unitsSubDAY": 3616189,
+    "unitsRedDAY": 4776301
+  }
+]

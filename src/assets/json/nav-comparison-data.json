@@ -1,0 +1,4388 @@
+[
+  {
+    "date": "2023-04-22",
+    "issueNav": 999627.33,
+    "cancelNav": 999140.14,
+    "statisticalNav": 998513.19
+  },
+  {
+    "date": "2023-04-23",
+    "issueNav": 1000202.12,
+    "cancelNav": 999894.08,
+    "statisticalNav": 999314.68
+  },
+  {
+    "date": "2023-04-24",
+    "issueNav": 1000831.42,
+    "cancelNav": 1000168.79,
+    "statisticalNav": 999846.46
+  },
+  {
+    "date": "2023-04-25",
+    "issueNav": 1001265.71,
+    "cancelNav": 1000602.7,
+    "statisticalNav": 1000088.8
+  },
+  {
+    "date": "2023-04-26",
+    "issueNav": 1000836.01,
+    "cancelNav": 1000491.05,
+    "statisticalNav": 999956.06
+  },
+  {
+    "date": "2023-04-27",
+    "issueNav": 1001269.95,
+    "cancelNav": 1000757.37,
+    "statisticalNav": 1000271.71
+  },
+  {
+    "date": "2023-04-28",
+    "issueNav": 1001984.54,
+    "cancelNav": 1001219.83,
+    "statisticalNav": 1000449.62
+  },
+  {
+    "date": "2023-04-29",
+    "issueNav": 1002463.53,
+    "cancelNav": 1001932.53,
+    "statisticalNav": 1001388.58
+  },
+  {
+    "date": "2023-04-30",
+    "issueNav": 1002954.02,
+    "cancelNav": 1002420.77,
+    "statisticalNav": 1002002.09
+  },
+  {
+    "date": "2023-05-01",
+    "issueNav": 1002752.61,
+    "cancelNav": 1002163.17,
+    "statisticalNav": 1001796.97
+  },
+  {
+    "date": "2023-05-02",
+    "issueNav": 1002715.41,
+    "cancelNav": 1002243.83,
+    "statisticalNav": 1001705.06
+  },
+  {
+    "date": "2023-05-03",
+    "issueNav": 1003220.69,
+    "cancelNav": 1002913.61,
+    "statisticalNav": 1002560.52
+  },
+  {
+    "date": "2023-05-04",
+    "issueNav": 1004005.16,
+    "cancelNav": 1003326.65,
+    "statisticalNav": 1002747.79
+  },
+  {
+    "date": "2023-05-05",
+    "issueNav": 1004251.89,
+    "cancelNav": 1003567.46,
+    "statisticalNav": 1003162.39
+  },
+  {
+    "date": "2023-05-06",
+    "issueNav": 1005029.87,
+    "cancelNav": 1004510.71,
+    "statisticalNav": 1004001.46
+  },
+  {
+    "date": "2023-05-07",
+    "issueNav": 1004841.2,
+    "cancelNav": 1004494.43,
+    "statisticalNav": 1003726.96
+  },
+  {
+    "date": "2023-05-08",
+    "issueNav": 1004578.27,
+    "cancelNav": 1004044.1,
+    "statisticalNav": 1003400.8
+  },
+  {
+    "date": "2023-05-09",
+    "issueNav": 1004272.49,
+    "cancelNav": 1003735.24,
+    "statisticalNav": 1003237.96
+  },
+  {
+    "date": "2023-05-10",
+    "issueNav": 1004904.18,
+    "cancelNav": 1004564.77,
+    "statisticalNav": 1004020.06
+  },
+  {
+    "date": "2023-05-11",
+    "issueNav": 1005479.98,
+    "cancelNav": 1004804.55,
+    "statisticalNav": 1004375.77
+  },
+  {
+    "date": "2023-05-12",
+    "issueNav": 1006081.11,
+    "cancelNav": 1005493.12,
+    "statisticalNav": 1004753.2
+  },
+  {
+    "date": "2023-05-13",
+    "issueNav": 1006373.32,
+    "cancelNav": 1005762.1,
+    "statisticalNav": 1005273.3
+  },
+  {
+    "date": "2023-05-14",
+    "issueNav": 1005916.78,
+    "cancelNav": 1005222.33,
+    "statisticalNav": 1004598.22
+  },
+  {
+    "date": "2023-05-15",
+    "issueNav": 1005560.38,
+    "cancelNav": 1004983.0,
+    "statisticalNav": 1004475.34
+  },
+  {
+    "date": "2023-05-16",
+    "issueNav": 1005944.54,
+    "cancelNav": 1005445.96,
+    "statisticalNav": 1004905.39
+  },
+  {
+    "date": "2023-05-17",
+    "issueNav": 1005976.04,
+    "cancelNav": 1005634.14,
+    "statisticalNav": 1004937.85
+  },
+  {
+    "date": "2023-05-18",
+    "issueNav": 1006536.74,
+    "cancelNav": 1006228.67,
+    "statisticalNav": 1005484.12
+  },
+  {
+    "date": "2023-05-19",
+    "issueNav": 1006498.82,
+    "cancelNav": 1006073.25,
+    "statisticalNav": 1005653.16
+  },
+  {
+    "date": "2023-05-20",
+    "issueNav": 1006195.4,
+    "cancelNav": 1005652.01,
+    "statisticalNav": 1004990.81
+  },
+  {
+    "date": "2023-05-21",
+    "issueNav": 1006759.68,
+    "cancelNav": 1006414.84,
+    "statisticalNav": 1005694.92
+  },
+  {
+    "date": "2023-05-22",
+    "issueNav": 1006379.12,
+    "cancelNav": 1005831.5,
+    "statisticalNav": 1005332.81
+  },
+  {
+    "date": "2023-05-23",
+    "issueNav": 1006325.42,
+    "cancelNav": 1005668.36,
+    "statisticalNav": 1005052.16
+  },
+  {
+    "date": "2023-05-24",
+    "issueNav": 1007043.37,
+    "cancelNav": 1006366.16,
+    "statisticalNav": 1005991.89
+  },
+  {
+    "date": "2023-05-25",
+    "issueNav": 1006932.51,
+    "cancelNav": 1006286.93,
+    "statisticalNav": 1005537.44
+  },
+  {
+    "date": "2023-05-26",
+    "issueNav": 1006475.54,
+    "cancelNav": 1005808.08,
+    "statisticalNav": 1005075.76
+  },
+  {
+    "date": "2023-05-27",
+    "issueNav": 1006554.54,
+    "cancelNav": 1006042.97,
+    "statisticalNav": 1005613.53
+  },
+  {
+    "date": "2023-05-28",
+    "issueNav": 1006112.63,
+    "cancelNav": 1005586.42,
+    "statisticalNav": 1005010.86
+  },
+  {
+    "date": "2023-05-29",
+    "issueNav": 1006021.92,
+    "cancelNav": 1005672.68,
+    "statisticalNav": 1005032.09
+  },
+  {
+    "date": "2023-05-30",
+    "issueNav": 1005579.53,
+    "cancelNav": 1004956.15,
+    "statisticalNav": 1004481.31
+  },
+  {
+    "date": "2023-05-31",
+    "issueNav": 1005222.79,
+    "cancelNav": 1004712.63,
+    "statisticalNav": 1004129.43
+  },
+  {
+    "date": "2023-06-01",
+    "issueNav": 1005056.62,
+    "cancelNav": 1004591.97,
+    "statisticalNav": 1004096.21
+  },
+  {
+    "date": "2023-06-02",
+    "issueNav": 1004710.6,
+    "cancelNav": 1004323.12,
+    "statisticalNav": 1003980.95
+  },
+  {
+    "date": "2023-06-03",
+    "issueNav": 1004814.74,
+    "cancelNav": 1004496.26,
+    "statisticalNav": 1003768.77
+  },
+  {
+    "date": "2023-06-04",
+    "issueNav": 1004900.51,
+    "cancelNav": 1004465.83,
+    "statisticalNav": 1003994.08
+  },
+  {
+    "date": "2023-06-05",
+    "issueNav": 1004874.35,
+    "cancelNav": 1004146.47,
+    "statisticalNav": 1003560.89
+  },
+  {
+    "date": "2023-06-06",
+    "issueNav": 1004903.65,
+    "cancelNav": 1004234.81,
+    "statisticalNav": 1003523.22
+  },
+  {
+    "date": "2023-06-07",
+    "issueNav": 1004540.16,
+    "cancelNav": 1004172.85,
+    "statisticalNav": 1003557.26
+  },
+  {
+    "date": "2023-06-08",
+    "issueNav": 1004743.54,
+    "cancelNav": 1004132.28,
+    "statisticalNav": 1003829.03
+  },
+  {
+    "date": "2023-06-09",
+    "issueNav": 1004510.26,
+    "cancelNav": 1004202.94,
+    "statisticalNav": 1003722.12
+  },
+  {
+    "date": "2023-06-10",
+    "issueNav": 1004925.63,
+    "cancelNav": 1004168.45,
+    "statisticalNav": 1003400.51
+  },
+  {
+    "date": "2023-06-11",
+    "issueNav": 1004504.34,
+    "cancelNav": 1004016.76,
+    "statisticalNav": 1003694.89
+  },
+  {
+    "date": "2023-06-12",
+    "issueNav": 1005014.78,
+    "cancelNav": 1004452.69,
+    "statisticalNav": 1003822.37
+  },
+  {
+    "date": "2023-06-13",
+    "issueNav": 1005629.36,
+    "cancelNav": 1005010.64,
+    "statisticalNav": 1004674.93
+  },
+  {
+    "date": "2023-06-14",
+    "issueNav": 1005844.35,
+    "cancelNav": 1005307.06,
+    "statisticalNav": 1005001.88
+  },
+  {
+    "date": "2023-06-15",
+    "issueNav": 1006056.28,
+    "cancelNav": 1005694.26,
+    "statisticalNav": 1005047.81
+  },
+  {
+    "date": "2023-06-16",
+    "issueNav": 1006256.97,
+    "cancelNav": 1005546.26,
+    "statisticalNav": 1004934.77
+  },
+  {
+    "date": "2023-06-17",
+    "issueNav": 1006991.37,
+    "cancelNav": 1006521.54,
+    "statisticalNav": 1005966.52
+  },
+  {
+    "date": "2023-06-18",
+    "issueNav": 1007748.56,
+    "cancelNav": 1007250.69,
+    "statisticalNav": 1006461.21
+  },
+  {
+    "date": "2023-06-19",
+    "issueNav": 1007886.12,
+    "cancelNav": 1007330.82,
+    "statisticalNav": 1006742.29
+  },
+  {
+    "date": "2023-06-20",
+    "issueNav": 1007974.92,
+    "cancelNav": 1007536.35,
+    "statisticalNav": 1006942.21
+  },
+  {
+    "date": "2023-06-21",
+    "issueNav": 1008591.54,
+    "cancelNav": 1008291.24,
+    "statisticalNav": 1007859.32
+  },
+  {
+    "date": "2023-06-22",
+    "issueNav": 1008750.18,
+    "cancelNav": 1008435.88,
+    "statisticalNav": 1008006.09
+  },
+  {
+    "date": "2023-06-23",
+    "issueNav": 1008608.49,
+    "cancelNav": 1008042.64,
+    "statisticalNav": 1007631.93
+  },
+  {
+    "date": "2023-06-24",
+    "issueNav": 1008342.23,
+    "cancelNav": 1007915.36,
+    "statisticalNav": 1007230.38
+  },
+  {
+    "date": "2023-06-25",
+    "issueNav": 1007951.3,
+    "cancelNav": 1007628.22,
+    "statisticalNav": 1007029.74
+  },
+  {
+    "date": "2023-06-26",
+    "issueNav": 1008557.4,
+    "cancelNav": 1008023.08,
+    "statisticalNav": 1007458.07
+  },
+  {
+    "date": "2023-06-27",
+    "issueNav": 1009256.4,
+    "cancelNav": 1008755.62,
+    "statisticalNav": 1008025.06
+  },
+  {
+    "date": "2023-06-28",
+    "issueNav": 1009936.37,
+    "cancelNav": 1009200.26,
+    "statisticalNav": 1008871.56
+  },
+  {
+    "date": "2023-06-29",
+    "issueNav": 1010438.96,
+    "cancelNav": 1009829.98,
+    "statisticalNav": 1009139.54
+  },
+  {
+    "date": "2023-06-30",
+    "issueNav": 1010979.81,
+    "cancelNav": 1010454.83,
+    "statisticalNav": 1009870.65
+  },
+  {
+    "date": "2023-07-01",
+    "issueNav": 1011362.1,
+    "cancelNav": 1010565.26,
+    "statisticalNav": 1010106.27
+  },
+  {
+    "date": "2023-07-02",
+    "issueNav": 1011735.61,
+    "cancelNav": 1011066.23,
+    "statisticalNav": 1010490.98
+  },
+  {
+    "date": "2023-07-03",
+    "issueNav": 1012464.61,
+    "cancelNav": 1011930.81,
+    "statisticalNav": 1011259.41
+  },
+  {
+    "date": "2023-07-04",
+    "issueNav": 1012320.52,
+    "cancelNav": 1011556.82,
+    "statisticalNav": 1010803.11
+  },
+  {
+    "date": "2023-07-05",
+    "issueNav": 1012686.47,
+    "cancelNav": 1012043.82,
+    "statisticalNav": 1011637.34
+  },
+  {
+    "date": "2023-07-06",
+    "issueNav": 1013374.91,
+    "cancelNav": 1013007.83,
+    "statisticalNav": 1012280.17
+  },
+  {
+    "date": "2023-07-07",
+    "issueNav": 1013207.55,
+    "cancelNav": 1012453.68,
+    "statisticalNav": 1012145.13
+  },
+  {
+    "date": "2023-07-08",
+    "issueNav": 1012799.18,
+    "cancelNav": 1012278.29,
+    "statisticalNav": 1011497.32
+  },
+  {
+    "date": "2023-07-09",
+    "issueNav": 1012504.56,
+    "cancelNav": 1011751.92,
+    "statisticalNav": 1011303.74
+  },
+  {
+    "date": "2023-07-10",
+    "issueNav": 1013278.73,
+    "cancelNav": 1012501.55,
+    "statisticalNav": 1011864.08
+  },
+  {
+    "date": "2023-07-11",
+    "issueNav": 1013775.88,
+    "cancelNav": 1013237.32,
+    "statisticalNav": 1012512.41
+  },
+  {
+    "date": "2023-07-12",
+    "issueNav": 1013629.12,
+    "cancelNav": 1012883.37,
+    "statisticalNav": 1012189.32
+  },
+  {
+    "date": "2023-07-13",
+    "issueNav": 1014360.26,
+    "cancelNav": 1013597.37,
+    "statisticalNav": 1013159.62
+  },
+  {
+    "date": "2023-07-14",
+    "issueNav": 1014769.23,
+    "cancelNav": 1014217.48,
+    "statisticalNav": 1013656.87
+  },
+  {
+    "date": "2023-07-15",
+    "issueNav": 1014525.35,
+    "cancelNav": 1013952.48,
+    "statisticalNav": 1013565.03
+  },
+  {
+    "date": "2023-07-16",
+    "issueNav": 1015230.14,
+    "cancelNav": 1014740.14,
+    "statisticalNav": 1014170.82
+  },
+  {
+    "date": "2023-07-17",
+    "issueNav": 1015966.69,
+    "cancelNav": 1015168.69,
+    "statisticalNav": 1014642.7
+  },
+  {
+    "date": "2023-07-18",
+    "issueNav": 1016150.3,
+    "cancelNav": 1015777.92,
+    "statisticalNav": 1015105.36
+  },
+  {
+    "date": "2023-07-19",
+    "issueNav": 1016066.18,
+    "cancelNav": 1015532.98,
+    "statisticalNav": 1014914.22
+  },
+  {
+    "date": "2023-07-20",
+    "issueNav": 1016699.08,
+    "cancelNav": 1016292.34,
+    "statisticalNav": 1015536.01
+  },
+  {
+    "date": "2023-07-21",
+    "issueNav": 1016829.68,
+    "cancelNav": 1016176.3,
+    "statisticalNav": 1015630.07
+  },
+  {
+    "date": "2023-07-22",
+    "issueNav": 1016418.3,
+    "cancelNav": 1015859.49,
+    "statisticalNav": 1015467.74
+  },
+  {
+    "date": "2023-07-23",
+    "issueNav": 1016097.13,
+    "cancelNav": 1015346.19,
+    "statisticalNav": 1014983.58
+  },
+  {
+    "date": "2023-07-24",
+    "issueNav": 1016112.29,
+    "cancelNav": 1015607.74,
+    "statisticalNav": 1015040.65
+  },
+  {
+    "date": "2023-07-25",
+    "issueNav": 1015881.4,
+    "cancelNav": 1015123.48,
+    "statisticalNav": 1014748.98
+  },
+  {
+    "date": "2023-07-26",
+    "issueNav": 1016114.22,
+    "cancelNav": 1015470.03,
+    "statisticalNav": 1014931.05
+  },
+  {
+    "date": "2023-07-27",
+    "issueNav": 1016391.67,
+    "cancelNav": 1015989.79,
+    "statisticalNav": 1015242.08
+  },
+  {
+    "date": "2023-07-28",
+    "issueNav": 1016776.8,
+    "cancelNav": 1016380.09,
+    "statisticalNav": 1016029.37
+  },
+  {
+    "date": "2023-07-29",
+    "issueNav": 1016742.27,
+    "cancelNav": 1016147.19,
+    "statisticalNav": 1015532.56
+  },
+  {
+    "date": "2023-07-30",
+    "issueNav": 1017001.8,
+    "cancelNav": 1016321.98,
+    "statisticalNav": 1015888.97
+  },
+  {
+    "date": "2023-07-31",
+    "issueNav": 1016981.18,
+    "cancelNav": 1016461.17,
+    "statisticalNav": 1016028.63
+  },
+  {
+    "date": "2023-08-01",
+    "issueNav": 1016938.79,
+    "cancelNav": 1016328.67,
+    "statisticalNav": 1015660.13
+  },
+  {
+    "date": "2023-08-02",
+    "issueNav": 1016910.94,
+    "cancelNav": 1016294.14,
+    "statisticalNav": 1015611.76
+  },
+  {
+    "date": "2023-08-03",
+    "issueNav": 1017271.22,
+    "cancelNav": 1016699.91,
+    "statisticalNav": 1016118.54
+  },
+  {
+    "date": "2023-08-04",
+    "issueNav": 1017786.92,
+    "cancelNav": 1017452.78,
+    "statisticalNav": 1016958.11
+  },
+  {
+    "date": "2023-08-05",
+    "issueNav": 1017415.04,
+    "cancelNav": 1016999.73,
+    "statisticalNav": 1016289.96
+  },
+  {
+    "date": "2023-08-06",
+    "issueNav": 1017763.93,
+    "cancelNav": 1017008.47,
+    "statisticalNav": 1016670.83
+  },
+  {
+    "date": "2023-08-07",
+    "issueNav": 1018096.83,
+    "cancelNav": 1017677.94,
+    "statisticalNav": 1017325.31
+  },
+  {
+    "date": "2023-08-08",
+    "issueNav": 1018708.18,
+    "cancelNav": 1018210.99,
+    "statisticalNav": 1017443.64
+  },
+  {
+    "date": "2023-08-09",
+    "issueNav": 1019154.2,
+    "cancelNav": 1018430.31,
+    "statisticalNav": 1017636.8
+  },
+  {
+    "date": "2023-08-10",
+    "issueNav": 1018898.82,
+    "cancelNav": 1018572.6,
+    "statisticalNav": 1017979.18
+  },
+  {
+    "date": "2023-08-11",
+    "issueNav": 1019568.72,
+    "cancelNav": 1019261.34,
+    "statisticalNav": 1018908.79
+  },
+  {
+    "date": "2023-08-12",
+    "issueNav": 1019919.52,
+    "cancelNav": 1019426.9,
+    "statisticalNav": 1018709.67
+  },
+  {
+    "date": "2023-08-13",
+    "issueNav": 1019647.47,
+    "cancelNav": 1019307.31,
+    "statisticalNav": 1018825.92
+  },
+  {
+    "date": "2023-08-14",
+    "issueNav": 1019741.13,
+    "cancelNav": 1019435.91,
+    "statisticalNav": 1019072.87
+  },
+  {
+    "date": "2023-08-15",
+    "issueNav": 1019391.95,
+    "cancelNav": 1018875.07,
+    "statisticalNav": 1018574.57
+  },
+  {
+    "date": "2023-08-16",
+    "issueNav": 1020022.22,
+    "cancelNav": 1019675.21,
+    "statisticalNav": 1019132.34
+  },
+  {
+    "date": "2023-08-17",
+    "issueNav": 1020780.64,
+    "cancelNav": 1019999.64,
+    "statisticalNav": 1019299.05
+  },
+  {
+    "date": "2023-08-18",
+    "issueNav": 1020596.01,
+    "cancelNav": 1020036.02,
+    "statisticalNav": 1019520.7
+  },
+  {
+    "date": "2023-08-19",
+    "issueNav": 1020102.0,
+    "cancelNav": 1019432.47,
+    "statisticalNav": 1018944.17
+  },
+  {
+    "date": "2023-08-20",
+    "issueNav": 1020556.6,
+    "cancelNav": 1019993.98,
+    "statisticalNav": 1019469.99
+  },
+  {
+    "date": "2023-08-21",
+    "issueNav": 1021051.09,
+    "cancelNav": 1020332.22,
+    "statisticalNav": 1019826.68
+  },
+  {
+    "date": "2023-08-22",
+    "issueNav": 1021019.3,
+    "cancelNav": 1020676.58,
+    "statisticalNav": 1020085.08
+  },
+  {
+    "date": "2023-08-23",
+    "issueNav": 1021165.59,
+    "cancelNav": 1020591.49,
+    "statisticalNav": 1020260.99
+  },
+  {
+    "date": "2023-08-24",
+    "issueNav": 1021175.22,
+    "cancelNav": 1020388.69,
+    "statisticalNav": 1019809.88
+  },
+  {
+    "date": "2023-08-25",
+    "issueNav": 1020698.45,
+    "cancelNav": 1020249.28,
+    "statisticalNav": 1019626.24
+  },
+  {
+    "date": "2023-08-26",
+    "issueNav": 1020702.84,
+    "cancelNav": 1020112.75,
+    "statisticalNav": 1019643.77
+  },
+  {
+    "date": "2023-08-27",
+    "issueNav": 1020610.29,
+    "cancelNav": 1020304.63,
+    "statisticalNav": 1019882.17
+  },
+  {
+    "date": "2023-08-28",
+    "issueNav": 1020449.36,
+    "cancelNav": 1019954.73,
+    "statisticalNav": 1019482.63
+  },
+  {
+    "date": "2023-08-29",
+    "issueNav": 1021023.96,
+    "cancelNav": 1020240.9,
+    "statisticalNav": 1019444.24
+  },
+  {
+    "date": "2023-08-30",
+    "issueNav": 1020621.07,
+    "cancelNav": 1019993.74,
+    "statisticalNav": 1019251.99
+  },
+  {
+    "date": "2023-08-31",
+    "issueNav": 1021338.38,
+    "cancelNav": 1020590.07,
+    "statisticalNav": 1020164.95
+  },
+  {
+    "date": "2023-09-01",
+    "issueNav": 1021744.47,
+    "cancelNav": 1021022.11,
+    "statisticalNav": 1020559.85
+  },
+  {
+    "date": "2023-09-02",
+    "issueNav": 1022095.58,
+    "cancelNav": 1021677.57,
+    "statisticalNav": 1020956.94
+  },
+  {
+    "date": "2023-09-03",
+    "issueNav": 1022651.48,
+    "cancelNav": 1022213.51,
+    "statisticalNav": 1021856.73
+  },
+  {
+    "date": "2023-09-04",
+    "issueNav": 1023371.77,
+    "cancelNav": 1022741.36,
+    "statisticalNav": 1022151.57
+  },
+  {
+    "date": "2023-09-05",
+    "issueNav": 1024140.15,
+    "cancelNav": 1023349.48,
+    "statisticalNav": 1022777.9
+  },
+  {
+    "date": "2023-09-06",
+    "issueNav": 1024917.46,
+    "cancelNav": 1024578.96,
+    "statisticalNav": 1024165.5
+  },
+  {
+    "date": "2023-09-07",
+    "issueNav": 1025245.43,
+    "cancelNav": 1024917.31,
+    "statisticalNav": 1024340.04
+  },
+  {
+    "date": "2023-09-08",
+    "issueNav": 1026032.1,
+    "cancelNav": 1025650.48,
+    "statisticalNav": 1025137.04
+  },
+  {
+    "date": "2023-09-09",
+    "issueNav": 1026213.1,
+    "cancelNav": 1025853.54,
+    "statisticalNav": 1025206.75
+  },
+  {
+    "date": "2023-09-10",
+    "issueNav": 1026701.61,
+    "cancelNav": 1026252.3,
+    "statisticalNav": 1025674.45
+  },
+  {
+    "date": "2023-09-11",
+    "issueNav": 1027451.76,
+    "cancelNav": 1027112.17,
+    "statisticalNav": 1026499.55
+  },
+  {
+    "date": "2023-09-12",
+    "issueNav": 1027101.96,
+    "cancelNav": 1026305.02,
+    "statisticalNav": 1025684.15
+  },
+  {
+    "date": "2023-09-13",
+    "issueNav": 1026604.88,
+    "cancelNav": 1025960.34,
+    "statisticalNav": 1025516.59
+  },
+  {
+    "date": "2023-09-14",
+    "issueNav": 1026906.25,
+    "cancelNav": 1026123.4,
+    "statisticalNav": 1025585.73
+  },
+  {
+    "date": "2023-09-15",
+    "issueNav": 1026569.01,
+    "cancelNav": 1026240.31,
+    "statisticalNav": 1025801.98
+  },
+  {
+    "date": "2023-09-16",
+    "issueNav": 1026212.29,
+    "cancelNav": 1025863.34,
+    "statisticalNav": 1025473.92
+  },
+  {
+    "date": "2023-09-17",
+    "issueNav": 1026027.19,
+    "cancelNav": 1025489.03,
+    "statisticalNav": 1024999.31
+  },
+  {
+    "date": "2023-09-18",
+    "issueNav": 1026738.44,
+    "cancelNav": 1025968.34,
+    "statisticalNav": 1025289.38
+  },
+  {
+    "date": "2023-09-19",
+    "issueNav": 1027302.23,
+    "cancelNav": 1026868.19,
+    "statisticalNav": 1026421.3
+  },
+  {
+    "date": "2023-09-20",
+    "issueNav": 1026868.81,
+    "cancelNav": 1026365.14,
+    "statisticalNav": 1025582.14
+  },
+  {
+    "date": "2023-09-21",
+    "issueNav": 1026518.52,
+    "cancelNav": 1026061.38,
+    "statisticalNav": 1025715.74
+  },
+  {
+    "date": "2023-09-22",
+    "issueNav": 1026180.17,
+    "cancelNav": 1025800.26,
+    "statisticalNav": 1025047.65
+  },
+  {
+    "date": "2023-09-23",
+    "issueNav": 1026012.03,
+    "cancelNav": 1025481.47,
+    "statisticalNav": 1025160.31
+  },
+  {
+    "date": "2023-09-24",
+    "issueNav": 1026523.23,
+    "cancelNav": 1026169.06,
+    "statisticalNav": 1025390.05
+  },
+  {
+    "date": "2023-09-25",
+    "issueNav": 1026586.48,
+    "cancelNav": 1026230.85,
+    "statisticalNav": 1025469.27
+  },
+  {
+    "date": "2023-09-26",
+    "issueNav": 1026743.36,
+    "cancelNav": 1026102.12,
+    "statisticalNav": 1025679.49
+  },
+  {
+    "date": "2023-09-27",
+    "issueNav": 1027358.03,
+    "cancelNav": 1026819.79,
+    "statisticalNav": 1026051.83
+  },
+  {
+    "date": "2023-09-28",
+    "issueNav": 1026943.54,
+    "cancelNav": 1026354.98,
+    "statisticalNav": 1025730.77
+  },
+  {
+    "date": "2023-09-29",
+    "issueNav": 1026658.07,
+    "cancelNav": 1026211.03,
+    "statisticalNav": 1025852.83
+  },
+  {
+    "date": "2023-09-30",
+    "issueNav": 1027311.06,
+    "cancelNav": 1026764.45,
+    "statisticalNav": 1026444.47
+  },
+  {
+    "date": "2023-10-01",
+    "issueNav": 1028010.28,
+    "cancelNav": 1027266.56,
+    "statisticalNav": 1026660.16
+  },
+  {
+    "date": "2023-10-02",
+    "issueNav": 1028220.04,
+    "cancelNav": 1027779.43,
+    "statisticalNav": 1027131.51
+  },
+  {
+    "date": "2023-10-03",
+    "issueNav": 1028186.97,
+    "cancelNav": 1027749.1,
+    "statisticalNav": 1027031.0
+  },
+  {
+    "date": "2023-10-04",
+    "issueNav": 1028537.39,
+    "cancelNav": 1028202.23,
+    "statisticalNav": 1027711.2
+  },
+  {
+    "date": "2023-10-05",
+    "issueNav": 1028295.58,
+    "cancelNav": 1027794.99,
+    "statisticalNav": 1027006.2
+  },
+  {
+    "date": "2023-10-06",
+    "issueNav": 1028167.94,
+    "cancelNav": 1027571.97,
+    "statisticalNav": 1026901.36
+  },
+  {
+    "date": "2023-10-07",
+    "issueNav": 1028081.11,
+    "cancelNav": 1027745.76,
+    "statisticalNav": 1027421.86
+  },
+  {
+    "date": "2023-10-08",
+    "issueNav": 1027953.48,
+    "cancelNav": 1027634.78,
+    "statisticalNav": 1027216.14
+  },
+  {
+    "date": "2023-10-09",
+    "issueNav": 1028323.97,
+    "cancelNav": 1027829.86,
+    "statisticalNav": 1027318.58
+  },
+  {
+    "date": "2023-10-10",
+    "issueNav": 1028543.63,
+    "cancelNav": 1028171.45,
+    "statisticalNav": 1027622.89
+  },
+  {
+    "date": "2023-10-11",
+    "issueNav": 1028126.72,
+    "cancelNav": 1027637.08,
+    "statisticalNav": 1027260.56
+  },
+  {
+    "date": "2023-10-12",
+    "issueNav": 1028017.17,
+    "cancelNav": 1027536.61,
+    "statisticalNav": 1026805.47
+  },
+  {
+    "date": "2023-10-13",
+    "issueNav": 1028588.86,
+    "cancelNav": 1027894.77,
+    "statisticalNav": 1027109.24
+  },
+  {
+    "date": "2023-10-14",
+    "issueNav": 1028661.23,
+    "cancelNav": 1028067.2,
+    "statisticalNav": 1027466.14
+  },
+  {
+    "date": "2023-10-15",
+    "issueNav": 1029140.39,
+    "cancelNav": 1028720.14,
+    "statisticalNav": 1028267.86
+  },
+  {
+    "date": "2023-10-16",
+    "issueNav": 1029332.63,
+    "cancelNav": 1028905.63,
+    "statisticalNav": 1028234.63
+  },
+  {
+    "date": "2023-10-17",
+    "issueNav": 1029236.39,
+    "cancelNav": 1028690.16,
+    "statisticalNav": 1027963.27
+  },
+  {
+    "date": "2023-10-18",
+    "issueNav": 1028847.42,
+    "cancelNav": 1028177.39,
+    "statisticalNav": 1027590.29
+  },
+  {
+    "date": "2023-10-19",
+    "issueNav": 1028822.11,
+    "cancelNav": 1028471.88,
+    "statisticalNav": 1028073.4
+  },
+  {
+    "date": "2023-10-20",
+    "issueNav": 1028450.27,
+    "cancelNav": 1028024.22,
+    "statisticalNav": 1027610.42
+  },
+  {
+    "date": "2023-10-21",
+    "issueNav": 1028049.07,
+    "cancelNav": 1027323.03,
+    "statisticalNav": 1026999.47
+  },
+  {
+    "date": "2023-10-22",
+    "issueNav": 1028414.48,
+    "cancelNav": 1027767.92,
+    "statisticalNav": 1027041.74
+  },
+  {
+    "date": "2023-10-23",
+    "issueNav": 1028482.67,
+    "cancelNav": 1027902.99,
+    "statisticalNav": 1027207.18
+  },
+  {
+    "date": "2023-10-24",
+    "issueNav": 1029128.71,
+    "cancelNav": 1028777.21,
+    "statisticalNav": 1028313.96
+  },
+  {
+    "date": "2023-10-25",
+    "issueNav": 1028648.91,
+    "cancelNav": 1027911.03,
+    "statisticalNav": 1027456.64
+  },
+  {
+    "date": "2023-10-26",
+    "issueNav": 1029336.24,
+    "cancelNav": 1029021.85,
+    "statisticalNav": 1028384.88
+  },
+  {
+    "date": "2023-10-27",
+    "issueNav": 1029438.34,
+    "cancelNav": 1029040.12,
+    "statisticalNav": 1028504.22
+  },
+  {
+    "date": "2023-10-28",
+    "issueNav": 1029461.99,
+    "cancelNav": 1028782.91,
+    "statisticalNav": 1028186.71
+  },
+  {
+    "date": "2023-10-29",
+    "issueNav": 1029601.62,
+    "cancelNav": 1028858.08,
+    "statisticalNav": 1028061.17
+  },
+  {
+    "date": "2023-10-30",
+    "issueNav": 1030290.17,
+    "cancelNav": 1029923.47,
+    "statisticalNav": 1029450.94
+  },
+  {
+    "date": "2023-10-31",
+    "issueNav": 1030270.01,
+    "cancelNav": 1029967.16,
+    "statisticalNav": 1029243.7
+  },
+  {
+    "date": "2023-11-01",
+    "issueNav": 1030870.27,
+    "cancelNav": 1030224.39,
+    "statisticalNav": 1029540.87
+  },
+  {
+    "date": "2023-11-02",
+    "issueNav": 1031123.68,
+    "cancelNav": 1030424.08,
+    "statisticalNav": 1029956.19
+  },
+  {
+    "date": "2023-11-03",
+    "issueNav": 1031846.42,
+    "cancelNav": 1031089.23,
+    "statisticalNav": 1030708.68
+  },
+  {
+    "date": "2023-11-04",
+    "issueNav": 1031529.58,
+    "cancelNav": 1031077.85,
+    "statisticalNav": 1030658.77
+  },
+  {
+    "date": "2023-11-05",
+    "issueNav": 1031106.54,
+    "cancelNav": 1030433.91,
+    "statisticalNav": 1029812.6
+  },
+  {
+    "date": "2023-11-06",
+    "issueNav": 1031790.92,
+    "cancelNav": 1031074.93,
+    "statisticalNav": 1030425.82
+  },
+  {
+    "date": "2023-11-07",
+    "issueNav": 1032365.26,
+    "cancelNav": 1031681.27,
+    "statisticalNav": 1031319.27
+  },
+  {
+    "date": "2023-11-08",
+    "issueNav": 1032451.13,
+    "cancelNav": 1031877.88,
+    "statisticalNav": 1031099.08
+  },
+  {
+    "date": "2023-11-09",
+    "issueNav": 1032469.33,
+    "cancelNav": 1032043.55,
+    "statisticalNav": 1031464.04
+  },
+  {
+    "date": "2023-11-10",
+    "issueNav": 1032036.76,
+    "cancelNav": 1031527.68,
+    "statisticalNav": 1030780.23
+  },
+  {
+    "date": "2023-11-11",
+    "issueNav": 1032270.65,
+    "cancelNav": 1031606.37,
+    "statisticalNav": 1031168.35
+  },
+  {
+    "date": "2023-11-12",
+    "issueNav": 1033009.37,
+    "cancelNav": 1032492.59,
+    "statisticalNav": 1031972.55
+  },
+  {
+    "date": "2023-11-13",
+    "issueNav": 1033258.31,
+    "cancelNav": 1032945.51,
+    "statisticalNav": 1032298.51
+  },
+  {
+    "date": "2023-11-14",
+    "issueNav": 1033400.73,
+    "cancelNav": 1033097.25,
+    "statisticalNav": 1032692.8
+  },
+  {
+    "date": "2023-11-15",
+    "issueNav": 1033727.48,
+    "cancelNav": 1033315.01,
+    "statisticalNav": 1032663.63
+  },
+  {
+    "date": "2023-11-16",
+    "issueNav": 1033536.36,
+    "cancelNav": 1032821.78,
+    "statisticalNav": 1032226.0
+  },
+  {
+    "date": "2023-11-17",
+    "issueNav": 1033985.59,
+    "cancelNav": 1033458.56,
+    "statisticalNav": 1032866.15
+  },
+  {
+    "date": "2023-11-18",
+    "issueNav": 1034660.33,
+    "cancelNav": 1034015.54,
+    "statisticalNav": 1033446.15
+  },
+  {
+    "date": "2023-11-19",
+    "issueNav": 1035310.07,
+    "cancelNav": 1034758.83,
+    "statisticalNav": 1034446.18
+  },
+  {
+    "date": "2023-11-20",
+    "issueNav": 1035128.0,
+    "cancelNav": 1034677.92,
+    "statisticalNav": 1034310.96
+  },
+  {
+    "date": "2023-11-21",
+    "issueNav": 1035066.66,
+    "cancelNav": 1034368.75,
+    "statisticalNav": 1033680.83
+  },
+  {
+    "date": "2023-11-22",
+    "issueNav": 1035101.68,
+    "cancelNav": 1034703.09,
+    "statisticalNav": 1034147.41
+  },
+  {
+    "date": "2023-11-23",
+    "issueNav": 1035274.09,
+    "cancelNav": 1034722.76,
+    "statisticalNav": 1034091.39
+  },
+  {
+    "date": "2023-11-24",
+    "issueNav": 1034910.21,
+    "cancelNav": 1034271.29,
+    "statisticalNav": 1033621.01
+  },
+  {
+    "date": "2023-11-25",
+    "issueNav": 1035207.85,
+    "cancelNav": 1034583.13,
+    "statisticalNav": 1034054.86
+  },
+  {
+    "date": "2023-11-26",
+    "issueNav": 1035881.2,
+    "cancelNav": 1035159.6,
+    "statisticalNav": 1034381.46
+  },
+  {
+    "date": "2023-11-27",
+    "issueNav": 1036082.89,
+    "cancelNav": 1035417.48,
+    "statisticalNav": 1034870.51
+  },
+  {
+    "date": "2023-11-28",
+    "issueNav": 1036323.2,
+    "cancelNav": 1035621.83,
+    "statisticalNav": 1034918.96
+  },
+  {
+    "date": "2023-11-29",
+    "issueNav": 1036032.34,
+    "cancelNav": 1035253.8,
+    "statisticalNav": 1034527.03
+  },
+  {
+    "date": "2023-11-30",
+    "issueNav": 1036629.36,
+    "cancelNav": 1036140.15,
+    "statisticalNav": 1035717.96
+  },
+  {
+    "date": "2023-12-01",
+    "issueNav": 1036147.87,
+    "cancelNav": 1035476.89,
+    "statisticalNav": 1034771.14
+  },
+  {
+    "date": "2023-12-02",
+    "issueNav": 1036231.7,
+    "cancelNav": 1035447.07,
+    "statisticalNav": 1034911.81
+  },
+  {
+    "date": "2023-12-03",
+    "issueNav": 1036177.35,
+    "cancelNav": 1035667.28,
+    "statisticalNav": 1035271.36
+  },
+  {
+    "date": "2023-12-04",
+    "issueNav": 1036327.5,
+    "cancelNav": 1035746.07,
+    "statisticalNav": 1035229.59
+  },
+  {
+    "date": "2023-12-05",
+    "issueNav": 1036987.67,
+    "cancelNav": 1036251.7,
+    "statisticalNav": 1035914.09
+  },
+  {
+    "date": "2023-12-06",
+    "issueNav": 1037461.57,
+    "cancelNav": 1036857.21,
+    "statisticalNav": 1036513.25
+  },
+  {
+    "date": "2023-12-07",
+    "issueNav": 1036968.97,
+    "cancelNav": 1036260.27,
+    "statisticalNav": 1035767.94
+  },
+  {
+    "date": "2023-12-08",
+    "issueNav": 1036758.16,
+    "cancelNav": 1036321.45,
+    "statisticalNav": 1035969.28
+  },
+  {
+    "date": "2023-12-09",
+    "issueNav": 1037226.56,
+    "cancelNav": 1036492.37,
+    "statisticalNav": 1035702.4
+  },
+  {
+    "date": "2023-12-10",
+    "issueNav": 1037375.55,
+    "cancelNav": 1036638.26,
+    "statisticalNav": 1036232.42
+  },
+  {
+    "date": "2023-12-11",
+    "issueNav": 1037931.78,
+    "cancelNav": 1037160.15,
+    "statisticalNav": 1036569.25
+  },
+  {
+    "date": "2023-12-12",
+    "issueNav": 1038255.3,
+    "cancelNav": 1037495.8,
+    "statisticalNav": 1036720.47
+  },
+  {
+    "date": "2023-12-13",
+    "issueNav": 1038779.34,
+    "cancelNav": 1038313.8,
+    "statisticalNav": 1037853.95
+  },
+  {
+    "date": "2023-12-14",
+    "issueNav": 1038310.61,
+    "cancelNav": 1037545.64,
+    "statisticalNav": 1037120.62
+  },
+  {
+    "date": "2023-12-15",
+    "issueNav": 1038983.43,
+    "cancelNav": 1038345.36,
+    "statisticalNav": 1037631.32
+  },
+  {
+    "date": "2023-12-16",
+    "issueNav": 1039628.36,
+    "cancelNav": 1038884.41,
+    "statisticalNav": 1038182.73
+  },
+  {
+    "date": "2023-12-17",
+    "issueNav": 1040122.52,
+    "cancelNav": 1039816.72,
+    "statisticalNav": 1039244.45
+  },
+  {
+    "date": "2023-12-18",
+    "issueNav": 1040497.49,
+    "cancelNav": 1040074.02,
+    "statisticalNav": 1039714.09
+  },
+  {
+    "date": "2023-12-19",
+    "issueNav": 1040780.17,
+    "cancelNav": 1040312.99,
+    "statisticalNav": 1039900.68
+  },
+  {
+    "date": "2023-12-20",
+    "issueNav": 1040392.77,
+    "cancelNav": 1039685.09,
+    "statisticalNav": 1038887.96
+  },
+  {
+    "date": "2023-12-21",
+    "issueNav": 1040765.69,
+    "cancelNav": 1040406.1,
+    "statisticalNav": 1039774.3
+  },
+  {
+    "date": "2023-12-22",
+    "issueNav": 1040427.27,
+    "cancelNav": 1040064.5,
+    "statisticalNav": 1039497.04
+  },
+  {
+    "date": "2023-12-23",
+    "issueNav": 1040501.96,
+    "cancelNav": 1040001.83,
+    "statisticalNav": 1039209.29
+  },
+  {
+    "date": "2023-12-24",
+    "issueNav": 1040013.95,
+    "cancelNav": 1039429.64,
+    "statisticalNav": 1039124.93
+  },
+  {
+    "date": "2023-12-25",
+    "issueNav": 1040412.42,
+    "cancelNav": 1039760.0,
+    "statisticalNav": 1039044.83
+  },
+  {
+    "date": "2023-12-26",
+    "issueNav": 1040183.17,
+    "cancelNav": 1039516.45,
+    "statisticalNav": 1038830.25
+  },
+  {
+    "date": "2023-12-27",
+    "issueNav": 1039710.21,
+    "cancelNav": 1039385.84,
+    "statisticalNav": 1038648.78
+  },
+  {
+    "date": "2023-12-28",
+    "issueNav": 1039953.9,
+    "cancelNav": 1039350.76,
+    "statisticalNav": 1038987.53
+  },
+  {
+    "date": "2023-12-29",
+    "issueNav": 1039604.13,
+    "cancelNav": 1039044.87,
+    "statisticalNav": 1038686.45
+  },
+  {
+    "date": "2023-12-30",
+    "issueNav": 1040394.59,
+    "cancelNav": 1039972.83,
+    "statisticalNav": 1039369.76
+  },
+  {
+    "date": "2023-12-31",
+    "issueNav": 1040718.31,
+    "cancelNav": 1040240.64,
+    "statisticalNav": 1039754.5
+  },
+  {
+    "date": "2024-01-01",
+    "issueNav": 1040418.01,
+    "cancelNav": 1039872.54,
+    "statisticalNav": 1039311.59
+  },
+  {
+    "date": "2024-01-02",
+    "issueNav": 1040649.27,
+    "cancelNav": 1040280.23,
+    "statisticalNav": 1039510.36
+  },
+  {
+    "date": "2024-01-03",
+    "issueNav": 1040327.76,
+    "cancelNav": 1039654.01,
+    "statisticalNav": 1039072.3
+  },
+  {
+    "date": "2024-01-04",
+    "issueNav": 1040295.12,
+    "cancelNav": 1039562.79,
+    "statisticalNav": 1038889.23
+  },
+  {
+    "date": "2024-01-05",
+    "issueNav": 1041035.04,
+    "cancelNav": 1040555.93,
+    "statisticalNav": 1040217.69
+  },
+  {
+    "date": "2024-01-06",
+    "issueNav": 1040812.77,
+    "cancelNav": 1040393.29,
+    "statisticalNav": 1040032.89
+  },
+  {
+    "date": "2024-01-07",
+    "issueNav": 1040389.71,
+    "cancelNav": 1039927.13,
+    "statisticalNav": 1039337.73
+  },
+  {
+    "date": "2024-01-08",
+    "issueNav": 1041184.09,
+    "cancelNav": 1040495.77,
+    "statisticalNav": 1039978.97
+  },
+  {
+    "date": "2024-01-09",
+    "issueNav": 1041841.08,
+    "cancelNav": 1041370.64,
+    "statisticalNav": 1040846.11
+  },
+  {
+    "date": "2024-01-10",
+    "issueNav": 1042129.72,
+    "cancelNav": 1041747.62,
+    "statisticalNav": 1041024.88
+  },
+  {
+    "date": "2024-01-11",
+    "issueNav": 1041971.89,
+    "cancelNav": 1041187.5,
+    "statisticalNav": 1040548.41
+  },
+  {
+    "date": "2024-01-12",
+    "issueNav": 1041586.9,
+    "cancelNav": 1041101.77,
+    "statisticalNav": 1040776.33
+  },
+  {
+    "date": "2024-01-13",
+    "issueNav": 1042266.6,
+    "cancelNav": 1041654.79,
+    "statisticalNav": 1041165.8
+  },
+  {
+    "date": "2024-01-14",
+    "issueNav": 1042830.14,
+    "cancelNav": 1042258.51,
+    "statisticalNav": 1041653.15
+  },
+  {
+    "date": "2024-01-15",
+    "issueNav": 1042768.75,
+    "cancelNav": 1042120.91,
+    "statisticalNav": 1041601.48
+  },
+  {
+    "date": "2024-01-16",
+    "issueNav": 1043339.54,
+    "cancelNav": 1042953.51,
+    "statisticalNav": 1042255.79
+  },
+  {
+    "date": "2024-01-17",
+    "issueNav": 1042972.07,
+    "cancelNav": 1042208.74,
+    "statisticalNav": 1041677.12
+  },
+  {
+    "date": "2024-01-18",
+    "issueNav": 1042830.72,
+    "cancelNav": 1042077.42,
+    "statisticalNav": 1041312.76
+  },
+  {
+    "date": "2024-01-19",
+    "issueNav": 1042386.59,
+    "cancelNav": 1041778.81,
+    "statisticalNav": 1041300.47
+  },
+  {
+    "date": "2024-01-20",
+    "issueNav": 1042365.78,
+    "cancelNav": 1041579.55,
+    "statisticalNav": 1040932.89
+  },
+  {
+    "date": "2024-01-21",
+    "issueNav": 1042693.6,
+    "cancelNav": 1042347.29,
+    "statisticalNav": 1041856.78
+  },
+  {
+    "date": "2024-01-22",
+    "issueNav": 1042303.81,
+    "cancelNav": 1041553.55,
+    "statisticalNav": 1040979.54
+  },
+  {
+    "date": "2024-01-23",
+    "issueNav": 1042340.99,
+    "cancelNav": 1041701.47,
+    "statisticalNav": 1041022.26
+  },
+  {
+    "date": "2024-01-24",
+    "issueNav": 1041939.98,
+    "cancelNav": 1041478.76,
+    "statisticalNav": 1040703.66
+  },
+  {
+    "date": "2024-01-25",
+    "issueNav": 1041980.55,
+    "cancelNav": 1041648.6,
+    "statisticalNav": 1040857.06
+  },
+  {
+    "date": "2024-01-26",
+    "issueNav": 1042544.61,
+    "cancelNav": 1042239.88,
+    "statisticalNav": 1041606.1
+  },
+  {
+    "date": "2024-01-27",
+    "issueNav": 1042183.8,
+    "cancelNav": 1041823.73,
+    "statisticalNav": 1041133.15
+  },
+  {
+    "date": "2024-01-28",
+    "issueNav": 1042472.99,
+    "cancelNav": 1041959.79,
+    "statisticalNav": 1041169.66
+  },
+  {
+    "date": "2024-01-29",
+    "issueNav": 1042908.64,
+    "cancelNav": 1042543.19,
+    "statisticalNav": 1042145.58
+  },
+  {
+    "date": "2024-01-30",
+    "issueNav": 1042918.88,
+    "cancelNav": 1042402.57,
+    "statisticalNav": 1042075.28
+  },
+  {
+    "date": "2024-01-31",
+    "issueNav": 1042915.73,
+    "cancelNav": 1042437.48,
+    "statisticalNav": 1041955.57
+  },
+  {
+    "date": "2024-02-01",
+    "issueNav": 1043646.76,
+    "cancelNav": 1043042.6,
+    "statisticalNav": 1042375.92
+  },
+  {
+    "date": "2024-02-02",
+    "issueNav": 1044103.62,
+    "cancelNav": 1043400.91,
+    "statisticalNav": 1042653.98
+  },
+  {
+    "date": "2024-02-03",
+    "issueNav": 1043664.16,
+    "cancelNav": 1042890.71,
+    "statisticalNav": 1042221.91
+  },
+  {
+    "date": "2024-02-04",
+    "issueNav": 1044051.68,
+    "cancelNav": 1043635.06,
+    "statisticalNav": 1043297.64
+  },
+  {
+    "date": "2024-02-05",
+    "issueNav": 1044749.51,
+    "cancelNav": 1044391.12,
+    "statisticalNav": 1043741.52
+  },
+  {
+    "date": "2024-02-06",
+    "issueNav": 1045016.32,
+    "cancelNav": 1044586.89,
+    "statisticalNav": 1043963.27
+  },
+  {
+    "date": "2024-02-07",
+    "issueNav": 1044676.07,
+    "cancelNav": 1044074.7,
+    "statisticalNav": 1043577.32
+  },
+  {
+    "date": "2024-02-08",
+    "issueNav": 1044845.53,
+    "cancelNav": 1044513.97,
+    "statisticalNav": 1043819.63
+  },
+  {
+    "date": "2024-02-09",
+    "issueNav": 1045010.0,
+    "cancelNav": 1044401.02,
+    "statisticalNav": 1043818.85
+  },
+  {
+    "date": "2024-02-10",
+    "issueNav": 1045348.81,
+    "cancelNav": 1044841.23,
+    "statisticalNav": 1044534.42
+  },
+  {
+    "date": "2024-02-11",
+    "issueNav": 1045476.05,
+    "cancelNav": 1044833.2,
+    "statisticalNav": 1044102.61
+  },
+  {
+    "date": "2024-02-12",
+    "issueNav": 1045020.59,
+    "cancelNav": 1044447.49,
+    "statisticalNav": 1043997.03
+  },
+  {
+    "date": "2024-02-13",
+    "issueNav": 1044737.83,
+    "cancelNav": 1044417.61,
+    "statisticalNav": 1043759.59
+  },
+  {
+    "date": "2024-02-14",
+    "issueNav": 1044682.76,
+    "cancelNav": 1044291.08,
+    "statisticalNav": 1043842.21
+  },
+  {
+    "date": "2024-02-15",
+    "issueNav": 1044867.92,
+    "cancelNav": 1044387.18,
+    "statisticalNav": 1043619.17
+  },
+  {
+    "date": "2024-02-16",
+    "issueNav": 1045018.62,
+    "cancelNav": 1044566.22,
+    "statisticalNav": 1043986.15
+  },
+  {
+    "date": "2024-02-17",
+    "issueNav": 1045316.96,
+    "cancelNav": 1044536.34,
+    "statisticalNav": 1043871.57
+  },
+  {
+    "date": "2024-02-18",
+    "issueNav": 1045956.57,
+    "cancelNav": 1045579.23,
+    "statisticalNav": 1044966.95
+  },
+  {
+    "date": "2024-02-19",
+    "issueNav": 1045566.21,
+    "cancelNav": 1044884.39,
+    "statisticalNav": 1044147.3
+  },
+  {
+    "date": "2024-02-20",
+    "issueNav": 1045767.71,
+    "cancelNav": 1045372.98,
+    "statisticalNav": 1044949.5
+  },
+  {
+    "date": "2024-02-21",
+    "issueNav": 1045741.53,
+    "cancelNav": 1045253.37,
+    "statisticalNav": 1044765.1
+  },
+  {
+    "date": "2024-02-22",
+    "issueNav": 1045792.11,
+    "cancelNav": 1045477.29,
+    "statisticalNav": 1044827.67
+  },
+  {
+    "date": "2024-02-23",
+    "issueNav": 1046566.32,
+    "cancelNav": 1046053.43,
+    "statisticalNav": 1045463.24
+  },
+  {
+    "date": "2024-02-24",
+    "issueNav": 1046378.51,
+    "cancelNav": 1045603.88,
+    "statisticalNav": 1045215.31
+  },
+  {
+    "date": "2024-02-25",
+    "issueNav": 1046983.22,
+    "cancelNav": 1046457.03,
+    "statisticalNav": 1045771.98
+  },
+  {
+    "date": "2024-02-26",
+    "issueNav": 1047596.99,
+    "cancelNav": 1046943.84,
+    "statisticalNav": 1046399.52
+  },
+  {
+    "date": "2024-02-27",
+    "issueNav": 1047180.88,
+    "cancelNav": 1046763.85,
+    "statisticalNav": 1046112.68
+  },
+  {
+    "date": "2024-02-28",
+    "issueNav": 1047235.43,
+    "cancelNav": 1046454.74,
+    "statisticalNav": 1045862.52
+  },
+  {
+    "date": "2024-02-29",
+    "issueNav": 1046995.59,
+    "cancelNav": 1046650.52,
+    "statisticalNav": 1046111.53
+  },
+  {
+    "date": "2024-03-01",
+    "issueNav": 1046863.27,
+    "cancelNav": 1046366.27,
+    "statisticalNav": 1045857.2
+  },
+  {
+    "date": "2024-03-02",
+    "issueNav": 1046700.35,
+    "cancelNav": 1046267.9,
+    "statisticalNav": 1045640.09
+  },
+  {
+    "date": "2024-03-03",
+    "issueNav": 1046449.54,
+    "cancelNav": 1045814.37,
+    "statisticalNav": 1045074.6
+  },
+  {
+    "date": "2024-03-04",
+    "issueNav": 1046139.19,
+    "cancelNav": 1045714.52,
+    "statisticalNav": 1044936.8
+  },
+  {
+    "date": "2024-03-05",
+    "issueNav": 1045886.61,
+    "cancelNav": 1045426.56,
+    "statisticalNav": 1045079.48
+  },
+  {
+    "date": "2024-03-06",
+    "issueNav": 1046537.78,
+    "cancelNav": 1045797.93,
+    "statisticalNav": 1045235.26
+  },
+  {
+    "date": "2024-03-07",
+    "issueNav": 1046651.81,
+    "cancelNav": 1046342.23,
+    "statisticalNav": 1045993.12
+  },
+  {
+    "date": "2024-03-08",
+    "issueNav": 1046755.27,
+    "cancelNav": 1046262.21,
+    "statisticalNav": 1045708.98
+  },
+  {
+    "date": "2024-03-09",
+    "issueNav": 1047077.08,
+    "cancelNav": 1046672.36,
+    "statisticalNav": 1046151.32
+  },
+  {
+    "date": "2024-03-10",
+    "issueNav": 1046720.98,
+    "cancelNav": 1046052.72,
+    "statisticalNav": 1045689.0
+  },
+  {
+    "date": "2024-03-11",
+    "issueNav": 1047401.93,
+    "cancelNav": 1046905.11,
+    "statisticalNav": 1046547.77
+  },
+  {
+    "date": "2024-03-12",
+    "issueNav": 1046912.06,
+    "cancelNav": 1046467.28,
+    "statisticalNav": 1045882.25
+  },
+  {
+    "date": "2024-03-13",
+    "issueNav": 1046884.27,
+    "cancelNav": 1046163.2,
+    "statisticalNav": 1045690.42
+  },
+  {
+    "date": "2024-03-14",
+    "issueNav": 1047410.56,
+    "cancelNav": 1046951.37,
+    "statisticalNav": 1046320.76
+  },
+  {
+    "date": "2024-03-15",
+    "issueNav": 1048025.13,
+    "cancelNav": 1047552.12,
+    "statisticalNav": 1047043.01
+  },
+  {
+    "date": "2024-03-16",
+    "issueNav": 1048130.72,
+    "cancelNav": 1047699.57,
+    "statisticalNav": 1047376.31
+  },
+  {
+    "date": "2024-03-17",
+    "issueNav": 1048693.23,
+    "cancelNav": 1048087.56,
+    "statisticalNav": 1047641.47
+  },
+  {
+    "date": "2024-03-18",
+    "issueNav": 1049129.54,
+    "cancelNav": 1048787.6,
+    "statisticalNav": 1048463.18
+  },
+  {
+    "date": "2024-03-19",
+    "issueNav": 1049438.31,
+    "cancelNav": 1048875.15,
+    "statisticalNav": 1048569.88
+  },
+  {
+    "date": "2024-03-20",
+    "issueNav": 1049318.24,
+    "cancelNav": 1048851.45,
+    "statisticalNav": 1048406.86
+  },
+  {
+    "date": "2024-03-21",
+    "issueNav": 1048889.19,
+    "cancelNav": 1048540.28,
+    "statisticalNav": 1047761.39
+  },
+  {
+    "date": "2024-03-22",
+    "issueNav": 1049119.26,
+    "cancelNav": 1048717.44,
+    "statisticalNav": 1047986.92
+  },
+  {
+    "date": "2024-03-23",
+    "issueNav": 1048776.05,
+    "cancelNav": 1048165.1,
+    "statisticalNav": 1047489.69
+  },
+  {
+    "date": "2024-03-24",
+    "issueNav": 1049124.76,
+    "cancelNav": 1048395.87,
+    "statisticalNav": 1047683.31
+  },
+  {
+    "date": "2024-03-25",
+    "issueNav": 1048680.68,
+    "cancelNav": 1048303.21,
+    "statisticalNav": 1047893.2
+  },
+  {
+    "date": "2024-03-26",
+    "issueNav": 1049147.96,
+    "cancelNav": 1048564.48,
+    "statisticalNav": 1047852.93
+  },
+  {
+    "date": "2024-03-27",
+    "issueNav": 1048810.82,
+    "cancelNav": 1048068.91,
+    "statisticalNav": 1047479.41
+  },
+  {
+    "date": "2024-03-28",
+    "issueNav": 1048882.37,
+    "cancelNav": 1048188.29,
+    "statisticalNav": 1047394.61
+  },
+  {
+    "date": "2024-03-29",
+    "issueNav": 1049042.37,
+    "cancelNav": 1048646.58,
+    "statisticalNav": 1048124.74
+  },
+  {
+    "date": "2024-03-30",
+    "issueNav": 1048749.47,
+    "cancelNav": 1048027.77,
+    "statisticalNav": 1047583.36
+  },
+  {
+    "date": "2024-03-31",
+    "issueNav": 1048321.15,
+    "cancelNav": 1047525.98,
+    "statisticalNav": 1046736.57
+  },
+  {
+    "date": "2024-04-01",
+    "issueNav": 1048469.27,
+    "cancelNav": 1047921.78,
+    "statisticalNav": 1047372.25
+  },
+  {
+    "date": "2024-04-02",
+    "issueNav": 1048410.63,
+    "cancelNav": 1047960.68,
+    "statisticalNav": 1047546.57
+  },
+  {
+    "date": "2024-04-03",
+    "issueNav": 1048794.29,
+    "cancelNav": 1048157.91,
+    "statisticalNav": 1047419.49
+  },
+  {
+    "date": "2024-04-04",
+    "issueNav": 1048653.17,
+    "cancelNav": 1047905.87,
+    "statisticalNav": 1047514.09
+  },
+  {
+    "date": "2024-04-05",
+    "issueNav": 1048501.66,
+    "cancelNav": 1047706.51,
+    "statisticalNav": 1047081.66
+  },
+  {
+    "date": "2024-04-06",
+    "issueNav": 1048300.85,
+    "cancelNav": 1047961.65,
+    "statisticalNav": 1047569.05
+  },
+  {
+    "date": "2024-04-07",
+    "issueNav": 1048659.31,
+    "cancelNav": 1047963.87,
+    "statisticalNav": 1047380.49
+  },
+  {
+    "date": "2024-04-08",
+    "issueNav": 1049258.23,
+    "cancelNav": 1048561.1,
+    "statisticalNav": 1048001.68
+  },
+  {
+    "date": "2024-04-09",
+    "issueNav": 1049102.03,
+    "cancelNav": 1048303.15,
+    "statisticalNav": 1047581.24
+  },
+  {
+    "date": "2024-04-10",
+    "issueNav": 1048746.13,
+    "cancelNav": 1047982.91,
+    "statisticalNav": 1047596.55
+  },
+  {
+    "date": "2024-04-11",
+    "issueNav": 1048468.24,
+    "cancelNav": 1047684.04,
+    "statisticalNav": 1047013.5
+  },
+  {
+    "date": "2024-04-12",
+    "issueNav": 1049136.88,
+    "cancelNav": 1048685.84,
+    "statisticalNav": 1048053.85
+  },
+  {
+    "date": "2024-04-13",
+    "issueNav": 1049238.66,
+    "cancelNav": 1048851.31,
+    "statisticalNav": 1048131.68
+  },
+  {
+    "date": "2024-04-14",
+    "issueNav": 1049058.99,
+    "cancelNav": 1048715.12,
+    "statisticalNav": 1048263.23
+  },
+  {
+    "date": "2024-04-15",
+    "issueNav": 1048758.22,
+    "cancelNav": 1048222.84,
+    "statisticalNav": 1047490.65
+  },
+  {
+    "date": "2024-04-16",
+    "issueNav": 1048768.47,
+    "cancelNav": 1047977.47,
+    "statisticalNav": 1047229.93
+  },
+  {
+    "date": "2024-04-17",
+    "issueNav": 1049531.68,
+    "cancelNav": 1048851.9,
+    "statisticalNav": 1048349.59
+  },
+  {
+    "date": "2024-04-18",
+    "issueNav": 1049400.19,
+    "cancelNav": 1048710.17,
+    "statisticalNav": 1048086.45
+  },
+  {
+    "date": "2024-04-19",
+    "issueNav": 1049485.74,
+    "cancelNav": 1048770.78,
+    "statisticalNav": 1048117.95
+  },
+  {
+    "date": "2024-04-20",
+    "issueNav": 1049682.44,
+    "cancelNav": 1049039.16,
+    "statisticalNav": 1048492.29
+  },
+  {
+    "date": "2024-04-21",
+    "issueNav": 1049907.8,
+    "cancelNav": 1049356.98,
+    "statisticalNav": 1048819.97
+  },
+  {
+    "date": "2024-04-22",
+    "issueNav": 1049923.6,
+    "cancelNav": 1049228.17,
+    "statisticalNav": 1048901.62
+  },
+  {
+    "date": "2024-04-23",
+    "issueNav": 1049701.53,
+    "cancelNav": 1049016.78,
+    "statisticalNav": 1048541.61
+  },
+  {
+    "date": "2024-04-24",
+    "issueNav": 1049378.23,
+    "cancelNav": 1049000.45,
+    "statisticalNav": 1048586.3
+  },
+  {
+    "date": "2024-04-25",
+    "issueNav": 1049736.56,
+    "cancelNav": 1049123.82,
+    "statisticalNav": 1048708.71
+  },
+  {
+    "date": "2024-04-26",
+    "issueNav": 1050452.65,
+    "cancelNav": 1049911.65,
+    "statisticalNav": 1049395.03
+  },
+  {
+    "date": "2024-04-27",
+    "issueNav": 1050564.24,
+    "cancelNav": 1049873.92,
+    "statisticalNav": 1049302.16
+  },
+  {
+    "date": "2024-04-28",
+    "issueNav": 1051210.13,
+    "cancelNav": 1050501.22,
+    "statisticalNav": 1050168.45
+  },
+  {
+    "date": "2024-04-29",
+    "issueNav": 1051450.98,
+    "cancelNav": 1050991.16,
+    "statisticalNav": 1050524.37
+  },
+  {
+    "date": "2024-04-30",
+    "issueNav": 1051960.02,
+    "cancelNav": 1051616.88,
+    "statisticalNav": 1051184.79
+  },
+  {
+    "date": "2024-05-01",
+    "issueNav": 1052365.81,
+    "cancelNav": 1051900.83,
+    "statisticalNav": 1051592.77
+  },
+  {
+    "date": "2024-05-02",
+    "issueNav": 1052550.62,
+    "cancelNav": 1051756.48,
+    "statisticalNav": 1051141.68
+  },
+  {
+    "date": "2024-05-03",
+    "issueNav": 1052338.38,
+    "cancelNav": 1051586.47,
+    "statisticalNav": 1050970.34
+  },
+  {
+    "date": "2024-05-04",
+    "issueNav": 1052838.22,
+    "cancelNav": 1052407.06,
+    "statisticalNav": 1051984.68
+  },
+  {
+    "date": "2024-05-05",
+    "issueNav": 1053353.37,
+    "cancelNav": 1052975.11,
+    "statisticalNav": 1052539.72
+  },
+  {
+    "date": "2024-05-06",
+    "issueNav": 1053949.84,
+    "cancelNav": 1053532.85,
+    "statisticalNav": 1053120.0
+  },
+  {
+    "date": "2024-05-07",
+    "issueNav": 1053621.6,
+    "cancelNav": 1053004.21,
+    "statisticalNav": 1052378.58
+  },
+  {
+    "date": "2024-05-08",
+    "issueNav": 1053178.12,
+    "cancelNav": 1052644.49,
+    "statisticalNav": 1052055.61
+  },
+  {
+    "date": "2024-05-09",
+    "issueNav": 1053351.17,
+    "cancelNav": 1052793.46,
+    "statisticalNav": 1052000.58
+  },
+  {
+    "date": "2024-05-10",
+    "issueNav": 1053831.58,
+    "cancelNav": 1053113.58,
+    "statisticalNav": 1052412.44
+  },
+  {
+    "date": "2024-05-11",
+    "issueNav": 1053603.5,
+    "cancelNav": 1053084.32,
+    "statisticalNav": 1052680.69
+  },
+  {
+    "date": "2024-05-12",
+    "issueNav": 1054241.65,
+    "cancelNav": 1053918.78,
+    "statisticalNav": 1053166.33
+  },
+  {
+    "date": "2024-05-13",
+    "issueNav": 1054283.05,
+    "cancelNav": 1053855.51,
+    "statisticalNav": 1053142.09
+  },
+  {
+    "date": "2024-05-14",
+    "issueNav": 1054077.08,
+    "cancelNav": 1053334.83,
+    "statisticalNav": 1052981.0
+  },
+  {
+    "date": "2024-05-15",
+    "issueNav": 1054800.88,
+    "cancelNav": 1054419.51,
+    "statisticalNav": 1054094.3
+  },
+  {
+    "date": "2024-05-16",
+    "issueNav": 1055177.17,
+    "cancelNav": 1054814.04,
+    "statisticalNav": 1054146.12
+  },
+  {
+    "date": "2024-05-17",
+    "issueNav": 1055488.75,
+    "cancelNav": 1055101.52,
+    "statisticalNav": 1054504.19
+  },
+  {
+    "date": "2024-05-18",
+    "issueNav": 1055740.37,
+    "cancelNav": 1054976.02,
+    "statisticalNav": 1054368.43
+  },
+  {
+    "date": "2024-05-19",
+    "issueNav": 1056001.02,
+    "cancelNav": 1055677.71,
+    "statisticalNav": 1054916.46
+  },
+  {
+    "date": "2024-05-20",
+    "issueNav": 1056023.74,
+    "cancelNav": 1055674.04,
+    "statisticalNav": 1055176.46
+  },
+  {
+    "date": "2024-05-21",
+    "issueNav": 1056815.55,
+    "cancelNav": 1056504.26,
+    "statisticalNav": 1055920.47
+  },
+  {
+    "date": "2024-05-22",
+    "issueNav": 1057480.97,
+    "cancelNav": 1056796.19,
+    "statisticalNav": 1056338.39
+  },
+  {
+    "date": "2024-05-23",
+    "issueNav": 1058109.26,
+    "cancelNav": 1057622.34,
+    "statisticalNav": 1057034.93
+  },
+  {
+    "date": "2024-05-24",
+    "issueNav": 1058144.99,
+    "cancelNav": 1057531.38,
+    "statisticalNav": 1057143.22
+  },
+  {
+    "date": "2024-05-25",
+    "issueNav": 1058852.69,
+    "cancelNav": 1058500.9,
+    "statisticalNav": 1057888.77
+  },
+  {
+    "date": "2024-05-26",
+    "issueNav": 1058698.78,
+    "cancelNav": 1058084.78,
+    "statisticalNav": 1057567.39
+  },
+  {
+    "date": "2024-05-27",
+    "issueNav": 1059319.11,
+    "cancelNav": 1058971.02,
+    "statisticalNav": 1058517.76
+  },
+  {
+    "date": "2024-05-28",
+    "issueNav": 1059296.6,
+    "cancelNav": 1058751.76,
+    "statisticalNav": 1058166.2
+  },
+  {
+    "date": "2024-05-29",
+    "issueNav": 1059485.12,
+    "cancelNav": 1058998.67,
+    "statisticalNav": 1058431.33
+  },
+  {
+    "date": "2024-05-30",
+    "issueNav": 1059569.89,
+    "cancelNav": 1058813.18,
+    "statisticalNav": 1058264.45
+  },
+  {
+    "date": "2024-05-31",
+    "issueNav": 1059360.69,
+    "cancelNav": 1058833.83,
+    "statisticalNav": 1058164.52
+  },
+  {
+    "date": "2024-06-01",
+    "issueNav": 1060011.95,
+    "cancelNav": 1059332.21,
+    "statisticalNav": 1058671.52
+  },
+  {
+    "date": "2024-06-02",
+    "issueNav": 1060468.06,
+    "cancelNav": 1059816.09,
+    "statisticalNav": 1059031.52
+  },
+  {
+    "date": "2024-06-03",
+    "issueNav": 1060036.86,
+    "cancelNav": 1059353.46,
+    "statisticalNav": 1058978.09
+  },
+  {
+    "date": "2024-06-04",
+    "issueNav": 1060236.84,
+    "cancelNav": 1059728.74,
+    "statisticalNav": 1059037.48
+  },
+  {
+    "date": "2024-06-05",
+    "issueNav": 1060324.71,
+    "cancelNav": 1060004.02,
+    "statisticalNav": 1059253.67
+  },
+  {
+    "date": "2024-06-06",
+    "issueNav": 1060156.62,
+    "cancelNav": 1059521.56,
+    "statisticalNav": 1059095.59
+  },
+  {
+    "date": "2024-06-07",
+    "issueNav": 1060936.55,
+    "cancelNav": 1060187.29,
+    "statisticalNav": 1059576.13
+  },
+  {
+    "date": "2024-06-08",
+    "issueNav": 1061204.12,
+    "cancelNav": 1060790.69,
+    "statisticalNav": 1060447.22
+  },
+  {
+    "date": "2024-06-09",
+    "issueNav": 1061506.2,
+    "cancelNav": 1060951.44,
+    "statisticalNav": 1060160.43
+  },
+  {
+    "date": "2024-06-10",
+    "issueNav": 1062082.52,
+    "cancelNav": 1061428.0,
+    "statisticalNav": 1060846.82
+  },
+  {
+    "date": "2024-06-11",
+    "issueNav": 1061631.88,
+    "cancelNav": 1060984.48,
+    "statisticalNav": 1060366.62
+  },
+  {
+    "date": "2024-06-12",
+    "issueNav": 1062284.74,
+    "cancelNav": 1061640.36,
+    "statisticalNav": 1060971.83
+  },
+  {
+    "date": "2024-06-13",
+    "issueNav": 1062495.96,
+    "cancelNav": 1061938.0,
+    "statisticalNav": 1061345.49
+  },
+  {
+    "date": "2024-06-14",
+    "issueNav": 1063125.64,
+    "cancelNav": 1062607.89,
+    "statisticalNav": 1062143.18
+  },
+  {
+    "date": "2024-06-15",
+    "issueNav": 1063889.04,
+    "cancelNav": 1063156.65,
+    "statisticalNav": 1062821.33
+  },
+  {
+    "date": "2024-06-16",
+    "issueNav": 1063944.85,
+    "cancelNav": 1063287.76,
+    "statisticalNav": 1062573.02
+  },
+  {
+    "date": "2024-06-17",
+    "issueNav": 1063826.12,
+    "cancelNav": 1063084.01,
+    "statisticalNav": 1062554.03
+  },
+  {
+    "date": "2024-06-18",
+    "issueNav": 1063638.81,
+    "cancelNav": 1063186.27,
+    "statisticalNav": 1062857.52
+  },
+  {
+    "date": "2024-06-19",
+    "issueNav": 1063357.92,
+    "cancelNav": 1062677.81,
+    "statisticalNav": 1062210.07
+  },
+  {
+    "date": "2024-06-20",
+    "issueNav": 1063561.64,
+    "cancelNav": 1062852.46,
+    "statisticalNav": 1062178.21
+  },
+  {
+    "date": "2024-06-21",
+    "issueNav": 1063382.5,
+    "cancelNav": 1063024.4,
+    "statisticalNav": 1062322.77
+  },
+  {
+    "date": "2024-06-22",
+    "issueNav": 1063569.06,
+    "cancelNav": 1063125.35,
+    "statisticalNav": 1062379.9
+  },
+  {
+    "date": "2024-06-23",
+    "issueNav": 1063303.66,
+    "cancelNav": 1062563.99,
+    "statisticalNav": 1062051.13
+  },
+  {
+    "date": "2024-06-24",
+    "issueNav": 1063613.48,
+    "cancelNav": 1062816.4,
+    "statisticalNav": 1062302.96
+  },
+  {
+    "date": "2024-06-25",
+    "issueNav": 1063485.25,
+    "cancelNav": 1062755.69,
+    "statisticalNav": 1062444.68
+  },
+  {
+    "date": "2024-06-26",
+    "issueNav": 1063532.69,
+    "cancelNav": 1062941.09,
+    "statisticalNav": 1062407.31
+  },
+  {
+    "date": "2024-06-27",
+    "issueNav": 1064223.57,
+    "cancelNav": 1063495.08,
+    "statisticalNav": 1063128.63
+  },
+  {
+    "date": "2024-06-28",
+    "issueNav": 1064591.59,
+    "cancelNav": 1064277.85,
+    "statisticalNav": 1063888.07
+  },
+  {
+    "date": "2024-06-29",
+    "issueNav": 1065389.35,
+    "cancelNav": 1064691.22,
+    "statisticalNav": 1064158.22
+  },
+  {
+    "date": "2024-06-30",
+    "issueNav": 1064995.17,
+    "cancelNav": 1064592.72,
+    "statisticalNav": 1063958.34
+  },
+  {
+    "date": "2024-07-01",
+    "issueNav": 1065761.03,
+    "cancelNav": 1064980.94,
+    "statisticalNav": 1064201.02
+  },
+  {
+    "date": "2024-07-02",
+    "issueNav": 1065882.67,
+    "cancelNav": 1065393.14,
+    "statisticalNav": 1064793.32
+  },
+  {
+    "date": "2024-07-03",
+    "issueNav": 1066537.06,
+    "cancelNav": 1065814.4,
+    "statisticalNav": 1065223.71
+  },
+  {
+    "date": "2024-07-04",
+    "issueNav": 1066046.92,
+    "cancelNav": 1065283.67,
+    "statisticalNav": 1064558.78
+  },
+  {
+    "date": "2024-07-05",
+    "issueNav": 1066545.83,
+    "cancelNav": 1066186.62,
+    "statisticalNav": 1065803.14
+  },
+  {
+    "date": "2024-07-06",
+    "issueNav": 1067034.02,
+    "cancelNav": 1066403.51,
+    "statisticalNav": 1065936.72
+  },
+  {
+    "date": "2024-07-07",
+    "issueNav": 1067827.81,
+    "cancelNav": 1067332.83,
+    "statisticalNav": 1066778.98
+  },
+  {
+    "date": "2024-07-08",
+    "issueNav": 1067852.55,
+    "cancelNav": 1067208.72,
+    "statisticalNav": 1066615.66
+  },
+  {
+    "date": "2024-07-09",
+    "issueNav": 1067607.27,
+    "cancelNav": 1066954.13,
+    "statisticalNav": 1066518.07
+  },
+  {
+    "date": "2024-07-10",
+    "issueNav": 1067918.48,
+    "cancelNav": 1067497.53,
+    "statisticalNav": 1066786.18
+  },
+  {
+    "date": "2024-07-11",
+    "issueNav": 1068196.42,
+    "cancelNav": 1067466.15,
+    "statisticalNav": 1066843.74
+  },
+  {
+    "date": "2024-07-12",
+    "issueNav": 1068548.04,
+    "cancelNav": 1067822.2,
+    "statisticalNav": 1067100.62
+  },
+  {
+    "date": "2024-07-13",
+    "issueNav": 1068223.24,
+    "cancelNav": 1067697.15,
+    "statisticalNav": 1067081.36
+  },
+  {
+    "date": "2024-07-14",
+    "issueNav": 1068559.57,
+    "cancelNav": 1068254.77,
+    "statisticalNav": 1067591.19
+  },
+  {
+    "date": "2024-07-15",
+    "issueNav": 1068504.41,
+    "cancelNav": 1067881.28,
+    "statisticalNav": 1067530.29
+  },
+  {
+    "date": "2024-07-16",
+    "issueNav": 1068574.78,
+    "cancelNav": 1067865.84,
+    "statisticalNav": 1067404.29
+  },
+  {
+    "date": "2024-07-17",
+    "issueNav": 1068718.15,
+    "cancelNav": 1068035.76,
+    "statisticalNav": 1067368.33
+  },
+  {
+    "date": "2024-07-18",
+    "issueNav": 1069087.19,
+    "cancelNav": 1068682.86,
+    "statisticalNav": 1068225.8
+  },
+  {
+    "date": "2024-07-19",
+    "issueNav": 1069276.08,
+    "cancelNav": 1068792.43,
+    "statisticalNav": 1068070.28
+  },
+  {
+    "date": "2024-07-20",
+    "issueNav": 1069058.51,
+    "cancelNav": 1068750.04,
+    "statisticalNav": 1068039.17
+  },
+  {
+    "date": "2024-07-21",
+    "issueNav": 1068868.18,
+    "cancelNav": 1068541.21,
+    "statisticalNav": 1068155.65
+  },
+  {
+    "date": "2024-07-22",
+    "issueNav": 1069264.59,
+    "cancelNav": 1068700.26,
+    "statisticalNav": 1068329.3
+  },
+  {
+    "date": "2024-07-23",
+    "issueNav": 1069931.83,
+    "cancelNav": 1069384.99,
+    "statisticalNav": 1068988.31
+  },
+  {
+    "date": "2024-07-24",
+    "issueNav": 1069902.35,
+    "cancelNav": 1069365.41,
+    "statisticalNav": 1068849.4
+  },
+  {
+    "date": "2024-07-25",
+    "issueNav": 1070073.77,
+    "cancelNav": 1069298.51,
+    "statisticalNav": 1068869.39
+  },
+  {
+    "date": "2024-07-26",
+    "issueNav": 1070679.53,
+    "cancelNav": 1070034.69,
+    "statisticalNav": 1069642.03
+  },
+  {
+    "date": "2024-07-27",
+    "issueNav": 1071326.96,
+    "cancelNav": 1070955.84,
+    "statisticalNav": 1070259.13
+  },
+  {
+    "date": "2024-07-28",
+    "issueNav": 1071721.93,
+    "cancelNav": 1071009.67,
+    "statisticalNav": 1070349.65
+  },
+  {
+    "date": "2024-07-29",
+    "issueNav": 1071506.19,
+    "cancelNav": 1070932.15,
+    "statisticalNav": 1070344.38
+  },
+  {
+    "date": "2024-07-30",
+    "issueNav": 1071717.86,
+    "cancelNav": 1071126.32,
+    "statisticalNav": 1070575.49
+  },
+  {
+    "date": "2024-07-31",
+    "issueNav": 1071743.18,
+    "cancelNav": 1071403.49,
+    "statisticalNav": 1070900.62
+  },
+  {
+    "date": "2024-08-01",
+    "issueNav": 1072448.28,
+    "cancelNav": 1071707.85,
+    "statisticalNav": 1071407.06
+  },
+  {
+    "date": "2024-08-02",
+    "issueNav": 1072703.71,
+    "cancelNav": 1071979.94,
+    "statisticalNav": 1071226.47
+  },
+  {
+    "date": "2024-08-03",
+    "issueNav": 1072882.65,
+    "cancelNav": 1072468.15,
+    "statisticalNav": 1072126.74
+  },
+  {
+    "date": "2024-08-04",
+    "issueNav": 1072387.38,
+    "cancelNav": 1071729.33,
+    "statisticalNav": 1071337.24
+  },
+  {
+    "date": "2024-08-05",
+    "issueNav": 1072693.81,
+    "cancelNav": 1071985.36,
+    "statisticalNav": 1071524.57
+  },
+  {
+    "date": "2024-08-06",
+    "issueNav": 1073198.4,
+    "cancelNav": 1072867.81,
+    "statisticalNav": 1072408.18
+  },
+  {
+    "date": "2024-08-07",
+    "issueNav": 1073359.25,
+    "cancelNav": 1072669.82,
+    "statisticalNav": 1071956.77
+  },
+  {
+    "date": "2024-08-08",
+    "issueNav": 1073516.68,
+    "cancelNav": 1073013.96,
+    "statisticalNav": 1072660.78
+  },
+  {
+    "date": "2024-08-09",
+    "issueNav": 1073888.49,
+    "cancelNav": 1073565.97,
+    "statisticalNav": 1073176.15
+  },
+  {
+    "date": "2024-08-10",
+    "issueNav": 1074119.1,
+    "cancelNav": 1073764.43,
+    "statisticalNav": 1073222.59
+  },
+  {
+    "date": "2024-08-11",
+    "issueNav": 1074548.12,
+    "cancelNav": 1073799.62,
+    "statisticalNav": 1073052.15
+  },
+  {
+    "date": "2024-08-12",
+    "issueNav": 1074851.95,
+    "cancelNav": 1074541.35,
+    "statisticalNav": 1074119.48
+  },
+  {
+    "date": "2024-08-13",
+    "issueNav": 1075043.43,
+    "cancelNav": 1074401.2,
+    "statisticalNav": 1073897.84
+  },
+  {
+    "date": "2024-08-14",
+    "issueNav": 1075235.79,
+    "cancelNav": 1074894.89,
+    "statisticalNav": 1074336.44
+  },
+  {
+    "date": "2024-08-15",
+    "issueNav": 1075530.58,
+    "cancelNav": 1075014.65,
+    "statisticalNav": 1074226.13
+  },
+  {
+    "date": "2024-08-16",
+    "issueNav": 1075606.53,
+    "cancelNav": 1074971.09,
+    "statisticalNav": 1074299.88
+  },
+  {
+    "date": "2024-08-17",
+    "issueNav": 1075907.35,
+    "cancelNav": 1075128.0,
+    "statisticalNav": 1074743.85
+  },
+  {
+    "date": "2024-08-18",
+    "issueNav": 1075941.36,
+    "cancelNav": 1075394.69,
+    "statisticalNav": 1074936.17
+  },
+  {
+    "date": "2024-08-19",
+    "issueNav": 1076286.21,
+    "cancelNav": 1075559.14,
+    "statisticalNav": 1074840.2
+  },
+  {
+    "date": "2024-08-20",
+    "issueNav": 1076731.89,
+    "cancelNav": 1076132.81,
+    "statisticalNav": 1075696.86
+  },
+  {
+    "date": "2024-08-21",
+    "issueNav": 1077270.38,
+    "cancelNav": 1076625.13,
+    "statisticalNav": 1075965.02
+  },
+  {
+    "date": "2024-08-22",
+    "issueNav": 1076880.93,
+    "cancelNav": 1076213.13,
+    "statisticalNav": 1075666.64
+  },
+  {
+    "date": "2024-08-23",
+    "issueNav": 1077417.04,
+    "cancelNav": 1077030.33,
+    "statisticalNav": 1076233.23
+  },
+  {
+    "date": "2024-08-24",
+    "issueNav": 1077229.94,
+    "cancelNav": 1076742.68,
+    "statisticalNav": 1076141.74
+  },
+  {
+    "date": "2024-08-25",
+    "issueNav": 1077081.35,
+    "cancelNav": 1076414.93,
+    "statisticalNav": 1076064.81
+  },
+  {
+    "date": "2024-08-26",
+    "issueNav": 1076646.96,
+    "cancelNav": 1075877.3,
+    "statisticalNav": 1075545.86
+  },
+  {
+    "date": "2024-08-27",
+    "issueNav": 1076950.77,
+    "cancelNav": 1076285.03,
+    "statisticalNav": 1075832.06
+  },
+  {
+    "date": "2024-08-28",
+    "issueNav": 1076706.94,
+    "cancelNav": 1076306.12,
+    "statisticalNav": 1075662.68
+  },
+  {
+    "date": "2024-08-29",
+    "issueNav": 1077124.15,
+    "cancelNav": 1076656.63,
+    "statisticalNav": 1076203.86
+  },
+  {
+    "date": "2024-08-30",
+    "issueNav": 1076952.56,
+    "cancelNav": 1076490.52,
+    "statisticalNav": 1075956.11
+  },
+  {
+    "date": "2024-08-31",
+    "issueNav": 1077088.78,
+    "cancelNav": 1076635.78,
+    "statisticalNav": 1076252.64
+  },
+  {
+    "date": "2024-09-01",
+    "issueNav": 1076642.3,
+    "cancelNav": 1075915.05,
+    "statisticalNav": 1075441.55
+  },
+  {
+    "date": "2024-09-02",
+    "issueNav": 1076547.89,
+    "cancelNav": 1076050.65,
+    "statisticalNav": 1075606.83
+  },
+  {
+    "date": "2024-09-03",
+    "issueNav": 1076727.67,
+    "cancelNav": 1076207.36,
+    "statisticalNav": 1075836.21
+  },
+  {
+    "date": "2024-09-04",
+    "issueNav": 1077301.71,
+    "cancelNav": 1076614.2,
+    "statisticalNav": 1076016.19
+  },
+  {
+    "date": "2024-09-05",
+    "issueNav": 1077534.04,
+    "cancelNav": 1076845.94,
+    "statisticalNav": 1076428.12
+  },
+  {
+    "date": "2024-09-06",
+    "issueNav": 1078192.23,
+    "cancelNav": 1077492.03,
+    "statisticalNav": 1076905.35
+  },
+  {
+    "date": "2024-09-07",
+    "issueNav": 1077817.93,
+    "cancelNav": 1077299.52,
+    "statisticalNav": 1076963.69
+  },
+  {
+    "date": "2024-09-08",
+    "issueNav": 1077873.4,
+    "cancelNav": 1077507.87,
+    "statisticalNav": 1077067.08
+  },
+  {
+    "date": "2024-09-09",
+    "issueNav": 1077600.56,
+    "cancelNav": 1076864.79,
+    "statisticalNav": 1076143.96
+  },
+  {
+    "date": "2024-09-10",
+    "issueNav": 1078266.71,
+    "cancelNav": 1077823.43,
+    "statisticalNav": 1077059.27
+  },
+  {
+    "date": "2024-09-11",
+    "issueNav": 1078543.81,
+    "cancelNav": 1078174.38,
+    "statisticalNav": 1077485.06
+  },
+  {
+    "date": "2024-09-12",
+    "issueNav": 1079224.07,
+    "cancelNav": 1078785.98,
+    "statisticalNav": 1078146.96
+  },
+  {
+    "date": "2024-09-13",
+    "issueNav": 1079046.82,
+    "cancelNav": 1078289.31,
+    "statisticalNav": 1077819.72
+  },
+  {
+    "date": "2024-09-14",
+    "issueNav": 1079236.64,
+    "cancelNav": 1078645.55,
+    "statisticalNav": 1078067.14
+  },
+  {
+    "date": "2024-09-15",
+    "issueNav": 1078779.29,
+    "cancelNav": 1078211.77,
+    "statisticalNav": 1077771.06
+  },
+  {
+    "date": "2024-09-16",
+    "issueNav": 1078521.2,
+    "cancelNav": 1077895.74,
+    "statisticalNav": 1077193.2
+  },
+  {
+    "date": "2024-09-17",
+    "issueNav": 1078972.73,
+    "cancelNav": 1078356.23,
+    "statisticalNav": 1077862.78
+  },
+  {
+    "date": "2024-09-18",
+    "issueNav": 1079456.91,
+    "cancelNav": 1078809.77,
+    "statisticalNav": 1078296.92
+  },
+  {
+    "date": "2024-09-19",
+    "issueNav": 1079729.72,
+    "cancelNav": 1079007.24,
+    "statisticalNav": 1078423.57
+  },
+  {
+    "date": "2024-09-20",
+    "issueNav": 1079610.67,
+    "cancelNav": 1079205.11,
+    "statisticalNav": 1078642.18
+  },
+  {
+    "date": "2024-09-21",
+    "issueNav": 1079904.68,
+    "cancelNav": 1079273.64,
+    "statisticalNav": 1078735.49
+  },
+  {
+    "date": "2024-09-22",
+    "issueNav": 1079881.5,
+    "cancelNav": 1079254.62,
+    "statisticalNav": 1078631.96
+  },
+  {
+    "date": "2024-09-23",
+    "issueNav": 1079853.81,
+    "cancelNav": 1079403.74,
+    "statisticalNav": 1078649.59
+  },
+  {
+    "date": "2024-09-24",
+    "issueNav": 1079506.99,
+    "cancelNav": 1079177.99,
+    "statisticalNav": 1078500.93
+  },
+  {
+    "date": "2024-09-25",
+    "issueNav": 1080269.52,
+    "cancelNav": 1079876.56,
+    "statisticalNav": 1079218.89
+  },
+  {
+    "date": "2024-09-26",
+    "issueNav": 1080638.79,
+    "cancelNav": 1080207.34,
+    "statisticalNav": 1079615.42
+  },
+  {
+    "date": "2024-09-27",
+    "issueNav": 1081219.11,
+    "cancelNav": 1080913.28,
+    "statisticalNav": 1080418.69
+  },
+  {
+    "date": "2024-09-28",
+    "issueNav": 1081420.3,
+    "cancelNav": 1080747.79,
+    "statisticalNav": 1080137.8
+  },
+  {
+    "date": "2024-09-29",
+    "issueNav": 1082150.28,
+    "cancelNav": 1081658.81,
+    "statisticalNav": 1080864.75
+  },
+  {
+    "date": "2024-09-30",
+    "issueNav": 1081891.98,
+    "cancelNav": 1081132.15,
+    "statisticalNav": 1080622.56
+  },
+  {
+    "date": "2024-10-01",
+    "issueNav": 1082065.76,
+    "cancelNav": 1081341.31,
+    "statisticalNav": 1080747.99
+  },
+  {
+    "date": "2024-10-02",
+    "issueNav": 1082711.99,
+    "cancelNav": 1082077.27,
+    "statisticalNav": 1081332.98
+  },
+  {
+    "date": "2024-10-03",
+    "issueNav": 1083464.62,
+    "cancelNav": 1082828.97,
+    "statisticalNav": 1082395.5
+  },
+  {
+    "date": "2024-10-04",
+    "issueNav": 1084038.7,
+    "cancelNav": 1083266.42,
+    "statisticalNav": 1082741.16
+  },
+  {
+    "date": "2024-10-05",
+    "issueNav": 1083618.04,
+    "cancelNav": 1083041.63,
+    "statisticalNav": 1082450.8
+  },
+  {
+    "date": "2024-10-06",
+    "issueNav": 1083323.26,
+    "cancelNav": 1082687.46,
+    "statisticalNav": 1082336.57
+  },
+  {
+    "date": "2024-10-07",
+    "issueNav": 1083401.39,
+    "cancelNav": 1082718.3,
+    "statisticalNav": 1082335.76
+  },
+  {
+    "date": "2024-10-08",
+    "issueNav": 1084147.02,
+    "cancelNav": 1083835.15,
+    "statisticalNav": 1083109.99
+  },
+  {
+    "date": "2024-10-09",
+    "issueNav": 1083837.19,
+    "cancelNav": 1083348.45,
+    "statisticalNav": 1082980.25
+  },
+  {
+    "date": "2024-10-10",
+    "issueNav": 1083510.5,
+    "cancelNav": 1083173.46,
+    "statisticalNav": 1082859.07
+  },
+  {
+    "date": "2024-10-11",
+    "issueNav": 1083514.56,
+    "cancelNav": 1082867.63,
+    "statisticalNav": 1082392.87
+  },
+  {
+    "date": "2024-10-12",
+    "issueNav": 1083396.75,
+    "cancelNav": 1082962.17,
+    "statisticalNav": 1082568.23
+  },
+  {
+    "date": "2024-10-13",
+    "issueNav": 1083502.92,
+    "cancelNav": 1083118.59,
+    "statisticalNav": 1082668.63
+  },
+  {
+    "date": "2024-10-14",
+    "issueNav": 1083336.3,
+    "cancelNav": 1082870.69,
+    "statisticalNav": 1082410.35
+  },
+  {
+    "date": "2024-10-15",
+    "issueNav": 1082995.84,
+    "cancelNav": 1082624.98,
+    "statisticalNav": 1082006.86
+  },
+  {
+    "date": "2024-10-16",
+    "issueNav": 1083331.56,
+    "cancelNav": 1082575.1,
+    "statisticalNav": 1082168.63
+  },
+  {
+    "date": "2024-10-17",
+    "issueNav": 1082988.91,
+    "cancelNav": 1082517.64,
+    "statisticalNav": 1081960.01
+  },
+  {
+    "date": "2024-10-18",
+    "issueNav": 1083149.78,
+    "cancelNav": 1082360.42,
+    "statisticalNav": 1081944.3
+  },
+  {
+    "date": "2024-10-19",
+    "issueNav": 1083830.16,
+    "cancelNav": 1083462.77,
+    "statisticalNav": 1082707.49
+  },
+  {
+    "date": "2024-10-20",
+    "issueNav": 1083634.16,
+    "cancelNav": 1083069.1,
+    "statisticalNav": 1082635.67
+  },
+  {
+    "date": "2024-10-21",
+    "issueNav": 1083392.6,
+    "cancelNav": 1082943.43,
+    "statisticalNav": 1082520.1
+  },
+  {
+    "date": "2024-10-22",
+    "issueNav": 1083859.91,
+    "cancelNav": 1083414.48,
+    "statisticalNav": 1082802.86
+  },
+  {
+    "date": "2024-10-23",
+    "issueNav": 1083469.66,
+    "cancelNav": 1082977.54,
+    "statisticalNav": 1082596.82
+  },
+  {
+    "date": "2024-10-24",
+    "issueNav": 1083149.91,
+    "cancelNav": 1082640.76,
+    "statisticalNav": 1082030.67
+  },
+  {
+    "date": "2024-10-25",
+    "issueNav": 1083673.27,
+    "cancelNav": 1083054.52,
+    "statisticalNav": 1082616.3
+  },
+  {
+    "date": "2024-10-26",
+    "issueNav": 1084305.73,
+    "cancelNav": 1083734.02,
+    "statisticalNav": 1083362.59
+  },
+  {
+    "date": "2024-10-27",
+    "issueNav": 1084462.16,
+    "cancelNav": 1083740.69,
+    "statisticalNav": 1083179.93
+  },
+  {
+    "date": "2024-10-28",
+    "issueNav": 1084706.42,
+    "cancelNav": 1084336.47,
+    "statisticalNav": 1083922.75
+  },
+  {
+    "date": "2024-10-29",
+    "issueNav": 1085418.42,
+    "cancelNav": 1084797.86,
+    "statisticalNav": 1084464.43
+  },
+  {
+    "date": "2024-10-30",
+    "issueNav": 1086083.41,
+    "cancelNav": 1085454.28,
+    "statisticalNav": 1085030.21
+  },
+  {
+    "date": "2024-10-31",
+    "issueNav": 1086535.54,
+    "cancelNav": 1085843.55,
+    "statisticalNav": 1085334.52
+  },
+  {
+    "date": "2024-11-01",
+    "issueNav": 1086081.66,
+    "cancelNav": 1085678.79,
+    "statisticalNav": 1085144.44
+  },
+  {
+    "date": "2024-11-02",
+    "issueNav": 1085873.05,
+    "cancelNav": 1085449.6,
+    "statisticalNav": 1084766.18
+  },
+  {
+    "date": "2024-11-03",
+    "issueNav": 1085725.4,
+    "cancelNav": 1085156.11,
+    "statisticalNav": 1084796.62
+  },
+  {
+    "date": "2024-11-04",
+    "issueNav": 1085363.41,
+    "cancelNav": 1084872.16,
+    "statisticalNav": 1084262.44
+  },
+  {
+    "date": "2024-11-05",
+    "issueNav": 1085556.03,
+    "cancelNav": 1085131.86,
+    "statisticalNav": 1084755.49
+  },
+  {
+    "date": "2024-11-06",
+    "issueNav": 1086251.28,
+    "cancelNav": 1085538.23,
+    "statisticalNav": 1085126.91
+  },
+  {
+    "date": "2024-11-07",
+    "issueNav": 1086761.42,
+    "cancelNav": 1086045.97,
+    "statisticalNav": 1085560.61
+  },
+  {
+    "date": "2024-11-08",
+    "issueNav": 1087517.9,
+    "cancelNav": 1087000.23,
+    "statisticalNav": 1086445.83
+  },
+  {
+    "date": "2024-11-09",
+    "issueNav": 1087526.66,
+    "cancelNav": 1086968.9,
+    "statisticalNav": 1086451.92
+  },
+  {
+    "date": "2024-11-10",
+    "issueNav": 1088301.73,
+    "cancelNav": 1087740.45,
+    "statisticalNav": 1086950.48
+  },
+  {
+    "date": "2024-11-11",
+    "issueNav": 1088845.49,
+    "cancelNav": 1088149.21,
+    "statisticalNav": 1087609.9
+  },
+  {
+    "date": "2024-11-12",
+    "issueNav": 1089359.78,
+    "cancelNav": 1088807.38,
+    "statisticalNav": 1088082.68
+  },
+  {
+    "date": "2024-11-13",
+    "issueNav": 1089438.75,
+    "cancelNav": 1089007.01,
+    "statisticalNav": 1088676.53
+  },
+  {
+    "date": "2024-11-14",
+    "issueNav": 1089454.24,
+    "cancelNav": 1089023.02,
+    "statisticalNav": 1088398.38
+  },
+  {
+    "date": "2024-11-15",
+    "issueNav": 1089700.94,
+    "cancelNav": 1089086.35,
+    "statisticalNav": 1088746.68
+  },
+  {
+    "date": "2024-11-16",
+    "issueNav": 1089844.29,
+    "cancelNav": 1089512.28,
+    "statisticalNav": 1089067.47
+  },
+  {
+    "date": "2024-11-17",
+    "issueNav": 1090099.01,
+    "cancelNav": 1089691.88,
+    "statisticalNav": 1089199.91
+  },
+  {
+    "date": "2024-11-18",
+    "issueNav": 1089832.61,
+    "cancelNav": 1089175.22,
+    "statisticalNav": 1088873.82
+  },
+  {
+    "date": "2024-11-19",
+    "issueNav": 1089562.05,
+    "cancelNav": 1089114.56,
+    "statisticalNav": 1088358.85
+  },
+  {
+    "date": "2024-11-20",
+    "issueNav": 1089226.56,
+    "cancelNav": 1088674.96,
+    "statisticalNav": 1088055.75
+  },
+  {
+    "date": "2024-11-21",
+    "issueNav": 1089240.62,
+    "cancelNav": 1088841.16,
+    "statisticalNav": 1088203.38
+  },
+  {
+    "date": "2024-11-22",
+    "issueNav": 1088781.81,
+    "cancelNav": 1088342.98,
+    "statisticalNav": 1087585.4
+  },
+  {
+    "date": "2024-11-23",
+    "issueNav": 1089548.79,
+    "cancelNav": 1088792.37,
+    "statisticalNav": 1088225.88
+  },
+  {
+    "date": "2024-11-24",
+    "issueNav": 1089470.28,
+    "cancelNav": 1089023.69,
+    "statisticalNav": 1088540.75
+  },
+  {
+    "date": "2024-11-25",
+    "issueNav": 1089497.15,
+    "cancelNav": 1089001.89,
+    "statisticalNav": 1088364.21
+  },
+  {
+    "date": "2024-11-26",
+    "issueNav": 1089045.52,
+    "cancelNav": 1088742.49,
+    "statisticalNav": 1088195.97
+  },
+  {
+    "date": "2024-11-27",
+    "issueNav": 1088612.56,
+    "cancelNav": 1087988.9,
+    "statisticalNav": 1087549.06
+  },
+  {
+    "date": "2024-11-28",
+    "issueNav": 1088311.32,
+    "cancelNav": 1087628.71,
+    "statisticalNav": 1087047.28
+  },
+  {
+    "date": "2024-11-29",
+    "issueNav": 1088052.19,
+    "cancelNav": 1087638.61,
+    "statisticalNav": 1087331.81
+  },
+  {
+    "date": "2024-11-30",
+    "issueNav": 1088766.66,
+    "cancelNav": 1088409.88,
+    "statisticalNav": 1087922.35
+  },
+  {
+    "date": "2024-12-01",
+    "issueNav": 1088891.49,
+    "cancelNav": 1088134.62,
+    "statisticalNav": 1087432.17
+  },
+  {
+    "date": "2024-12-02",
+    "issueNav": 1089654.28,
+    "cancelNav": 1089053.59,
+    "statisticalNav": 1088345.35
+  },
+  {
+    "date": "2024-12-03",
+    "issueNav": 1090318.31,
+    "cancelNav": 1089775.85,
+    "statisticalNav": 1089304.73
+  },
+  {
+    "date": "2024-12-04",
+    "issueNav": 1089819.92,
+    "cancelNav": 1089339.15,
+    "statisticalNav": 1088850.86
+  },
+  {
+    "date": "2024-12-05",
+    "issueNav": 1089498.18,
+    "cancelNav": 1088733.11,
+    "statisticalNav": 1088219.41
+  },
+  {
+    "date": "2024-12-06",
+    "issueNav": 1089495.86,
+    "cancelNav": 1088699.8,
+    "statisticalNav": 1088301.6
+  },
+  {
+    "date": "2024-12-07",
+    "issueNav": 1089115.81,
+    "cancelNav": 1088747.79,
+    "statisticalNav": 1088431.05
+  },
+  {
+    "date": "2024-12-08",
+    "issueNav": 1089820.06,
+    "cancelNav": 1089270.68,
+    "statisticalNav": 1088711.65
+  },
+  {
+    "date": "2024-12-09",
+    "issueNav": 1090580.73,
+    "cancelNav": 1089793.22,
+    "statisticalNav": 1089329.49
+  },
+  {
+    "date": "2024-12-10",
+    "issueNav": 1091228.3,
+    "cancelNav": 1090472.59,
+    "statisticalNav": 1089793.7
+  },
+  {
+    "date": "2024-12-11",
+    "issueNav": 1091389.66,
+    "cancelNav": 1091069.78,
+    "statisticalNav": 1090709.87
+  },
+  {
+    "date": "2024-12-12",
+    "issueNav": 1091592.23,
+    "cancelNav": 1091240.82,
+    "statisticalNav": 1090676.39
+  },
+  {
+    "date": "2024-12-13",
+    "issueNav": 1091726.92,
+    "cancelNav": 1091082.3,
+    "statisticalNav": 1090739.3
+  },
+  {
+    "date": "2024-12-14",
+    "issueNav": 1091638.48,
+    "cancelNav": 1090994.58,
+    "statisticalNav": 1090403.38
+  },
+  {
+    "date": "2024-12-15",
+    "issueNav": 1092292.86,
+    "cancelNav": 1091898.46,
+    "statisticalNav": 1091432.53
+  },
+  {
+    "date": "2024-12-16",
+    "issueNav": 1091879.4,
+    "cancelNav": 1091401.95,
+    "statisticalNav": 1091082.89
+  },
+  {
+    "date": "2024-12-17",
+    "issueNav": 1092435.42,
+    "cancelNav": 1091739.08,
+    "statisticalNav": 1090939.32
+  },
+  {
+    "date": "2024-12-18",
+    "issueNav": 1092367.68,
+    "cancelNav": 1091969.22,
+    "statisticalNav": 1091575.02
+  },
+  {
+    "date": "2024-12-19",
+    "issueNav": 1093009.08,
+    "cancelNav": 1092299.23,
+    "statisticalNav": 1091870.25
+  },
+  {
+    "date": "2024-12-20",
+    "issueNav": 1093553.87,
+    "cancelNav": 1092977.73,
+    "statisticalNav": 1092364.52
+  },
+  {
+    "date": "2024-12-21",
+    "issueNav": 1093176.57,
+    "cancelNav": 1092588.09,
+    "statisticalNav": 1091947.71
+  },
+  {
+    "date": "2024-12-22",
+    "issueNav": 1093133.0,
+    "cancelNav": 1092349.87,
+    "statisticalNav": 1091721.89
+  },
+  {
+    "date": "2024-12-23",
+    "issueNav": 1093921.82,
+    "cancelNav": 1093453.91,
+    "statisticalNav": 1093143.07
+  },
+  {
+    "date": "2024-12-24",
+    "issueNav": 1093863.54,
+    "cancelNav": 1093463.26,
+    "statisticalNav": 1093013.02
+  },
+  {
+    "date": "2024-12-25",
+    "issueNav": 1094498.34,
+    "cancelNav": 1093922.96,
+    "statisticalNav": 1093213.79
+  },
+  {
+    "date": "2024-12-26",
+    "issueNav": 1094174.24,
+    "cancelNav": 1093663.29,
+    "statisticalNav": 1093323.0
+  },
+  {
+    "date": "2024-12-27",
+    "issueNav": 1094691.18,
+    "cancelNav": 1094380.9,
+    "statisticalNav": 1094063.31
+  },
+  {
+    "date": "2024-12-28",
+    "issueNav": 1094693.86,
+    "cancelNav": 1094369.75,
+    "statisticalNav": 1093905.16
+  },
+  {
+    "date": "2024-12-29",
+    "issueNav": 1094507.64,
+    "cancelNav": 1093732.38,
+    "statisticalNav": 1093054.93
+  },
+  {
+    "date": "2024-12-30",
+    "issueNav": 1094457.02,
+    "cancelNav": 1094003.89,
+    "statisticalNav": 1093214.38
+  },
+  {
+    "date": "2024-12-31",
+    "issueNav": 1094390.47,
+    "cancelNav": 1093952.43,
+    "statisticalNav": 1093458.11
+  },
+  {
+    "date": "2025-01-01",
+    "issueNav": 1094596.13,
+    "cancelNav": 1093976.96,
+    "statisticalNav": 1093444.77
+  },
+  {
+    "date": "2025-01-02",
+    "issueNav": 1094869.62,
+    "cancelNav": 1094478.14,
+    "statisticalNav": 1094084.89
+  },
+  {
+    "date": "2025-01-03",
+    "issueNav": 1095608.08,
+    "cancelNav": 1094951.65,
+    "statisticalNav": 1094243.34
+  },
+  {
+    "date": "2025-01-04",
+    "issueNav": 1095262.74,
+    "cancelNav": 1094727.67,
+    "statisticalNav": 1094357.59
+  },
+  {
+    "date": "2025-01-05",
+    "issueNav": 1094986.51,
+    "cancelNav": 1094310.7,
+    "statisticalNav": 1093768.0
+  },
+  {
+    "date": "2025-01-06",
+    "issueNav": 1095229.04,
+    "cancelNav": 1094603.0,
+    "statisticalNav": 1094222.07
+  },
+  {
+    "date": "2025-01-07",
+    "issueNav": 1095289.58,
+    "cancelNav": 1094755.62,
+    "statisticalNav": 1094455.48
+  },
+  {
+    "date": "2025-01-08",
+    "issueNav": 1095094.93,
+    "cancelNav": 1094766.74,
+    "statisticalNav": 1093971.98
+  },
+  {
+    "date": "2025-01-09",
+    "issueNav": 1095843.85,
+    "cancelNav": 1095507.95,
+    "statisticalNav": 1094749.78
+  },
+  {
+    "date": "2025-01-10",
+    "issueNav": 1095697.12,
+    "cancelNav": 1094994.23,
+    "statisticalNav": 1094237.05
+  },
+  {
+    "date": "2025-01-11",
+    "issueNav": 1095949.87,
+    "cancelNav": 1095157.92,
+    "statisticalNav": 1094641.42
+  },
+  {
+    "date": "2025-01-12",
+    "issueNav": 1095637.68,
+    "cancelNav": 1095102.35,
+    "statisticalNav": 1094361.83
+  },
+  {
+    "date": "2025-01-13",
+    "issueNav": 1096332.3,
+    "cancelNav": 1095701.89,
+    "statisticalNav": 1095148.42
+  },
+  {
+    "date": "2025-01-14",
+    "issueNav": 1096746.25,
+    "cancelNav": 1096009.74,
+    "statisticalNav": 1095307.87
+  },
+  {
+    "date": "2025-01-15",
+    "issueNav": 1096274.99,
+    "cancelNav": 1095614.28,
+    "statisticalNav": 1095148.44
+  },
+  {
+    "date": "2025-01-16",
+    "issueNav": 1096423.52,
+    "cancelNav": 1095631.84,
+    "statisticalNav": 1094941.01
+  },
+  {
+    "date": "2025-01-17",
+    "issueNav": 1096295.7,
+    "cancelNav": 1095845.61,
+    "statisticalNav": 1095299.61
+  },
+  {
+    "date": "2025-01-18",
+    "issueNav": 1096392.61,
+    "cancelNav": 1095875.79,
+    "statisticalNav": 1095080.33
+  },
+  {
+    "date": "2025-01-19",
+    "issueNav": 1096587.53,
+    "cancelNav": 1096127.02,
+    "statisticalNav": 1095460.4
+  },
+  {
+    "date": "2025-01-20",
+    "issueNav": 1096688.27,
+    "cancelNav": 1096109.23,
+    "statisticalNav": 1095395.93
+  },
+  {
+    "date": "2025-01-21",
+    "issueNav": 1096244.16,
+    "cancelNav": 1095873.47,
+    "statisticalNav": 1095302.47
+  },
+  {
+    "date": "2025-01-22",
+    "issueNav": 1096091.06,
+    "cancelNav": 1095613.18,
+    "statisticalNav": 1095227.23
+  },
+  {
+    "date": "2025-01-23",
+    "issueNav": 1096061.29,
+    "cancelNav": 1095675.27,
+    "statisticalNav": 1095372.89
+  },
+  {
+    "date": "2025-01-24",
+    "issueNav": 1096525.32,
+    "cancelNav": 1095924.93,
+    "statisticalNav": 1095619.42
+  },
+  {
+    "date": "2025-01-25",
+    "issueNav": 1096063.23,
+    "cancelNav": 1095488.3,
+    "statisticalNav": 1095084.52
+  },
+  {
+    "date": "2025-01-26",
+    "issueNav": 1095823.08,
+    "cancelNav": 1095337.53,
+    "statisticalNav": 1094757.51
+  },
+  {
+    "date": "2025-01-27",
+    "issueNav": 1095491.15,
+    "cancelNav": 1094799.15,
+    "statisticalNav": 1094492.31
+  },
+  {
+    "date": "2025-01-28",
+    "issueNav": 1095186.96,
+    "cancelNav": 1094688.2,
+    "statisticalNav": 1094052.04
+  },
+  {
+    "date": "2025-01-29",
+    "issueNav": 1095664.09,
+    "cancelNav": 1094916.03,
+    "statisticalNav": 1094146.02
+  },
+  {
+    "date": "2025-01-30",
+    "issueNav": 1095598.5,
+    "cancelNav": 1095268.34,
+    "statisticalNav": 1094722.18
+  },
+  {
+    "date": "2025-01-31",
+    "issueNav": 1096096.69,
+    "cancelNav": 1095784.83,
+    "statisticalNav": 1095239.31
+  },
+  {
+    "date": "2025-02-01",
+    "issueNav": 1096265.15,
+    "cancelNav": 1095725.89,
+    "statisticalNav": 1094971.36
+  },
+  {
+    "date": "2025-02-02",
+    "issueNav": 1096150.88,
+    "cancelNav": 1095672.12,
+    "statisticalNav": 1095014.94
+  },
+  {
+    "date": "2025-02-03",
+    "issueNav": 1096466.78,
+    "cancelNav": 1096083.04,
+    "statisticalNav": 1095500.31
+  },
+  {
+    "date": "2025-02-04",
+    "issueNav": 1096986.91,
+    "cancelNav": 1096387.53,
+    "statisticalNav": 1096072.84
+  },
+  {
+    "date": "2025-02-05",
+    "issueNav": 1097534.89,
+    "cancelNav": 1096936.83,
+    "statisticalNav": 1096142.11
+  },
+  {
+    "date": "2025-02-06",
+    "issueNav": 1098324.07,
+    "cancelNav": 1097747.32,
+    "statisticalNav": 1096986.08
+  },
+  {
+    "date": "2025-02-07",
+    "issueNav": 1098118.3,
+    "cancelNav": 1097661.37,
+    "statisticalNav": 1097275.78
+  },
+  {
+    "date": "2025-02-08",
+    "issueNav": 1098469.07,
+    "cancelNav": 1097972.85,
+    "statisticalNav": 1097294.68
+  },
+  {
+    "date": "2025-02-09",
+    "issueNav": 1098128.41,
+    "cancelNav": 1097691.45,
+    "statisticalNav": 1097267.25
+  },
+  {
+    "date": "2025-02-10",
+    "issueNav": 1098454.44,
+    "cancelNav": 1098122.97,
+    "statisticalNav": 1097509.07
+  },
+  {
+    "date": "2025-02-11",
+    "issueNav": 1098282.2,
+    "cancelNav": 1097757.44,
+    "statisticalNav": 1097050.35
+  },
+  {
+    "date": "2025-02-12",
+    "issueNav": 1097979.0,
+    "cancelNav": 1097184.09,
+    "statisticalNav": 1096772.86
+  },
+  {
+    "date": "2025-02-13",
+    "issueNav": 1098038.4,
+    "cancelNav": 1097379.36,
+    "statisticalNav": 1097028.39
+  },
+  {
+    "date": "2025-02-14",
+    "issueNav": 1098709.06,
+    "cancelNav": 1098399.82,
+    "statisticalNav": 1097889.19
+  },
+  {
+    "date": "2025-02-15",
+    "issueNav": 1098966.86,
+    "cancelNav": 1098637.91,
+    "statisticalNav": 1097891.11
+  },
+  {
+    "date": "2025-02-16",
+    "issueNav": 1098834.6,
+    "cancelNav": 1098334.65,
+    "statisticalNav": 1097973.98
+  },
+  {
+    "date": "2025-02-17",
+    "issueNav": 1099319.84,
+    "cancelNav": 1098680.07,
+    "statisticalNav": 1098190.63
+  },
+  {
+    "date": "2025-02-18",
+    "issueNav": 1099130.05,
+    "cancelNav": 1098775.85,
+    "statisticalNav": 1098229.15
+  },
+  {
+    "date": "2025-02-19",
+    "issueNav": 1098849.99,
+    "cancelNav": 1098150.93,
+    "statisticalNav": 1097808.46
+  },
+  {
+    "date": "2025-02-20",
+    "issueNav": 1099543.39,
+    "cancelNav": 1098756.93,
+    "statisticalNav": 1098323.77
+  },
+  {
+    "date": "2025-02-21",
+    "issueNav": 1099075.47,
+    "cancelNav": 1098343.72,
+    "statisticalNav": 1097725.57
+  },
+  {
+    "date": "2025-02-22",
+    "issueNav": 1099825.68,
+    "cancelNav": 1099112.74,
+    "statisticalNav": 1098373.59
+  },
+  {
+    "date": "2025-02-23",
+    "issueNav": 1099360.23,
+    "cancelNav": 1098750.33,
+    "statisticalNav": 1098034.22
+  },
+  {
+    "date": "2025-02-24",
+    "issueNav": 1099387.77,
+    "cancelNav": 1099013.78,
+    "statisticalNav": 1098291.21
+  },
+  {
+    "date": "2025-02-25",
+    "issueNav": 1099512.13,
+    "cancelNav": 1098954.32,
+    "statisticalNav": 1098556.66
+  },
+  {
+    "date": "2025-02-26",
+    "issueNav": 1099701.75,
+    "cancelNav": 1099381.15,
+    "statisticalNav": 1098709.82
+  },
+  {
+    "date": "2025-02-27",
+    "issueNav": 1100151.21,
+    "cancelNav": 1099739.74,
+    "statisticalNav": 1099333.27
+  },
+  {
+    "date": "2025-02-28",
+    "issueNav": 1100828.32,
+    "cancelNav": 1100300.48,
+    "statisticalNav": 1099529.85
+  },
+  {
+    "date": "2025-03-01",
+    "issueNav": 1100991.38,
+    "cancelNav": 1100617.26,
+    "statisticalNav": 1099874.38
+  },
+  {
+    "date": "2025-03-02",
+    "issueNav": 1101314.18,
+    "cancelNav": 1100555.17,
+    "statisticalNav": 1099761.8
+  },
+  {
+    "date": "2025-03-03",
+    "issueNav": 1101132.98,
+    "cancelNav": 1100378.11,
+    "statisticalNav": 1100005.94
+  },
+  {
+    "date": "2025-03-04",
+    "issueNav": 1100883.68,
+    "cancelNav": 1100562.59,
+    "statisticalNav": 1100197.91
+  },
+  {
+    "date": "2025-03-05",
+    "issueNav": 1101344.72,
+    "cancelNav": 1100725.95,
+    "statisticalNav": 1099996.58
+  },
+  {
+    "date": "2025-03-06",
+    "issueNav": 1101229.55,
+    "cancelNav": 1100920.97,
+    "statisticalNav": 1100332.63
+  },
+  {
+    "date": "2025-03-07",
+    "issueNav": 1101953.4,
+    "cancelNav": 1101396.79,
+    "statisticalNav": 1100702.66
+  },
+  {
+    "date": "2025-03-08",
+    "issueNav": 1101453.74,
+    "cancelNav": 1101149.93,
+    "statisticalNav": 1100791.09
+  },
+  {
+    "date": "2025-03-09",
+    "issueNav": 1101799.46,
+    "cancelNav": 1101458.77,
+    "statisticalNav": 1101022.4
+  },
+  {
+    "date": "2025-03-10",
+    "issueNav": 1101347.13,
+    "cancelNav": 1101031.2,
+    "statisticalNav": 1100519.1
+  },
+  {
+    "date": "2025-03-11",
+    "issueNav": 1101348.46,
+    "cancelNav": 1100623.71,
+    "statisticalNav": 1100199.66
+  },
+  {
+    "date": "2025-03-12",
+    "issueNav": 1101565.1,
+    "cancelNav": 1101164.54,
+    "statisticalNav": 1100534.21
+  },
+  {
+    "date": "2025-03-13",
+    "issueNav": 1101939.92,
+    "cancelNav": 1101287.02,
+    "statisticalNav": 1100798.7
+  },
+  {
+    "date": "2025-03-14",
+    "issueNav": 1101685.42,
+    "cancelNav": 1100981.37,
+    "statisticalNav": 1100372.87
+  },
+  {
+    "date": "2025-03-15",
+    "issueNav": 1101788.37,
+    "cancelNav": 1101264.72,
+    "statisticalNav": 1100702.11
+  },
+  {
+    "date": "2025-03-16",
+    "issueNav": 1101670.79,
+    "cancelNav": 1101312.91,
+    "statisticalNav": 1100734.06
+  },
+  {
+    "date": "2025-03-17",
+    "issueNav": 1101183.4,
+    "cancelNav": 1100621.35,
+    "statisticalNav": 1099874.23
+  },
+  {
+    "date": "2025-03-18",
+    "issueNav": 1101092.06,
+    "cancelNav": 1100348.55,
+    "statisticalNav": 1099961.66
+  },
+  {
+    "date": "2025-03-19",
+    "issueNav": 1100625.59,
+    "cancelNav": 1100219.02,
+    "statisticalNav": 1099813.33
+  },
+  {
+    "date": "2025-03-20",
+    "issueNav": 1101423.08,
+    "cancelNav": 1100889.39,
+    "statisticalNav": 1100384.57
+  },
+  {
+    "date": "2025-03-21",
+    "issueNav": 1101081.33,
+    "cancelNav": 1100622.57,
+    "statisticalNav": 1100030.7
+  },
+  {
+    "date": "2025-03-22",
+    "issueNav": 1101009.74,
+    "cancelNav": 1100572.59,
+    "statisticalNav": 1099803.66
+  },
+  {
+    "date": "2025-03-23",
+    "issueNav": 1101778.87,
+    "cancelNav": 1101007.01,
+    "statisticalNav": 1100393.0
+  },
+  {
+    "date": "2025-03-24",
+    "issueNav": 1101705.91,
+    "cancelNav": 1101146.03,
+    "statisticalNav": 1100552.77
+  },
+  {
+    "date": "2025-03-25",
+    "issueNav": 1101801.67,
+    "cancelNav": 1101045.47,
+    "statisticalNav": 1100585.11
+  },
+  {
+    "date": "2025-03-26",
+    "issueNav": 1101859.32,
+    "cancelNav": 1101127.85,
+    "statisticalNav": 1100497.31
+  },
+  {
+    "date": "2025-03-27",
+    "issueNav": 1101962.8,
+    "cancelNav": 1101321.89,
+    "statisticalNav": 1100831.26
+  },
+  {
+    "date": "2025-03-28",
+    "issueNav": 1101765.88,
+    "cancelNav": 1101431.83,
+    "statisticalNav": 1101034.0
+  },
+  {
+    "date": "2025-03-29",
+    "issueNav": 1101754.35,
+    "cancelNav": 1101078.77,
+    "statisticalNav": 1100440.96
+  },
+  {
+    "date": "2025-03-30",
+    "issueNav": 1101725.11,
+    "cancelNav": 1101205.91,
+    "statisticalNav": 1100473.95
+  },
+  {
+    "date": "2025-03-31",
+    "issueNav": 1101557.29,
+    "cancelNav": 1101082.71,
+    "statisticalNav": 1100428.67
+  },
+  {
+    "date": "2025-04-01",
+    "issueNav": 1101398.0,
+    "cancelNav": 1100873.73,
+    "statisticalNav": 1100195.65
+  },
+  {
+    "date": "2025-04-02",
+    "issueNav": 1101056.47,
+    "cancelNav": 1100438.76,
+    "statisticalNav": 1099733.64
+  },
+  {
+    "date": "2025-04-03",
+    "issueNav": 1101370.83,
+    "cancelNav": 1100957.4,
+    "statisticalNav": 1100284.33
+  },
+  {
+    "date": "2025-04-04",
+    "issueNav": 1101563.84,
+    "cancelNav": 1101215.41,
+    "statisticalNav": 1100483.49
+  },
+  {
+    "date": "2025-04-05",
+    "issueNav": 1102134.35,
+    "cancelNav": 1101680.3,
+    "statisticalNav": 1101277.58
+  },
+  {
+    "date": "2025-04-06",
+    "issueNav": 1102283.64,
+    "cancelNav": 1101575.34,
+    "statisticalNav": 1100776.52
+  },
+  {
+    "date": "2025-04-07",
+    "issueNav": 1102144.39,
+    "cancelNav": 1101795.3,
+    "statisticalNav": 1101129.62
+  },
+  {
+    "date": "2025-04-08",
+    "issueNav": 1101785.27,
+    "cancelNav": 1101283.77,
+    "statisticalNav": 1100742.51
+  },
+  {
+    "date": "2025-04-09",
+    "issueNav": 1101696.07,
+    "cancelNav": 1101021.48,
+    "statisticalNav": 1100400.43
+  },
+  {
+    "date": "2025-04-10",
+    "issueNav": 1101752.18,
+    "cancelNav": 1101369.33,
+    "statisticalNav": 1101025.93
+  },
+  {
+    "date": "2025-04-11",
+    "issueNav": 1102226.64,
+    "cancelNav": 1101648.89,
+    "statisticalNav": 1101150.66
+  },
+  {
+    "date": "2025-04-12",
+    "issueNav": 1102118.01,
+    "cancelNav": 1101374.58,
+    "statisticalNav": 1100809.84
+  },
+  {
+    "date": "2025-04-13",
+    "issueNav": 1102119.82,
+    "cancelNav": 1101637.64,
+    "statisticalNav": 1101177.12
+  },
+  {
+    "date": "2025-04-14",
+    "issueNav": 1101736.98,
+    "cancelNav": 1101103.44,
+    "statisticalNav": 1100493.18
+  },
+  {
+    "date": "2025-04-15",
+    "issueNav": 1101592.09,
+    "cancelNav": 1101226.41,
+    "statisticalNav": 1100590.99
+  },
+  {
+    "date": "2025-04-16",
+    "issueNav": 1101890.01,
+    "cancelNav": 1101119.66,
+    "statisticalNav": 1100497.17
+  },
+  {
+    "date": "2025-04-17",
+    "issueNav": 1101726.06,
+    "cancelNav": 1101219.24,
+    "statisticalNav": 1100460.13
+  },
+  {
+    "date": "2025-04-18",
+    "issueNav": 1102371.74,
+    "cancelNav": 1102043.39,
+    "statisticalNav": 1101653.15
+  },
+  {
+    "date": "2025-04-19",
+    "issueNav": 1101987.74,
+    "cancelNav": 1101251.5,
+    "statisticalNav": 1100836.3
+  },
+  {
+    "date": "2025-04-20",
+    "issueNav": 1102776.08,
+    "cancelNav": 1102145.03,
+    "statisticalNav": 1101699.53
+  },
+  {
+    "date": "2025-04-21",
+    "issueNav": 1102792.81,
+    "cancelNav": 1102002.23,
+    "statisticalNav": 1101264.56
+  }
+]

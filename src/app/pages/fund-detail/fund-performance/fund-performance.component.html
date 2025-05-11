@@ -1,6 +1,78 @@
-<div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow">
-    <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">نمودار اصلی Pie</h2>
-    <app-pie-chart [data]="pieData" [isDarkMode]="isDarkMode" title="ترکیب دارایی با legend"></app-pie-chart>
+<!-- <div class="flex flex-wrap justify-between gap-3 p-2 my-3">
+    <div
+        class="flex flex-col  w-full bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700  rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>ترکیب دارایی‌ها</p>
+        </div>
+        <app-combined-chart [pieData]="AssetPieData" [AreaData]="AssetAreaData"></app-combined-chart>
+    </div>
 
+    <div
+        class="flex flex-col w-full bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700  rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>میزان تملک سرمایه‌گذاران حقیقی و حقوقی</p>
+        </div>
+        <app-combined-chart [pieData]="OwnershipPieData" [AreaData]="OwnershipAreaData"></app-combined-chart>
+    </div>
+    <div
+        class="flex flex-col w-full md:w-[49%]  bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700  rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>ترکیب دارایی‌ها</p>
+        </div>
+        <app-market-chart *ngIf="allSeries.length" [isDarkMode]="isDarkMode"
+            [customSeries]="allSeries">
+        </app-market-chart>
+    </div>
+    <div
+        class="flex flex-col w-full md:w-[49%] bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700  rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>ترکیب دارایی‌ها</p>
+        </div>
+    </div>
+</div> -->
+<div class="flex flex-wrap justify-between gap-3 p-2 my-3">
+    <div
+        class="flex flex-col w-full bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>ترکیب دارایی‌ها</p>
+        </div>
+        <app-combined-chart [pieData]="AssetPieData" [AreaData]="AssetAreaData"></app-combined-chart>
+    </div>
 
+    <div
+        class="flex flex-col w-full bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+            <p>میزان تملک سرمایه‌گذاران حقیقی و حقوقی</p>
+        </div>
+        <app-combined-chart [pieData]="OwnershipPieData" [AreaData]="OwnershipAreaData"></app-combined-chart>
+    </div>
+
+    <div
+        class="flex flex-col w-full md:w-[49%] bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+        <p>نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری</p>
+        </div>
+        <app-market-chart *ngIf="allSeries.length" [isDarkMode]="isDarkMode"
+            [customSeries]="allSeries">
+        </app-market-chart>
+    </div>
+
+    <div
+        class="flex flex-col w-full md:w-[49%] bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+         <p>نمودار ارزش خالص دارایی‌ها</p>
+        </div>
+        <app-market-chart *ngIf="netAssetSeries.length" [isDarkMode]="isDarkMode" [customSeries]="netAssetSeries">
+        </app-market-chart>
+
+    </div>
+    <div
+        class="flex flex-col w-full md:w-[49%] bg-[#fff] dark:bg-[#264553] border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden">
+        <div class="bg-[#e1e9f1] px-4 py-2">
+        <p>نمودار بازدهی صندوق</p>
+        </div>
+        <app-market-chart *ngIf="allSeries.length" [isDarkMode]="isDarkMode"
+            [customSeries]="allSeries">
+        </app-market-chart>
+    </div>
 </div>

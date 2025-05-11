@@ -1,4 +1,11 @@
-import { Component, Input, OnChanges, SimpleChanges, Inject, PLATFORM_ID } from '@angular/core';
+import {
+    Component,
+    Input,
+    OnChanges,
+    SimpleChanges,
+    Inject,
+    PLATFORM_ID
+} from '@angular/core';
 import { isPlatformBrowser, DOCUMENT, CommonModule } from '@angular/common';
 import * as Highcharts from 'highcharts';
 import { HighchartsChartModule } from 'highcharts-angular';
@@ -36,10 +43,15 @@ export class PieChartComponent implements OnChanges {
             ? getComputedStyle(this.document.documentElement)
             : ({} as CSSStyleDeclaration);
 
-        const textColor = root.getPropertyValue('--text-color') || (this.isDarkMode ? '#fff' : '#000');
+        const textColor =
+            root.getPropertyValue('--text-color') || (this.isDarkMode ? '#fff' : '#000');
         const bgColor = this.isDarkMode ? '#1f2937' : '#ffffff';
-
+        const isSmallScreen = isPlatformBrowser(this.platformId) && window.innerWidth < 400;
         this.chartOptions = {
+            credits: {
+                enabled: false
+            }
+            ,
             chart: {
                 type: 'pie',
                 backgroundColor: bgColor
@@ -56,31 +68,51 @@ export class PieChartComponent implements OnChanges {
             accessibility: {
                 point: { valueSuffix: '%' }
             },
+            legend: {
+                layout: 'horizontal',       // همیشه ردیفی
+                align: 'center',            // وسط‌چین
+                verticalAlign: 'bottom',       // بالای چارت یا می‌تونی بزاری 'bottom'
+                itemMarginTop: 4,
+                itemMarginBottom: 4,
+                symbolHeight: 10,
+                symbolWidth: 10,
+                itemStyle: {
+                    color: textColor,
+                    fontSize: isSmallScreen ? '10px' : '12px',
+                    whiteSpace: 'nowrap'  // مهم: از شکستن متن جلوگیری می‌کنه
+                }
+            },
             plotOptions: {
                 pie: {
                     allowPointSelect: true,
                     cursor: 'pointer',
                     showInLegend: true,
+                    size: '180px', 
                     dataLabels: {
                         enabled: true,
-                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        format: '{point.percentage:.1f}%',
                         style: { color: textColor }
                     }
                 }
-            },
-            series: [{
-                name: 'درصد',
-                type: 'pie',
-                colorByPoint: false, 
-                data: this.data?.map(item => ({
-                    name: item.name,
-                    // eslint-disable-next-line id-length
-                    y: item.percentage,
-                    color: item.color 
-                })) || []
-            } as Highcharts.SeriesPieOptions]
+            }
+            ,
+            series: [
+                {
+                    name: 'درصد',
+                    type: 'pie',
+                    colorByPoint: false,
+                    data: this.data?.map(item => ({
+                        name: item.name,
+                        // eslint-disable-next-line id-length
+                        y: item.percentage,
+                        color: item.color
+                    })) || []
+                } as Highcharts.SeriesPieOptions
+            ]
         };
+
     }
+
 
     saveInstance(chart: Highcharts.Chart): void {
         this.chartRef = chart;

@@ -1,0 +1,3652 @@
+[
+    {
+        "date": "2023-01-01T00:00:00",
+        "insInvPercent": 76.59,
+        "retInvPercent": 23.41
+    },
+    {
+        "date": "2023-01-02T00:00:00",
+        "insInvPercent": 78.11,
+        "retInvPercent": 21.89
+    },
+    {
+        "date": "2023-01-03T00:00:00",
+        "insInvPercent": 59.76,
+        "retInvPercent": 40.24
+    },
+    {
+        "date": "2023-01-04T00:00:00",
+        "insInvPercent": 51.28,
+        "retInvPercent": 48.72
+    },
+    {
+        "date": "2023-01-05T00:00:00",
+        "insInvPercent": 60.88,
+        "retInvPercent": 39.12
+    },
+    {
+        "date": "2023-01-06T00:00:00",
+        "insInvPercent": 53.26,
+        "retInvPercent": 46.74
+    },
+    {
+        "date": "2023-01-07T00:00:00",
+        "insInvPercent": 29.48,
+        "retInvPercent": 70.52
+    },
+    {
+        "date": "2023-01-08T00:00:00",
+        "insInvPercent": 24.42,
+        "retInvPercent": 75.58
+    },
+    {
+        "date": "2023-01-09T00:00:00",
+        "insInvPercent": 22.41,
+        "retInvPercent": 77.59
+    },
+    {
+        "date": "2023-01-10T00:00:00",
+        "insInvPercent": 62.04,
+        "retInvPercent": 37.96
+    },
+    {
+        "date": "2023-01-11T00:00:00",
+        "insInvPercent": 73.53,
+        "retInvPercent": 26.47
+    },
+    {
+        "date": "2023-01-12T00:00:00",
+        "insInvPercent": 66.66,
+        "retInvPercent": 33.34
+    },
+    {
+        "date": "2023-01-13T00:00:00",
+        "insInvPercent": 62.32,
+        "retInvPercent": 37.68
+    },
+    {
+        "date": "2023-01-14T00:00:00",
+        "insInvPercent": 6.79,
+        "retInvPercent": 93.21
+    },
+    {
+        "date": "2023-01-15T00:00:00",
+        "insInvPercent": 35.23,
+        "retInvPercent": 64.77
+    },
+    {
+        "date": "2023-01-16T00:00:00",
+        "insInvPercent": 68.25,
+        "retInvPercent": 31.75
+    },
+    {
+        "date": "2023-01-17T00:00:00",
+        "insInvPercent": 15.59,
+        "retInvPercent": 84.41
+    },
+    {
+        "date": "2023-01-18T00:00:00",
+        "insInvPercent": 83.5,
+        "retInvPercent": 16.5
+    },
+    {
+        "date": "2023-01-19T00:00:00",
+        "insInvPercent": 59.05,
+        "retInvPercent": 40.95
+    },
+    {
+        "date": "2023-01-20T00:00:00",
+        "insInvPercent": 46.95,
+        "retInvPercent": 53.05
+    },
+    {
+        "date": "2023-01-21T00:00:00",
+        "insInvPercent": 52.8,
+        "retInvPercent": 47.2
+    },
+    {
+        "date": "2023-01-22T00:00:00",
+        "insInvPercent": 59.69,
+        "retInvPercent": 40.31
+    },
+    {
+        "date": "2023-01-23T00:00:00",
+        "insInvPercent": 5.29,
+        "retInvPercent": 94.71
+    },
+    {
+        "date": "2023-01-24T00:00:00",
+        "insInvPercent": 56.57,
+        "retInvPercent": 43.43
+    },
+    {
+        "date": "2023-01-25T00:00:00",
+        "insInvPercent": 62.27,
+        "retInvPercent": 37.73
+    },
+    {
+        "date": "2023-01-26T00:00:00",
+        "insInvPercent": 49.86,
+        "retInvPercent": 50.14
+    },
+    {
+        "date": "2023-01-27T00:00:00",
+        "insInvPercent": 15.81,
+        "retInvPercent": 84.19
+    },
+    {
+        "date": "2023-01-28T00:00:00",
+        "insInvPercent": 50.65,
+        "retInvPercent": 49.35
+    },
+    {
+        "date": "2023-01-29T00:00:00",
+        "insInvPercent": 39.2,
+        "retInvPercent": 60.8
+    },
+    {
+        "date": "2023-01-30T00:00:00",
+        "insInvPercent": 90.63,
+        "retInvPercent": 9.37
+    },
+    {
+        "date": "2023-01-31T00:00:00",
+        "insInvPercent": 22.13,
+        "retInvPercent": 77.87
+    },
+    {
+        "date": "2023-02-01T00:00:00",
+        "insInvPercent": 34.75,
+        "retInvPercent": 65.25
+    },
+    {
+        "date": "2023-02-02T00:00:00",
+        "insInvPercent": 38.45,
+        "retInvPercent": 61.55
+    },
+    {
+        "date": "2023-02-03T00:00:00",
+        "insInvPercent": 28.95,
+        "retInvPercent": 71.05
+    },
+    {
+        "date": "2023-02-04T00:00:00",
+        "insInvPercent": 27.59,
+        "retInvPercent": 72.41
+    },
+    {
+        "date": "2023-02-05T00:00:00",
+        "insInvPercent": 25.59,
+        "retInvPercent": 74.41
+    },
+    {
+        "date": "2023-02-06T00:00:00",
+        "insInvPercent": 66.71,
+        "retInvPercent": 33.29
+    },
+    {
+        "date": "2023-02-07T00:00:00",
+        "insInvPercent": 49.41,
+        "retInvPercent": 50.59
+    },
+    {
+        "date": "2023-02-08T00:00:00",
+        "insInvPercent": 85.63,
+        "retInvPercent": 14.37
+    },
+    {
+        "date": "2023-02-09T00:00:00",
+        "insInvPercent": 56.51,
+        "retInvPercent": 43.49
+    },
+    {
+        "date": "2023-02-10T00:00:00",
+        "insInvPercent": 15.77,
+        "retInvPercent": 84.23
+    },
+    {
+        "date": "2023-02-11T00:00:00",
+        "insInvPercent": 71.77,
+        "retInvPercent": 28.23
+    },
+    {
+        "date": "2023-02-12T00:00:00",
+        "insInvPercent": 13.35,
+        "retInvPercent": 86.65
+    },
+    {
+        "date": "2023-02-13T00:00:00",
+        "insInvPercent": 20.51,
+        "retInvPercent": 79.49
+    },
+    {
+        "date": "2023-02-14T00:00:00",
+        "insInvPercent": 89.57,
+        "retInvPercent": 10.43
+    },
+    {
+        "date": "2023-02-15T00:00:00",
+        "insInvPercent": 55.5,
+        "retInvPercent": 44.5
+    },
+    {
+        "date": "2023-02-16T00:00:00",
+        "insInvPercent": 6.36,
+        "retInvPercent": 93.64
+    },
+    {
+        "date": "2023-02-17T00:00:00",
+        "insInvPercent": 9.02,
+        "retInvPercent": 90.98
+    },
+    {
+        "date": "2023-02-18T00:00:00",
+        "insInvPercent": 77.2,
+        "retInvPercent": 22.8
+    },
+    {
+        "date": "2023-02-19T00:00:00",
+        "insInvPercent": 71.62,
+        "retInvPercent": 28.38
+    },
+    {
+        "date": "2023-02-20T00:00:00",
+        "insInvPercent": 49.76,
+        "retInvPercent": 50.24
+    },
+    {
+        "date": "2023-02-21T00:00:00",
+        "insInvPercent": 93.22,
+        "retInvPercent": 6.78
+    },
+    {
+        "date": "2023-02-22T00:00:00",
+        "insInvPercent": 7.24,
+        "retInvPercent": 92.76
+    },
+    {
+        "date": "2023-02-23T00:00:00",
+        "insInvPercent": 93.57,
+        "retInvPercent": 6.43
+    },
+    {
+        "date": "2023-02-24T00:00:00",
+        "insInvPercent": 5.36,
+        "retInvPercent": 94.64
+    },
+    {
+        "date": "2023-02-25T00:00:00",
+        "insInvPercent": 26.5,
+        "retInvPercent": 73.5
+    },
+    {
+        "date": "2023-02-26T00:00:00",
+        "insInvPercent": 44.07,
+        "retInvPercent": 55.93
+    },
+    {
+        "date": "2023-02-27T00:00:00",
+        "insInvPercent": 24.66,
+        "retInvPercent": 75.34
+    },
+    {
+        "date": "2023-02-28T00:00:00",
+        "insInvPercent": 29.73,
+        "retInvPercent": 70.27
+    },
+    {
+        "date": "2023-03-01T00:00:00",
+        "insInvPercent": 52.3,
+        "retInvPercent": 47.7
+    },
+    {
+        "date": "2023-03-02T00:00:00",
+        "insInvPercent": 19.35,
+        "retInvPercent": 80.65
+    },
+    {
+        "date": "2023-03-03T00:00:00",
+        "insInvPercent": 90.46,
+        "retInvPercent": 9.54
+    },
+    {
+        "date": "2023-03-04T00:00:00",
+        "insInvPercent": 9.33,
+        "retInvPercent": 90.67
+    },
+    {
+        "date": "2023-03-05T00:00:00",
+        "insInvPercent": 6.88,
+        "retInvPercent": 93.12
+    },
+    {
+        "date": "2023-03-06T00:00:00",
+        "insInvPercent": 28.19,
+        "retInvPercent": 71.81
+    },
+    {
+        "date": "2023-03-07T00:00:00",
+        "insInvPercent": 45.51,
+        "retInvPercent": 54.49
+    },
+    {
+        "date": "2023-03-08T00:00:00",
+        "insInvPercent": 48.11,
+        "retInvPercent": 51.89
+    },
+    {
+        "date": "2023-03-09T00:00:00",
+        "insInvPercent": 59.13,
+        "retInvPercent": 40.87
+    },
+    {
+        "date": "2023-03-10T00:00:00",
+        "insInvPercent": 47.54,
+        "retInvPercent": 52.46
+    },
+    {
+        "date": "2023-03-11T00:00:00",
+        "insInvPercent": 14.52,
+        "retInvPercent": 85.48
+    },
+    {
+        "date": "2023-03-12T00:00:00",
+        "insInvPercent": 15.4,
+        "retInvPercent": 84.6
+    },
+    {
+        "date": "2023-03-13T00:00:00",
+        "insInvPercent": 72.03,
+        "retInvPercent": 27.97
+    },
+    {
+        "date": "2023-03-14T00:00:00",
+        "insInvPercent": 20.95,
+        "retInvPercent": 79.05
+    },
+    {
+        "date": "2023-03-15T00:00:00",
+        "insInvPercent": 28.91,
+        "retInvPercent": 71.09
+    },
+    {
+        "date": "2023-03-16T00:00:00",
+        "insInvPercent": 83.99,
+        "retInvPercent": 16.01
+    },
+    {
+        "date": "2023-03-17T00:00:00",
+        "insInvPercent": 78.98,
+        "retInvPercent": 21.02
+    },
+    {
+        "date": "2023-03-18T00:00:00",
+        "insInvPercent": 12.76,
+        "retInvPercent": 87.24
+    },
+    {
+        "date": "2023-03-19T00:00:00",
+        "insInvPercent": 43.85,
+        "retInvPercent": 56.15
+    },
+    {
+        "date": "2023-03-20T00:00:00",
+        "insInvPercent": 66.11,
+        "retInvPercent": 33.89
+    },
+    {
+        "date": "2023-03-21T00:00:00",
+        "insInvPercent": 17.29,
+        "retInvPercent": 82.71
+    },
+    {
+        "date": "2023-03-22T00:00:00",
+        "insInvPercent": 26.12,
+        "retInvPercent": 73.88
+    },
+    {
+        "date": "2023-03-23T00:00:00",
+        "insInvPercent": 18.8,
+        "retInvPercent": 81.2
+    },
+    {
+        "date": "2023-03-24T00:00:00",
+        "insInvPercent": 41.6,
+        "retInvPercent": 58.4
+    },
+    {
+        "date": "2023-03-25T00:00:00",
+        "insInvPercent": 44.06,
+        "retInvPercent": 55.94
+    },
+    {
+        "date": "2023-03-26T00:00:00",
+        "insInvPercent": 9.6,
+        "retInvPercent": 90.4
+    },
+    {
+        "date": "2023-03-27T00:00:00",
+        "insInvPercent": 56.45,
+        "retInvPercent": 43.55
+    },
+    {
+        "date": "2023-03-28T00:00:00",
+        "insInvPercent": 48.07,
+        "retInvPercent": 51.93
+    },
+    {
+        "date": "2023-03-29T00:00:00",
+        "insInvPercent": 59.51,
+        "retInvPercent": 40.49
+    },
+    {
+        "date": "2023-03-30T00:00:00",
+        "insInvPercent": 35.16,
+        "retInvPercent": 64.84
+    },
+    {
+        "date": "2023-03-31T00:00:00",
+        "insInvPercent": 6.99,
+        "retInvPercent": 93.01
+    },
+    {
+        "date": "2023-04-01T00:00:00",
+        "insInvPercent": 27.67,
+        "retInvPercent": 72.33
+    },
+    {
+        "date": "2023-04-02T00:00:00",
+        "insInvPercent": 30.08,
+        "retInvPercent": 69.92
+    },
+    {
+        "date": "2023-04-03T00:00:00",
+        "insInvPercent": 21.51,
+        "retInvPercent": 78.49
+    },
+    {
+        "date": "2023-04-04T00:00:00",
+        "insInvPercent": 60.22,
+        "retInvPercent": 39.78
+    },
+    {
+        "date": "2023-04-05T00:00:00",
+        "insInvPercent": 77.98,
+        "retInvPercent": 22.02
+    },
+    {
+        "date": "2023-04-06T00:00:00",
+        "insInvPercent": 26.16,
+        "retInvPercent": 73.84
+    },
+    {
+        "date": "2023-04-07T00:00:00",
+        "insInvPercent": 38.76,
+        "retInvPercent": 61.24
+    },
+    {
+        "date": "2023-04-08T00:00:00",
+        "insInvPercent": 22.25,
+        "retInvPercent": 77.75
+    },
+    {
+        "date": "2023-04-09T00:00:00",
+        "insInvPercent": 64.38,
+        "retInvPercent": 35.62
+    },
+    {
+        "date": "2023-04-10T00:00:00",
+        "insInvPercent": 53.39,
+        "retInvPercent": 46.61
+    },
+    {
+        "date": "2023-04-11T00:00:00",
+        "insInvPercent": 81.17,
+        "retInvPercent": 18.83
+    },
+    {
+        "date": "2023-04-12T00:00:00",
+        "insInvPercent": 40.96,
+        "retInvPercent": 59.04
+    },
+    {
+        "date": "2023-04-13T00:00:00",
+        "insInvPercent": 45.55,
+        "retInvPercent": 54.45
+    },
+    {
+        "date": "2023-04-14T00:00:00",
+        "insInvPercent": 18.57,
+        "retInvPercent": 81.43
+    },
+    {
+        "date": "2023-04-15T00:00:00",
+        "insInvPercent": 24.67,
+        "retInvPercent": 75.33
+    },
+    {
+        "date": "2023-04-16T00:00:00",
+        "insInvPercent": 18.72,
+        "retInvPercent": 81.28
+    },
+    {
+        "date": "2023-04-17T00:00:00",
+        "insInvPercent": 66.95,
+        "retInvPercent": 33.05
+    },
+    {
+        "date": "2023-04-18T00:00:00",
+        "insInvPercent": 87.62,
+        "retInvPercent": 12.38
+    },
+    {
+        "date": "2023-04-19T00:00:00",
+        "insInvPercent": 84.79,
+        "retInvPercent": 15.21
+    },
+    {
+        "date": "2023-04-20T00:00:00",
+        "insInvPercent": 77.27,
+        "retInvPercent": 22.73
+    },
+    {
+        "date": "2023-04-21T00:00:00",
+        "insInvPercent": 81.9,
+        "retInvPercent": 18.1
+    },
+    {
+        "date": "2023-04-22T00:00:00",
+        "insInvPercent": 40.09,
+        "retInvPercent": 59.91
+    },
+    {
+        "date": "2023-04-23T00:00:00",
+        "insInvPercent": 90.43,
+        "retInvPercent": 9.57
+    },
+    {
+        "date": "2023-04-24T00:00:00",
+        "insInvPercent": 35.42,
+        "retInvPercent": 64.58
+    },
+    {
+        "date": "2023-04-25T00:00:00",
+        "insInvPercent": 7.69,
+        "retInvPercent": 92.31
+    },
+    {
+        "date": "2023-04-26T00:00:00",
+        "insInvPercent": 59.68,
+        "retInvPercent": 40.32
+    },
+    {
+        "date": "2023-04-27T00:00:00",
+        "insInvPercent": 5.04,
+        "retInvPercent": 94.96
+    },
+    {
+        "date": "2023-04-28T00:00:00",
+        "insInvPercent": 72.45,
+        "retInvPercent": 27.55
+    },
+    {
+        "date": "2023-04-29T00:00:00",
+        "insInvPercent": 76.91,
+        "retInvPercent": 23.09
+    },
+    {
+        "date": "2023-04-30T00:00:00",
+        "insInvPercent": 17.37,
+        "retInvPercent": 82.63
+    },
+    {
+        "date": "2023-05-01T00:00:00",
+        "insInvPercent": 35.59,
+        "retInvPercent": 64.41
+    },
+    {
+        "date": "2023-05-02T00:00:00",
+        "insInvPercent": 42.01,
+        "retInvPercent": 57.99
+    },
+    {
+        "date": "2023-05-03T00:00:00",
+        "insInvPercent": 8.82,
+        "retInvPercent": 91.18
+    },
+    {
+        "date": "2023-05-04T00:00:00",
+        "insInvPercent": 86.18,
+        "retInvPercent": 13.82
+    },
+    {
+        "date": "2023-05-05T00:00:00",
+        "insInvPercent": 80.22,
+        "retInvPercent": 19.78
+    },
+    {
+        "date": "2023-05-06T00:00:00",
+        "insInvPercent": 65.52,
+        "retInvPercent": 34.48
+    },
+    {
+        "date": "2023-05-07T00:00:00",
+        "insInvPercent": 79.86,
+        "retInvPercent": 20.14
+    },
+    {
+        "date": "2023-05-08T00:00:00",
+        "insInvPercent": 10.24,
+        "retInvPercent": 89.76
+    },
+    {
+        "date": "2023-05-09T00:00:00",
+        "insInvPercent": 74.74,
+        "retInvPercent": 25.26
+    },
+    {
+        "date": "2023-05-10T00:00:00",
+        "insInvPercent": 52.49,
+        "retInvPercent": 47.51
+    },
+    {
+        "date": "2023-05-11T00:00:00",
+        "insInvPercent": 69.79,
+        "retInvPercent": 30.21
+    },
+    {
+        "date": "2023-05-12T00:00:00",
+        "insInvPercent": 67.2,
+        "retInvPercent": 32.8
+    },
+    {
+        "date": "2023-05-13T00:00:00",
+        "insInvPercent": 50.65,
+        "retInvPercent": 49.35
+    },
+    {
+        "date": "2023-05-14T00:00:00",
+        "insInvPercent": 6.03,
+        "retInvPercent": 93.97
+    },
+    {
+        "date": "2023-05-15T00:00:00",
+        "insInvPercent": 37.59,
+        "retInvPercent": 62.41
+    },
+    {
+        "date": "2023-05-16T00:00:00",
+        "insInvPercent": 21.76,
+        "retInvPercent": 78.24
+    },
+    {
+        "date": "2023-05-17T00:00:00",
+        "insInvPercent": 90.43,
+        "retInvPercent": 9.57
+    },
+    {
+        "date": "2023-05-18T00:00:00",
+        "insInvPercent": 68.08,
+        "retInvPercent": 31.92
+    },
+    {
+        "date": "2023-05-19T00:00:00",
+        "insInvPercent": 89.57,
+        "retInvPercent": 10.43
+    },
+    {
+        "date": "2023-05-20T00:00:00",
+        "insInvPercent": 15.47,
+        "retInvPercent": 84.53
+    },
+    {
+        "date": "2023-05-21T00:00:00",
+        "insInvPercent": 11.9,
+        "retInvPercent": 88.1
+    },
+    {
+        "date": "2023-05-22T00:00:00",
+        "insInvPercent": 44.51,
+        "retInvPercent": 55.49
+    },
+    {
+        "date": "2023-05-23T00:00:00",
+        "insInvPercent": 66.29,
+        "retInvPercent": 33.71
+    },
+    {
+        "date": "2023-05-24T00:00:00",
+        "insInvPercent": 45.78,
+        "retInvPercent": 54.22
+    },
+    {
+        "date": "2023-05-25T00:00:00",
+        "insInvPercent": 53.3,
+        "retInvPercent": 46.7
+    },
+    {
+        "date": "2023-05-26T00:00:00",
+        "insInvPercent": 68.86,
+        "retInvPercent": 31.14
+    },
+    {
+        "date": "2023-05-27T00:00:00",
+        "insInvPercent": 29.76,
+        "retInvPercent": 70.24
+    },
+    {
+        "date": "2023-05-28T00:00:00",
+        "insInvPercent": 48.85,
+        "retInvPercent": 51.15
+    },
+    {
+        "date": "2023-05-29T00:00:00",
+        "insInvPercent": 5.29,
+        "retInvPercent": 94.71
+    },
+    {
+        "date": "2023-05-30T00:00:00",
+        "insInvPercent": 29.5,
+        "retInvPercent": 70.5
+    },
+    {
+        "date": "2023-05-31T00:00:00",
+        "insInvPercent": 86.72,
+        "retInvPercent": 13.28
+    },
+    {
+        "date": "2023-06-01T00:00:00",
+        "insInvPercent": 70.67,
+        "retInvPercent": 29.33
+    },
+    {
+        "date": "2023-06-02T00:00:00",
+        "insInvPercent": 50.98,
+        "retInvPercent": 49.02
+    },
+    {
+        "date": "2023-06-03T00:00:00",
+        "insInvPercent": 42.55,
+        "retInvPercent": 57.45
+    },
+    {
+        "date": "2023-06-04T00:00:00",
+        "insInvPercent": 44.1,
+        "retInvPercent": 55.9
+    },
+    {
+        "date": "2023-06-05T00:00:00",
+        "insInvPercent": 28.53,
+        "retInvPercent": 71.47
+    },
+    {
+        "date": "2023-06-06T00:00:00",
+        "insInvPercent": 6.56,
+        "retInvPercent": 93.44
+    },
+    {
+        "date": "2023-06-07T00:00:00",
+        "insInvPercent": 59.07,
+        "retInvPercent": 40.93
+    },
+    {
+        "date": "2023-06-08T00:00:00",
+        "insInvPercent": 62.42,
+        "retInvPercent": 37.58
+    },
+    {
+        "date": "2023-06-09T00:00:00",
+        "insInvPercent": 79.04,
+        "retInvPercent": 20.96
+    },
+    {
+        "date": "2023-06-10T00:00:00",
+        "insInvPercent": 81.04,
+        "retInvPercent": 18.96
+    },
+    {
+        "date": "2023-06-11T00:00:00",
+        "insInvPercent": 14.48,
+        "retInvPercent": 85.52
+    },
+    {
+        "date": "2023-06-12T00:00:00",
+        "insInvPercent": 74.62,
+        "retInvPercent": 25.38
+    },
+    {
+        "date": "2023-06-13T00:00:00",
+        "insInvPercent": 69.31,
+        "retInvPercent": 30.69
+    },
+    {
+        "date": "2023-06-14T00:00:00",
+        "insInvPercent": 56.3,
+        "retInvPercent": 43.7
+    },
+    {
+        "date": "2023-06-15T00:00:00",
+        "insInvPercent": 18.27,
+        "retInvPercent": 81.73
+    },
+    {
+        "date": "2023-06-16T00:00:00",
+        "insInvPercent": 70.1,
+        "retInvPercent": 29.9
+    },
+    {
+        "date": "2023-06-17T00:00:00",
+        "insInvPercent": 75.72,
+        "retInvPercent": 24.28
+    },
+    {
+        "date": "2023-06-18T00:00:00",
+        "insInvPercent": 41.26,
+        "retInvPercent": 58.74
+    },
+    {
+        "date": "2023-06-19T00:00:00",
+        "insInvPercent": 46.42,
+        "retInvPercent": 53.58
+    },
+    {
+        "date": "2023-06-20T00:00:00",
+        "insInvPercent": 25.76,
+        "retInvPercent": 74.24
+    },
+    {
+        "date": "2023-06-21T00:00:00",
+        "insInvPercent": 57.93,
+        "retInvPercent": 42.07
+    },
+    {
+        "date": "2023-06-22T00:00:00",
+        "insInvPercent": 76.4,
+        "retInvPercent": 23.6
+    },
+    {
+        "date": "2023-06-23T00:00:00",
+        "insInvPercent": 19.63,
+        "retInvPercent": 80.37
+    },
+    {
+        "date": "2023-06-24T00:00:00",
+        "insInvPercent": 19.16,
+        "retInvPercent": 80.84
+    },
+    {
+        "date": "2023-06-25T00:00:00",
+        "insInvPercent": 23.09,
+        "retInvPercent": 76.91
+    },
+    {
+        "date": "2023-06-26T00:00:00",
+        "insInvPercent": 35.34,
+        "retInvPercent": 64.66
+    },
+    {
+        "date": "2023-06-27T00:00:00",
+        "insInvPercent": 24.48,
+        "retInvPercent": 75.52
+    },
+    {
+        "date": "2023-06-28T00:00:00",
+        "insInvPercent": 36.33,
+        "retInvPercent": 63.67
+    },
+    {
+        "date": "2023-06-29T00:00:00",
+        "insInvPercent": 5.29,
+        "retInvPercent": 94.71
+    },
+    {
+        "date": "2023-06-30T00:00:00",
+        "insInvPercent": 58.23,
+        "retInvPercent": 41.77
+    },
+    {
+        "date": "2023-07-01T00:00:00",
+        "insInvPercent": 36.59,
+        "retInvPercent": 63.41
+    },
+    {
+        "date": "2023-07-02T00:00:00",
+        "insInvPercent": 8.71,
+        "retInvPercent": 91.29
+    },
+    {
+        "date": "2023-07-03T00:00:00",
+        "insInvPercent": 61.17,
+        "retInvPercent": 38.83
+    },
+    {
+        "date": "2023-07-04T00:00:00",
+        "insInvPercent": 35.25,
+        "retInvPercent": 64.75
+    },
+    {
+        "date": "2023-07-05T00:00:00",
+        "insInvPercent": 62.36,
+        "retInvPercent": 37.64
+    },
+    {
+        "date": "2023-07-06T00:00:00",
+        "insInvPercent": 58.97,
+        "retInvPercent": 41.03
+    },
+    {
+        "date": "2023-07-07T00:00:00",
+        "insInvPercent": 19.99,
+        "retInvPercent": 80.01
+    },
+    {
+        "date": "2023-07-08T00:00:00",
+        "insInvPercent": 42.2,
+        "retInvPercent": 57.8
+    },
+    {
+        "date": "2023-07-09T00:00:00",
+        "insInvPercent": 6.47,
+        "retInvPercent": 93.53
+    },
+    {
+        "date": "2023-07-10T00:00:00",
+        "insInvPercent": 74.21,
+        "retInvPercent": 25.79
+    },
+    {
+        "date": "2023-07-11T00:00:00",
+        "insInvPercent": 56.88,
+        "retInvPercent": 43.12
+    },
+    {
+        "date": "2023-07-12T00:00:00",
+        "insInvPercent": 75.59,
+        "retInvPercent": 24.41
+    },
+    {
+        "date": "2023-07-13T00:00:00",
+        "insInvPercent": 55.14,
+        "retInvPercent": 44.86
+    },
+    {
+        "date": "2023-07-14T00:00:00",
+        "insInvPercent": 46.91,
+        "retInvPercent": 53.09
+    },
+    {
+        "date": "2023-07-15T00:00:00",
+        "insInvPercent": 89.03,
+        "retInvPercent": 10.97
+    },
+    {
+        "date": "2023-07-16T00:00:00",
+        "insInvPercent": 22.92,
+        "retInvPercent": 77.08
+    },
+    {
+        "date": "2023-07-17T00:00:00",
+        "insInvPercent": 34.44,
+        "retInvPercent": 65.56
+    },
+    {
+        "date": "2023-07-18T00:00:00",
+        "insInvPercent": 91.46,
+        "retInvPercent": 8.54
+    },
+    {
+        "date": "2023-07-19T00:00:00",
+        "insInvPercent": 11.53,
+        "retInvPercent": 88.47
+    },
+    {
+        "date": "2023-07-20T00:00:00",
+        "insInvPercent": 44.12,
+        "retInvPercent": 55.88
+    },
+    {
+        "date": "2023-07-21T00:00:00",
+        "insInvPercent": 12.57,
+        "retInvPercent": 87.43
+    },
+    {
+        "date": "2023-07-22T00:00:00",
+        "insInvPercent": 28.8,
+        "retInvPercent": 71.2
+    },
+    {
+        "date": "2023-07-23T00:00:00",
+        "insInvPercent": 67.95,
+        "retInvPercent": 32.05
+    },
+    {
+        "date": "2023-07-24T00:00:00",
+        "insInvPercent": 61.72,
+        "retInvPercent": 38.28
+    },
+    {
+        "date": "2023-07-25T00:00:00",
+        "insInvPercent": 48.63,
+        "retInvPercent": 51.37
+    },
+    {
+        "date": "2023-07-26T00:00:00",
+        "insInvPercent": 25.31,
+        "retInvPercent": 74.69
+    },
+    {
+        "date": "2023-07-27T00:00:00",
+        "insInvPercent": 67.95,
+        "retInvPercent": 32.05
+    },
+    {
+        "date": "2023-07-28T00:00:00",
+        "insInvPercent": 51.47,
+        "retInvPercent": 48.53
+    },
+    {
+        "date": "2023-07-29T00:00:00",
+        "insInvPercent": 89.24,
+        "retInvPercent": 10.76
+    },
+    {
+        "date": "2023-07-30T00:00:00",
+        "insInvPercent": 61.78,
+        "retInvPercent": 38.22
+    },
+    {
+        "date": "2023-07-31T00:00:00",
+        "insInvPercent": 51.5,
+        "retInvPercent": 48.5
+    },
+    {
+        "date": "2023-08-01T00:00:00",
+        "insInvPercent": 34.22,
+        "retInvPercent": 65.78
+    },
+    {
+        "date": "2023-08-02T00:00:00",
+        "insInvPercent": 84.85,
+        "retInvPercent": 15.15
+    },
+    {
+        "date": "2023-08-03T00:00:00",
+        "insInvPercent": 8.51,
+        "retInvPercent": 91.49
+    },
+    {
+        "date": "2023-08-04T00:00:00",
+        "insInvPercent": 61.81,
+        "retInvPercent": 38.19
+    },
+    {
+        "date": "2023-08-05T00:00:00",
+        "insInvPercent": 57.06,
+        "retInvPercent": 42.94
+    },
+    {
+        "date": "2023-08-06T00:00:00",
+        "insInvPercent": 76.88,
+        "retInvPercent": 23.12
+    },
+    {
+        "date": "2023-08-07T00:00:00",
+        "insInvPercent": 19.94,
+        "retInvPercent": 80.06
+    },
+    {
+        "date": "2023-08-08T00:00:00",
+        "insInvPercent": 91.67,
+        "retInvPercent": 8.33
+    },
+    {
+        "date": "2023-08-09T00:00:00",
+        "insInvPercent": 20.97,
+        "retInvPercent": 79.03
+    },
+    {
+        "date": "2023-08-10T00:00:00",
+        "insInvPercent": 84.59,
+        "retInvPercent": 15.41
+    },
+    {
+        "date": "2023-08-11T00:00:00",
+        "insInvPercent": 60.24,
+        "retInvPercent": 39.76
+    },
+    {
+        "date": "2023-08-12T00:00:00",
+        "insInvPercent": 51.06,
+        "retInvPercent": 48.94
+    },
+    {
+        "date": "2023-08-13T00:00:00",
+        "insInvPercent": 18.41,
+        "retInvPercent": 81.59
+    },
+    {
+        "date": "2023-08-14T00:00:00",
+        "insInvPercent": 83.02,
+        "retInvPercent": 16.98
+    },
+    {
+        "date": "2023-08-15T00:00:00",
+        "insInvPercent": 79.14,
+        "retInvPercent": 20.86
+    },
+    {
+        "date": "2023-08-16T00:00:00",
+        "insInvPercent": 20.54,
+        "retInvPercent": 79.46
+    },
+    {
+        "date": "2023-08-17T00:00:00",
+        "insInvPercent": 26.87,
+        "retInvPercent": 73.13
+    },
+    {
+        "date": "2023-08-18T00:00:00",
+        "insInvPercent": 7.91,
+        "retInvPercent": 92.09
+    },
+    {
+        "date": "2023-08-19T00:00:00",
+        "insInvPercent": 79.83,
+        "retInvPercent": 20.17
+    },
+    {
+        "date": "2023-08-20T00:00:00",
+        "insInvPercent": 36.36,
+        "retInvPercent": 63.64
+    },
+    {
+        "date": "2023-08-21T00:00:00",
+        "insInvPercent": 14.97,
+        "retInvPercent": 85.03
+    },
+    {
+        "date": "2023-08-22T00:00:00",
+        "insInvPercent": 36.65,
+        "retInvPercent": 63.35
+    },
+    {
+        "date": "2023-08-23T00:00:00",
+        "insInvPercent": 62.16,
+        "retInvPercent": 37.84
+    },
+    {
+        "date": "2023-08-24T00:00:00",
+        "insInvPercent": 60.07,
+        "retInvPercent": 39.93
+    },
+    {
+        "date": "2023-08-25T00:00:00",
+        "insInvPercent": 31.76,
+        "retInvPercent": 68.24
+    },
+    {
+        "date": "2023-08-26T00:00:00",
+        "insInvPercent": 48.43,
+        "retInvPercent": 51.57
+    },
+    {
+        "date": "2023-08-27T00:00:00",
+        "insInvPercent": 12.79,
+        "retInvPercent": 87.21
+    },
+    {
+        "date": "2023-08-28T00:00:00",
+        "insInvPercent": 43.61,
+        "retInvPercent": 56.39
+    },
+    {
+        "date": "2023-08-29T00:00:00",
+        "insInvPercent": 6.54,
+        "retInvPercent": 93.46
+    },
+    {
+        "date": "2023-08-30T00:00:00",
+        "insInvPercent": 20.13,
+        "retInvPercent": 79.87
+    },
+    {
+        "date": "2023-08-31T00:00:00",
+        "insInvPercent": 21.78,
+        "retInvPercent": 78.22
+    },
+    {
+        "date": "2023-09-01T00:00:00",
+        "insInvPercent": 37.98,
+        "retInvPercent": 62.02
+    },
+    {
+        "date": "2023-09-02T00:00:00",
+        "insInvPercent": 62.58,
+        "retInvPercent": 37.42
+    },
+    {
+        "date": "2023-09-03T00:00:00",
+        "insInvPercent": 53.6,
+        "retInvPercent": 46.4
+    },
+    {
+        "date": "2023-09-04T00:00:00",
+        "insInvPercent": 34.82,
+        "retInvPercent": 65.18
+    },
+    {
+        "date": "2023-09-05T00:00:00",
+        "insInvPercent": 5.84,
+        "retInvPercent": 94.16
+    },
+    {
+        "date": "2023-09-06T00:00:00",
+        "insInvPercent": 31.15,
+        "retInvPercent": 68.85
+    },
+    {
+        "date": "2023-09-07T00:00:00",
+        "insInvPercent": 89.4,
+        "retInvPercent": 10.6
+    },
+    {
+        "date": "2023-09-08T00:00:00",
+        "insInvPercent": 36.87,
+        "retInvPercent": 63.13
+    },
+    {
+        "date": "2023-09-09T00:00:00",
+        "insInvPercent": 72.88,
+        "retInvPercent": 27.12
+    },
+    {
+        "date": "2023-09-10T00:00:00",
+        "insInvPercent": 60.41,
+        "retInvPercent": 39.59
+    },
+    {
+        "date": "2023-09-11T00:00:00",
+        "insInvPercent": 45.35,
+        "retInvPercent": 54.65
+    },
+    {
+        "date": "2023-09-12T00:00:00",
+        "insInvPercent": 47.3,
+        "retInvPercent": 52.7
+    },
+    {
+        "date": "2023-09-13T00:00:00",
+        "insInvPercent": 15.1,
+        "retInvPercent": 84.9
+    },
+    {
+        "date": "2023-09-14T00:00:00",
+        "insInvPercent": 92.22,
+        "retInvPercent": 7.78
+    },
+    {
+        "date": "2023-09-15T00:00:00",
+        "insInvPercent": 31.21,
+        "retInvPercent": 68.79
+    },
+    {
+        "date": "2023-09-16T00:00:00",
+        "insInvPercent": 94.96,
+        "retInvPercent": 5.04
+    },
+    {
+        "date": "2023-09-17T00:00:00",
+        "insInvPercent": 14.91,
+        "retInvPercent": 85.09
+    },
+    {
+        "date": "2023-09-18T00:00:00",
+        "insInvPercent": 7.53,
+        "retInvPercent": 92.47
+    },
+    {
+        "date": "2023-09-19T00:00:00",
+        "insInvPercent": 71.87,
+        "retInvPercent": 28.13
+    },
+    {
+        "date": "2023-09-20T00:00:00",
+        "insInvPercent": 21.19,
+        "retInvPercent": 78.81
+    },
+    {
+        "date": "2023-09-21T00:00:00",
+        "insInvPercent": 78.28,
+        "retInvPercent": 21.72
+    },
+    {
+        "date": "2023-09-22T00:00:00",
+        "insInvPercent": 93.31,
+        "retInvPercent": 6.69
+    },
+    {
+        "date": "2023-09-23T00:00:00",
+        "insInvPercent": 13.92,
+        "retInvPercent": 86.08
+    },
+    {
+        "date": "2023-09-24T00:00:00",
+        "insInvPercent": 7.63,
+        "retInvPercent": 92.37
+    },
+    {
+        "date": "2023-09-25T00:00:00",
+        "insInvPercent": 18.92,
+        "retInvPercent": 81.08
+    },
+    {
+        "date": "2023-09-26T00:00:00",
+        "insInvPercent": 18.61,
+        "retInvPercent": 81.39
+    },
+    {
+        "date": "2023-09-27T00:00:00",
+        "insInvPercent": 75.71,
+        "retInvPercent": 24.29
+    },
+    {
+        "date": "2023-09-28T00:00:00",
+        "insInvPercent": 83.35,
+        "retInvPercent": 16.65
+    },
+    {
+        "date": "2023-09-29T00:00:00",
+        "insInvPercent": 39.15,
+        "retInvPercent": 60.85
+    },
+    {
+        "date": "2023-09-30T00:00:00",
+        "insInvPercent": 77.48,
+        "retInvPercent": 22.52
+    },
+    {
+        "date": "2023-10-01T00:00:00",
+        "insInvPercent": 28.43,
+        "retInvPercent": 71.57
+    },
+    {
+        "date": "2023-10-02T00:00:00",
+        "insInvPercent": 13.71,
+        "retInvPercent": 86.29
+    },
+    {
+        "date": "2023-10-03T00:00:00",
+        "insInvPercent": 16.79,
+        "retInvPercent": 83.21
+    },
+    {
+        "date": "2023-10-04T00:00:00",
+        "insInvPercent": 66.01,
+        "retInvPercent": 33.99
+    },
+    {
+        "date": "2023-10-05T00:00:00",
+        "insInvPercent": 19.59,
+        "retInvPercent": 80.41
+    },
+    {
+        "date": "2023-10-06T00:00:00",
+        "insInvPercent": 67.75,
+        "retInvPercent": 32.25
+    },
+    {
+        "date": "2023-10-07T00:00:00",
+        "insInvPercent": 42.95,
+        "retInvPercent": 57.05
+    },
+    {
+        "date": "2023-10-08T00:00:00",
+        "insInvPercent": 88.21,
+        "retInvPercent": 11.79
+    },
+    {
+        "date": "2023-10-09T00:00:00",
+        "insInvPercent": 79.18,
+        "retInvPercent": 20.82
+    },
+    {
+        "date": "2023-10-10T00:00:00",
+        "insInvPercent": 46.92,
+        "retInvPercent": 53.08
+    },
+    {
+        "date": "2023-10-11T00:00:00",
+        "insInvPercent": 46.56,
+        "retInvPercent": 53.44
+    },
+    {
+        "date": "2023-10-12T00:00:00",
+        "insInvPercent": 79.79,
+        "retInvPercent": 20.21
+    },
+    {
+        "date": "2023-10-13T00:00:00",
+        "insInvPercent": 88.27,
+        "retInvPercent": 11.73
+    },
+    {
+        "date": "2023-10-14T00:00:00",
+        "insInvPercent": 59.31,
+        "retInvPercent": 40.69
+    },
+    {
+        "date": "2023-10-15T00:00:00",
+        "insInvPercent": 92.18,
+        "retInvPercent": 7.82
+    },
+    {
+        "date": "2023-10-16T00:00:00",
+        "insInvPercent": 41.29,
+        "retInvPercent": 58.71
+    },
+    {
+        "date": "2023-10-17T00:00:00",
+        "insInvPercent": 87.2,
+        "retInvPercent": 12.8
+    },
+    {
+        "date": "2023-10-18T00:00:00",
+        "insInvPercent": 51.07,
+        "retInvPercent": 48.93
+    },
+    {
+        "date": "2023-10-19T00:00:00",
+        "insInvPercent": 75.54,
+        "retInvPercent": 24.46
+    },
+    {
+        "date": "2023-10-20T00:00:00",
+        "insInvPercent": 84.61,
+        "retInvPercent": 15.39
+    },
+    {
+        "date": "2023-10-21T00:00:00",
+        "insInvPercent": 72.25,
+        "retInvPercent": 27.75
+    },
+    {
+        "date": "2023-10-22T00:00:00",
+        "insInvPercent": 17.48,
+        "retInvPercent": 82.52
+    },
+    {
+        "date": "2023-10-23T00:00:00",
+        "insInvPercent": 11.41,
+        "retInvPercent": 88.59
+    },
+    {
+        "date": "2023-10-24T00:00:00",
+        "insInvPercent": 50.96,
+        "retInvPercent": 49.04
+    },
+    {
+        "date": "2023-10-25T00:00:00",
+        "insInvPercent": 31.08,
+        "retInvPercent": 68.92
+    },
+    {
+        "date": "2023-10-26T00:00:00",
+        "insInvPercent": 35.28,
+        "retInvPercent": 64.72
+    },
+    {
+        "date": "2023-10-27T00:00:00",
+        "insInvPercent": 22.7,
+        "retInvPercent": 77.3
+    },
+    {
+        "date": "2023-10-28T00:00:00",
+        "insInvPercent": 82.67,
+        "retInvPercent": 17.33
+    },
+    {
+        "date": "2023-10-29T00:00:00",
+        "insInvPercent": 11.23,
+        "retInvPercent": 88.77
+    },
+    {
+        "date": "2023-10-30T00:00:00",
+        "insInvPercent": 42.05,
+        "retInvPercent": 57.95
+    },
+    {
+        "date": "2023-10-31T00:00:00",
+        "insInvPercent": 53.75,
+        "retInvPercent": 46.25
+    },
+    {
+        "date": "2023-11-01T00:00:00",
+        "insInvPercent": 69.45,
+        "retInvPercent": 30.55
+    },
+    {
+        "date": "2023-11-02T00:00:00",
+        "insInvPercent": 86.32,
+        "retInvPercent": 13.68
+    },
+    {
+        "date": "2023-11-03T00:00:00",
+        "insInvPercent": 33.65,
+        "retInvPercent": 66.35
+    },
+    {
+        "date": "2023-11-04T00:00:00",
+        "insInvPercent": 16.37,
+        "retInvPercent": 83.63
+    },
+    {
+        "date": "2023-11-05T00:00:00",
+        "insInvPercent": 41.46,
+        "retInvPercent": 58.54
+    },
+    {
+        "date": "2023-11-06T00:00:00",
+        "insInvPercent": 35.68,
+        "retInvPercent": 64.32
+    },
+    {
+        "date": "2023-11-07T00:00:00",
+        "insInvPercent": 23.99,
+        "retInvPercent": 76.01
+    },
+    {
+        "date": "2023-11-08T00:00:00",
+        "insInvPercent": 84.75,
+        "retInvPercent": 15.25
+    },
+    {
+        "date": "2023-11-09T00:00:00",
+        "insInvPercent": 26.89,
+        "retInvPercent": 73.11
+    },
+    {
+        "date": "2023-11-10T00:00:00",
+        "insInvPercent": 39.23,
+        "retInvPercent": 60.77
+    },
+    {
+        "date": "2023-11-11T00:00:00",
+        "insInvPercent": 51.71,
+        "retInvPercent": 48.29
+    },
+    {
+        "date": "2023-11-12T00:00:00",
+        "insInvPercent": 56.95,
+        "retInvPercent": 43.05
+    },
+    {
+        "date": "2023-11-13T00:00:00",
+        "insInvPercent": 80.62,
+        "retInvPercent": 19.38
+    },
+    {
+        "date": "2023-11-14T00:00:00",
+        "insInvPercent": 24.68,
+        "retInvPercent": 75.32
+    },
+    {
+        "date": "2023-11-15T00:00:00",
+        "insInvPercent": 39.63,
+        "retInvPercent": 60.37
+    },
+    {
+        "date": "2023-11-16T00:00:00",
+        "insInvPercent": 67.67,
+        "retInvPercent": 32.33
+    },
+    {
+        "date": "2023-11-17T00:00:00",
+        "insInvPercent": 64.26,
+        "retInvPercent": 35.74
+    },
+    {
+        "date": "2023-11-18T00:00:00",
+        "insInvPercent": 48.05,
+        "retInvPercent": 51.95
+    },
+    {
+        "date": "2023-11-19T00:00:00",
+        "insInvPercent": 72.25,
+        "retInvPercent": 27.75
+    },
+    {
+        "date": "2023-11-20T00:00:00",
+        "insInvPercent": 35.55,
+        "retInvPercent": 64.45
+    },
+    {
+        "date": "2023-11-21T00:00:00",
+        "insInvPercent": 50.12,
+        "retInvPercent": 49.88
+    },
+    {
+        "date": "2023-11-22T00:00:00",
+        "insInvPercent": 82.31,
+        "retInvPercent": 17.69
+    },
+    {
+        "date": "2023-11-23T00:00:00",
+        "insInvPercent": 15.5,
+        "retInvPercent": 84.5
+    },
+    {
+        "date": "2023-11-24T00:00:00",
+        "insInvPercent": 81.71,
+        "retInvPercent": 18.29
+    },
+    {
+        "date": "2023-11-25T00:00:00",
+        "insInvPercent": 24.82,
+        "retInvPercent": 75.18
+    },
+    {
+        "date": "2023-11-26T00:00:00",
+        "insInvPercent": 34.16,
+        "retInvPercent": 65.84
+    },
+    {
+        "date": "2023-11-27T00:00:00",
+        "insInvPercent": 59.5,
+        "retInvPercent": 40.5
+    },
+    {
+        "date": "2023-11-28T00:00:00",
+        "insInvPercent": 56.99,
+        "retInvPercent": 43.01
+    },
+    {
+        "date": "2023-11-29T00:00:00",
+        "insInvPercent": 82.31,
+        "retInvPercent": 17.69
+    },
+    {
+        "date": "2023-11-30T00:00:00",
+        "insInvPercent": 47.29,
+        "retInvPercent": 52.71
+    },
+    {
+        "date": "2023-12-01T00:00:00",
+        "insInvPercent": 36.22,
+        "retInvPercent": 63.78
+    },
+    {
+        "date": "2023-12-02T00:00:00",
+        "insInvPercent": 33.45,
+        "retInvPercent": 66.55
+    },
+    {
+        "date": "2023-12-03T00:00:00",
+        "insInvPercent": 12.75,
+        "retInvPercent": 87.25
+    },
+    {
+        "date": "2023-12-04T00:00:00",
+        "insInvPercent": 36.85,
+        "retInvPercent": 63.15
+    },
+    {
+        "date": "2023-12-05T00:00:00",
+        "insInvPercent": 88.21,
+        "retInvPercent": 11.79
+    },
+    {
+        "date": "2023-12-06T00:00:00",
+        "insInvPercent": 46.44,
+        "retInvPercent": 53.56
+    },
+    {
+        "date": "2023-12-07T00:00:00",
+        "insInvPercent": 67.81,
+        "retInvPercent": 32.19
+    },
+    {
+        "date": "2023-12-08T00:00:00",
+        "insInvPercent": 70.11,
+        "retInvPercent": 29.89
+    },
+    {
+        "date": "2023-12-09T00:00:00",
+        "insInvPercent": 76.18,
+        "retInvPercent": 23.82
+    },
+    {
+        "date": "2023-12-10T00:00:00",
+        "insInvPercent": 44.93,
+        "retInvPercent": 55.07
+    },
+    {
+        "date": "2023-12-11T00:00:00",
+        "insInvPercent": 35.45,
+        "retInvPercent": 64.55
+    },
+    {
+        "date": "2023-12-12T00:00:00",
+        "insInvPercent": 61.02,
+        "retInvPercent": 38.98
+    },
+    {
+        "date": "2023-12-13T00:00:00",
+        "insInvPercent": 86.61,
+        "retInvPercent": 13.39
+    },
+    {
+        "date": "2023-12-14T00:00:00",
+        "insInvPercent": 53.49,
+        "retInvPercent": 46.51
+    },
+    {
+        "date": "2023-12-15T00:00:00",
+        "insInvPercent": 32.23,
+        "retInvPercent": 67.77
+    },
+    {
+        "date": "2023-12-16T00:00:00",
+        "insInvPercent": 46.41,
+        "retInvPercent": 53.59
+    },
+    {
+        "date": "2023-12-17T00:00:00",
+        "insInvPercent": 45.32,
+        "retInvPercent": 54.68
+    },
+    {
+        "date": "2023-12-18T00:00:00",
+        "insInvPercent": 76.93,
+        "retInvPercent": 23.07
+    },
+    {
+        "date": "2023-12-19T00:00:00",
+        "insInvPercent": 70.7,
+        "retInvPercent": 29.3
+    },
+    {
+        "date": "2023-12-20T00:00:00",
+        "insInvPercent": 18.1,
+        "retInvPercent": 81.9
+    },
+    {
+        "date": "2023-12-21T00:00:00",
+        "insInvPercent": 59.07,
+        "retInvPercent": 40.93
+    },
+    {
+        "date": "2023-12-22T00:00:00",
+        "insInvPercent": 19.6,
+        "retInvPercent": 80.4
+    },
+    {
+        "date": "2023-12-23T00:00:00",
+        "insInvPercent": 93.37,
+        "retInvPercent": 6.63
+    },
+    {
+        "date": "2023-12-24T00:00:00",
+        "insInvPercent": 34.28,
+        "retInvPercent": 65.72
+    },
+    {
+        "date": "2023-12-25T00:00:00",
+        "insInvPercent": 37.76,
+        "retInvPercent": 62.24
+    },
+    {
+        "date": "2023-12-26T00:00:00",
+        "insInvPercent": 65.34,
+        "retInvPercent": 34.66
+    },
+    {
+        "date": "2023-12-27T00:00:00",
+        "insInvPercent": 13.33,
+        "retInvPercent": 86.67
+    },
+    {
+        "date": "2023-12-28T00:00:00",
+        "insInvPercent": 14.67,
+        "retInvPercent": 85.33
+    },
+    {
+        "date": "2023-12-29T00:00:00",
+        "insInvPercent": 39.24,
+        "retInvPercent": 60.76
+    },
+    {
+        "date": "2023-12-30T00:00:00",
+        "insInvPercent": 24.1,
+        "retInvPercent": 75.9
+    },
+    {
+        "date": "2023-12-31T00:00:00",
+        "insInvPercent": 28.47,
+        "retInvPercent": 71.53
+    },
+    {
+        "date": "2024-01-01T00:00:00",
+        "insInvPercent": 46.28,
+        "retInvPercent": 53.72
+    },
+    {
+        "date": "2024-01-02T00:00:00",
+        "insInvPercent": 68.15,
+        "retInvPercent": 31.85
+    },
+    {
+        "date": "2024-01-03T00:00:00",
+        "insInvPercent": 59.77,
+        "retInvPercent": 40.23
+    },
+    {
+        "date": "2024-01-04T00:00:00",
+        "insInvPercent": 55.14,
+        "retInvPercent": 44.86
+    },
+    {
+        "date": "2024-01-05T00:00:00",
+        "insInvPercent": 92.41,
+        "retInvPercent": 7.59
+    },
+    {
+        "date": "2024-01-06T00:00:00",
+        "insInvPercent": 75.26,
+        "retInvPercent": 24.74
+    },
+    {
+        "date": "2024-01-07T00:00:00",
+        "insInvPercent": 31.06,
+        "retInvPercent": 68.94
+    },
+    {
+        "date": "2024-01-08T00:00:00",
+        "insInvPercent": 47.49,
+        "retInvPercent": 52.51
+    },
+    {
+        "date": "2024-01-09T00:00:00",
+        "insInvPercent": 40.66,
+        "retInvPercent": 59.34
+    },
+    {
+        "date": "2024-01-10T00:00:00",
+        "insInvPercent": 15.39,
+        "retInvPercent": 84.61
+    },
+    {
+        "date": "2024-01-11T00:00:00",
+        "insInvPercent": 26.12,
+        "retInvPercent": 73.88
+    },
+    {
+        "date": "2024-01-12T00:00:00",
+        "insInvPercent": 82.72,
+        "retInvPercent": 17.28
+    },
+    {
+        "date": "2024-01-13T00:00:00",
+        "insInvPercent": 42.7,
+        "retInvPercent": 57.3
+    },
+    {
+        "date": "2024-01-14T00:00:00",
+        "insInvPercent": 50.21,
+        "retInvPercent": 49.79
+    },
+    {
+        "date": "2024-01-15T00:00:00",
+        "insInvPercent": 8.68,
+        "retInvPercent": 91.32
+    },
+    {
+        "date": "2024-01-16T00:00:00",
+        "insInvPercent": 66.49,
+        "retInvPercent": 33.51
+    },
+    {
+        "date": "2024-01-17T00:00:00",
+        "insInvPercent": 29.25,
+        "retInvPercent": 70.75
+    },
+    {
+        "date": "2024-01-18T00:00:00",
+        "insInvPercent": 94.83,
+        "retInvPercent": 5.17
+    },
+    {
+        "date": "2024-01-19T00:00:00",
+        "insInvPercent": 89.36,
+        "retInvPercent": 10.64
+    },
+    {
+        "date": "2024-01-20T00:00:00",
+        "insInvPercent": 36.47,
+        "retInvPercent": 63.53
+    },
+    {
+        "date": "2024-01-21T00:00:00",
+        "insInvPercent": 74.16,
+        "retInvPercent": 25.84
+    },
+    {
+        "date": "2024-01-22T00:00:00",
+        "insInvPercent": 91.83,
+        "retInvPercent": 8.17
+    },
+    {
+        "date": "2024-01-23T00:00:00",
+        "insInvPercent": 38.19,
+        "retInvPercent": 61.81
+    },
+    {
+        "date": "2024-01-24T00:00:00",
+        "insInvPercent": 19.11,
+        "retInvPercent": 80.89
+    },
+    {
+        "date": "2024-01-25T00:00:00",
+        "insInvPercent": 22.86,
+        "retInvPercent": 77.14
+    },
+    {
+        "date": "2024-01-26T00:00:00",
+        "insInvPercent": 7.96,
+        "retInvPercent": 92.04
+    },
+    {
+        "date": "2024-01-27T00:00:00",
+        "insInvPercent": 83.38,
+        "retInvPercent": 16.62
+    },
+    {
+        "date": "2024-01-28T00:00:00",
+        "insInvPercent": 54.42,
+        "retInvPercent": 45.58
+    },
+    {
+        "date": "2024-01-29T00:00:00",
+        "insInvPercent": 74.74,
+        "retInvPercent": 25.26
+    },
+    {
+        "date": "2024-01-30T00:00:00",
+        "insInvPercent": 38.17,
+        "retInvPercent": 61.83
+    },
+    {
+        "date": "2024-01-31T00:00:00",
+        "insInvPercent": 67.52,
+        "retInvPercent": 32.48
+    },
+    {
+        "date": "2024-02-01T00:00:00",
+        "insInvPercent": 5.02,
+        "retInvPercent": 94.98
+    },
+    {
+        "date": "2024-02-02T00:00:00",
+        "insInvPercent": 71.39,
+        "retInvPercent": 28.61
+    },
+    {
+        "date": "2024-02-03T00:00:00",
+        "insInvPercent": 86.76,
+        "retInvPercent": 13.24
+    },
+    {
+        "date": "2024-02-04T00:00:00",
+        "insInvPercent": 70.38,
+        "retInvPercent": 29.62
+    },
+    {
+        "date": "2024-02-05T00:00:00",
+        "insInvPercent": 66.88,
+        "retInvPercent": 33.12
+    },
+    {
+        "date": "2024-02-06T00:00:00",
+        "insInvPercent": 53.6,
+        "retInvPercent": 46.4
+    },
+    {
+        "date": "2024-02-07T00:00:00",
+        "insInvPercent": 7.22,
+        "retInvPercent": 92.78
+    },
+    {
+        "date": "2024-02-08T00:00:00",
+        "insInvPercent": 94.72,
+        "retInvPercent": 5.28
+    },
+    {
+        "date": "2024-02-09T00:00:00",
+        "insInvPercent": 81.06,
+        "retInvPercent": 18.94
+    },
+    {
+        "date": "2024-02-10T00:00:00",
+        "insInvPercent": 69.02,
+        "retInvPercent": 30.98
+    },
+    {
+        "date": "2024-02-11T00:00:00",
+        "insInvPercent": 62.44,
+        "retInvPercent": 37.56
+    },
+    {
+        "date": "2024-02-12T00:00:00",
+        "insInvPercent": 20.27,
+        "retInvPercent": 79.73
+    },
+    {
+        "date": "2024-02-13T00:00:00",
+        "insInvPercent": 52.94,
+        "retInvPercent": 47.06
+    },
+    {
+        "date": "2024-02-14T00:00:00",
+        "insInvPercent": 49.32,
+        "retInvPercent": 50.68
+    },
+    {
+        "date": "2024-02-15T00:00:00",
+        "insInvPercent": 20.46,
+        "retInvPercent": 79.54
+    },
+    {
+        "date": "2024-02-16T00:00:00",
+        "insInvPercent": 6.75,
+        "retInvPercent": 93.25
+    },
+    {
+        "date": "2024-02-17T00:00:00",
+        "insInvPercent": 40.39,
+        "retInvPercent": 59.61
+    },
+    {
+        "date": "2024-02-18T00:00:00",
+        "insInvPercent": 15.88,
+        "retInvPercent": 84.12
+    },
+    {
+        "date": "2024-02-19T00:00:00",
+        "insInvPercent": 35.41,
+        "retInvPercent": 64.59
+    },
+    {
+        "date": "2024-02-20T00:00:00",
+        "insInvPercent": 42.55,
+        "retInvPercent": 57.45
+    },
+    {
+        "date": "2024-02-21T00:00:00",
+        "insInvPercent": 66.91,
+        "retInvPercent": 33.09
+    },
+    {
+        "date": "2024-02-22T00:00:00",
+        "insInvPercent": 11.03,
+        "retInvPercent": 88.97
+    },
+    {
+        "date": "2024-02-23T00:00:00",
+        "insInvPercent": 23.68,
+        "retInvPercent": 76.32
+    },
+    {
+        "date": "2024-02-24T00:00:00",
+        "insInvPercent": 42.32,
+        "retInvPercent": 57.68
+    },
+    {
+        "date": "2024-02-25T00:00:00",
+        "insInvPercent": 70.8,
+        "retInvPercent": 29.2
+    },
+    {
+        "date": "2024-02-26T00:00:00",
+        "insInvPercent": 68.44,
+        "retInvPercent": 31.56
+    },
+    {
+        "date": "2024-02-27T00:00:00",
+        "insInvPercent": 89.66,
+        "retInvPercent": 10.34
+    },
+    {
+        "date": "2024-02-28T00:00:00",
+        "insInvPercent": 77.47,
+        "retInvPercent": 22.53
+    },
+    {
+        "date": "2024-02-29T00:00:00",
+        "insInvPercent": 9.45,
+        "retInvPercent": 90.55
+    },
+    {
+        "date": "2024-03-01T00:00:00",
+        "insInvPercent": 37.71,
+        "retInvPercent": 62.29
+    },
+    {
+        "date": "2024-03-02T00:00:00",
+        "insInvPercent": 44.1,
+        "retInvPercent": 55.9
+    },
+    {
+        "date": "2024-03-03T00:00:00",
+        "insInvPercent": 85.66,
+        "retInvPercent": 14.34
+    },
+    {
+        "date": "2024-03-04T00:00:00",
+        "insInvPercent": 94.61,
+        "retInvPercent": 5.39
+    },
+    {
+        "date": "2024-03-05T00:00:00",
+        "insInvPercent": 80.42,
+        "retInvPercent": 19.58
+    },
+    {
+        "date": "2024-03-06T00:00:00",
+        "insInvPercent": 80.43,
+        "retInvPercent": 19.57
+    },
+    {
+        "date": "2024-03-07T00:00:00",
+        "insInvPercent": 73.12,
+        "retInvPercent": 26.88
+    },
+    {
+        "date": "2024-03-08T00:00:00",
+        "insInvPercent": 21.4,
+        "retInvPercent": 78.6
+    },
+    {
+        "date": "2024-03-09T00:00:00",
+        "insInvPercent": 30.87,
+        "retInvPercent": 69.13
+    },
+    {
+        "date": "2024-03-10T00:00:00",
+        "insInvPercent": 87.91,
+        "retInvPercent": 12.09
+    },
+    {
+        "date": "2024-03-11T00:00:00",
+        "insInvPercent": 51.96,
+        "retInvPercent": 48.04
+    },
+    {
+        "date": "2024-03-12T00:00:00",
+        "insInvPercent": 80.69,
+        "retInvPercent": 19.31
+    },
+    {
+        "date": "2024-03-13T00:00:00",
+        "insInvPercent": 44.62,
+        "retInvPercent": 55.38
+    },
+    {
+        "date": "2024-03-14T00:00:00",
+        "insInvPercent": 83.47,
+        "retInvPercent": 16.53
+    },
+    {
+        "date": "2024-03-15T00:00:00",
+        "insInvPercent": 26.05,
+        "retInvPercent": 73.95
+    },
+    {
+        "date": "2024-03-16T00:00:00",
+        "insInvPercent": 19.57,
+        "retInvPercent": 80.43
+    },
+    {
+        "date": "2024-03-17T00:00:00",
+        "insInvPercent": 32.75,
+        "retInvPercent": 67.25
+    },
+    {
+        "date": "2024-03-18T00:00:00",
+        "insInvPercent": 81.08,
+        "retInvPercent": 18.92
+    },
+    {
+        "date": "2024-03-19T00:00:00",
+        "insInvPercent": 47.16,
+        "retInvPercent": 52.84
+    },
+    {
+        "date": "2024-03-20T00:00:00",
+        "insInvPercent": 73.51,
+        "retInvPercent": 26.49
+    },
+    {
+        "date": "2024-03-21T00:00:00",
+        "insInvPercent": 36.94,
+        "retInvPercent": 63.06
+    },
+    {
+        "date": "2024-03-22T00:00:00",
+        "insInvPercent": 9.11,
+        "retInvPercent": 90.89
+    },
+    {
+        "date": "2024-03-23T00:00:00",
+        "insInvPercent": 22.87,
+        "retInvPercent": 77.13
+    },
+    {
+        "date": "2024-03-24T00:00:00",
+        "insInvPercent": 27.62,
+        "retInvPercent": 72.38
+    },
+    {
+        "date": "2024-03-25T00:00:00",
+        "insInvPercent": 79.54,
+        "retInvPercent": 20.46
+    },
+    {
+        "date": "2024-03-26T00:00:00",
+        "insInvPercent": 20.22,
+        "retInvPercent": 79.78
+    },
+    {
+        "date": "2024-03-27T00:00:00",
+        "insInvPercent": 79.49,
+        "retInvPercent": 20.51
+    },
+    {
+        "date": "2024-03-28T00:00:00",
+        "insInvPercent": 62.8,
+        "retInvPercent": 37.2
+    },
+    {
+        "date": "2024-03-29T00:00:00",
+        "insInvPercent": 37.2,
+        "retInvPercent": 62.8
+    },
+    {
+        "date": "2024-03-30T00:00:00",
+        "insInvPercent": 53.75,
+        "retInvPercent": 46.25
+    },
+    {
+        "date": "2024-03-31T00:00:00",
+        "insInvPercent": 29.86,
+        "retInvPercent": 70.14
+    },
+    {
+        "date": "2024-04-01T00:00:00",
+        "insInvPercent": 69.22,
+        "retInvPercent": 30.78
+    },
+    {
+        "date": "2024-04-02T00:00:00",
+        "insInvPercent": 83.95,
+        "retInvPercent": 16.05
+    },
+    {
+        "date": "2024-04-03T00:00:00",
+        "insInvPercent": 85.29,
+        "retInvPercent": 14.71
+    },
+    {
+        "date": "2024-04-04T00:00:00",
+        "insInvPercent": 88.11,
+        "retInvPercent": 11.89
+    },
+    {
+        "date": "2024-04-05T00:00:00",
+        "insInvPercent": 57.94,
+        "retInvPercent": 42.06
+    },
+    {
+        "date": "2024-04-06T00:00:00",
+        "insInvPercent": 60.32,
+        "retInvPercent": 39.68
+    },
+    {
+        "date": "2024-04-07T00:00:00",
+        "insInvPercent": 87.88,
+        "retInvPercent": 12.12
+    },
+    {
+        "date": "2024-04-08T00:00:00",
+        "insInvPercent": 14.16,
+        "retInvPercent": 85.84
+    },
+    {
+        "date": "2024-04-09T00:00:00",
+        "insInvPercent": 74.63,
+        "retInvPercent": 25.37
+    },
+    {
+        "date": "2024-04-10T00:00:00",
+        "insInvPercent": 54.45,
+        "retInvPercent": 45.55
+    },
+    {
+        "date": "2024-04-11T00:00:00",
+        "insInvPercent": 32.98,
+        "retInvPercent": 67.02
+    },
+    {
+        "date": "2024-04-12T00:00:00",
+        "insInvPercent": 81.36,
+        "retInvPercent": 18.64
+    },
+    {
+        "date": "2024-04-13T00:00:00",
+        "insInvPercent": 60.34,
+        "retInvPercent": 39.66
+    },
+    {
+        "date": "2024-04-14T00:00:00",
+        "insInvPercent": 58.27,
+        "retInvPercent": 41.73
+    },
+    {
+        "date": "2024-04-15T00:00:00",
+        "insInvPercent": 60.94,
+        "retInvPercent": 39.06
+    },
+    {
+        "date": "2024-04-16T00:00:00",
+        "insInvPercent": 82.27,
+        "retInvPercent": 17.73
+    },
+    {
+        "date": "2024-04-17T00:00:00",
+        "insInvPercent": 10.52,
+        "retInvPercent": 89.48
+    },
+    {
+        "date": "2024-04-18T00:00:00",
+        "insInvPercent": 18.75,
+        "retInvPercent": 81.25
+    },
+    {
+        "date": "2024-04-19T00:00:00",
+        "insInvPercent": 69.04,
+        "retInvPercent": 30.96
+    },
+    {
+        "date": "2024-04-20T00:00:00",
+        "insInvPercent": 20.16,
+        "retInvPercent": 79.84
+    },
+    {
+        "date": "2024-04-21T00:00:00",
+        "insInvPercent": 50.43,
+        "retInvPercent": 49.57
+    },
+    {
+        "date": "2024-04-22T00:00:00",
+        "insInvPercent": 62.03,
+        "retInvPercent": 37.97
+    },
+    {
+        "date": "2024-04-23T00:00:00",
+        "insInvPercent": 33.17,
+        "retInvPercent": 66.83
+    },
+    {
+        "date": "2024-04-24T00:00:00",
+        "insInvPercent": 65.01,
+        "retInvPercent": 34.99
+    },
+    {
+        "date": "2024-04-25T00:00:00",
+        "insInvPercent": 30.34,
+        "retInvPercent": 69.66
+    },
+    {
+        "date": "2024-04-26T00:00:00",
+        "insInvPercent": 86.83,
+        "retInvPercent": 13.17
+    },
+    {
+        "date": "2024-04-27T00:00:00",
+        "insInvPercent": 29.28,
+        "retInvPercent": 70.72
+    },
+    {
+        "date": "2024-04-28T00:00:00",
+        "insInvPercent": 12.56,
+        "retInvPercent": 87.44
+    },
+    {
+        "date": "2024-04-29T00:00:00",
+        "insInvPercent": 44.33,
+        "retInvPercent": 55.67
+    },
+    {
+        "date": "2024-04-30T00:00:00",
+        "insInvPercent": 85.67,
+        "retInvPercent": 14.33
+    },
+    {
+        "date": "2024-05-01T00:00:00",
+        "insInvPercent": 47.89,
+        "retInvPercent": 52.11
+    },
+    {
+        "date": "2024-05-02T00:00:00",
+        "insInvPercent": 74.59,
+        "retInvPercent": 25.41
+    },
+    {
+        "date": "2024-05-03T00:00:00",
+        "insInvPercent": 86.24,
+        "retInvPercent": 13.76
+    },
+    {
+        "date": "2024-05-04T00:00:00",
+        "insInvPercent": 83.58,
+        "retInvPercent": 16.42
+    },
+    {
+        "date": "2024-05-05T00:00:00",
+        "insInvPercent": 56.26,
+        "retInvPercent": 43.74
+    },
+    {
+        "date": "2024-05-06T00:00:00",
+        "insInvPercent": 60.04,
+        "retInvPercent": 39.96
+    },
+    {
+        "date": "2024-05-07T00:00:00",
+        "insInvPercent": 16.01,
+        "retInvPercent": 83.99
+    },
+    {
+        "date": "2024-05-08T00:00:00",
+        "insInvPercent": 71.35,
+        "retInvPercent": 28.65
+    },
+    {
+        "date": "2024-05-09T00:00:00",
+        "insInvPercent": 83.01,
+        "retInvPercent": 16.99
+    },
+    {
+        "date": "2024-05-10T00:00:00",
+        "insInvPercent": 20.13,
+        "retInvPercent": 79.87
+    },
+    {
+        "date": "2024-05-11T00:00:00",
+        "insInvPercent": 13.88,
+        "retInvPercent": 86.12
+    },
+    {
+        "date": "2024-05-12T00:00:00",
+        "insInvPercent": 57.08,
+        "retInvPercent": 42.92
+    },
+    {
+        "date": "2024-05-13T00:00:00",
+        "insInvPercent": 67.52,
+        "retInvPercent": 32.48
+    },
+    {
+        "date": "2024-05-14T00:00:00",
+        "insInvPercent": 61.08,
+        "retInvPercent": 38.92
+    },
+    {
+        "date": "2024-05-15T00:00:00",
+        "insInvPercent": 59.42,
+        "retInvPercent": 40.58
+    },
+    {
+        "date": "2024-05-16T00:00:00",
+        "insInvPercent": 84.35,
+        "retInvPercent": 15.65
+    },
+    {
+        "date": "2024-05-17T00:00:00",
+        "insInvPercent": 66.26,
+        "retInvPercent": 33.74
+    },
+    {
+        "date": "2024-05-18T00:00:00",
+        "insInvPercent": 18.16,
+        "retInvPercent": 81.84
+    },
+    {
+        "date": "2024-05-19T00:00:00",
+        "insInvPercent": 78.96,
+        "retInvPercent": 21.04
+    },
+    {
+        "date": "2024-05-20T00:00:00",
+        "insInvPercent": 94.82,
+        "retInvPercent": 5.18
+    },
+    {
+        "date": "2024-05-21T00:00:00",
+        "insInvPercent": 36.31,
+        "retInvPercent": 63.69
+    },
+    {
+        "date": "2024-05-22T00:00:00",
+        "insInvPercent": 54.31,
+        "retInvPercent": 45.69
+    },
+    {
+        "date": "2024-05-23T00:00:00",
+        "insInvPercent": 89.99,
+        "retInvPercent": 10.01
+    },
+    {
+        "date": "2024-05-24T00:00:00",
+        "insInvPercent": 77.9,
+        "retInvPercent": 22.1
+    },
+    {
+        "date": "2024-05-25T00:00:00",
+        "insInvPercent": 18.72,
+        "retInvPercent": 81.28
+    },
+    {
+        "date": "2024-05-26T00:00:00",
+        "insInvPercent": 24.48,
+        "retInvPercent": 75.52
+    },
+    {
+        "date": "2024-05-27T00:00:00",
+        "insInvPercent": 50.92,
+        "retInvPercent": 49.08
+    },
+    {
+        "date": "2024-05-28T00:00:00",
+        "insInvPercent": 76.19,
+        "retInvPercent": 23.81
+    },
+    {
+        "date": "2024-05-29T00:00:00",
+        "insInvPercent": 89.72,
+        "retInvPercent": 10.28
+    },
+    {
+        "date": "2024-05-30T00:00:00",
+        "insInvPercent": 87.88,
+        "retInvPercent": 12.12
+    },
+    {
+        "date": "2024-05-31T00:00:00",
+        "insInvPercent": 68.05,
+        "retInvPercent": 31.95
+    },
+    {
+        "date": "2024-06-01T00:00:00",
+        "insInvPercent": 76.2,
+        "retInvPercent": 23.8
+    },
+    {
+        "date": "2024-06-02T00:00:00",
+        "insInvPercent": 22.32,
+        "retInvPercent": 77.68
+    },
+    {
+        "date": "2024-06-03T00:00:00",
+        "insInvPercent": 50.96,
+        "retInvPercent": 49.04
+    },
+    {
+        "date": "2024-06-04T00:00:00",
+        "insInvPercent": 81.76,
+        "retInvPercent": 18.24
+    },
+    {
+        "date": "2024-06-05T00:00:00",
+        "insInvPercent": 75.61,
+        "retInvPercent": 24.39
+    },
+    {
+        "date": "2024-06-06T00:00:00",
+        "insInvPercent": 54.27,
+        "retInvPercent": 45.73
+    },
+    {
+        "date": "2024-06-07T00:00:00",
+        "insInvPercent": 26.62,
+        "retInvPercent": 73.38
+    },
+    {
+        "date": "2024-06-08T00:00:00",
+        "insInvPercent": 83.22,
+        "retInvPercent": 16.78
+    },
+    {
+        "date": "2024-06-09T00:00:00",
+        "insInvPercent": 80.34,
+        "retInvPercent": 19.66
+    },
+    {
+        "date": "2024-06-10T00:00:00",
+        "insInvPercent": 15.4,
+        "retInvPercent": 84.6
+    },
+    {
+        "date": "2024-06-11T00:00:00",
+        "insInvPercent": 14.44,
+        "retInvPercent": 85.56
+    },
+    {
+        "date": "2024-06-12T00:00:00",
+        "insInvPercent": 82.05,
+        "retInvPercent": 17.95
+    },
+    {
+        "date": "2024-06-13T00:00:00",
+        "insInvPercent": 32.79,
+        "retInvPercent": 67.21
+    },
+    {
+        "date": "2024-06-14T00:00:00",
+        "insInvPercent": 38.61,
+        "retInvPercent": 61.39
+    },
+    {
+        "date": "2024-06-15T00:00:00",
+        "insInvPercent": 81.79,
+        "retInvPercent": 18.21
+    },
+    {
+        "date": "2024-06-16T00:00:00",
+        "insInvPercent": 93.9,
+        "retInvPercent": 6.1
+    },
+    {
+        "date": "2024-06-17T00:00:00",
+        "insInvPercent": 52.33,
+        "retInvPercent": 47.67
+    },
+    {
+        "date": "2024-06-18T00:00:00",
+        "insInvPercent": 35.07,
+        "retInvPercent": 64.93
+    },
+    {
+        "date": "2024-06-19T00:00:00",
+        "insInvPercent": 39.29,
+        "retInvPercent": 60.71
+    },
+    {
+        "date": "2024-06-20T00:00:00",
+        "insInvPercent": 27.35,
+        "retInvPercent": 72.65
+    },
+    {
+        "date": "2024-06-21T00:00:00",
+        "insInvPercent": 19.64,
+        "retInvPercent": 80.36
+    },
+    {
+        "date": "2024-06-22T00:00:00",
+        "insInvPercent": 33.42,
+        "retInvPercent": 66.58
+    },
+    {
+        "date": "2024-06-23T00:00:00",
+        "insInvPercent": 43.98,
+        "retInvPercent": 56.02
+    },
+    {
+        "date": "2024-06-24T00:00:00",
+        "insInvPercent": 65.93,
+        "retInvPercent": 34.07
+    },
+    {
+        "date": "2024-06-25T00:00:00",
+        "insInvPercent": 43.37,
+        "retInvPercent": 56.63
+    },
+    {
+        "date": "2024-06-26T00:00:00",
+        "insInvPercent": 72.72,
+        "retInvPercent": 27.28
+    },
+    {
+        "date": "2024-06-27T00:00:00",
+        "insInvPercent": 89.69,
+        "retInvPercent": 10.31
+    },
+    {
+        "date": "2024-06-28T00:00:00",
+        "insInvPercent": 17.0,
+        "retInvPercent": 83.0
+    },
+    {
+        "date": "2024-06-29T00:00:00",
+        "insInvPercent": 64.17,
+        "retInvPercent": 35.83
+    },
+    {
+        "date": "2024-06-30T00:00:00",
+        "insInvPercent": 31.91,
+        "retInvPercent": 68.09
+    },
+    {
+        "date": "2024-07-01T00:00:00",
+        "insInvPercent": 61.18,
+        "retInvPercent": 38.82
+    },
+    {
+        "date": "2024-07-02T00:00:00",
+        "insInvPercent": 69.56,
+        "retInvPercent": 30.44
+    },
+    {
+        "date": "2024-07-03T00:00:00",
+        "insInvPercent": 64.59,
+        "retInvPercent": 35.41
+    },
+    {
+        "date": "2024-07-04T00:00:00",
+        "insInvPercent": 69.12,
+        "retInvPercent": 30.88
+    },
+    {
+        "date": "2024-07-05T00:00:00",
+        "insInvPercent": 71.27,
+        "retInvPercent": 28.73
+    },
+    {
+        "date": "2024-07-06T00:00:00",
+        "insInvPercent": 40.41,
+        "retInvPercent": 59.59
+    },
+    {
+        "date": "2024-07-07T00:00:00",
+        "insInvPercent": 51.16,
+        "retInvPercent": 48.84
+    },
+    {
+        "date": "2024-07-08T00:00:00",
+        "insInvPercent": 87.87,
+        "retInvPercent": 12.13
+    },
+    {
+        "date": "2024-07-09T00:00:00",
+        "insInvPercent": 90.05,
+        "retInvPercent": 9.95
+    },
+    {
+        "date": "2024-07-10T00:00:00",
+        "insInvPercent": 60.58,
+        "retInvPercent": 39.42
+    },
+    {
+        "date": "2024-07-11T00:00:00",
+        "insInvPercent": 80.11,
+        "retInvPercent": 19.89
+    },
+    {
+        "date": "2024-07-12T00:00:00",
+        "insInvPercent": 32.35,
+        "retInvPercent": 67.65
+    },
+    {
+        "date": "2024-07-13T00:00:00",
+        "insInvPercent": 55.87,
+        "retInvPercent": 44.13
+    },
+    {
+        "date": "2024-07-14T00:00:00",
+        "insInvPercent": 88.51,
+        "retInvPercent": 11.49
+    },
+    {
+        "date": "2024-07-15T00:00:00",
+        "insInvPercent": 63.67,
+        "retInvPercent": 36.33
+    },
+    {
+        "date": "2024-07-16T00:00:00",
+        "insInvPercent": 42.78,
+        "retInvPercent": 57.22
+    },
+    {
+        "date": "2024-07-17T00:00:00",
+        "insInvPercent": 12.73,
+        "retInvPercent": 87.27
+    },
+    {
+        "date": "2024-07-18T00:00:00",
+        "insInvPercent": 71.37,
+        "retInvPercent": 28.63
+    },
+    {
+        "date": "2024-07-19T00:00:00",
+        "insInvPercent": 32.16,
+        "retInvPercent": 67.84
+    },
+    {
+        "date": "2024-07-20T00:00:00",
+        "insInvPercent": 85.87,
+        "retInvPercent": 14.13
+    },
+    {
+        "date": "2024-07-21T00:00:00",
+        "insInvPercent": 65.34,
+        "retInvPercent": 34.66
+    },
+    {
+        "date": "2024-07-22T00:00:00",
+        "insInvPercent": 86.13,
+        "retInvPercent": 13.87
+    },
+    {
+        "date": "2024-07-23T00:00:00",
+        "insInvPercent": 94.13,
+        "retInvPercent": 5.87
+    },
+    {
+        "date": "2024-07-24T00:00:00",
+        "insInvPercent": 39.51,
+        "retInvPercent": 60.49
+    },
+    {
+        "date": "2024-07-25T00:00:00",
+        "insInvPercent": 48.24,
+        "retInvPercent": 51.76
+    },
+    {
+        "date": "2024-07-26T00:00:00",
+        "insInvPercent": 12.65,
+        "retInvPercent": 87.35
+    },
+    {
+        "date": "2024-07-27T00:00:00",
+        "insInvPercent": 50.91,
+        "retInvPercent": 49.09
+    },
+    {
+        "date": "2024-07-28T00:00:00",
+        "insInvPercent": 26.64,
+        "retInvPercent": 73.36
+    },
+    {
+        "date": "2024-07-29T00:00:00",
+        "insInvPercent": 14.54,
+        "retInvPercent": 85.46
+    },
+    {
+        "date": "2024-07-30T00:00:00",
+        "insInvPercent": 50.31,
+        "retInvPercent": 49.69
+    },
+    {
+        "date": "2024-07-31T00:00:00",
+        "insInvPercent": 88.42,
+        "retInvPercent": 11.58
+    },
+    {
+        "date": "2024-08-01T00:00:00",
+        "insInvPercent": 86.73,
+        "retInvPercent": 13.27
+    },
+    {
+        "date": "2024-08-02T00:00:00",
+        "insInvPercent": 76.19,
+        "retInvPercent": 23.81
+    },
+    {
+        "date": "2024-08-03T00:00:00",
+        "insInvPercent": 79.32,
+        "retInvPercent": 20.68
+    },
+    {
+        "date": "2024-08-04T00:00:00",
+        "insInvPercent": 57.99,
+        "retInvPercent": 42.01
+    },
+    {
+        "date": "2024-08-05T00:00:00",
+        "insInvPercent": 39.11,
+        "retInvPercent": 60.89
+    },
+    {
+        "date": "2024-08-06T00:00:00",
+        "insInvPercent": 82.48,
+        "retInvPercent": 17.52
+    },
+    {
+        "date": "2024-08-07T00:00:00",
+        "insInvPercent": 29.58,
+        "retInvPercent": 70.42
+    },
+    {
+        "date": "2024-08-08T00:00:00",
+        "insInvPercent": 39.53,
+        "retInvPercent": 60.47
+    },
+    {
+        "date": "2024-08-09T00:00:00",
+        "insInvPercent": 33.41,
+        "retInvPercent": 66.59
+    },
+    {
+        "date": "2024-08-10T00:00:00",
+        "insInvPercent": 27.21,
+        "retInvPercent": 72.79
+    },
+    {
+        "date": "2024-08-11T00:00:00",
+        "insInvPercent": 16.7,
+        "retInvPercent": 83.3
+    },
+    {
+        "date": "2024-08-12T00:00:00",
+        "insInvPercent": 93.48,
+        "retInvPercent": 6.52
+    },
+    {
+        "date": "2024-08-13T00:00:00",
+        "insInvPercent": 83.82,
+        "retInvPercent": 16.18
+    },
+    {
+        "date": "2024-08-14T00:00:00",
+        "insInvPercent": 89.71,
+        "retInvPercent": 10.29
+    },
+    {
+        "date": "2024-08-15T00:00:00",
+        "insInvPercent": 75.39,
+        "retInvPercent": 24.61
+    },
+    {
+        "date": "2024-08-16T00:00:00",
+        "insInvPercent": 56.8,
+        "retInvPercent": 43.2
+    },
+    {
+        "date": "2024-08-17T00:00:00",
+        "insInvPercent": 15.27,
+        "retInvPercent": 84.73
+    },
+    {
+        "date": "2024-08-18T00:00:00",
+        "insInvPercent": 62.55,
+        "retInvPercent": 37.45
+    },
+    {
+        "date": "2024-08-19T00:00:00",
+        "insInvPercent": 40.25,
+        "retInvPercent": 59.75
+    },
+    {
+        "date": "2024-08-20T00:00:00",
+        "insInvPercent": 61.55,
+        "retInvPercent": 38.45
+    },
+    {
+        "date": "2024-08-21T00:00:00",
+        "insInvPercent": 94.48,
+        "retInvPercent": 5.52
+    },
+    {
+        "date": "2024-08-22T00:00:00",
+        "insInvPercent": 91.98,
+        "retInvPercent": 8.02
+    },
+    {
+        "date": "2024-08-23T00:00:00",
+        "insInvPercent": 48.58,
+        "retInvPercent": 51.42
+    },
+    {
+        "date": "2024-08-24T00:00:00",
+        "insInvPercent": 49.63,
+        "retInvPercent": 50.37
+    },
+    {
+        "date": "2024-08-25T00:00:00",
+        "insInvPercent": 27.01,
+        "retInvPercent": 72.99
+    },
+    {
+        "date": "2024-08-26T00:00:00",
+        "insInvPercent": 73.98,
+        "retInvPercent": 26.02
+    },
+    {
+        "date": "2024-08-27T00:00:00",
+        "insInvPercent": 33.86,
+        "retInvPercent": 66.14
+    },
+    {
+        "date": "2024-08-28T00:00:00",
+        "insInvPercent": 26.88,
+        "retInvPercent": 73.12
+    },
+    {
+        "date": "2024-08-29T00:00:00",
+        "insInvPercent": 27.15,
+        "retInvPercent": 72.85
+    },
+    {
+        "date": "2024-08-30T00:00:00",
+        "insInvPercent": 8.64,
+        "retInvPercent": 91.36
+    },
+    {
+        "date": "2024-08-31T00:00:00",
+        "insInvPercent": 61.91,
+        "retInvPercent": 38.09
+    },
+    {
+        "date": "2024-09-01T00:00:00",
+        "insInvPercent": 33.69,
+        "retInvPercent": 66.31
+    },
+    {
+        "date": "2024-09-02T00:00:00",
+        "insInvPercent": 79.99,
+        "retInvPercent": 20.01
+    },
+    {
+        "date": "2024-09-03T00:00:00",
+        "insInvPercent": 7.48,
+        "retInvPercent": 92.52
+    },
+    {
+        "date": "2024-09-04T00:00:00",
+        "insInvPercent": 57.95,
+        "retInvPercent": 42.05
+    },
+    {
+        "date": "2024-09-05T00:00:00",
+        "insInvPercent": 77.09,
+        "retInvPercent": 22.91
+    },
+    {
+        "date": "2024-09-06T00:00:00",
+        "insInvPercent": 41.12,
+        "retInvPercent": 58.88
+    },
+    {
+        "date": "2024-09-07T00:00:00",
+        "insInvPercent": 66.37,
+        "retInvPercent": 33.63
+    },
+    {
+        "date": "2024-09-08T00:00:00",
+        "insInvPercent": 15.26,
+        "retInvPercent": 84.74
+    },
+    {
+        "date": "2024-09-09T00:00:00",
+        "insInvPercent": 56.86,
+        "retInvPercent": 43.14
+    },
+    {
+        "date": "2024-09-10T00:00:00",
+        "insInvPercent": 28.0,
+        "retInvPercent": 72.0
+    },
+    {
+        "date": "2024-09-11T00:00:00",
+        "insInvPercent": 86.44,
+        "retInvPercent": 13.56
+    },
+    {
+        "date": "2024-09-12T00:00:00",
+        "insInvPercent": 54.82,
+        "retInvPercent": 45.18
+    },
+    {
+        "date": "2024-09-13T00:00:00",
+        "insInvPercent": 63.09,
+        "retInvPercent": 36.91
+    },
+    {
+        "date": "2024-09-14T00:00:00",
+        "insInvPercent": 6.31,
+        "retInvPercent": 93.69
+    },
+    {
+        "date": "2024-09-15T00:00:00",
+        "insInvPercent": 33.6,
+        "retInvPercent": 66.4
+    },
+    {
+        "date": "2024-09-16T00:00:00",
+        "insInvPercent": 45.92,
+        "retInvPercent": 54.08
+    },
+    {
+        "date": "2024-09-17T00:00:00",
+        "insInvPercent": 9.89,
+        "retInvPercent": 90.11
+    },
+    {
+        "date": "2024-09-18T00:00:00",
+        "insInvPercent": 83.94,
+        "retInvPercent": 16.06
+    },
+    {
+        "date": "2024-09-19T00:00:00",
+        "insInvPercent": 91.81,
+        "retInvPercent": 8.19
+    },
+    {
+        "date": "2024-09-20T00:00:00",
+        "insInvPercent": 16.35,
+        "retInvPercent": 83.65
+    },
+    {
+        "date": "2024-09-21T00:00:00",
+        "insInvPercent": 83.48,
+        "retInvPercent": 16.52
+    },
+    {
+        "date": "2024-09-22T00:00:00",
+        "insInvPercent": 33.33,
+        "retInvPercent": 66.67
+    },
+    {
+        "date": "2024-09-23T00:00:00",
+        "insInvPercent": 90.58,
+        "retInvPercent": 9.42
+    },
+    {
+        "date": "2024-09-24T00:00:00",
+        "insInvPercent": 74.45,
+        "retInvPercent": 25.55
+    },
+    {
+        "date": "2024-09-25T00:00:00",
+        "insInvPercent": 30.24,
+        "retInvPercent": 69.76
+    },
+    {
+        "date": "2024-09-26T00:00:00",
+        "insInvPercent": 91.2,
+        "retInvPercent": 8.8
+    },
+    {
+        "date": "2024-09-27T00:00:00",
+        "insInvPercent": 60.9,
+        "retInvPercent": 39.1
+    },
+    {
+        "date": "2024-09-28T00:00:00",
+        "insInvPercent": 86.04,
+        "retInvPercent": 13.96
+    },
+    {
+        "date": "2024-09-29T00:00:00",
+        "insInvPercent": 55.61,
+        "retInvPercent": 44.39
+    },
+    {
+        "date": "2024-09-30T00:00:00",
+        "insInvPercent": 17.05,
+        "retInvPercent": 82.95
+    },
+    {
+        "date": "2024-10-01T00:00:00",
+        "insInvPercent": 36.2,
+        "retInvPercent": 63.8
+    },
+    {
+        "date": "2024-10-02T00:00:00",
+        "insInvPercent": 57.43,
+        "retInvPercent": 42.57
+    },
+    {
+        "date": "2024-10-03T00:00:00",
+        "insInvPercent": 82.81,
+        "retInvPercent": 17.19
+    },
+    {
+        "date": "2024-10-04T00:00:00",
+        "insInvPercent": 12.21,
+        "retInvPercent": 87.79
+    },
+    {
+        "date": "2024-10-05T00:00:00",
+        "insInvPercent": 17.25,
+        "retInvPercent": 82.75
+    },
+    {
+        "date": "2024-10-06T00:00:00",
+        "insInvPercent": 57.75,
+        "retInvPercent": 42.25
+    },
+    {
+        "date": "2024-10-07T00:00:00",
+        "insInvPercent": 91.11,
+        "retInvPercent": 8.89
+    },
+    {
+        "date": "2024-10-08T00:00:00",
+        "insInvPercent": 30.12,
+        "retInvPercent": 69.88
+    },
+    {
+        "date": "2024-10-09T00:00:00",
+        "insInvPercent": 63.03,
+        "retInvPercent": 36.97
+    },
+    {
+        "date": "2024-10-10T00:00:00",
+        "insInvPercent": 10.13,
+        "retInvPercent": 89.87
+    },
+    {
+        "date": "2024-10-11T00:00:00",
+        "insInvPercent": 20.59,
+        "retInvPercent": 79.41
+    },
+    {
+        "date": "2024-10-12T00:00:00",
+        "insInvPercent": 57.23,
+        "retInvPercent": 42.77
+    },
+    {
+        "date": "2024-10-13T00:00:00",
+        "insInvPercent": 83.35,
+        "retInvPercent": 16.65
+    },
+    {
+        "date": "2024-10-14T00:00:00",
+        "insInvPercent": 27.37,
+        "retInvPercent": 72.63
+    },
+    {
+        "date": "2024-10-15T00:00:00",
+        "insInvPercent": 62.47,
+        "retInvPercent": 37.53
+    },
+    {
+        "date": "2024-10-16T00:00:00",
+        "insInvPercent": 44.33,
+        "retInvPercent": 55.67
+    },
+    {
+        "date": "2024-10-17T00:00:00",
+        "insInvPercent": 42.8,
+        "retInvPercent": 57.2
+    },
+    {
+        "date": "2024-10-18T00:00:00",
+        "insInvPercent": 33.07,
+        "retInvPercent": 66.93
+    },
+    {
+        "date": "2024-10-19T00:00:00",
+        "insInvPercent": 61.94,
+        "retInvPercent": 38.06
+    },
+    {
+        "date": "2024-10-20T00:00:00",
+        "insInvPercent": 84.52,
+        "retInvPercent": 15.48
+    },
+    {
+        "date": "2024-10-21T00:00:00",
+        "insInvPercent": 45.88,
+        "retInvPercent": 54.12
+    },
+    {
+        "date": "2024-10-22T00:00:00",
+        "insInvPercent": 19.74,
+        "retInvPercent": 80.26
+    },
+    {
+        "date": "2024-10-23T00:00:00",
+        "insInvPercent": 36.87,
+        "retInvPercent": 63.13
+    },
+    {
+        "date": "2024-10-24T00:00:00",
+        "insInvPercent": 68.63,
+        "retInvPercent": 31.37
+    },
+    {
+        "date": "2024-10-25T00:00:00",
+        "insInvPercent": 5.18,
+        "retInvPercent": 94.82
+    },
+    {
+        "date": "2024-10-26T00:00:00",
+        "insInvPercent": 11.26,
+        "retInvPercent": 88.74
+    },
+    {
+        "date": "2024-10-27T00:00:00",
+        "insInvPercent": 76.17,
+        "retInvPercent": 23.83
+    },
+    {
+        "date": "2024-10-28T00:00:00",
+        "insInvPercent": 33.99,
+        "retInvPercent": 66.01
+    },
+    {
+        "date": "2024-10-29T00:00:00",
+        "insInvPercent": 41.37,
+        "retInvPercent": 58.63
+    },
+    {
+        "date": "2024-10-30T00:00:00",
+        "insInvPercent": 13.75,
+        "retInvPercent": 86.25
+    },
+    {
+        "date": "2024-10-31T00:00:00",
+        "insInvPercent": 13.84,
+        "retInvPercent": 86.16
+    },
+    {
+        "date": "2024-11-01T00:00:00",
+        "insInvPercent": 27.73,
+        "retInvPercent": 72.27
+    },
+    {
+        "date": "2024-11-02T00:00:00",
+        "insInvPercent": 53.19,
+        "retInvPercent": 46.81
+    },
+    {
+        "date": "2024-11-03T00:00:00",
+        "insInvPercent": 38.84,
+        "retInvPercent": 61.16
+    },
+    {
+        "date": "2024-11-04T00:00:00",
+        "insInvPercent": 34.57,
+        "retInvPercent": 65.43
+    },
+    {
+        "date": "2024-11-05T00:00:00",
+        "insInvPercent": 87.83,
+        "retInvPercent": 12.17
+    },
+    {
+        "date": "2024-11-06T00:00:00",
+        "insInvPercent": 36.0,
+        "retInvPercent": 64.0
+    },
+    {
+        "date": "2024-11-07T00:00:00",
+        "insInvPercent": 48.3,
+        "retInvPercent": 51.7
+    },
+    {
+        "date": "2024-11-08T00:00:00",
+        "insInvPercent": 24.87,
+        "retInvPercent": 75.13
+    },
+    {
+        "date": "2024-11-09T00:00:00",
+        "insInvPercent": 32.38,
+        "retInvPercent": 67.62
+    },
+    {
+        "date": "2024-11-10T00:00:00",
+        "insInvPercent": 46.44,
+        "retInvPercent": 53.56
+    },
+    {
+        "date": "2024-11-11T00:00:00",
+        "insInvPercent": 20.7,
+        "retInvPercent": 79.3
+    },
+    {
+        "date": "2024-11-12T00:00:00",
+        "insInvPercent": 89.41,
+        "retInvPercent": 10.59
+    },
+    {
+        "date": "2024-11-13T00:00:00",
+        "insInvPercent": 84.08,
+        "retInvPercent": 15.92
+    },
+    {
+        "date": "2024-11-14T00:00:00",
+        "insInvPercent": 38.82,
+        "retInvPercent": 61.18
+    },
+    {
+        "date": "2024-11-15T00:00:00",
+        "insInvPercent": 83.79,
+        "retInvPercent": 16.21
+    },
+    {
+        "date": "2024-11-16T00:00:00",
+        "insInvPercent": 31.93,
+        "retInvPercent": 68.07
+    },
+    {
+        "date": "2024-11-17T00:00:00",
+        "insInvPercent": 20.92,
+        "retInvPercent": 79.08
+    },
+    {
+        "date": "2024-11-18T00:00:00",
+        "insInvPercent": 77.09,
+        "retInvPercent": 22.91
+    },
+    {
+        "date": "2024-11-19T00:00:00",
+        "insInvPercent": 31.29,
+        "retInvPercent": 68.71
+    },
+    {
+        "date": "2024-11-20T00:00:00",
+        "insInvPercent": 33.04,
+        "retInvPercent": 66.96
+    },
+    {
+        "date": "2024-11-21T00:00:00",
+        "insInvPercent": 23.59,
+        "retInvPercent": 76.41
+    },
+    {
+        "date": "2024-11-22T00:00:00",
+        "insInvPercent": 62.64,
+        "retInvPercent": 37.36
+    },
+    {
+        "date": "2024-11-23T00:00:00",
+        "insInvPercent": 90.16,
+        "retInvPercent": 9.84
+    },
+    {
+        "date": "2024-11-24T00:00:00",
+        "insInvPercent": 5.44,
+        "retInvPercent": 94.56
+    },
+    {
+        "date": "2024-11-25T00:00:00",
+        "insInvPercent": 89.58,
+        "retInvPercent": 10.42
+    },
+    {
+        "date": "2024-11-26T00:00:00",
+        "insInvPercent": 17.72,
+        "retInvPercent": 82.28
+    },
+    {
+        "date": "2024-11-27T00:00:00",
+        "insInvPercent": 57.62,
+        "retInvPercent": 42.38
+    },
+    {
+        "date": "2024-11-28T00:00:00",
+        "insInvPercent": 51.19,
+        "retInvPercent": 48.81
+    },
+    {
+        "date": "2024-11-29T00:00:00",
+        "insInvPercent": 50.08,
+        "retInvPercent": 49.92
+    },
+    {
+        "date": "2024-11-30T00:00:00",
+        "insInvPercent": 72.59,
+        "retInvPercent": 27.41
+    },
+    {
+        "date": "2024-12-01T00:00:00",
+        "insInvPercent": 71.25,
+        "retInvPercent": 28.75
+    },
+    {
+        "date": "2024-12-02T00:00:00",
+        "insInvPercent": 59.15,
+        "retInvPercent": 40.85
+    },
+    {
+        "date": "2024-12-03T00:00:00",
+        "insInvPercent": 56.61,
+        "retInvPercent": 43.39
+    },
+    {
+        "date": "2024-12-04T00:00:00",
+        "insInvPercent": 87.83,
+        "retInvPercent": 12.17
+    },
+    {
+        "date": "2024-12-05T00:00:00",
+        "insInvPercent": 24.97,
+        "retInvPercent": 75.03
+    },
+    {
+        "date": "2024-12-06T00:00:00",
+        "insInvPercent": 21.4,
+        "retInvPercent": 78.6
+    },
+    {
+        "date": "2024-12-07T00:00:00",
+        "insInvPercent": 93.89,
+        "retInvPercent": 6.11
+    },
+    {
+        "date": "2024-12-08T00:00:00",
+        "insInvPercent": 28.16,
+        "retInvPercent": 71.84
+    },
+    {
+        "date": "2024-12-09T00:00:00",
+        "insInvPercent": 42.71,
+        "retInvPercent": 57.29
+    },
+    {
+        "date": "2024-12-10T00:00:00",
+        "insInvPercent": 9.34,
+        "retInvPercent": 90.66
+    },
+    {
+        "date": "2024-12-11T00:00:00",
+        "insInvPercent": 53.37,
+        "retInvPercent": 46.63
+    },
+    {
+        "date": "2024-12-12T00:00:00",
+        "insInvPercent": 41.81,
+        "retInvPercent": 58.19
+    },
+    {
+        "date": "2024-12-13T00:00:00",
+        "insInvPercent": 60.86,
+        "retInvPercent": 39.14
+    },
+    {
+        "date": "2024-12-14T00:00:00",
+        "insInvPercent": 6.5,
+        "retInvPercent": 93.5
+    },
+    {
+        "date": "2024-12-15T00:00:00",
+        "insInvPercent": 19.7,
+        "retInvPercent": 80.3
+    },
+    {
+        "date": "2024-12-16T00:00:00",
+        "insInvPercent": 56.47,
+        "retInvPercent": 43.53
+    },
+    {
+        "date": "2024-12-17T00:00:00",
+        "insInvPercent": 23.62,
+        "retInvPercent": 76.38
+    },
+    {
+        "date": "2024-12-18T00:00:00",
+        "insInvPercent": 5.59,
+        "retInvPercent": 94.41
+    },
+    {
+        "date": "2024-12-19T00:00:00",
+        "insInvPercent": 74.8,
+        "retInvPercent": 25.2
+    },
+    {
+        "date": "2024-12-20T00:00:00",
+        "insInvPercent": 42.1,
+        "retInvPercent": 57.9
+    },
+    {
+        "date": "2024-12-21T00:00:00",
+        "insInvPercent": 23.62,
+        "retInvPercent": 76.38
+    },
+    {
+        "date": "2024-12-22T00:00:00",
+        "insInvPercent": 17.02,
+        "retInvPercent": 82.98
+    },
+    {
+        "date": "2024-12-23T00:00:00",
+        "insInvPercent": 91.38,
+        "retInvPercent": 8.62
+    },
+    {
+        "date": "2024-12-24T00:00:00",
+        "insInvPercent": 71.53,
+        "retInvPercent": 28.47
+    },
+    {
+        "date": "2024-12-25T00:00:00",
+        "insInvPercent": 91.12,
+        "retInvPercent": 8.88
+    },
+    {
+        "date": "2024-12-26T00:00:00",
+        "insInvPercent": 50.07,
+        "retInvPercent": 49.93
+    },
+    {
+        "date": "2024-12-27T00:00:00",
+        "insInvPercent": 23.56,
+        "retInvPercent": 76.44
+    },
+    {
+        "date": "2024-12-28T00:00:00",
+        "insInvPercent": 33.15,
+        "retInvPercent": 66.85
+    },
+    {
+        "date": "2024-12-29T00:00:00",
+        "insInvPercent": 8.78,
+        "retInvPercent": 91.22
+    },
+    {
+        "date": "2024-12-30T00:00:00",
+        "insInvPercent": 88.65,
+        "retInvPercent": 11.35
+    }
+]

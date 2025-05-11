@@ -25,7 +25,6 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
   chartConstructor = 'stockChart';
   chartOptions!: Highcharts.Options;
 
-  @Input() title = 'نمودار پیش‌فرض';
   @Input() seriesData: Highcharts.SeriesAreaOptions['data'] = [];
   @Input() seriesName = 'داده‌ها';
   @Input() color = '#00C8B5';
@@ -76,13 +75,40 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
         backgroundColor: bgColor,
         styledMode: false,
       },
-      title: {
-        text: this.title,
-        align: 'right',
-        style: { color: textColor },
+      rangeSelector: {
+        selected: 0,
+        inputEnabled: false,
+        buttons: [
+          {
+            type: 'month',
+            count: 1,
+            text: '1m'
+          },
+          {
+            type: 'month',
+            count: 3,
+            text: '3m'
+          },
+          {
+            type: 'month',
+            count: 6,
+            text: '6m'
+          },
+          {
+            type: 'year',
+            count: 1,
+            text: '1y'
+          },
+          {
+            type: 'all',
+            text: 'همه'
+          }
+        ]
       },
+
       xAxis: {
-        labels: { style: { color: textColor } }
+        labels: { style: { color: textColor } },
+        type: 'datetime'
       },
       yAxis: {
         labels: { style: { color: textColor } },

@@ -1,0 +1,152 @@
+[
+  {
+    "date": "2023-04-22T00:00:00",
+    "netAsset": 300000000000000,
+    "unitsSubDAY": 2500000,
+    "unitsRedDAY": 1500000
+  },
+  {
+    "date": "2023-05-22T00:00:00",
+    "netAsset": 305000000000000,
+    "unitsSubDAY": 2600000,
+    "unitsRedDAY": 1600000
+  },
+  {
+    "date": "2023-06-21T00:00:00",
+    "netAsset": 310000000000000,
+    "unitsSubDAY": 2700000,
+    "unitsRedDAY": 1700000
+  },
+  {
+    "date": "2023-07-21T00:00:00",
+    "netAsset": 315000000000000,
+    "unitsSubDAY": 2800000,
+    "unitsRedDAY": 1800000
+  },
+  {
+    "date": "2023-08-20T00:00:00",
+    "netAsset": 320000000000000,
+    "unitsSubDAY": 2900000,
+    "unitsRedDAY": 1900000
+  },
+  {
+    "date": "2023-09-19T00:00:00",
+    "netAsset": 325000000000000,
+    "unitsSubDAY": 3000000,
+    "unitsRedDAY": 2000000
+  },
+  {
+    "date": "2023-10-19T00:00:00",
+    "netAsset": 330000000000000,
+    "unitsSubDAY": 3100000,
+    "unitsRedDAY": 2100000
+  },
+  {
+    "date": "2023-11-18T00:00:00",
+    "netAsset": 335000000000000,
+    "unitsSubDAY": 3200000,
+    "unitsRedDAY": 2200000
+  },
+  {
+    "date": "2023-12-18T00:00:00",
+    "netAsset": 340000000000000,
+    "unitsSubDAY": 3300000,
+    "unitsRedDAY": 2300000
+  },
+  {
+    "date": "2024-01-17T00:00:00",
+    "netAsset": 345000000000000,
+    "unitsSubDAY": 3400000,
+    "unitsRedDAY": 2400000
+  },
+  {
+    "date": "2024-02-16T00:00:00",
+    "netAsset": 350000000000000,
+    "unitsSubDAY": 3500000,
+    "unitsRedDAY": 2500000
+  },
+  {
+    "date": "2024-03-17T00:00:00",
+    "netAsset": 355000000000000,
+    "unitsSubDAY": 3600000,
+    "unitsRedDAY": 2600000
+  },
+  {
+    "date": "2024-04-16T00:00:00",
+    "netAsset": 360000000000000,
+    "unitsSubDAY": 3700000,
+    "unitsRedDAY": 2700000
+  },
+  {
+    "date": "2024-05-16T00:00:00",
+    "netAsset": 365000000000000,
+    "unitsSubDAY": 3800000,
+    "unitsRedDAY": 2800000
+  },
+  {
+    "date": "2024-06-15T00:00:00",
+    "netAsset": 370000000000000,
+    "unitsSubDAY": 3900000,
+    "unitsRedDAY": 2900000
+  },
+  {
+    "date": "2024-07-15T00:00:00",
+    "netAsset": 375000000000000,
+    "unitsSubDAY": 4000000,
+    "unitsRedDAY": 3000000
+  },
+  {
+    "date": "2024-08-14T00:00:00",
+    "netAsset": 380000000000000,
+    "unitsSubDAY": 4100000,
+    "unitsRedDAY": 3100000
+  },
+  {
+    "date": "2024-09-13T00:00:00",
+    "netAsset": 385000000000000,
+    "unitsSubDAY": 4200000,
+    "unitsRedDAY": 3200000
+  },
+  {
+    "date": "2024-10-13T00:00:00",
+    "netAsset": 390000000000000,
+    "unitsSubDAY": 4300000,
+    "unitsRedDAY": 3300000
+  },
+  {
+    "date": "2024-11-12T00:00:00",
+    "netAsset": 395000000000000,
+    "unitsSubDAY": 4400000,
+    "unitsRedDAY": 3400000
+  },
+  {
+    "date": "2024-12-12T00:00:00",
+    "netAsset": 400000000000000,
+    "unitsSubDAY": 4500000,
+    "unitsRedDAY": 3500000
+  },
+  {
+    "date": "2025-01-11T00:00:00",
+    "netAsset": 405000000000000,
+    "unitsSubDAY": 4600000,
+    "unitsRedDAY": 3600000
+  },
+  {
+    "date": "2025-02-10T00:00:00",
+    "netAsset": 410000000000000,
+    "unitsSubDAY": 4700000,
+    "unitsRedDAY": 3700000
+  },
+  {
+    "date": "2025-03-12T00:00:00",
+    "netAsset": 415000000000000,
+    "unitsSubDAY": 4800000,
+    "unitsRedDAY": 3800000
+  },
+  {
+    "date": "2025-04-22T00:00:00",
+    "netAsset": 552572824347067,
+    "unitsSubDAY": 3396517,
+    "unitsRedDAY": 4557308
+  }
+]
