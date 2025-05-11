@@ -1,152 +1,4388 @@
 [
   {
     "date": "2023-04-22T00:00:00",
-    "netAsset": 300000000000000,
-    "unitsSubDAY": 2500000,
-    "unitsRedDAY": 1500000
+    "netAsset": 300000065917100,
+    "unitsSubDAY": 2753267,
+    "unitsRedDAY": 2094096
+  },
+  {
+    "date": "2023-04-23T00:00:00",
+    "netAsset": 300000186929100,
+    "unitsSubDAY": 3934909,
+    "unitsRedDAY": 2724789
+  },
+  {
+    "date": "2023-04-24T00:00:00",
+    "netAsset": 300000011011400,
+    "unitsSubDAY": 1384875,
+    "unitsRedDAY": 3144052
+  },
+  {
+    "date": "2023-04-25T00:00:00",
+    "netAsset": 299999796077900,
+    "unitsSubDAY": 1676338,
+    "unitsRedDAY": 3825673
+  },
+  {
+    "date": "2023-04-26T00:00:00",
+    "netAsset": 299999891175700,
+    "unitsSubDAY": 2929677,
+    "unitsRedDAY": 1978699
+  },
+  {
+    "date": "2023-04-27T00:00:00",
+    "netAsset": 300000060955600,
+    "unitsSubDAY": 3154502,
+    "unitsRedDAY": 1456703
+  },
+  {
+    "date": "2023-04-28T00:00:00",
+    "netAsset": 300000186039300,
+    "unitsSubDAY": 3538828,
+    "unitsRedDAY": 2287991
+  },
+  {
+    "date": "2023-04-29T00:00:00",
+    "netAsset": 300000278172900,
+    "unitsSubDAY": 2300774,
+    "unitsRedDAY": 1379438
+  },
+  {
+    "date": "2023-04-30T00:00:00",
+    "netAsset": 300000274674400,
+    "unitsSubDAY": 3211693,
+    "unitsRedDAY": 3246678
+  },
+  {
+    "date": "2023-05-01T00:00:00",
+    "netAsset": 300000309231200,
+    "unitsSubDAY": 2862744,
+    "unitsRedDAY": 2517176
+  },
+  {
+    "date": "2023-05-02T00:00:00",
+    "netAsset": 300000235928600,
+    "unitsSubDAY": 1625164,
+    "unitsRedDAY": 2358190
+  },
+  {
+    "date": "2023-05-03T00:00:00",
+    "netAsset": 300000095461900,
+    "unitsSubDAY": 1220156,
+    "unitsRedDAY": 2624823
+  },
+  {
+    "date": "2023-05-04T00:00:00",
+    "netAsset": 299999917890100,
+    "unitsSubDAY": 2150293,
+    "unitsRedDAY": 3926011
+  },
+  {
+    "date": "2023-05-05T00:00:00",
+    "netAsset": 300000012864600,
+    "unitsSubDAY": 2436062,
+    "unitsRedDAY": 1486317
+  },
+  {
+    "date": "2023-05-06T00:00:00",
+    "netAsset": 299999913369400,
+    "unitsSubDAY": 1241657,
+    "unitsRedDAY": 2236609
+  },
+  {
+    "date": "2023-05-07T00:00:00",
+    "netAsset": 300000062828800,
+    "unitsSubDAY": 3623373,
+    "unitsRedDAY": 2128779
+  },
+  {
+    "date": "2023-05-08T00:00:00",
+    "netAsset": 300000116811800,
+    "unitsSubDAY": 3840250,
+    "unitsRedDAY": 3300420
+  },
+  {
+    "date": "2023-05-09T00:00:00",
+    "netAsset": 300000353997800,
+    "unitsSubDAY": 3399469,
+    "unitsRedDAY": 1027609
+  },
+  {
+    "date": "2023-05-10T00:00:00",
+    "netAsset": 300000364313900,
+    "unitsSubDAY": 3229888,
+    "unitsRedDAY": 3126727
+  },
+  {
+    "date": "2023-05-11T00:00:00",
+    "netAsset": 300000508459900,
+    "unitsSubDAY": 3532251,
+    "unitsRedDAY": 2090791
+  },
+  {
+    "date": "2023-05-12T00:00:00",
+    "netAsset": 300000541383100,
+    "unitsSubDAY": 1626348,
+    "unitsRedDAY": 1297116
+  },
+  {
+    "date": "2023-05-13T00:00:00",
+    "netAsset": 300000301826800,
+    "unitsSubDAY": 1518989,
+    "unitsRedDAY": 3914552
+  },
+  {
+    "date": "2023-05-14T00:00:00",
+    "netAsset": 300000505627000,
+    "unitsSubDAY": 3941110,
+    "unitsRedDAY": 1903108
+  },
+  {
+    "date": "2023-05-15T00:00:00",
+    "netAsset": 300000498427700,
+    "unitsSubDAY": 3817774,
+    "unitsRedDAY": 3889767
+  },
+  {
+    "date": "2023-05-16T00:00:00",
+    "netAsset": 300000359957100,
+    "unitsSubDAY": 2507021,
+    "unitsRedDAY": 3891727
+  },
+  {
+    "date": "2023-05-17T00:00:00",
+    "netAsset": 300000455936700,
+    "unitsSubDAY": 2279245,
+    "unitsRedDAY": 1319449
+  },
+  {
+    "date": "2023-05-18T00:00:00",
+    "netAsset": 300000483123700,
+    "unitsSubDAY": 3180924,
+    "unitsRedDAY": 2909054
+  },
+  {
+    "date": "2023-05-19T00:00:00",
+    "netAsset": 300000399305500,
+    "unitsSubDAY": 1568756,
+    "unitsRedDAY": 2406938
+  },
+  {
+    "date": "2023-05-20T00:00:00",
+    "netAsset": 300000268668500,
+    "unitsSubDAY": 1563438,
+    "unitsRedDAY": 2869808
+  },
+  {
+    "date": "2023-05-21T00:00:00",
+    "netAsset": 300000366807100,
+    "unitsSubDAY": 3985033,
+    "unitsRedDAY": 3003647
   },
   {
     "date": "2023-05-22T00:00:00",
-    "netAsset": 305000000000000,
-    "unitsSubDAY": 2600000,
-    "unitsRedDAY": 1600000
+    "netAsset": 300000500678100,
+    "unitsSubDAY": 2629807,
+    "unitsRedDAY": 1291097
+  },
+  {
+    "date": "2023-05-23T00:00:00",
+    "netAsset": 300000496135100,
+    "unitsSubDAY": 2711361,
+    "unitsRedDAY": 2756791
+  },
+  {
+    "date": "2023-05-24T00:00:00",
+    "netAsset": 300000530010400,
+    "unitsSubDAY": 2891015,
+    "unitsRedDAY": 2552262
+  },
+  {
+    "date": "2023-05-25T00:00:00",
+    "netAsset": 300000402165000,
+    "unitsSubDAY": 2680635,
+    "unitsRedDAY": 3959089
+  },
+  {
+    "date": "2023-05-26T00:00:00",
+    "netAsset": 300000478145000,
+    "unitsSubDAY": 2451975,
+    "unitsRedDAY": 1692175
+  },
+  {
+    "date": "2023-05-27T00:00:00",
+    "netAsset": 300000571147100,
+    "unitsSubDAY": 2925356,
+    "unitsRedDAY": 1995335
+  },
+  {
+    "date": "2023-05-28T00:00:00",
+    "netAsset": 300000618716700,
+    "unitsSubDAY": 1758411,
+    "unitsRedDAY": 1282715
+  },
+  {
+    "date": "2023-05-29T00:00:00",
+    "netAsset": 300000627371100,
+    "unitsSubDAY": 2560637,
+    "unitsRedDAY": 2474093
+  },
+  {
+    "date": "2023-05-30T00:00:00",
+    "netAsset": 300000633153700,
+    "unitsSubDAY": 1577969,
+    "unitsRedDAY": 1520143
+  },
+  {
+    "date": "2023-05-31T00:00:00",
+    "netAsset": 300000765219700,
+    "unitsSubDAY": 3990470,
+    "unitsRedDAY": 2669810
+  },
+  {
+    "date": "2023-06-01T00:00:00",
+    "netAsset": 300000953723800,
+    "unitsSubDAY": 3452575,
+    "unitsRedDAY": 1567534
+  },
+  {
+    "date": "2023-06-02T00:00:00",
+    "netAsset": 300000893500800,
+    "unitsSubDAY": 1893147,
+    "unitsRedDAY": 2495377
+  },
+  {
+    "date": "2023-06-03T00:00:00",
+    "netAsset": 300000708048400,
+    "unitsSubDAY": 1532884,
+    "unitsRedDAY": 3387408
+  },
+  {
+    "date": "2023-06-04T00:00:00",
+    "netAsset": 300000789198200,
+    "unitsSubDAY": 3390890,
+    "unitsRedDAY": 2579392
+  },
+  {
+    "date": "2023-06-05T00:00:00",
+    "netAsset": 300000611661600,
+    "unitsSubDAY": 2166807,
+    "unitsRedDAY": 3942173
+  },
+  {
+    "date": "2023-06-06T00:00:00",
+    "netAsset": 300000560406700,
+    "unitsSubDAY": 1836525,
+    "unitsRedDAY": 2349074
+  },
+  {
+    "date": "2023-06-07T00:00:00",
+    "netAsset": 300000545428000,
+    "unitsSubDAY": 2626577,
+    "unitsRedDAY": 2776364
+  },
+  {
+    "date": "2023-06-08T00:00:00",
+    "netAsset": 300000426265700,
+    "unitsSubDAY": 2534205,
+    "unitsRedDAY": 3725828
+  },
+  {
+    "date": "2023-06-09T00:00:00",
+    "netAsset": 300000476145000,
+    "unitsSubDAY": 2632161,
+    "unitsRedDAY": 2133368
+  },
+  {
+    "date": "2023-06-10T00:00:00",
+    "netAsset": 300000455179100,
+    "unitsSubDAY": 2778332,
+    "unitsRedDAY": 2987991
+  },
+  {
+    "date": "2023-06-11T00:00:00",
+    "netAsset": 300000549690400,
+    "unitsSubDAY": 2467741,
+    "unitsRedDAY": 1522628
+  },
+  {
+    "date": "2023-06-12T00:00:00",
+    "netAsset": 300000476585100,
+    "unitsSubDAY": 1785643,
+    "unitsRedDAY": 2516696
+  },
+  {
+    "date": "2023-06-13T00:00:00",
+    "netAsset": 300000722442800,
+    "unitsSubDAY": 3741675,
+    "unitsRedDAY": 1283098
+  },
+  {
+    "date": "2023-06-14T00:00:00",
+    "netAsset": 300000653836500,
+    "unitsSubDAY": 1982716,
+    "unitsRedDAY": 2668779
+  },
+  {
+    "date": "2023-06-15T00:00:00",
+    "netAsset": 300000611792000,
+    "unitsSubDAY": 3235046,
+    "unitsRedDAY": 3655491
+  },
+  {
+    "date": "2023-06-16T00:00:00",
+    "netAsset": 300000674425500,
+    "unitsSubDAY": 1951595,
+    "unitsRedDAY": 1325260
+  },
+  {
+    "date": "2023-06-17T00:00:00",
+    "netAsset": 300000688227300,
+    "unitsSubDAY": 1723343,
+    "unitsRedDAY": 1585325
+  },
+  {
+    "date": "2023-06-18T00:00:00",
+    "netAsset": 300000687411900,
+    "unitsSubDAY": 1599774,
+    "unitsRedDAY": 1607928
+  },
+  {
+    "date": "2023-06-19T00:00:00",
+    "netAsset": 300000848433400,
+    "unitsSubDAY": 2843197,
+    "unitsRedDAY": 1232982
+  },
+  {
+    "date": "2023-06-20T00:00:00",
+    "netAsset": 300001094288100,
+    "unitsSubDAY": 3482225,
+    "unitsRedDAY": 1023678
   },
   {
     "date": "2023-06-21T00:00:00",
-    "netAsset": 310000000000000,
-    "unitsSubDAY": 2700000,
-    "unitsRedDAY": 1700000
+    "netAsset": 300001317716500,
+    "unitsSubDAY": 3342270,
+    "unitsRedDAY": 1107986
+  },
+  {
+    "date": "2023-06-22T00:00:00",
+    "netAsset": 300001419538600,
+    "unitsSubDAY": 2336376,
+    "unitsRedDAY": 1318155
+  },
+  {
+    "date": "2023-06-23T00:00:00",
+    "netAsset": 300001553474400,
+    "unitsSubDAY": 2511385,
+    "unitsRedDAY": 1172027
+  },
+  {
+    "date": "2023-06-24T00:00:00",
+    "netAsset": 300001556582600,
+    "unitsSubDAY": 3814815,
+    "unitsRedDAY": 3783733
+  },
+  {
+    "date": "2023-06-25T00:00:00",
+    "netAsset": 300001586574300,
+    "unitsSubDAY": 1695147,
+    "unitsRedDAY": 1395230
+  },
+  {
+    "date": "2023-06-26T00:00:00",
+    "netAsset": 300001862438900,
+    "unitsSubDAY": 3831868,
+    "unitsRedDAY": 1073222
+  },
+  {
+    "date": "2023-06-27T00:00:00",
+    "netAsset": 300002043060000,
+    "unitsSubDAY": 3802023,
+    "unitsRedDAY": 1995812
+  },
+  {
+    "date": "2023-06-28T00:00:00",
+    "netAsset": 300002008361000,
+    "unitsSubDAY": 2716921,
+    "unitsRedDAY": 3063911
+  },
+  {
+    "date": "2023-06-29T00:00:00",
+    "netAsset": 300001792665000,
+    "unitsSubDAY": 1027481,
+    "unitsRedDAY": 3184441
+  },
+  {
+    "date": "2023-06-30T00:00:00",
+    "netAsset": 300001762069100,
+    "unitsSubDAY": 3650366,
+    "unitsRedDAY": 3956325
+  },
+  {
+    "date": "2023-07-01T00:00:00",
+    "netAsset": 300001938066300,
+    "unitsSubDAY": 2884959,
+    "unitsRedDAY": 1124987
+  },
+  {
+    "date": "2023-07-02T00:00:00",
+    "netAsset": 300001994253000,
+    "unitsSubDAY": 3473767,
+    "unitsRedDAY": 2911900
+  },
+  {
+    "date": "2023-07-03T00:00:00",
+    "netAsset": 300001844712300,
+    "unitsSubDAY": 2490948,
+    "unitsRedDAY": 3986355
+  },
+  {
+    "date": "2023-07-04T00:00:00",
+    "netAsset": 300001799009900,
+    "unitsSubDAY": 3262318,
+    "unitsRedDAY": 3719342
+  },
+  {
+    "date": "2023-07-05T00:00:00",
+    "netAsset": 300001702021700,
+    "unitsSubDAY": 1218045,
+    "unitsRedDAY": 2187927
+  },
+  {
+    "date": "2023-07-06T00:00:00",
+    "netAsset": 300001812073200,
+    "unitsSubDAY": 2307129,
+    "unitsRedDAY": 1206614
+  },
+  {
+    "date": "2023-07-07T00:00:00",
+    "netAsset": 300001601359700,
+    "unitsSubDAY": 1311645,
+    "unitsRedDAY": 3418780
+  },
+  {
+    "date": "2023-07-08T00:00:00",
+    "netAsset": 300001721693100,
+    "unitsSubDAY": 3235149,
+    "unitsRedDAY": 2031815
+  },
+  {
+    "date": "2023-07-09T00:00:00",
+    "netAsset": 300001755871500,
+    "unitsSubDAY": 3704397,
+    "unitsRedDAY": 3362613
+  },
+  {
+    "date": "2023-07-10T00:00:00",
+    "netAsset": 300001781952000,
+    "unitsSubDAY": 3364107,
+    "unitsRedDAY": 3103302
+  },
+  {
+    "date": "2023-07-11T00:00:00",
+    "netAsset": 300001670385800,
+    "unitsSubDAY": 1590948,
+    "unitsRedDAY": 2706610
+  },
+  {
+    "date": "2023-07-12T00:00:00",
+    "netAsset": 300001630186300,
+    "unitsSubDAY": 1523493,
+    "unitsRedDAY": 1925488
+  },
+  {
+    "date": "2023-07-13T00:00:00",
+    "netAsset": 300001590277400,
+    "unitsSubDAY": 2249070,
+    "unitsRedDAY": 2648159
+  },
+  {
+    "date": "2023-07-14T00:00:00",
+    "netAsset": 300001548460800,
+    "unitsSubDAY": 1568210,
+    "unitsRedDAY": 1986376
+  },
+  {
+    "date": "2023-07-15T00:00:00",
+    "netAsset": 300001544324100,
+    "unitsSubDAY": 2136365,
+    "unitsRedDAY": 2177732
+  },
+  {
+    "date": "2023-07-16T00:00:00",
+    "netAsset": 300001723576700,
+    "unitsSubDAY": 3338654,
+    "unitsRedDAY": 1546128
+  },
+  {
+    "date": "2023-07-17T00:00:00",
+    "netAsset": 300001730704600,
+    "unitsSubDAY": 1239242,
+    "unitsRedDAY": 1167963
+  },
+  {
+    "date": "2023-07-18T00:00:00",
+    "netAsset": 300001521952200,
+    "unitsSubDAY": 1606309,
+    "unitsRedDAY": 3693833
+  },
+  {
+    "date": "2023-07-19T00:00:00",
+    "netAsset": 300001641666400,
+    "unitsSubDAY": 3230315,
+    "unitsRedDAY": 2033173
+  },
+  {
+    "date": "2023-07-20T00:00:00",
+    "netAsset": 300001558790400,
+    "unitsSubDAY": 1720853,
+    "unitsRedDAY": 2549613
   },
   {
     "date": "2023-07-21T00:00:00",
-    "netAsset": 315000000000000,
-    "unitsSubDAY": 2800000,
-    "unitsRedDAY": 1800000
+    "netAsset": 300001528227800,
+    "unitsSubDAY": 2361938,
+    "unitsRedDAY": 2667564
+  },
+  {
+    "date": "2023-07-22T00:00:00",
+    "netAsset": 300001627646900,
+    "unitsSubDAY": 3198015,
+    "unitsRedDAY": 2203824
+  },
+  {
+    "date": "2023-07-23T00:00:00",
+    "netAsset": 300001887671400,
+    "unitsSubDAY": 3936308,
+    "unitsRedDAY": 1336063
+  },
+  {
+    "date": "2023-07-24T00:00:00",
+    "netAsset": 300001890725800,
+    "unitsSubDAY": 2493415,
+    "unitsRedDAY": 2462871
+  },
+  {
+    "date": "2023-07-25T00:00:00",
+    "netAsset": 300001739158900,
+    "unitsSubDAY": 1135960,
+    "unitsRedDAY": 2651629
+  },
+  {
+    "date": "2023-07-26T00:00:00",
+    "netAsset": 300001788860100,
+    "unitsSubDAY": 3538069,
+    "unitsRedDAY": 3041057
+  },
+  {
+    "date": "2023-07-27T00:00:00",
+    "netAsset": 300001810542700,
+    "unitsSubDAY": 3156926,
+    "unitsRedDAY": 2940100
+  },
+  {
+    "date": "2023-07-28T00:00:00",
+    "netAsset": 300001950689800,
+    "unitsSubDAY": 3021671,
+    "unitsRedDAY": 1620200
+  },
+  {
+    "date": "2023-07-29T00:00:00",
+    "netAsset": 300001938061300,
+    "unitsSubDAY": 1790167,
+    "unitsRedDAY": 1916452
+  },
+  {
+    "date": "2023-07-30T00:00:00",
+    "netAsset": 300001873370900,
+    "unitsSubDAY": 1164983,
+    "unitsRedDAY": 1811887
+  },
+  {
+    "date": "2023-07-31T00:00:00",
+    "netAsset": 300001987505400,
+    "unitsSubDAY": 2342350,
+    "unitsRedDAY": 1201005
+  },
+  {
+    "date": "2023-08-01T00:00:00",
+    "netAsset": 300002177991500,
+    "unitsSubDAY": 3291815,
+    "unitsRedDAY": 1386954
+  },
+  {
+    "date": "2023-08-02T00:00:00",
+    "netAsset": 300002255860900,
+    "unitsSubDAY": 3654587,
+    "unitsRedDAY": 2875893
+  },
+  {
+    "date": "2023-08-03T00:00:00",
+    "netAsset": 300002387452200,
+    "unitsSubDAY": 3520421,
+    "unitsRedDAY": 2204508
+  },
+  {
+    "date": "2023-08-04T00:00:00",
+    "netAsset": 300002192429200,
+    "unitsSubDAY": 1743093,
+    "unitsRedDAY": 3693323
+  },
+  {
+    "date": "2023-08-05T00:00:00",
+    "netAsset": 300002215497400,
+    "unitsSubDAY": 3753151,
+    "unitsRedDAY": 3522469
+  },
+  {
+    "date": "2023-08-06T00:00:00",
+    "netAsset": 300002382020700,
+    "unitsSubDAY": 3992481,
+    "unitsRedDAY": 2327248
+  },
+  {
+    "date": "2023-08-07T00:00:00",
+    "netAsset": 300002310234900,
+    "unitsSubDAY": 3065364,
+    "unitsRedDAY": 3783222
+  },
+  {
+    "date": "2023-08-08T00:00:00",
+    "netAsset": 300002243142600,
+    "unitsSubDAY": 2900323,
+    "unitsRedDAY": 3571246
+  },
+  {
+    "date": "2023-08-09T00:00:00",
+    "netAsset": 300002247651100,
+    "unitsSubDAY": 3383707,
+    "unitsRedDAY": 3338622
+  },
+  {
+    "date": "2023-08-10T00:00:00",
+    "netAsset": 300002311841200,
+    "unitsSubDAY": 1954172,
+    "unitsRedDAY": 1312271
+  },
+  {
+    "date": "2023-08-11T00:00:00",
+    "netAsset": 300002110032900,
+    "unitsSubDAY": 1682944,
+    "unitsRedDAY": 3701027
+  },
+  {
+    "date": "2023-08-12T00:00:00",
+    "netAsset": 300002147575800,
+    "unitsSubDAY": 3995479,
+    "unitsRedDAY": 3620050
+  },
+  {
+    "date": "2023-08-13T00:00:00",
+    "netAsset": 300002358505400,
+    "unitsSubDAY": 3890285,
+    "unitsRedDAY": 1780989
+  },
+  {
+    "date": "2023-08-14T00:00:00",
+    "netAsset": 300002560185800,
+    "unitsSubDAY": 3347687,
+    "unitsRedDAY": 1330883
+  },
+  {
+    "date": "2023-08-15T00:00:00",
+    "netAsset": 300002437020300,
+    "unitsSubDAY": 1967929,
+    "unitsRedDAY": 3199584
+  },
+  {
+    "date": "2023-08-16T00:00:00",
+    "netAsset": 300002562343500,
+    "unitsSubDAY": 3175540,
+    "unitsRedDAY": 1922308
+  },
+  {
+    "date": "2023-08-17T00:00:00",
+    "netAsset": 300002694775600,
+    "unitsSubDAY": 3488791,
+    "unitsRedDAY": 2164470
+  },
+  {
+    "date": "2023-08-18T00:00:00",
+    "netAsset": 300002664004000,
+    "unitsSubDAY": 1956287,
+    "unitsRedDAY": 2264003
+  },
+  {
+    "date": "2023-08-19T00:00:00",
+    "netAsset": 300002802574600,
+    "unitsSubDAY": 3426261,
+    "unitsRedDAY": 2040555
   },
   {
     "date": "2023-08-20T00:00:00",
-    "netAsset": 320000000000000,
-    "unitsSubDAY": 2900000,
-    "unitsRedDAY": 1900000
+    "netAsset": 300002795428600,
+    "unitsSubDAY": 1115488,
+    "unitsRedDAY": 1186948
+  },
+  {
+    "date": "2023-08-21T00:00:00",
+    "netAsset": 300002662681300,
+    "unitsSubDAY": 2611811,
+    "unitsRedDAY": 3939284
+  },
+  {
+    "date": "2023-08-22T00:00:00",
+    "netAsset": 300002751440100,
+    "unitsSubDAY": 2273943,
+    "unitsRedDAY": 1386355
+  },
+  {
+    "date": "2023-08-23T00:00:00",
+    "netAsset": 300002710320100,
+    "unitsSubDAY": 2394530,
+    "unitsRedDAY": 2805730
+  },
+  {
+    "date": "2023-08-24T00:00:00",
+    "netAsset": 300002785642100,
+    "unitsSubDAY": 2421214,
+    "unitsRedDAY": 1667994
+  },
+  {
+    "date": "2023-08-25T00:00:00",
+    "netAsset": 300002896498400,
+    "unitsSubDAY": 3985187,
+    "unitsRedDAY": 2876624
+  },
+  {
+    "date": "2023-08-26T00:00:00",
+    "netAsset": 300002823504300,
+    "unitsSubDAY": 1426796,
+    "unitsRedDAY": 2156737
+  },
+  {
+    "date": "2023-08-27T00:00:00",
+    "netAsset": 300002841720500,
+    "unitsSubDAY": 2978442,
+    "unitsRedDAY": 2796280
+  },
+  {
+    "date": "2023-08-28T00:00:00",
+    "netAsset": 300002722745200,
+    "unitsSubDAY": 1675539,
+    "unitsRedDAY": 2865292
+  },
+  {
+    "date": "2023-08-29T00:00:00",
+    "netAsset": 300002710039600,
+    "unitsSubDAY": 3417219,
+    "unitsRedDAY": 3544275
+  },
+  {
+    "date": "2023-08-30T00:00:00",
+    "netAsset": 300002667598000,
+    "unitsSubDAY": 1495439,
+    "unitsRedDAY": 1919855
+  },
+  {
+    "date": "2023-08-31T00:00:00",
+    "netAsset": 300002601829500,
+    "unitsSubDAY": 1777139,
+    "unitsRedDAY": 2434824
+  },
+  {
+    "date": "2023-09-01T00:00:00",
+    "netAsset": 300002568740600,
+    "unitsSubDAY": 1358149,
+    "unitsRedDAY": 1689038
+  },
+  {
+    "date": "2023-09-02T00:00:00",
+    "netAsset": 300002634625700,
+    "unitsSubDAY": 2556205,
+    "unitsRedDAY": 1897354
+  },
+  {
+    "date": "2023-09-03T00:00:00",
+    "netAsset": 300002834036200,
+    "unitsSubDAY": 3407967,
+    "unitsRedDAY": 1413862
+  },
+  {
+    "date": "2023-09-04T00:00:00",
+    "netAsset": 300002595348600,
+    "unitsSubDAY": 1060601,
+    "unitsRedDAY": 3447477
+  },
+  {
+    "date": "2023-09-05T00:00:00",
+    "netAsset": 300002578596700,
+    "unitsSubDAY": 2863993,
+    "unitsRedDAY": 3031512
+  },
+  {
+    "date": "2023-09-06T00:00:00",
+    "netAsset": 300002451011100,
+    "unitsSubDAY": 2250380,
+    "unitsRedDAY": 3526236
+  },
+  {
+    "date": "2023-09-07T00:00:00",
+    "netAsset": 300002441916200,
+    "unitsSubDAY": 2689415,
+    "unitsRedDAY": 2780364
+  },
+  {
+    "date": "2023-09-08T00:00:00",
+    "netAsset": 300002511397000,
+    "unitsSubDAY": 2070821,
+    "unitsRedDAY": 1376013
+  },
+  {
+    "date": "2023-09-09T00:00:00",
+    "netAsset": 300002312290000,
+    "unitsSubDAY": 1924822,
+    "unitsRedDAY": 3915892
+  },
+  {
+    "date": "2023-09-10T00:00:00",
+    "netAsset": 300002293570100,
+    "unitsSubDAY": 1585662,
+    "unitsRedDAY": 1772861
+  },
+  {
+    "date": "2023-09-11T00:00:00",
+    "netAsset": 300002219617400,
+    "unitsSubDAY": 3001813,
+    "unitsRedDAY": 3741340
+  },
+  {
+    "date": "2023-09-12T00:00:00",
+    "netAsset": 300002070243900,
+    "unitsSubDAY": 1931766,
+    "unitsRedDAY": 3425501
+  },
+  {
+    "date": "2023-09-13T00:00:00",
+    "netAsset": 300001954709600,
+    "unitsSubDAY": 2374962,
+    "unitsRedDAY": 3530305
+  },
+  {
+    "date": "2023-09-14T00:00:00",
+    "netAsset": 300001911754300,
+    "unitsSubDAY": 2997427,
+    "unitsRedDAY": 3426980
+  },
+  {
+    "date": "2023-09-15T00:00:00",
+    "netAsset": 300001984150500,
+    "unitsSubDAY": 2954286,
+    "unitsRedDAY": 2230324
+  },
+  {
+    "date": "2023-09-16T00:00:00",
+    "netAsset": 300002054036900,
+    "unitsSubDAY": 1951276,
+    "unitsRedDAY": 1252412
+  },
+  {
+    "date": "2023-09-17T00:00:00",
+    "netAsset": 300001916111000,
+    "unitsSubDAY": 1725137,
+    "unitsRedDAY": 3104396
+  },
+  {
+    "date": "2023-09-18T00:00:00",
+    "netAsset": 300002012728900,
+    "unitsSubDAY": 2689943,
+    "unitsRedDAY": 1723764
   },
   {
     "date": "2023-09-19T00:00:00",
-    "netAsset": 325000000000000,
-    "unitsSubDAY": 3000000,
-    "unitsRedDAY": 2000000
+    "netAsset": 300001976219700,
+    "unitsSubDAY": 1819958,
+    "unitsRedDAY": 2185050
+  },
+  {
+    "date": "2023-09-20T00:00:00",
+    "netAsset": 300001883663000,
+    "unitsSubDAY": 2999075,
+    "unitsRedDAY": 3924642
+  },
+  {
+    "date": "2023-09-21T00:00:00",
+    "netAsset": 300001783161900,
+    "unitsSubDAY": 1440952,
+    "unitsRedDAY": 2445963
+  },
+  {
+    "date": "2023-09-22T00:00:00",
+    "netAsset": 300001661311000,
+    "unitsSubDAY": 1591104,
+    "unitsRedDAY": 2809613
+  },
+  {
+    "date": "2023-09-23T00:00:00",
+    "netAsset": 300001743544100,
+    "unitsSubDAY": 2632693,
+    "unitsRedDAY": 1810362
+  },
+  {
+    "date": "2023-09-24T00:00:00",
+    "netAsset": 300001588247800,
+    "unitsSubDAY": 1432857,
+    "unitsRedDAY": 2985820
+  },
+  {
+    "date": "2023-09-25T00:00:00",
+    "netAsset": 300001756480600,
+    "unitsSubDAY": 3113918,
+    "unitsRedDAY": 1431590
+  },
+  {
+    "date": "2023-09-26T00:00:00",
+    "netAsset": 300001646656600,
+    "unitsSubDAY": 1578455,
+    "unitsRedDAY": 2676695
+  },
+  {
+    "date": "2023-09-27T00:00:00",
+    "netAsset": 300001448028100,
+    "unitsSubDAY": 1268290,
+    "unitsRedDAY": 3254575
+  },
+  {
+    "date": "2023-09-28T00:00:00",
+    "netAsset": 300001441313400,
+    "unitsSubDAY": 1533020,
+    "unitsRedDAY": 1600167
+  },
+  {
+    "date": "2023-09-29T00:00:00",
+    "netAsset": 300001280316300,
+    "unitsSubDAY": 2379701,
+    "unitsRedDAY": 3989672
+  },
+  {
+    "date": "2023-09-30T00:00:00",
+    "netAsset": 300001291652900,
+    "unitsSubDAY": 3227881,
+    "unitsRedDAY": 3114515
+  },
+  {
+    "date": "2023-10-01T00:00:00",
+    "netAsset": 300001210945300,
+    "unitsSubDAY": 1840699,
+    "unitsRedDAY": 2647775
+  },
+  {
+    "date": "2023-10-02T00:00:00",
+    "netAsset": 300001188446400,
+    "unitsSubDAY": 1742479,
+    "unitsRedDAY": 1967468
+  },
+  {
+    "date": "2023-10-03T00:00:00",
+    "netAsset": 300001185658200,
+    "unitsSubDAY": 2323948,
+    "unitsRedDAY": 2351830
+  },
+  {
+    "date": "2023-10-04T00:00:00",
+    "netAsset": 300001272121100,
+    "unitsSubDAY": 2294289,
+    "unitsRedDAY": 1429660
+  },
+  {
+    "date": "2023-10-05T00:00:00",
+    "netAsset": 300001261805000,
+    "unitsSubDAY": 2779197,
+    "unitsRedDAY": 2882358
+  },
+  {
+    "date": "2023-10-06T00:00:00",
+    "netAsset": 300001099347600,
+    "unitsSubDAY": 1338845,
+    "unitsRedDAY": 2963419
+  },
+  {
+    "date": "2023-10-07T00:00:00",
+    "netAsset": 300001180159500,
+    "unitsSubDAY": 2375585,
+    "unitsRedDAY": 1567466
+  },
+  {
+    "date": "2023-10-08T00:00:00",
+    "netAsset": 300001159284600,
+    "unitsSubDAY": 2082149,
+    "unitsRedDAY": 2290898
+  },
+  {
+    "date": "2023-10-09T00:00:00",
+    "netAsset": 300001207192200,
+    "unitsSubDAY": 3966462,
+    "unitsRedDAY": 3487386
+  },
+  {
+    "date": "2023-10-10T00:00:00",
+    "netAsset": 300001186743000,
+    "unitsSubDAY": 2369150,
+    "unitsRedDAY": 2573642
+  },
+  {
+    "date": "2023-10-11T00:00:00",
+    "netAsset": 300000916934900,
+    "unitsSubDAY": 1074505,
+    "unitsRedDAY": 3772586
+  },
+  {
+    "date": "2023-10-12T00:00:00",
+    "netAsset": 300000839878600,
+    "unitsSubDAY": 2555647,
+    "unitsRedDAY": 3326210
+  },
+  {
+    "date": "2023-10-13T00:00:00",
+    "netAsset": 300000877647200,
+    "unitsSubDAY": 1855221,
+    "unitsRedDAY": 1477535
+  },
+  {
+    "date": "2023-10-14T00:00:00",
+    "netAsset": 300000942472300,
+    "unitsSubDAY": 3217768,
+    "unitsRedDAY": 2569517
+  },
+  {
+    "date": "2023-10-15T00:00:00",
+    "netAsset": 300001102914500,
+    "unitsSubDAY": 2955761,
+    "unitsRedDAY": 1351339
+  },
+  {
+    "date": "2023-10-16T00:00:00",
+    "netAsset": 300001092679400,
+    "unitsSubDAY": 2611909,
+    "unitsRedDAY": 2714260
+  },
+  {
+    "date": "2023-10-17T00:00:00",
+    "netAsset": 300001077617000,
+    "unitsSubDAY": 1544051,
+    "unitsRedDAY": 1694675
+  },
+  {
+    "date": "2023-10-18T00:00:00",
+    "netAsset": 300001102761400,
+    "unitsSubDAY": 3792290,
+    "unitsRedDAY": 3540846
   },
   {
     "date": "2023-10-19T00:00:00",
-    "netAsset": 330000000000000,
-    "unitsSubDAY": 3100000,
-    "unitsRedDAY": 2100000
+    "netAsset": 300001187584700,
+    "unitsSubDAY": 3550123,
+    "unitsRedDAY": 2701890
+  },
+  {
+    "date": "2023-10-20T00:00:00",
+    "netAsset": 300001094688300,
+    "unitsSubDAY": 2182407,
+    "unitsRedDAY": 3111371
+  },
+  {
+    "date": "2023-10-21T00:00:00",
+    "netAsset": 300001063371100,
+    "unitsSubDAY": 1460337,
+    "unitsRedDAY": 1773509
+  },
+  {
+    "date": "2023-10-22T00:00:00",
+    "netAsset": 300001069288300,
+    "unitsSubDAY": 3816345,
+    "unitsRedDAY": 3757173
+  },
+  {
+    "date": "2023-10-23T00:00:00",
+    "netAsset": 300001089521800,
+    "unitsSubDAY": 1750011,
+    "unitsRedDAY": 1547676
+  },
+  {
+    "date": "2023-10-24T00:00:00",
+    "netAsset": 300001189434500,
+    "unitsSubDAY": 2729152,
+    "unitsRedDAY": 1730025
+  },
+  {
+    "date": "2023-10-25T00:00:00",
+    "netAsset": 300001172996300,
+    "unitsSubDAY": 3179310,
+    "unitsRedDAY": 3343692
+  },
+  {
+    "date": "2023-10-26T00:00:00",
+    "netAsset": 300001113165300,
+    "unitsSubDAY": 2543922,
+    "unitsRedDAY": 3142232
+  },
+  {
+    "date": "2023-10-27T00:00:00",
+    "netAsset": 300000825936400,
+    "unitsSubDAY": 1075895,
+    "unitsRedDAY": 3948184
+  },
+  {
+    "date": "2023-10-28T00:00:00",
+    "netAsset": 300000770227000,
+    "unitsSubDAY": 2450313,
+    "unitsRedDAY": 3007407
+  },
+  {
+    "date": "2023-10-29T00:00:00",
+    "netAsset": 300000596034400,
+    "unitsSubDAY": 1371379,
+    "unitsRedDAY": 3113305
+  },
+  {
+    "date": "2023-10-30T00:00:00",
+    "netAsset": 300000713328400,
+    "unitsSubDAY": 3350693,
+    "unitsRedDAY": 2177753
+  },
+  {
+    "date": "2023-10-31T00:00:00",
+    "netAsset": 300000773923100,
+    "unitsSubDAY": 3282670,
+    "unitsRedDAY": 2676723
+  },
+  {
+    "date": "2023-11-01T00:00:00",
+    "netAsset": 300000903865000,
+    "unitsSubDAY": 2648969,
+    "unitsRedDAY": 1349550
+  },
+  {
+    "date": "2023-11-02T00:00:00",
+    "netAsset": 300000990143600,
+    "unitsSubDAY": 2990894,
+    "unitsRedDAY": 2128108
+  },
+  {
+    "date": "2023-11-03T00:00:00",
+    "netAsset": 300000939007700,
+    "unitsSubDAY": 3342157,
+    "unitsRedDAY": 3853516
+  },
+  {
+    "date": "2023-11-04T00:00:00",
+    "netAsset": 300001110584100,
+    "unitsSubDAY": 3222104,
+    "unitsRedDAY": 1506340
+  },
+  {
+    "date": "2023-11-05T00:00:00",
+    "netAsset": 300001016090900,
+    "unitsSubDAY": 2414346,
+    "unitsRedDAY": 3359278
+  },
+  {
+    "date": "2023-11-06T00:00:00",
+    "netAsset": 300001215134300,
+    "unitsSubDAY": 3754903,
+    "unitsRedDAY": 1764469
+  },
+  {
+    "date": "2023-11-07T00:00:00",
+    "netAsset": 300001229470400,
+    "unitsSubDAY": 1341817,
+    "unitsRedDAY": 1198456
+  },
+  {
+    "date": "2023-11-08T00:00:00",
+    "netAsset": 300001338961000,
+    "unitsSubDAY": 3549390,
+    "unitsRedDAY": 2454484
+  },
+  {
+    "date": "2023-11-09T00:00:00",
+    "netAsset": 300001351443600,
+    "unitsSubDAY": 1315582,
+    "unitsRedDAY": 1190756
+  },
+  {
+    "date": "2023-11-10T00:00:00",
+    "netAsset": 300001362251300,
+    "unitsSubDAY": 3878075,
+    "unitsRedDAY": 3769998
+  },
+  {
+    "date": "2023-11-11T00:00:00",
+    "netAsset": 300001247602300,
+    "unitsSubDAY": 1244895,
+    "unitsRedDAY": 2391385
+  },
+  {
+    "date": "2023-11-12T00:00:00",
+    "netAsset": 300001207110400,
+    "unitsSubDAY": 3366689,
+    "unitsRedDAY": 3771608
+  },
+  {
+    "date": "2023-11-13T00:00:00",
+    "netAsset": 300001283752800,
+    "unitsSubDAY": 2384579,
+    "unitsRedDAY": 1618155
+  },
+  {
+    "date": "2023-11-14T00:00:00",
+    "netAsset": 300001156259600,
+    "unitsSubDAY": 1177444,
+    "unitsRedDAY": 2452376
+  },
+  {
+    "date": "2023-11-15T00:00:00",
+    "netAsset": 300001257450100,
+    "unitsSubDAY": 3771931,
+    "unitsRedDAY": 2760026
+  },
+  {
+    "date": "2023-11-16T00:00:00",
+    "netAsset": 300001223685400,
+    "unitsSubDAY": 3635652,
+    "unitsRedDAY": 3973299
+  },
+  {
+    "date": "2023-11-17T00:00:00",
+    "netAsset": 300001107923600,
+    "unitsSubDAY": 1140829,
+    "unitsRedDAY": 2298447
   },
   {
     "date": "2023-11-18T00:00:00",
-    "netAsset": 335000000000000,
-    "unitsSubDAY": 3200000,
-    "unitsRedDAY": 2200000
+    "netAsset": 300001103872900,
+    "unitsSubDAY": 3362841,
+    "unitsRedDAY": 3403348
+  },
+  {
+    "date": "2023-11-19T00:00:00",
+    "netAsset": 300001198990000,
+    "unitsSubDAY": 3125576,
+    "unitsRedDAY": 2174405
+  },
+  {
+    "date": "2023-11-20T00:00:00",
+    "netAsset": 300001360062100,
+    "unitsSubDAY": 2670688,
+    "unitsRedDAY": 1059967
+  },
+  {
+    "date": "2023-11-21T00:00:00",
+    "netAsset": 300001374730400,
+    "unitsSubDAY": 2756980,
+    "unitsRedDAY": 2610297
+  },
+  {
+    "date": "2023-11-22T00:00:00",
+    "netAsset": 300001577667900,
+    "unitsSubDAY": 3597521,
+    "unitsRedDAY": 1568146
+  },
+  {
+    "date": "2023-11-23T00:00:00",
+    "netAsset": 300001568288900,
+    "unitsSubDAY": 1294037,
+    "unitsRedDAY": 1387827
+  },
+  {
+    "date": "2023-11-24T00:00:00",
+    "netAsset": 300001613695700,
+    "unitsSubDAY": 1646718,
+    "unitsRedDAY": 1192650
+  },
+  {
+    "date": "2023-11-25T00:00:00",
+    "netAsset": 300001466885700,
+    "unitsSubDAY": 1461405,
+    "unitsRedDAY": 2929505
+  },
+  {
+    "date": "2023-11-26T00:00:00",
+    "netAsset": 300001520661400,
+    "unitsSubDAY": 2300759,
+    "unitsRedDAY": 1763002
+  },
+  {
+    "date": "2023-11-27T00:00:00",
+    "netAsset": 300001665875400,
+    "unitsSubDAY": 2768910,
+    "unitsRedDAY": 1316770
+  },
+  {
+    "date": "2023-11-28T00:00:00",
+    "netAsset": 300001536357400,
+    "unitsSubDAY": 2394399,
+    "unitsRedDAY": 3689579
+  },
+  {
+    "date": "2023-11-29T00:00:00",
+    "netAsset": 300001522011500,
+    "unitsSubDAY": 3232589,
+    "unitsRedDAY": 3376048
+  },
+  {
+    "date": "2023-11-30T00:00:00",
+    "netAsset": 300001377658900,
+    "unitsSubDAY": 2154024,
+    "unitsRedDAY": 3597550
+  },
+  {
+    "date": "2023-12-01T00:00:00",
+    "netAsset": 300001662126500,
+    "unitsSubDAY": 3855936,
+    "unitsRedDAY": 1011260
+  },
+  {
+    "date": "2023-12-02T00:00:00",
+    "netAsset": 300001634939200,
+    "unitsSubDAY": 2621282,
+    "unitsRedDAY": 2893155
+  },
+  {
+    "date": "2023-12-03T00:00:00",
+    "netAsset": 300001620163700,
+    "unitsSubDAY": 3043175,
+    "unitsRedDAY": 3190930
+  },
+  {
+    "date": "2023-12-04T00:00:00",
+    "netAsset": 300001404630000,
+    "unitsSubDAY": 1413152,
+    "unitsRedDAY": 3568489
+  },
+  {
+    "date": "2023-12-05T00:00:00",
+    "netAsset": 300001439649800,
+    "unitsSubDAY": 2361185,
+    "unitsRedDAY": 2010987
+  },
+  {
+    "date": "2023-12-06T00:00:00",
+    "netAsset": 300001369030900,
+    "unitsSubDAY": 2244977,
+    "unitsRedDAY": 2951166
+  },
+  {
+    "date": "2023-12-07T00:00:00",
+    "netAsset": 300001400682400,
+    "unitsSubDAY": 3221608,
+    "unitsRedDAY": 2905093
+  },
+  {
+    "date": "2023-12-08T00:00:00",
+    "netAsset": 300001542266400,
+    "unitsSubDAY": 3297325,
+    "unitsRedDAY": 1881485
+  },
+  {
+    "date": "2023-12-09T00:00:00",
+    "netAsset": 300001554324300,
+    "unitsSubDAY": 2425591,
+    "unitsRedDAY": 2305012
+  },
+  {
+    "date": "2023-12-10T00:00:00",
+    "netAsset": 300001405692200,
+    "unitsSubDAY": 2104810,
+    "unitsRedDAY": 3591131
+  },
+  {
+    "date": "2023-12-11T00:00:00",
+    "netAsset": 300001209735700,
+    "unitsSubDAY": 1132997,
+    "unitsRedDAY": 3092562
+  },
+  {
+    "date": "2023-12-12T00:00:00",
+    "netAsset": 300000989358300,
+    "unitsSubDAY": 1202927,
+    "unitsRedDAY": 3406701
+  },
+  {
+    "date": "2023-12-13T00:00:00",
+    "netAsset": 300000971401000,
+    "unitsSubDAY": 1611194,
+    "unitsRedDAY": 1790767
+  },
+  {
+    "date": "2023-12-14T00:00:00",
+    "netAsset": 300000965711800,
+    "unitsSubDAY": 3608906,
+    "unitsRedDAY": 3665798
+  },
+  {
+    "date": "2023-12-15T00:00:00",
+    "netAsset": 300000849344700,
+    "unitsSubDAY": 2532834,
+    "unitsRedDAY": 3696505
+  },
+  {
+    "date": "2023-12-16T00:00:00",
+    "netAsset": 300000842142600,
+    "unitsSubDAY": 2305143,
+    "unitsRedDAY": 2377164
+  },
+  {
+    "date": "2023-12-17T00:00:00",
+    "netAsset": 300001053176300,
+    "unitsSubDAY": 3420941,
+    "unitsRedDAY": 1310604
   },
   {
     "date": "2023-12-18T00:00:00",
-    "netAsset": 340000000000000,
-    "unitsSubDAY": 3300000,
-    "unitsRedDAY": 2300000
+    "netAsset": 300001135783000,
+    "unitsSubDAY": 3768940,
+    "unitsRedDAY": 2942873
+  },
+  {
+    "date": "2023-12-19T00:00:00",
+    "netAsset": 300001293745900,
+    "unitsSubDAY": 3252405,
+    "unitsRedDAY": 1672776
+  },
+  {
+    "date": "2023-12-20T00:00:00",
+    "netAsset": 300001197729000,
+    "unitsSubDAY": 2645147,
+    "unitsRedDAY": 3605316
+  },
+  {
+    "date": "2023-12-21T00:00:00",
+    "netAsset": 300001039556100,
+    "unitsSubDAY": 1402281,
+    "unitsRedDAY": 2984010
+  },
+  {
+    "date": "2023-12-22T00:00:00",
+    "netAsset": 300001063310800,
+    "unitsSubDAY": 2357877,
+    "unitsRedDAY": 2120330
+  },
+  {
+    "date": "2023-12-23T00:00:00",
+    "netAsset": 300000948997200,
+    "unitsSubDAY": 1948505,
+    "unitsRedDAY": 3091641
+  },
+  {
+    "date": "2023-12-24T00:00:00",
+    "netAsset": 300001077154900,
+    "unitsSubDAY": 2404903,
+    "unitsRedDAY": 1123326
+  },
+  {
+    "date": "2023-12-25T00:00:00",
+    "netAsset": 300001222807500,
+    "unitsSubDAY": 2596923,
+    "unitsRedDAY": 1140397
+  },
+  {
+    "date": "2023-12-26T00:00:00",
+    "netAsset": 300001161959200,
+    "unitsSubDAY": 2365829,
+    "unitsRedDAY": 2974312
+  },
+  {
+    "date": "2023-12-27T00:00:00",
+    "netAsset": 300001203961800,
+    "unitsSubDAY": 3328536,
+    "unitsRedDAY": 2908510
+  },
+  {
+    "date": "2023-12-28T00:00:00",
+    "netAsset": 300001202871400,
+    "unitsSubDAY": 1463602,
+    "unitsRedDAY": 1474506
+  },
+  {
+    "date": "2023-12-29T00:00:00",
+    "netAsset": 300001196939500,
+    "unitsSubDAY": 2252325,
+    "unitsRedDAY": 2311644
+  },
+  {
+    "date": "2023-12-30T00:00:00",
+    "netAsset": 300001038495600,
+    "unitsSubDAY": 1071992,
+    "unitsRedDAY": 2656431
+  },
+  {
+    "date": "2023-12-31T00:00:00",
+    "netAsset": 300000852229400,
+    "unitsSubDAY": 1796330,
+    "unitsRedDAY": 3658992
+  },
+  {
+    "date": "2024-01-01T00:00:00",
+    "netAsset": 300001056110900,
+    "unitsSubDAY": 3501788,
+    "unitsRedDAY": 1462973
+  },
+  {
+    "date": "2024-01-02T00:00:00",
+    "netAsset": 300001160395500,
+    "unitsSubDAY": 2925208,
+    "unitsRedDAY": 1882362
+  },
+  {
+    "date": "2024-01-03T00:00:00",
+    "netAsset": 300001151585200,
+    "unitsSubDAY": 1665852,
+    "unitsRedDAY": 1753955
+  },
+  {
+    "date": "2024-01-04T00:00:00",
+    "netAsset": 300001038176600,
+    "unitsSubDAY": 1711637,
+    "unitsRedDAY": 2845723
+  },
+  {
+    "date": "2024-01-05T00:00:00",
+    "netAsset": 300001092095900,
+    "unitsSubDAY": 3222211,
+    "unitsRedDAY": 2683018
+  },
+  {
+    "date": "2024-01-06T00:00:00",
+    "netAsset": 300001192722500,
+    "unitsSubDAY": 2281525,
+    "unitsRedDAY": 1275259
+  },
+  {
+    "date": "2024-01-07T00:00:00",
+    "netAsset": 300001226965000,
+    "unitsSubDAY": 3461231,
+    "unitsRedDAY": 3118806
+  },
+  {
+    "date": "2024-01-08T00:00:00",
+    "netAsset": 300001199230100,
+    "unitsSubDAY": 1055911,
+    "unitsRedDAY": 1333260
+  },
+  {
+    "date": "2024-01-09T00:00:00",
+    "netAsset": 300001089158300,
+    "unitsSubDAY": 1108877,
+    "unitsRedDAY": 2209595
+  },
+  {
+    "date": "2024-01-10T00:00:00",
+    "netAsset": 300001180777300,
+    "unitsSubDAY": 2530617,
+    "unitsRedDAY": 1614427
+  },
+  {
+    "date": "2024-01-11T00:00:00",
+    "netAsset": 300001191810700,
+    "unitsSubDAY": 2607562,
+    "unitsRedDAY": 2497228
+  },
+  {
+    "date": "2024-01-12T00:00:00",
+    "netAsset": 300001283257600,
+    "unitsSubDAY": 2409005,
+    "unitsRedDAY": 1494536
+  },
+  {
+    "date": "2024-01-13T00:00:00",
+    "netAsset": 300001431904100,
+    "unitsSubDAY": 2518431,
+    "unitsRedDAY": 1031966
+  },
+  {
+    "date": "2024-01-14T00:00:00",
+    "netAsset": 300001533968300,
+    "unitsSubDAY": 3342020,
+    "unitsRedDAY": 2321378
+  },
+  {
+    "date": "2024-01-15T00:00:00",
+    "netAsset": 300001508960200,
+    "unitsSubDAY": 2503336,
+    "unitsRedDAY": 2753417
+  },
+  {
+    "date": "2024-01-16T00:00:00",
+    "netAsset": 300001338090600,
+    "unitsSubDAY": 1992495,
+    "unitsRedDAY": 3701191
   },
   {
     "date": "2024-01-17T00:00:00",
-    "netAsset": 345000000000000,
-    "unitsSubDAY": 3400000,
-    "unitsRedDAY": 2400000
+    "netAsset": 300001443838400,
+    "unitsSubDAY": 2348317,
+    "unitsRedDAY": 1290839
+  },
+  {
+    "date": "2024-01-18T00:00:00",
+    "netAsset": 300001549552600,
+    "unitsSubDAY": 2151558,
+    "unitsRedDAY": 1094416
+  },
+  {
+    "date": "2024-01-19T00:00:00",
+    "netAsset": 300001585497200,
+    "unitsSubDAY": 2326627,
+    "unitsRedDAY": 1967181
+  },
+  {
+    "date": "2024-01-20T00:00:00",
+    "netAsset": 300001717434600,
+    "unitsSubDAY": 3504988,
+    "unitsRedDAY": 2185614
+  },
+  {
+    "date": "2024-01-21T00:00:00",
+    "netAsset": 300001734881500,
+    "unitsSubDAY": 2254190,
+    "unitsRedDAY": 2079721
+  },
+  {
+    "date": "2024-01-22T00:00:00",
+    "netAsset": 300001779393300,
+    "unitsSubDAY": 3712722,
+    "unitsRedDAY": 3267604
+  },
+  {
+    "date": "2024-01-23T00:00:00",
+    "netAsset": 300001732585100,
+    "unitsSubDAY": 2169942,
+    "unitsRedDAY": 2638024
+  },
+  {
+    "date": "2024-01-24T00:00:00",
+    "netAsset": 300001902575000,
+    "unitsSubDAY": 3747648,
+    "unitsRedDAY": 2047749
+  },
+  {
+    "date": "2024-01-25T00:00:00",
+    "netAsset": 300001864573500,
+    "unitsSubDAY": 2918808,
+    "unitsRedDAY": 3298823
+  },
+  {
+    "date": "2024-01-26T00:00:00",
+    "netAsset": 300001941604800,
+    "unitsSubDAY": 1990842,
+    "unitsRedDAY": 1220529
+  },
+  {
+    "date": "2024-01-27T00:00:00",
+    "netAsset": 300002227289100,
+    "unitsSubDAY": 3879219,
+    "unitsRedDAY": 1022376
+  },
+  {
+    "date": "2024-01-28T00:00:00",
+    "netAsset": 300002201428600,
+    "unitsSubDAY": 2145448,
+    "unitsRedDAY": 2404053
+  },
+  {
+    "date": "2024-01-29T00:00:00",
+    "netAsset": 300002391391800,
+    "unitsSubDAY": 3044278,
+    "unitsRedDAY": 1144646
+  },
+  {
+    "date": "2024-01-30T00:00:00",
+    "netAsset": 300002554982500,
+    "unitsSubDAY": 3859147,
+    "unitsRedDAY": 2223240
+  },
+  {
+    "date": "2024-01-31T00:00:00",
+    "netAsset": 300002530137100,
+    "unitsSubDAY": 2327885,
+    "unitsRedDAY": 2576339
+  },
+  {
+    "date": "2024-02-01T00:00:00",
+    "netAsset": 300002426843600,
+    "unitsSubDAY": 2573557,
+    "unitsRedDAY": 3606492
+  },
+  {
+    "date": "2024-02-02T00:00:00",
+    "netAsset": 300002470886100,
+    "unitsSubDAY": 3911386,
+    "unitsRedDAY": 3470961
+  },
+  {
+    "date": "2024-02-03T00:00:00",
+    "netAsset": 300002338789800,
+    "unitsSubDAY": 1093377,
+    "unitsRedDAY": 2414340
+  },
+  {
+    "date": "2024-02-04T00:00:00",
+    "netAsset": 300002098961600,
+    "unitsSubDAY": 1591496,
+    "unitsRedDAY": 3989778
+  },
+  {
+    "date": "2024-02-05T00:00:00",
+    "netAsset": 300002159851000,
+    "unitsSubDAY": 3112483,
+    "unitsRedDAY": 2503589
+  },
+  {
+    "date": "2024-02-06T00:00:00",
+    "netAsset": 300002197101300,
+    "unitsSubDAY": 2579480,
+    "unitsRedDAY": 2206977
+  },
+  {
+    "date": "2024-02-07T00:00:00",
+    "netAsset": 300002246079700,
+    "unitsSubDAY": 2043351,
+    "unitsRedDAY": 1553567
+  },
+  {
+    "date": "2024-02-08T00:00:00",
+    "netAsset": 300002167272700,
+    "unitsSubDAY": 1869543,
+    "unitsRedDAY": 2657613
+  },
+  {
+    "date": "2024-02-09T00:00:00",
+    "netAsset": 300002138109000,
+    "unitsSubDAY": 1425776,
+    "unitsRedDAY": 1717413
+  },
+  {
+    "date": "2024-02-10T00:00:00",
+    "netAsset": 300002108920000,
+    "unitsSubDAY": 1923325,
+    "unitsRedDAY": 2215215
+  },
+  {
+    "date": "2024-02-11T00:00:00",
+    "netAsset": 300002108377900,
+    "unitsSubDAY": 1357716,
+    "unitsRedDAY": 1363137
+  },
+  {
+    "date": "2024-02-12T00:00:00",
+    "netAsset": 300002129172900,
+    "unitsSubDAY": 2516062,
+    "unitsRedDAY": 2308112
+  },
+  {
+    "date": "2024-02-13T00:00:00",
+    "netAsset": 300002161761500,
+    "unitsSubDAY": 3431929,
+    "unitsRedDAY": 3106043
+  },
+  {
+    "date": "2024-02-14T00:00:00",
+    "netAsset": 300002267173000,
+    "unitsSubDAY": 3839972,
+    "unitsRedDAY": 2785857
+  },
+  {
+    "date": "2024-02-15T00:00:00",
+    "netAsset": 300002161285300,
+    "unitsSubDAY": 1022907,
+    "unitsRedDAY": 2081784
   },
   {
     "date": "2024-02-16T00:00:00",
-    "netAsset": 350000000000000,
-    "unitsSubDAY": 3500000,
-    "unitsRedDAY": 2500000
+    "netAsset": 300002134063600,
+    "unitsSubDAY": 2854464,
+    "unitsRedDAY": 3126681
+  },
+  {
+    "date": "2024-02-17T00:00:00",
+    "netAsset": 300002367459500,
+    "unitsSubDAY": 3792799,
+    "unitsRedDAY": 1458840
+  },
+  {
+    "date": "2024-02-18T00:00:00",
+    "netAsset": 300002434500200,
+    "unitsSubDAY": 2421619,
+    "unitsRedDAY": 1751212
+  },
+  {
+    "date": "2024-02-19T00:00:00",
+    "netAsset": 300002152801100,
+    "unitsSubDAY": 1111708,
+    "unitsRedDAY": 3928699
+  },
+  {
+    "date": "2024-02-20T00:00:00",
+    "netAsset": 300001901945600,
+    "unitsSubDAY": 1098419,
+    "unitsRedDAY": 3606974
+  },
+  {
+    "date": "2024-02-21T00:00:00",
+    "netAsset": 300002161854200,
+    "unitsSubDAY": 3983484,
+    "unitsRedDAY": 1384398
+  },
+  {
+    "date": "2024-02-22T00:00:00",
+    "netAsset": 300002131322000,
+    "unitsSubDAY": 2018033,
+    "unitsRedDAY": 2323355
+  },
+  {
+    "date": "2024-02-23T00:00:00",
+    "netAsset": 300002312379000,
+    "unitsSubDAY": 3181466,
+    "unitsRedDAY": 1370896
+  },
+  {
+    "date": "2024-02-24T00:00:00",
+    "netAsset": 300002245602600,
+    "unitsSubDAY": 2228979,
+    "unitsRedDAY": 2896743
+  },
+  {
+    "date": "2024-02-25T00:00:00",
+    "netAsset": 300002042443500,
+    "unitsSubDAY": 1921444,
+    "unitsRedDAY": 3953035
+  },
+  {
+    "date": "2024-02-26T00:00:00",
+    "netAsset": 300002154928000,
+    "unitsSubDAY": 3667079,
+    "unitsRedDAY": 2542234
+  },
+  {
+    "date": "2024-02-27T00:00:00",
+    "netAsset": 300002025839700,
+    "unitsSubDAY": 2065042,
+    "unitsRedDAY": 3355925
+  },
+  {
+    "date": "2024-02-28T00:00:00",
+    "netAsset": 300002020304500,
+    "unitsSubDAY": 1436316,
+    "unitsRedDAY": 1491668
+  },
+  {
+    "date": "2024-02-29T00:00:00",
+    "netAsset": 300002314189400,
+    "unitsSubDAY": 3995261,
+    "unitsRedDAY": 1056412
+  },
+  {
+    "date": "2024-03-01T00:00:00",
+    "netAsset": 300002272136500,
+    "unitsSubDAY": 2486402,
+    "unitsRedDAY": 2906931
+  },
+  {
+    "date": "2024-03-02T00:00:00",
+    "netAsset": 300002263160800,
+    "unitsSubDAY": 2618358,
+    "unitsRedDAY": 2708115
+  },
+  {
+    "date": "2024-03-03T00:00:00",
+    "netAsset": 300002219787500,
+    "unitsSubDAY": 2787578,
+    "unitsRedDAY": 3221311
+  },
+  {
+    "date": "2024-03-04T00:00:00",
+    "netAsset": 300002319213500,
+    "unitsSubDAY": 2100535,
+    "unitsRedDAY": 1106275
+  },
+  {
+    "date": "2024-03-05T00:00:00",
+    "netAsset": 300002333372500,
+    "unitsSubDAY": 2461607,
+    "unitsRedDAY": 2320017
+  },
+  {
+    "date": "2024-03-06T00:00:00",
+    "netAsset": 300002422372000,
+    "unitsSubDAY": 3361843,
+    "unitsRedDAY": 2471848
+  },
+  {
+    "date": "2024-03-07T00:00:00",
+    "netAsset": 300002359950000,
+    "unitsSubDAY": 2488479,
+    "unitsRedDAY": 3112699
+  },
+  {
+    "date": "2024-03-08T00:00:00",
+    "netAsset": 300002196103800,
+    "unitsSubDAY": 1365636,
+    "unitsRedDAY": 3004098
+  },
+  {
+    "date": "2024-03-09T00:00:00",
+    "netAsset": 300002337755200,
+    "unitsSubDAY": 2672756,
+    "unitsRedDAY": 1256242
+  },
+  {
+    "date": "2024-03-10T00:00:00",
+    "netAsset": 300002108034000,
+    "unitsSubDAY": 1086678,
+    "unitsRedDAY": 3383890
+  },
+  {
+    "date": "2024-03-11T00:00:00",
+    "netAsset": 300001990230900,
+    "unitsSubDAY": 2743519,
+    "unitsRedDAY": 3921550
+  },
+  {
+    "date": "2024-03-12T00:00:00",
+    "netAsset": 300001836123700,
+    "unitsSubDAY": 1353798,
+    "unitsRedDAY": 2894870
+  },
+  {
+    "date": "2024-03-13T00:00:00",
+    "netAsset": 300001958233800,
+    "unitsSubDAY": 3420904,
+    "unitsRedDAY": 2199803
+  },
+  {
+    "date": "2024-03-14T00:00:00",
+    "netAsset": 300002010735400,
+    "unitsSubDAY": 2588673,
+    "unitsRedDAY": 2063657
+  },
+  {
+    "date": "2024-03-15T00:00:00",
+    "netAsset": 300002077006000,
+    "unitsSubDAY": 1718380,
+    "unitsRedDAY": 1055674
+  },
+  {
+    "date": "2024-03-16T00:00:00",
+    "netAsset": 300002040337100,
+    "unitsSubDAY": 2284933,
+    "unitsRedDAY": 2651622
   },
   {
     "date": "2024-03-17T00:00:00",
-    "netAsset": 355000000000000,
-    "unitsSubDAY": 3600000,
-    "unitsRedDAY": 2600000
+    "netAsset": 300002100516800,
+    "unitsSubDAY": 2961628,
+    "unitsRedDAY": 2359831
+  },
+  {
+    "date": "2024-03-18T00:00:00",
+    "netAsset": 300002109935200,
+    "unitsSubDAY": 2605102,
+    "unitsRedDAY": 2510918
+  },
+  {
+    "date": "2024-03-19T00:00:00",
+    "netAsset": 300002009397900,
+    "unitsSubDAY": 1337122,
+    "unitsRedDAY": 2342495
+  },
+  {
+    "date": "2024-03-20T00:00:00",
+    "netAsset": 300001873332700,
+    "unitsSubDAY": 1714560,
+    "unitsRedDAY": 3075212
+  },
+  {
+    "date": "2024-03-21T00:00:00",
+    "netAsset": 300001867080000,
+    "unitsSubDAY": 2673665,
+    "unitsRedDAY": 2736192
+  },
+  {
+    "date": "2024-03-22T00:00:00",
+    "netAsset": 300001822537600,
+    "unitsSubDAY": 2516173,
+    "unitsRedDAY": 2961597
+  },
+  {
+    "date": "2024-03-23T00:00:00",
+    "netAsset": 300001845901000,
+    "unitsSubDAY": 3332115,
+    "unitsRedDAY": 3098481
+  },
+  {
+    "date": "2024-03-24T00:00:00",
+    "netAsset": 300001983266300,
+    "unitsSubDAY": 2816221,
+    "unitsRedDAY": 1442568
+  },
+  {
+    "date": "2024-03-25T00:00:00",
+    "netAsset": 300001883368700,
+    "unitsSubDAY": 2208211,
+    "unitsRedDAY": 3207187
+  },
+  {
+    "date": "2024-03-26T00:00:00",
+    "netAsset": 300001912074600,
+    "unitsSubDAY": 2395900,
+    "unitsRedDAY": 2108841
+  },
+  {
+    "date": "2024-03-27T00:00:00",
+    "netAsset": 300002206788700,
+    "unitsSubDAY": 3987838,
+    "unitsRedDAY": 1040697
+  },
+  {
+    "date": "2024-03-28T00:00:00",
+    "netAsset": 300002386177300,
+    "unitsSubDAY": 2811128,
+    "unitsRedDAY": 1017242
+  },
+  {
+    "date": "2024-03-29T00:00:00",
+    "netAsset": 300002355768200,
+    "unitsSubDAY": 1572896,
+    "unitsRedDAY": 1876987
+  },
+  {
+    "date": "2024-03-30T00:00:00",
+    "netAsset": 300002503871500,
+    "unitsSubDAY": 3061669,
+    "unitsRedDAY": 1580636
+  },
+  {
+    "date": "2024-03-31T00:00:00",
+    "netAsset": 300002242572600,
+    "unitsSubDAY": 1352846,
+    "unitsRedDAY": 3965835
+  },
+  {
+    "date": "2024-04-01T00:00:00",
+    "netAsset": 300002326702400,
+    "unitsSubDAY": 2207634,
+    "unitsRedDAY": 1366336
+  },
+  {
+    "date": "2024-04-02T00:00:00",
+    "netAsset": 300002114661600,
+    "unitsSubDAY": 1299931,
+    "unitsRedDAY": 3420339
+  },
+  {
+    "date": "2024-04-03T00:00:00",
+    "netAsset": 300001975256200,
+    "unitsSubDAY": 1134909,
+    "unitsRedDAY": 2528963
+  },
+  {
+    "date": "2024-04-04T00:00:00",
+    "netAsset": 300002024007700,
+    "unitsSubDAY": 3186550,
+    "unitsRedDAY": 2699035
+  },
+  {
+    "date": "2024-04-05T00:00:00",
+    "netAsset": 300002232080600,
+    "unitsSubDAY": 3091547,
+    "unitsRedDAY": 1010818
+  },
+  {
+    "date": "2024-04-06T00:00:00",
+    "netAsset": 300002208525600,
+    "unitsSubDAY": 2939195,
+    "unitsRedDAY": 3174745
+  },
+  {
+    "date": "2024-04-07T00:00:00",
+    "netAsset": 300002338451700,
+    "unitsSubDAY": 3087619,
+    "unitsRedDAY": 1788358
+  },
+  {
+    "date": "2024-04-08T00:00:00",
+    "netAsset": 300002437793700,
+    "unitsSubDAY": 2386442,
+    "unitsRedDAY": 1393022
+  },
+  {
+    "date": "2024-04-09T00:00:00",
+    "netAsset": 300002432747000,
+    "unitsSubDAY": 1262555,
+    "unitsRedDAY": 1313022
+  },
+  {
+    "date": "2024-04-10T00:00:00",
+    "netAsset": 300002285334600,
+    "unitsSubDAY": 1980929,
+    "unitsRedDAY": 3455053
+  },
+  {
+    "date": "2024-04-11T00:00:00",
+    "netAsset": 300002361082000,
+    "unitsSubDAY": 1872038,
+    "unitsRedDAY": 1114564
+  },
+  {
+    "date": "2024-04-12T00:00:00",
+    "netAsset": 300002504015200,
+    "unitsSubDAY": 3410895,
+    "unitsRedDAY": 1981563
+  },
+  {
+    "date": "2024-04-13T00:00:00",
+    "netAsset": 300002666241600,
+    "unitsSubDAY": 2626956,
+    "unitsRedDAY": 1004692
+  },
+  {
+    "date": "2024-04-14T00:00:00",
+    "netAsset": 300002608910200,
+    "unitsSubDAY": 1972533,
+    "unitsRedDAY": 2545847
+  },
+  {
+    "date": "2024-04-15T00:00:00",
+    "netAsset": 300002635650100,
+    "unitsSubDAY": 3509427,
+    "unitsRedDAY": 3242028
   },
   {
     "date": "2024-04-16T00:00:00",
-    "netAsset": 360000000000000,
-    "unitsSubDAY": 3700000,
-    "unitsRedDAY": 2700000
+    "netAsset": 300002733138400,
+    "unitsSubDAY": 3726298,
+    "unitsRedDAY": 2751415
+  },
+  {
+    "date": "2024-04-17T00:00:00",
+    "netAsset": 300002795333000,
+    "unitsSubDAY": 3455219,
+    "unitsRedDAY": 2833273
+  },
+  {
+    "date": "2024-04-18T00:00:00",
+    "netAsset": 300002599708700,
+    "unitsSubDAY": 1728151,
+    "unitsRedDAY": 3684394
+  },
+  {
+    "date": "2024-04-19T00:00:00",
+    "netAsset": 300002483994100,
+    "unitsSubDAY": 1791875,
+    "unitsRedDAY": 2949021
+  },
+  {
+    "date": "2024-04-20T00:00:00",
+    "netAsset": 300002448048700,
+    "unitsSubDAY": 2968641,
+    "unitsRedDAY": 3328095
+  },
+  {
+    "date": "2024-04-21T00:00:00",
+    "netAsset": 300002470554200,
+    "unitsSubDAY": 3128643,
+    "unitsRedDAY": 2903588
+  },
+  {
+    "date": "2024-04-22T00:00:00",
+    "netAsset": 300002404992500,
+    "unitsSubDAY": 3228122,
+    "unitsRedDAY": 3883739
+  },
+  {
+    "date": "2024-04-23T00:00:00",
+    "netAsset": 300002581875300,
+    "unitsSubDAY": 3687363,
+    "unitsRedDAY": 1918535
+  },
+  {
+    "date": "2024-04-24T00:00:00",
+    "netAsset": 300002509923300,
+    "unitsSubDAY": 1586884,
+    "unitsRedDAY": 2306404
+  },
+  {
+    "date": "2024-04-25T00:00:00",
+    "netAsset": 300002426783200,
+    "unitsSubDAY": 2873874,
+    "unitsRedDAY": 3705275
+  },
+  {
+    "date": "2024-04-26T00:00:00",
+    "netAsset": 300002331965300,
+    "unitsSubDAY": 1096989,
+    "unitsRedDAY": 2045168
+  },
+  {
+    "date": "2024-04-27T00:00:00",
+    "netAsset": 300002412975100,
+    "unitsSubDAY": 2088238,
+    "unitsRedDAY": 1278140
+  },
+  {
+    "date": "2024-04-28T00:00:00",
+    "netAsset": 300002315997600,
+    "unitsSubDAY": 1369747,
+    "unitsRedDAY": 2339522
+  },
+  {
+    "date": "2024-04-29T00:00:00",
+    "netAsset": 300002124923600,
+    "unitsSubDAY": 1145659,
+    "unitsRedDAY": 3056399
+  },
+  {
+    "date": "2024-04-30T00:00:00",
+    "netAsset": 300002352050900,
+    "unitsSubDAY": 3431562,
+    "unitsRedDAY": 1160289
+  },
+  {
+    "date": "2024-05-01T00:00:00",
+    "netAsset": 300002380977900,
+    "unitsSubDAY": 1667905,
+    "unitsRedDAY": 1378635
+  },
+  {
+    "date": "2024-05-02T00:00:00",
+    "netAsset": 300002556579000,
+    "unitsSubDAY": 3785019,
+    "unitsRedDAY": 2029008
+  },
+  {
+    "date": "2024-05-03T00:00:00",
+    "netAsset": 300002648559200,
+    "unitsSubDAY": 2923945,
+    "unitsRedDAY": 2004143
+  },
+  {
+    "date": "2024-05-04T00:00:00",
+    "netAsset": 300002631428500,
+    "unitsSubDAY": 2752028,
+    "unitsRedDAY": 2923335
+  },
+  {
+    "date": "2024-05-05T00:00:00",
+    "netAsset": 300002709284400,
+    "unitsSubDAY": 1940981,
+    "unitsRedDAY": 1162422
+  },
+  {
+    "date": "2024-05-06T00:00:00",
+    "netAsset": 300002522991500,
+    "unitsSubDAY": 2046347,
+    "unitsRedDAY": 3909276
+  },
+  {
+    "date": "2024-05-07T00:00:00",
+    "netAsset": 300002472035600,
+    "unitsSubDAY": 1709962,
+    "unitsRedDAY": 2219521
+  },
+  {
+    "date": "2024-05-08T00:00:00",
+    "netAsset": 300002548059600,
+    "unitsSubDAY": 2575330,
+    "unitsRedDAY": 1815090
+  },
+  {
+    "date": "2024-05-09T00:00:00",
+    "netAsset": 300002502703100,
+    "unitsSubDAY": 2858942,
+    "unitsRedDAY": 3312507
+  },
+  {
+    "date": "2024-05-10T00:00:00",
+    "netAsset": 300002281235300,
+    "unitsSubDAY": 1099657,
+    "unitsRedDAY": 3314335
+  },
+  {
+    "date": "2024-05-11T00:00:00",
+    "netAsset": 300002029242700,
+    "unitsSubDAY": 1055081,
+    "unitsRedDAY": 3575007
+  },
+  {
+    "date": "2024-05-12T00:00:00",
+    "netAsset": 300001822832900,
+    "unitsSubDAY": 1128227,
+    "unitsRedDAY": 3192325
+  },
+  {
+    "date": "2024-05-13T00:00:00",
+    "netAsset": 300002018722100,
+    "unitsSubDAY": 3150075,
+    "unitsRedDAY": 1191183
+  },
+  {
+    "date": "2024-05-14T00:00:00",
+    "netAsset": 300001855488700,
+    "unitsSubDAY": 1172757,
+    "unitsRedDAY": 2805091
+  },
+  {
+    "date": "2024-05-15T00:00:00",
+    "netAsset": 300001642408300,
+    "unitsSubDAY": 1009472,
+    "unitsRedDAY": 3140276
   },
   {
     "date": "2024-05-16T00:00:00",
-    "netAsset": 365000000000000,
-    "unitsSubDAY": 3800000,
-    "unitsRedDAY": 2800000
+    "netAsset": 300001789034300,
+    "unitsSubDAY": 2507424,
+    "unitsRedDAY": 1041164
+  },
+  {
+    "date": "2024-05-17T00:00:00",
+    "netAsset": 300001619341700,
+    "unitsSubDAY": 1967798,
+    "unitsRedDAY": 3664724
+  },
+  {
+    "date": "2024-05-18T00:00:00",
+    "netAsset": 300001665307000,
+    "unitsSubDAY": 3116045,
+    "unitsRedDAY": 2656392
+  },
+  {
+    "date": "2024-05-19T00:00:00",
+    "netAsset": 300001724323200,
+    "unitsSubDAY": 1945972,
+    "unitsRedDAY": 1355810
+  },
+  {
+    "date": "2024-05-20T00:00:00",
+    "netAsset": 300001736081000,
+    "unitsSubDAY": 1824401,
+    "unitsRedDAY": 1706823
+  },
+  {
+    "date": "2024-05-21T00:00:00",
+    "netAsset": 300001920399800,
+    "unitsSubDAY": 3436663,
+    "unitsRedDAY": 1593475
+  },
+  {
+    "date": "2024-05-22T00:00:00",
+    "netAsset": 300001983145300,
+    "unitsSubDAY": 3935893,
+    "unitsRedDAY": 3308438
+  },
+  {
+    "date": "2024-05-23T00:00:00",
+    "netAsset": 300002144983700,
+    "unitsSubDAY": 3969164,
+    "unitsRedDAY": 2350780
+  },
+  {
+    "date": "2024-05-24T00:00:00",
+    "netAsset": 300002021045900,
+    "unitsSubDAY": 1909701,
+    "unitsRedDAY": 3149079
+  },
+  {
+    "date": "2024-05-25T00:00:00",
+    "netAsset": 300002293554700,
+    "unitsSubDAY": 3956426,
+    "unitsRedDAY": 1231338
+  },
+  {
+    "date": "2024-05-26T00:00:00",
+    "netAsset": 300002235171700,
+    "unitsSubDAY": 1314611,
+    "unitsRedDAY": 1898441
+  },
+  {
+    "date": "2024-05-27T00:00:00",
+    "netAsset": 300002467858400,
+    "unitsSubDAY": 3429450,
+    "unitsRedDAY": 1102583
+  },
+  {
+    "date": "2024-05-28T00:00:00",
+    "netAsset": 300002485568400,
+    "unitsSubDAY": 2765070,
+    "unitsRedDAY": 2587970
+  },
+  {
+    "date": "2024-05-29T00:00:00",
+    "netAsset": 300002551981700,
+    "unitsSubDAY": 3612956,
+    "unitsRedDAY": 2948823
+  },
+  {
+    "date": "2024-05-30T00:00:00",
+    "netAsset": 300002583152900,
+    "unitsSubDAY": 3933157,
+    "unitsRedDAY": 3621445
+  },
+  {
+    "date": "2024-05-31T00:00:00",
+    "netAsset": 300002500996200,
+    "unitsSubDAY": 1037819,
+    "unitsRedDAY": 1859386
+  },
+  {
+    "date": "2024-06-01T00:00:00",
+    "netAsset": 300002421724500,
+    "unitsSubDAY": 3082195,
+    "unitsRedDAY": 3874912
+  },
+  {
+    "date": "2024-06-02T00:00:00",
+    "netAsset": 300002373601600,
+    "unitsSubDAY": 2767332,
+    "unitsRedDAY": 3248561
+  },
+  {
+    "date": "2024-06-03T00:00:00",
+    "netAsset": 300002514559200,
+    "unitsSubDAY": 3820527,
+    "unitsRedDAY": 2410951
+  },
+  {
+    "date": "2024-06-04T00:00:00",
+    "netAsset": 300002532954800,
+    "unitsSubDAY": 2653159,
+    "unitsRedDAY": 2469203
+  },
+  {
+    "date": "2024-06-05T00:00:00",
+    "netAsset": 300002402731400,
+    "unitsSubDAY": 1863369,
+    "unitsRedDAY": 3165603
+  },
+  {
+    "date": "2024-06-06T00:00:00",
+    "netAsset": 300002317181400,
+    "unitsSubDAY": 1487360,
+    "unitsRedDAY": 2342860
+  },
+  {
+    "date": "2024-06-07T00:00:00",
+    "netAsset": 300002388263900,
+    "unitsSubDAY": 2953824,
+    "unitsRedDAY": 2242999
+  },
+  {
+    "date": "2024-06-08T00:00:00",
+    "netAsset": 300002324351900,
+    "unitsSubDAY": 1698651,
+    "unitsRedDAY": 2337771
+  },
+  {
+    "date": "2024-06-09T00:00:00",
+    "netAsset": 300002268518000,
+    "unitsSubDAY": 3007309,
+    "unitsRedDAY": 3565648
+  },
+  {
+    "date": "2024-06-10T00:00:00",
+    "netAsset": 300002180740900,
+    "unitsSubDAY": 1720664,
+    "unitsRedDAY": 2598435
+  },
+  {
+    "date": "2024-06-11T00:00:00",
+    "netAsset": 300002209896800,
+    "unitsSubDAY": 3681446,
+    "unitsRedDAY": 3389887
+  },
+  {
+    "date": "2024-06-12T00:00:00",
+    "netAsset": 300002346937100,
+    "unitsSubDAY": 3856346,
+    "unitsRedDAY": 2485943
+  },
+  {
+    "date": "2024-06-13T00:00:00",
+    "netAsset": 300002475735600,
+    "unitsSubDAY": 2302122,
+    "unitsRedDAY": 1014137
+  },
+  {
+    "date": "2024-06-14T00:00:00",
+    "netAsset": 300002334876200,
+    "unitsSubDAY": 2173975,
+    "unitsRedDAY": 3582569
   },
   {
     "date": "2024-06-15T00:00:00",
-    "netAsset": 370000000000000,
-    "unitsSubDAY": 3900000,
-    "unitsRedDAY": 2900000
+    "netAsset": 300002106839400,
+    "unitsSubDAY": 1199795,
+    "unitsRedDAY": 3480163
+  },
+  {
+    "date": "2024-06-16T00:00:00",
+    "netAsset": 300001948846100,
+    "unitsSubDAY": 1157336,
+    "unitsRedDAY": 2737269
+  },
+  {
+    "date": "2024-06-17T00:00:00",
+    "netAsset": 300001975568100,
+    "unitsSubDAY": 3328384,
+    "unitsRedDAY": 3061164
+  },
+  {
+    "date": "2024-06-18T00:00:00",
+    "netAsset": 300001883362100,
+    "unitsSubDAY": 1324164,
+    "unitsRedDAY": 2246224
+  },
+  {
+    "date": "2024-06-19T00:00:00",
+    "netAsset": 300001917730300,
+    "unitsSubDAY": 3358276,
+    "unitsRedDAY": 3014594
+  },
+  {
+    "date": "2024-06-20T00:00:00",
+    "netAsset": 300001983980200,
+    "unitsSubDAY": 3823476,
+    "unitsRedDAY": 3160977
+  },
+  {
+    "date": "2024-06-21T00:00:00",
+    "netAsset": 300002203056900,
+    "unitsSubDAY": 3963144,
+    "unitsRedDAY": 1772377
+  },
+  {
+    "date": "2024-06-22T00:00:00",
+    "netAsset": 300001971980500,
+    "unitsSubDAY": 1145216,
+    "unitsRedDAY": 3455980
+  },
+  {
+    "date": "2024-06-23T00:00:00",
+    "netAsset": 300001947818200,
+    "unitsSubDAY": 3304451,
+    "unitsRedDAY": 3546074
+  },
+  {
+    "date": "2024-06-24T00:00:00",
+    "netAsset": 300001939911000,
+    "unitsSubDAY": 1704518,
+    "unitsRedDAY": 1783590
+  },
+  {
+    "date": "2024-06-25T00:00:00",
+    "netAsset": 300001985324200,
+    "unitsSubDAY": 2122563,
+    "unitsRedDAY": 1668431
+  },
+  {
+    "date": "2024-06-26T00:00:00",
+    "netAsset": 300001952743800,
+    "unitsSubDAY": 2981147,
+    "unitsRedDAY": 3306951
+  },
+  {
+    "date": "2024-06-27T00:00:00",
+    "netAsset": 300001961875700,
+    "unitsSubDAY": 2583667,
+    "unitsRedDAY": 2492348
+  },
+  {
+    "date": "2024-06-28T00:00:00",
+    "netAsset": 300001986244400,
+    "unitsSubDAY": 2924179,
+    "unitsRedDAY": 2680492
+  },
+  {
+    "date": "2024-06-29T00:00:00",
+    "netAsset": 300001939576700,
+    "unitsSubDAY": 1357622,
+    "unitsRedDAY": 1824299
+  },
+  {
+    "date": "2024-06-30T00:00:00",
+    "netAsset": 300001858220200,
+    "unitsSubDAY": 1134234,
+    "unitsRedDAY": 1947799
+  },
+  {
+    "date": "2024-07-01T00:00:00",
+    "netAsset": 300001783368900,
+    "unitsSubDAY": 1000977,
+    "unitsRedDAY": 1749490
+  },
+  {
+    "date": "2024-07-02T00:00:00",
+    "netAsset": 300001805739500,
+    "unitsSubDAY": 1589418,
+    "unitsRedDAY": 1365712
+  },
+  {
+    "date": "2024-07-03T00:00:00",
+    "netAsset": 300001898348300,
+    "unitsSubDAY": 3555101,
+    "unitsRedDAY": 2629013
+  },
+  {
+    "date": "2024-07-04T00:00:00",
+    "netAsset": 300002003016300,
+    "unitsSubDAY": 3718097,
+    "unitsRedDAY": 2671417
+  },
+  {
+    "date": "2024-07-05T00:00:00",
+    "netAsset": 300002078762400,
+    "unitsSubDAY": 3448467,
+    "unitsRedDAY": 2691006
+  },
+  {
+    "date": "2024-07-06T00:00:00",
+    "netAsset": 300002067221600,
+    "unitsSubDAY": 2841382,
+    "unitsRedDAY": 2956790
+  },
+  {
+    "date": "2024-07-07T00:00:00",
+    "netAsset": 300002223915400,
+    "unitsSubDAY": 2872938,
+    "unitsRedDAY": 1306000
+  },
+  {
+    "date": "2024-07-08T00:00:00",
+    "netAsset": 300002353269800,
+    "unitsSubDAY": 3184070,
+    "unitsRedDAY": 1890526
+  },
+  {
+    "date": "2024-07-09T00:00:00",
+    "netAsset": 300002495657700,
+    "unitsSubDAY": 3286794,
+    "unitsRedDAY": 1862915
+  },
+  {
+    "date": "2024-07-10T00:00:00",
+    "netAsset": 300002693648900,
+    "unitsSubDAY": 3855412,
+    "unitsRedDAY": 1875500
+  },
+  {
+    "date": "2024-07-11T00:00:00",
+    "netAsset": 300002890699400,
+    "unitsSubDAY": 3706727,
+    "unitsRedDAY": 1736222
+  },
+  {
+    "date": "2024-07-12T00:00:00",
+    "netAsset": 300002941725300,
+    "unitsSubDAY": 2319981,
+    "unitsRedDAY": 1809722
+  },
+  {
+    "date": "2024-07-13T00:00:00",
+    "netAsset": 300002921602400,
+    "unitsSubDAY": 2499326,
+    "unitsRedDAY": 2700555
+  },
+  {
+    "date": "2024-07-14T00:00:00",
+    "netAsset": 300003040619500,
+    "unitsSubDAY": 3792587,
+    "unitsRedDAY": 2602416
   },
   {
     "date": "2024-07-15T00:00:00",
-    "netAsset": 375000000000000,
-    "unitsSubDAY": 4000000,
-    "unitsRedDAY": 3000000
+    "netAsset": 300003237399300,
+    "unitsSubDAY": 3188232,
+    "unitsRedDAY": 1220434
+  },
+  {
+    "date": "2024-07-16T00:00:00",
+    "netAsset": 300003075387500,
+    "unitsSubDAY": 2125051,
+    "unitsRedDAY": 3745169
+  },
+  {
+    "date": "2024-07-17T00:00:00",
+    "netAsset": 300003009728100,
+    "unitsSubDAY": 2911204,
+    "unitsRedDAY": 3567798
+  },
+  {
+    "date": "2024-07-18T00:00:00",
+    "netAsset": 300003090282800,
+    "unitsSubDAY": 3768127,
+    "unitsRedDAY": 2962580
+  },
+  {
+    "date": "2024-07-19T00:00:00",
+    "netAsset": 300003072899100,
+    "unitsSubDAY": 1408941,
+    "unitsRedDAY": 1582778
+  },
+  {
+    "date": "2024-07-20T00:00:00",
+    "netAsset": 300003002955200,
+    "unitsSubDAY": 1206297,
+    "unitsRedDAY": 1905736
+  },
+  {
+    "date": "2024-07-21T00:00:00",
+    "netAsset": 300002840142300,
+    "unitsSubDAY": 1980719,
+    "unitsRedDAY": 3608848
+  },
+  {
+    "date": "2024-07-22T00:00:00",
+    "netAsset": 300002845141000,
+    "unitsSubDAY": 1189680,
+    "unitsRedDAY": 1139693
+  },
+  {
+    "date": "2024-07-23T00:00:00",
+    "netAsset": 300002953947300,
+    "unitsSubDAY": 3060659,
+    "unitsRedDAY": 1972596
+  },
+  {
+    "date": "2024-07-24T00:00:00",
+    "netAsset": 300002915561600,
+    "unitsSubDAY": 1498642,
+    "unitsRedDAY": 1882499
+  },
+  {
+    "date": "2024-07-25T00:00:00",
+    "netAsset": 300003095913800,
+    "unitsSubDAY": 2955987,
+    "unitsRedDAY": 1152465
+  },
+  {
+    "date": "2024-07-26T00:00:00",
+    "netAsset": 300003208447900,
+    "unitsSubDAY": 2410443,
+    "unitsRedDAY": 1285102
+  },
+  {
+    "date": "2024-07-27T00:00:00",
+    "netAsset": 300003221702800,
+    "unitsSubDAY": 1159736,
+    "unitsRedDAY": 1027187
+  },
+  {
+    "date": "2024-07-28T00:00:00",
+    "netAsset": 300003205590000,
+    "unitsSubDAY": 2667530,
+    "unitsRedDAY": 2828658
+  },
+  {
+    "date": "2024-07-29T00:00:00",
+    "netAsset": 300003191329000,
+    "unitsSubDAY": 2789368,
+    "unitsRedDAY": 2931978
+  },
+  {
+    "date": "2024-07-30T00:00:00",
+    "netAsset": 300003194199500,
+    "unitsSubDAY": 3618357,
+    "unitsRedDAY": 3589652
+  },
+  {
+    "date": "2024-07-31T00:00:00",
+    "netAsset": 300003104523300,
+    "unitsSubDAY": 1859966,
+    "unitsRedDAY": 2756728
+  },
+  {
+    "date": "2024-08-01T00:00:00",
+    "netAsset": 300002946433900,
+    "unitsSubDAY": 1669359,
+    "unitsRedDAY": 3250253
+  },
+  {
+    "date": "2024-08-02T00:00:00",
+    "netAsset": 300002847289600,
+    "unitsSubDAY": 1749450,
+    "unitsRedDAY": 2740893
+  },
+  {
+    "date": "2024-08-03T00:00:00",
+    "netAsset": 300002945968900,
+    "unitsSubDAY": 2625831,
+    "unitsRedDAY": 1639038
+  },
+  {
+    "date": "2024-08-04T00:00:00",
+    "netAsset": 300002847589500,
+    "unitsSubDAY": 1943272,
+    "unitsRedDAY": 2927066
+  },
+  {
+    "date": "2024-08-05T00:00:00",
+    "netAsset": 300002743218100,
+    "unitsSubDAY": 2337921,
+    "unitsRedDAY": 3381635
+  },
+  {
+    "date": "2024-08-06T00:00:00",
+    "netAsset": 300002697315600,
+    "unitsSubDAY": 1838506,
+    "unitsRedDAY": 2297531
+  },
+  {
+    "date": "2024-08-07T00:00:00",
+    "netAsset": 300002635464600,
+    "unitsSubDAY": 2182744,
+    "unitsRedDAY": 2801254
+  },
+  {
+    "date": "2024-08-08T00:00:00",
+    "netAsset": 300002674138800,
+    "unitsSubDAY": 2170228,
+    "unitsRedDAY": 1783486
+  },
+  {
+    "date": "2024-08-09T00:00:00",
+    "netAsset": 300002703647600,
+    "unitsSubDAY": 1538753,
+    "unitsRedDAY": 1243665
+  },
+  {
+    "date": "2024-08-10T00:00:00",
+    "netAsset": 300002893975000,
+    "unitsSubDAY": 3486113,
+    "unitsRedDAY": 1582839
+  },
+  {
+    "date": "2024-08-11T00:00:00",
+    "netAsset": 300002995207600,
+    "unitsSubDAY": 3884804,
+    "unitsRedDAY": 2872478
+  },
+  {
+    "date": "2024-08-12T00:00:00",
+    "netAsset": 300002863090400,
+    "unitsSubDAY": 1647221,
+    "unitsRedDAY": 2968393
+  },
+  {
+    "date": "2024-08-13T00:00:00",
+    "netAsset": 300002864922200,
+    "unitsSubDAY": 1592200,
+    "unitsRedDAY": 1573882
   },
   {
     "date": "2024-08-14T00:00:00",
-    "netAsset": 380000000000000,
-    "unitsSubDAY": 4100000,
-    "unitsRedDAY": 3100000
+    "netAsset": 300002862864000,
+    "unitsSubDAY": 1363264,
+    "unitsRedDAY": 1383846
+  },
+  {
+    "date": "2024-08-15T00:00:00",
+    "netAsset": 300002930553400,
+    "unitsSubDAY": 1735743,
+    "unitsRedDAY": 1058849
+  },
+  {
+    "date": "2024-08-16T00:00:00",
+    "netAsset": 300002779793100,
+    "unitsSubDAY": 1785125,
+    "unitsRedDAY": 3292728
+  },
+  {
+    "date": "2024-08-17T00:00:00",
+    "netAsset": 300002865709600,
+    "unitsSubDAY": 2022127,
+    "unitsRedDAY": 1162962
+  },
+  {
+    "date": "2024-08-18T00:00:00",
+    "netAsset": 300002829595800,
+    "unitsSubDAY": 1475072,
+    "unitsRedDAY": 1836210
+  },
+  {
+    "date": "2024-08-19T00:00:00",
+    "netAsset": 300002561296800,
+    "unitsSubDAY": 1059857,
+    "unitsRedDAY": 3742847
+  },
+  {
+    "date": "2024-08-20T00:00:00",
+    "netAsset": 300002775631400,
+    "unitsSubDAY": 3790467,
+    "unitsRedDAY": 1647121
+  },
+  {
+    "date": "2024-08-21T00:00:00",
+    "netAsset": 300002794126600,
+    "unitsSubDAY": 1203109,
+    "unitsRedDAY": 1018157
+  },
+  {
+    "date": "2024-08-22T00:00:00",
+    "netAsset": 300002572230200,
+    "unitsSubDAY": 1520574,
+    "unitsRedDAY": 3739538
+  },
+  {
+    "date": "2024-08-23T00:00:00",
+    "netAsset": 300002579683800,
+    "unitsSubDAY": 1120012,
+    "unitsRedDAY": 1045476
+  },
+  {
+    "date": "2024-08-24T00:00:00",
+    "netAsset": 300002719299000,
+    "unitsSubDAY": 3059590,
+    "unitsRedDAY": 1663438
+  },
+  {
+    "date": "2024-08-25T00:00:00",
+    "netAsset": 300002709670900,
+    "unitsSubDAY": 1296173,
+    "unitsRedDAY": 1392454
+  },
+  {
+    "date": "2024-08-26T00:00:00",
+    "netAsset": 300002728043800,
+    "unitsSubDAY": 3104644,
+    "unitsRedDAY": 2920915
+  },
+  {
+    "date": "2024-08-27T00:00:00",
+    "netAsset": 300002715739400,
+    "unitsSubDAY": 1601516,
+    "unitsRedDAY": 1724560
+  },
+  {
+    "date": "2024-08-28T00:00:00",
+    "netAsset": 300002602054500,
+    "unitsSubDAY": 1814213,
+    "unitsRedDAY": 2951062
+  },
+  {
+    "date": "2024-08-29T00:00:00",
+    "netAsset": 300002607385100,
+    "unitsSubDAY": 1640951,
+    "unitsRedDAY": 1587645
+  },
+  {
+    "date": "2024-08-30T00:00:00",
+    "netAsset": 300002453293400,
+    "unitsSubDAY": 1669854,
+    "unitsRedDAY": 3210771
+  },
+  {
+    "date": "2024-08-31T00:00:00",
+    "netAsset": 300002363815300,
+    "unitsSubDAY": 1350565,
+    "unitsRedDAY": 2245346
+  },
+  {
+    "date": "2024-09-01T00:00:00",
+    "netAsset": 300002223745000,
+    "unitsSubDAY": 1873474,
+    "unitsRedDAY": 3274177
+  },
+  {
+    "date": "2024-09-02T00:00:00",
+    "netAsset": 300002322700800,
+    "unitsSubDAY": 2675326,
+    "unitsRedDAY": 1685768
+  },
+  {
+    "date": "2024-09-03T00:00:00",
+    "netAsset": 300002067952800,
+    "unitsSubDAY": 1284462,
+    "unitsRedDAY": 3831942
+  },
+  {
+    "date": "2024-09-04T00:00:00",
+    "netAsset": 300001939982600,
+    "unitsSubDAY": 1186860,
+    "unitsRedDAY": 2466562
+  },
+  {
+    "date": "2024-09-05T00:00:00",
+    "netAsset": 300002049711100,
+    "unitsSubDAY": 2468795,
+    "unitsRedDAY": 1371510
+  },
+  {
+    "date": "2024-09-06T00:00:00",
+    "netAsset": 300002149163200,
+    "unitsSubDAY": 2860591,
+    "unitsRedDAY": 1866070
+  },
+  {
+    "date": "2024-09-07T00:00:00",
+    "netAsset": 300002214598700,
+    "unitsSubDAY": 2193413,
+    "unitsRedDAY": 1539058
+  },
+  {
+    "date": "2024-09-08T00:00:00",
+    "netAsset": 300002297426000,
+    "unitsSubDAY": 3573931,
+    "unitsRedDAY": 2745658
+  },
+  {
+    "date": "2024-09-09T00:00:00",
+    "netAsset": 300002266233000,
+    "unitsSubDAY": 2298971,
+    "unitsRedDAY": 2610901
+  },
+  {
+    "date": "2024-09-10T00:00:00",
+    "netAsset": 300002215165800,
+    "unitsSubDAY": 1565273,
+    "unitsRedDAY": 2075945
+  },
+  {
+    "date": "2024-09-11T00:00:00",
+    "netAsset": 300002071694700,
+    "unitsSubDAY": 1915365,
+    "unitsRedDAY": 3350076
+  },
+  {
+    "date": "2024-09-12T00:00:00",
+    "netAsset": 300001914310200,
+    "unitsSubDAY": 1770573,
+    "unitsRedDAY": 3344418
   },
   {
     "date": "2024-09-13T00:00:00",
-    "netAsset": 385000000000000,
-    "unitsSubDAY": 4200000,
-    "unitsRedDAY": 3200000
+    "netAsset": 300001766824200,
+    "unitsSubDAY": 1422895,
+    "unitsRedDAY": 2897755
+  },
+  {
+    "date": "2024-09-14T00:00:00",
+    "netAsset": 300001791156800,
+    "unitsSubDAY": 2807672,
+    "unitsRedDAY": 2564346
+  },
+  {
+    "date": "2024-09-15T00:00:00",
+    "netAsset": 300001763981000,
+    "unitsSubDAY": 2873770,
+    "unitsRedDAY": 3145528
+  },
+  {
+    "date": "2024-09-16T00:00:00",
+    "netAsset": 300001695274400,
+    "unitsSubDAY": 2326896,
+    "unitsRedDAY": 3013962
+  },
+  {
+    "date": "2024-09-17T00:00:00",
+    "netAsset": 300001630525900,
+    "unitsSubDAY": 1336006,
+    "unitsRedDAY": 1983491
+  },
+  {
+    "date": "2024-09-18T00:00:00",
+    "netAsset": 300001675767400,
+    "unitsSubDAY": 2846038,
+    "unitsRedDAY": 2393623
+  },
+  {
+    "date": "2024-09-19T00:00:00",
+    "netAsset": 300001743232600,
+    "unitsSubDAY": 3886980,
+    "unitsRedDAY": 3212328
+  },
+  {
+    "date": "2024-09-20T00:00:00",
+    "netAsset": 300001650409000,
+    "unitsSubDAY": 2227353,
+    "unitsRedDAY": 3155589
+  },
+  {
+    "date": "2024-09-21T00:00:00",
+    "netAsset": 300001743201600,
+    "unitsSubDAY": 2375192,
+    "unitsRedDAY": 1447266
+  },
+  {
+    "date": "2024-09-22T00:00:00",
+    "netAsset": 300001552045900,
+    "unitsSubDAY": 1267192,
+    "unitsRedDAY": 3178749
+  },
+  {
+    "date": "2024-09-23T00:00:00",
+    "netAsset": 300001316390000,
+    "unitsSubDAY": 1041694,
+    "unitsRedDAY": 3398253
+  },
+  {
+    "date": "2024-09-24T00:00:00",
+    "netAsset": 300001175039100,
+    "unitsSubDAY": 1670835,
+    "unitsRedDAY": 3084344
+  },
+  {
+    "date": "2024-09-25T00:00:00",
+    "netAsset": 300001365831200,
+    "unitsSubDAY": 3721564,
+    "unitsRedDAY": 1813643
+  },
+  {
+    "date": "2024-09-26T00:00:00",
+    "netAsset": 300001211905400,
+    "unitsSubDAY": 2021956,
+    "unitsRedDAY": 3561214
+  },
+  {
+    "date": "2024-09-27T00:00:00",
+    "netAsset": 300001034152100,
+    "unitsSubDAY": 1363134,
+    "unitsRedDAY": 3140667
+  },
+  {
+    "date": "2024-09-28T00:00:00",
+    "netAsset": 300001127468200,
+    "unitsSubDAY": 3143243,
+    "unitsRedDAY": 2210082
+  },
+  {
+    "date": "2024-09-29T00:00:00",
+    "netAsset": 300001252974300,
+    "unitsSubDAY": 2634696,
+    "unitsRedDAY": 1379635
+  },
+  {
+    "date": "2024-09-30T00:00:00",
+    "netAsset": 300001106749200,
+    "unitsSubDAY": 1011248,
+    "unitsRedDAY": 2473499
+  },
+  {
+    "date": "2024-10-01T00:00:00",
+    "netAsset": 300001109712900,
+    "unitsSubDAY": 3140616,
+    "unitsRedDAY": 3110979
+  },
+  {
+    "date": "2024-10-02T00:00:00",
+    "netAsset": 300001182715500,
+    "unitsSubDAY": 3680409,
+    "unitsRedDAY": 2950383
+  },
+  {
+    "date": "2024-10-03T00:00:00",
+    "netAsset": 300001347268200,
+    "unitsSubDAY": 3519495,
+    "unitsRedDAY": 1873968
+  },
+  {
+    "date": "2024-10-04T00:00:00",
+    "netAsset": 300001323253000,
+    "unitsSubDAY": 1613080,
+    "unitsRedDAY": 1853232
+  },
+  {
+    "date": "2024-10-05T00:00:00",
+    "netAsset": 300001265121200,
+    "unitsSubDAY": 2815226,
+    "unitsRedDAY": 3396544
+  },
+  {
+    "date": "2024-10-06T00:00:00",
+    "netAsset": 300001420012200,
+    "unitsSubDAY": 2715156,
+    "unitsRedDAY": 1166246
+  },
+  {
+    "date": "2024-10-07T00:00:00",
+    "netAsset": 300001623387600,
+    "unitsSubDAY": 3612367,
+    "unitsRedDAY": 1578613
+  },
+  {
+    "date": "2024-10-08T00:00:00",
+    "netAsset": 300001640560200,
+    "unitsSubDAY": 1895560,
+    "unitsRedDAY": 1723834
+  },
+  {
+    "date": "2024-10-09T00:00:00",
+    "netAsset": 300001616734400,
+    "unitsSubDAY": 3140217,
+    "unitsRedDAY": 3378475
+  },
+  {
+    "date": "2024-10-10T00:00:00",
+    "netAsset": 300001690726700,
+    "unitsSubDAY": 3670525,
+    "unitsRedDAY": 2930602
+  },
+  {
+    "date": "2024-10-11T00:00:00",
+    "netAsset": 300001691110000,
+    "unitsSubDAY": 3618591,
+    "unitsRedDAY": 3614758
+  },
+  {
+    "date": "2024-10-12T00:00:00",
+    "netAsset": 300001617427900,
+    "unitsSubDAY": 2674536,
+    "unitsRedDAY": 3411357
   },
   {
     "date": "2024-10-13T00:00:00",
-    "netAsset": 390000000000000,
-    "unitsSubDAY": 4300000,
-    "unitsRedDAY": 3300000
+    "netAsset": 300001816228300,
+    "unitsSubDAY": 3224658,
+    "unitsRedDAY": 1236654
+  },
+  {
+    "date": "2024-10-14T00:00:00",
+    "netAsset": 300001932655600,
+    "unitsSubDAY": 2835055,
+    "unitsRedDAY": 1670782
+  },
+  {
+    "date": "2024-10-15T00:00:00",
+    "netAsset": 300001812117300,
+    "unitsSubDAY": 1093913,
+    "unitsRedDAY": 2299296
+  },
+  {
+    "date": "2024-10-16T00:00:00",
+    "netAsset": 300001728890600,
+    "unitsSubDAY": 2019011,
+    "unitsRedDAY": 2851278
+  },
+  {
+    "date": "2024-10-17T00:00:00",
+    "netAsset": 300001630437100,
+    "unitsSubDAY": 2391775,
+    "unitsRedDAY": 3376310
+  },
+  {
+    "date": "2024-10-18T00:00:00",
+    "netAsset": 300001813282300,
+    "unitsSubDAY": 2947676,
+    "unitsRedDAY": 1119224
+  },
+  {
+    "date": "2024-10-19T00:00:00",
+    "netAsset": 300001925300200,
+    "unitsSubDAY": 3966306,
+    "unitsRedDAY": 2846127
+  },
+  {
+    "date": "2024-10-20T00:00:00",
+    "netAsset": 300001962547300,
+    "unitsSubDAY": 3991437,
+    "unitsRedDAY": 3618966
+  },
+  {
+    "date": "2024-10-21T00:00:00",
+    "netAsset": 300001856977200,
+    "unitsSubDAY": 2007145,
+    "unitsRedDAY": 3062846
+  },
+  {
+    "date": "2024-10-22T00:00:00",
+    "netAsset": 300001805774200,
+    "unitsSubDAY": 1700770,
+    "unitsRedDAY": 2212800
+  },
+  {
+    "date": "2024-10-23T00:00:00",
+    "netAsset": 300001706829200,
+    "unitsSubDAY": 1100602,
+    "unitsRedDAY": 2090052
+  },
+  {
+    "date": "2024-10-24T00:00:00",
+    "netAsset": 300001671011400,
+    "unitsSubDAY": 3295761,
+    "unitsRedDAY": 3653939
+  },
+  {
+    "date": "2024-10-25T00:00:00",
+    "netAsset": 300001614227000,
+    "unitsSubDAY": 1013829,
+    "unitsRedDAY": 1581673
+  },
+  {
+    "date": "2024-10-26T00:00:00",
+    "netAsset": 300001732196200,
+    "unitsSubDAY": 3143313,
+    "unitsRedDAY": 1963621
+  },
+  {
+    "date": "2024-10-27T00:00:00",
+    "netAsset": 300001940691800,
+    "unitsSubDAY": 3248959,
+    "unitsRedDAY": 1164003
+  },
+  {
+    "date": "2024-10-28T00:00:00",
+    "netAsset": 300001894646600,
+    "unitsSubDAY": 3083805,
+    "unitsRedDAY": 3544257
+  },
+  {
+    "date": "2024-10-29T00:00:00",
+    "netAsset": 300002055093700,
+    "unitsSubDAY": 3388568,
+    "unitsRedDAY": 1784097
+  },
+  {
+    "date": "2024-10-30T00:00:00",
+    "netAsset": 300002066085100,
+    "unitsSubDAY": 1737374,
+    "unitsRedDAY": 1627460
+  },
+  {
+    "date": "2024-10-31T00:00:00",
+    "netAsset": 300001923610900,
+    "unitsSubDAY": 2097732,
+    "unitsRedDAY": 3522474
+  },
+  {
+    "date": "2024-11-01T00:00:00",
+    "netAsset": 300001907861900,
+    "unitsSubDAY": 3435837,
+    "unitsRedDAY": 3593327
+  },
+  {
+    "date": "2024-11-02T00:00:00",
+    "netAsset": 300001711203800,
+    "unitsSubDAY": 1520887,
+    "unitsRedDAY": 3487468
+  },
+  {
+    "date": "2024-11-03T00:00:00",
+    "netAsset": 300001660256100,
+    "unitsSubDAY": 1947767,
+    "unitsRedDAY": 2457244
+  },
+  {
+    "date": "2024-11-04T00:00:00",
+    "netAsset": 300001687995000,
+    "unitsSubDAY": 2985824,
+    "unitsRedDAY": 2708435
+  },
+  {
+    "date": "2024-11-05T00:00:00",
+    "netAsset": 300001933515100,
+    "unitsSubDAY": 3637934,
+    "unitsRedDAY": 1182733
+  },
+  {
+    "date": "2024-11-06T00:00:00",
+    "netAsset": 300001968302000,
+    "unitsSubDAY": 1516656,
+    "unitsRedDAY": 1168787
+  },
+  {
+    "date": "2024-11-07T00:00:00",
+    "netAsset": 300001913269200,
+    "unitsSubDAY": 1130819,
+    "unitsRedDAY": 1681147
+  },
+  {
+    "date": "2024-11-08T00:00:00",
+    "netAsset": 300001851242500,
+    "unitsSubDAY": 2532214,
+    "unitsRedDAY": 3152481
+  },
+  {
+    "date": "2024-11-09T00:00:00",
+    "netAsset": 300001941455000,
+    "unitsSubDAY": 2743410,
+    "unitsRedDAY": 1841285
+  },
+  {
+    "date": "2024-11-10T00:00:00",
+    "netAsset": 300001760830900,
+    "unitsSubDAY": 2051635,
+    "unitsRedDAY": 3857876
+  },
+  {
+    "date": "2024-11-11T00:00:00",
+    "netAsset": 300001606946100,
+    "unitsSubDAY": 1669782,
+    "unitsRedDAY": 3208630
   },
   {
     "date": "2024-11-12T00:00:00",
-    "netAsset": 395000000000000,
-    "unitsSubDAY": 4400000,
-    "unitsRedDAY": 3400000
+    "netAsset": 300001710288500,
+    "unitsSubDAY": 2073763,
+    "unitsRedDAY": 1040339
+  },
+  {
+    "date": "2024-11-13T00:00:00",
+    "netAsset": 300001834375200,
+    "unitsSubDAY": 2528888,
+    "unitsRedDAY": 1288021
+  },
+  {
+    "date": "2024-11-14T00:00:00",
+    "netAsset": 300001947365100,
+    "unitsSubDAY": 2920375,
+    "unitsRedDAY": 1790476
+  },
+  {
+    "date": "2024-11-15T00:00:00",
+    "netAsset": 300002152460800,
+    "unitsSubDAY": 3706992,
+    "unitsRedDAY": 1656035
+  },
+  {
+    "date": "2024-11-16T00:00:00",
+    "netAsset": 300001974014300,
+    "unitsSubDAY": 1032545,
+    "unitsRedDAY": 2817010
+  },
+  {
+    "date": "2024-11-17T00:00:00",
+    "netAsset": 300002126388600,
+    "unitsSubDAY": 3960299,
+    "unitsRedDAY": 2436556
+  },
+  {
+    "date": "2024-11-18T00:00:00",
+    "netAsset": 300002208414700,
+    "unitsSubDAY": 2495685,
+    "unitsRedDAY": 1675424
+  },
+  {
+    "date": "2024-11-19T00:00:00",
+    "netAsset": 300002244525900,
+    "unitsSubDAY": 1695538,
+    "unitsRedDAY": 1334426
+  },
+  {
+    "date": "2024-11-20T00:00:00",
+    "netAsset": 300002177040700,
+    "unitsSubDAY": 2233341,
+    "unitsRedDAY": 2908193
+  },
+  {
+    "date": "2024-11-21T00:00:00",
+    "netAsset": 300002259094500,
+    "unitsSubDAY": 1924253,
+    "unitsRedDAY": 1103715
+  },
+  {
+    "date": "2024-11-22T00:00:00",
+    "netAsset": 300002212178200,
+    "unitsSubDAY": 3198599,
+    "unitsRedDAY": 3667762
+  },
+  {
+    "date": "2024-11-23T00:00:00",
+    "netAsset": 300002305163900,
+    "unitsSubDAY": 3816045,
+    "unitsRedDAY": 2886188
+  },
+  {
+    "date": "2024-11-24T00:00:00",
+    "netAsset": 300002478821500,
+    "unitsSubDAY": 3158838,
+    "unitsRedDAY": 1422262
+  },
+  {
+    "date": "2024-11-25T00:00:00",
+    "netAsset": 300002559533100,
+    "unitsSubDAY": 2782125,
+    "unitsRedDAY": 1975009
+  },
+  {
+    "date": "2024-11-26T00:00:00",
+    "netAsset": 300002505070100,
+    "unitsSubDAY": 1744323,
+    "unitsRedDAY": 2288953
+  },
+  {
+    "date": "2024-11-27T00:00:00",
+    "netAsset": 300002544836200,
+    "unitsSubDAY": 2122873,
+    "unitsRedDAY": 1725212
+  },
+  {
+    "date": "2024-11-28T00:00:00",
+    "netAsset": 300002707328900,
+    "unitsSubDAY": 3312797,
+    "unitsRedDAY": 1687870
+  },
+  {
+    "date": "2024-11-29T00:00:00",
+    "netAsset": 300002864368000,
+    "unitsSubDAY": 3081837,
+    "unitsRedDAY": 1511446
+  },
+  {
+    "date": "2024-11-30T00:00:00",
+    "netAsset": 300002955490100,
+    "unitsSubDAY": 2298852,
+    "unitsRedDAY": 1387631
+  },
+  {
+    "date": "2024-12-01T00:00:00",
+    "netAsset": 300003120768300,
+    "unitsSubDAY": 3995966,
+    "unitsRedDAY": 2343184
+  },
+  {
+    "date": "2024-12-02T00:00:00",
+    "netAsset": 300002937090700,
+    "unitsSubDAY": 1374945,
+    "unitsRedDAY": 3211721
+  },
+  {
+    "date": "2024-12-03T00:00:00",
+    "netAsset": 300002951717600,
+    "unitsSubDAY": 1733175,
+    "unitsRedDAY": 1586906
+  },
+  {
+    "date": "2024-12-04T00:00:00",
+    "netAsset": 300002911899100,
+    "unitsSubDAY": 3364594,
+    "unitsRedDAY": 3762779
+  },
+  {
+    "date": "2024-12-05T00:00:00",
+    "netAsset": 300003070926100,
+    "unitsSubDAY": 2974445,
+    "unitsRedDAY": 1384175
+  },
+  {
+    "date": "2024-12-06T00:00:00",
+    "netAsset": 300002958889700,
+    "unitsSubDAY": 1313198,
+    "unitsRedDAY": 2433562
+  },
+  {
+    "date": "2024-12-07T00:00:00",
+    "netAsset": 300003115743000,
+    "unitsSubDAY": 3495907,
+    "unitsRedDAY": 1927374
+  },
+  {
+    "date": "2024-12-08T00:00:00",
+    "netAsset": 300003133934800,
+    "unitsSubDAY": 2815482,
+    "unitsRedDAY": 2633564
+  },
+  {
+    "date": "2024-12-09T00:00:00",
+    "netAsset": 300003161654800,
+    "unitsSubDAY": 3569200,
+    "unitsRedDAY": 3292000
+  },
+  {
+    "date": "2024-12-10T00:00:00",
+    "netAsset": 300003286545800,
+    "unitsSubDAY": 2357564,
+    "unitsRedDAY": 1108654
+  },
+  {
+    "date": "2024-12-11T00:00:00",
+    "netAsset": 300003259697800,
+    "unitsSubDAY": 2833393,
+    "unitsRedDAY": 3101873
   },
   {
     "date": "2024-12-12T00:00:00",
-    "netAsset": 400000000000000,
-    "unitsSubDAY": 4500000,
-    "unitsRedDAY": 3500000
+    "netAsset": 300003429892300,
+    "unitsSubDAY": 3534786,
+    "unitsRedDAY": 1832841
+  },
+  {
+    "date": "2024-12-13T00:00:00",
+    "netAsset": 300003423221700,
+    "unitsSubDAY": 2732136,
+    "unitsRedDAY": 2798842
+  },
+  {
+    "date": "2024-12-14T00:00:00",
+    "netAsset": 300003584953400,
+    "unitsSubDAY": 3577782,
+    "unitsRedDAY": 1960465
+  },
+  {
+    "date": "2024-12-15T00:00:00",
+    "netAsset": 300003541930200,
+    "unitsSubDAY": 2560868,
+    "unitsRedDAY": 2991100
+  },
+  {
+    "date": "2024-12-16T00:00:00",
+    "netAsset": 300003721720100,
+    "unitsSubDAY": 3086608,
+    "unitsRedDAY": 1288709
+  },
+  {
+    "date": "2024-12-17T00:00:00",
+    "netAsset": 300003805113700,
+    "unitsSubDAY": 2237604,
+    "unitsRedDAY": 1403668
+  },
+  {
+    "date": "2024-12-18T00:00:00",
+    "netAsset": 300003779632500,
+    "unitsSubDAY": 1380724,
+    "unitsRedDAY": 1635536
+  },
+  {
+    "date": "2024-12-19T00:00:00",
+    "netAsset": 300003800702000,
+    "unitsSubDAY": 3294631,
+    "unitsRedDAY": 3083936
+  },
+  {
+    "date": "2024-12-20T00:00:00",
+    "netAsset": 300003675625200,
+    "unitsSubDAY": 1132316,
+    "unitsRedDAY": 2383084
+  },
+  {
+    "date": "2024-12-21T00:00:00",
+    "netAsset": 300003872231100,
+    "unitsSubDAY": 3762536,
+    "unitsRedDAY": 1796477
+  },
+  {
+    "date": "2024-12-22T00:00:00",
+    "netAsset": 300004045234400,
+    "unitsSubDAY": 3295086,
+    "unitsRedDAY": 1565053
+  },
+  {
+    "date": "2024-12-23T00:00:00",
+    "netAsset": 300004257246500,
+    "unitsSubDAY": 3909584,
+    "unitsRedDAY": 1789463
+  },
+  {
+    "date": "2024-12-24T00:00:00",
+    "netAsset": 300004401494800,
+    "unitsSubDAY": 3950257,
+    "unitsRedDAY": 2507774
+  },
+  {
+    "date": "2024-12-25T00:00:00",
+    "netAsset": 300004246059600,
+    "unitsSubDAY": 1381170,
+    "unitsRedDAY": 2935522
+  },
+  {
+    "date": "2024-12-26T00:00:00",
+    "netAsset": 300004187152400,
+    "unitsSubDAY": 1017670,
+    "unitsRedDAY": 1606742
+  },
+  {
+    "date": "2024-12-27T00:00:00",
+    "netAsset": 300004292994000,
+    "unitsSubDAY": 2852685,
+    "unitsRedDAY": 1794269
+  },
+  {
+    "date": "2024-12-28T00:00:00",
+    "netAsset": 300004558270300,
+    "unitsSubDAY": 3773486,
+    "unitsRedDAY": 1120723
+  },
+  {
+    "date": "2024-12-29T00:00:00",
+    "netAsset": 300004334470400,
+    "unitsSubDAY": 1158862,
+    "unitsRedDAY": 3396861
+  },
+  {
+    "date": "2024-12-30T00:00:00",
+    "netAsset": 300004562115400,
+    "unitsSubDAY": 3397485,
+    "unitsRedDAY": 1121035
+  },
+  {
+    "date": "2024-12-31T00:00:00",
+    "netAsset": 300004443990800,
+    "unitsSubDAY": 2208890,
+    "unitsRedDAY": 3390136
+  },
+  {
+    "date": "2025-01-01T00:00:00",
+    "netAsset": 300004592583600,
+    "unitsSubDAY": 3089497,
+    "unitsRedDAY": 1603569
+  },
+  {
+    "date": "2025-01-02T00:00:00",
+    "netAsset": 300004678086700,
+    "unitsSubDAY": 2238118,
+    "unitsRedDAY": 1383087
+  },
+  {
+    "date": "2025-01-03T00:00:00",
+    "netAsset": 300004620795800,
+    "unitsSubDAY": 3088108,
+    "unitsRedDAY": 3661017
+  },
+  {
+    "date": "2025-01-04T00:00:00",
+    "netAsset": 300004567382700,
+    "unitsSubDAY": 2801350,
+    "unitsRedDAY": 3335481
+  },
+  {
+    "date": "2025-01-05T00:00:00",
+    "netAsset": 300004702497600,
+    "unitsSubDAY": 2711551,
+    "unitsRedDAY": 1360402
+  },
+  {
+    "date": "2025-01-06T00:00:00",
+    "netAsset": 300004688678200,
+    "unitsSubDAY": 3395971,
+    "unitsRedDAY": 3534165
+  },
+  {
+    "date": "2025-01-07T00:00:00",
+    "netAsset": 300004825846400,
+    "unitsSubDAY": 3457354,
+    "unitsRedDAY": 2085672
+  },
+  {
+    "date": "2025-01-08T00:00:00",
+    "netAsset": 300004916552200,
+    "unitsSubDAY": 2036452,
+    "unitsRedDAY": 1129394
+  },
+  {
+    "date": "2025-01-09T00:00:00",
+    "netAsset": 300004653898900,
+    "unitsSubDAY": 1209091,
+    "unitsRedDAY": 3835624
+  },
+  {
+    "date": "2025-01-10T00:00:00",
+    "netAsset": 300004528045500,
+    "unitsSubDAY": 2025196,
+    "unitsRedDAY": 3283730
   },
   {
     "date": "2025-01-11T00:00:00",
-    "netAsset": 405000000000000,
-    "unitsSubDAY": 4600000,
-    "unitsRedDAY": 3600000
+    "netAsset": 300004635675200,
+    "unitsSubDAY": 3862521,
+    "unitsRedDAY": 2786224
+  },
+  {
+    "date": "2025-01-12T00:00:00",
+    "netAsset": 300004681847800,
+    "unitsSubDAY": 3863932,
+    "unitsRedDAY": 3402206
+  },
+  {
+    "date": "2025-01-13T00:00:00",
+    "netAsset": 300004608422500,
+    "unitsSubDAY": 2548476,
+    "unitsRedDAY": 3282729
+  },
+  {
+    "date": "2025-01-14T00:00:00",
+    "netAsset": 300004586467700,
+    "unitsSubDAY": 1902758,
+    "unitsRedDAY": 2122306
+  },
+  {
+    "date": "2025-01-15T00:00:00",
+    "netAsset": 300004776232300,
+    "unitsSubDAY": 3941497,
+    "unitsRedDAY": 2043851
+  },
+  {
+    "date": "2025-01-16T00:00:00",
+    "netAsset": 300004921705000,
+    "unitsSubDAY": 3367580,
+    "unitsRedDAY": 1912853
+  },
+  {
+    "date": "2025-01-17T00:00:00",
+    "netAsset": 300004689615600,
+    "unitsSubDAY": 1243614,
+    "unitsRedDAY": 3564508
+  },
+  {
+    "date": "2025-01-18T00:00:00",
+    "netAsset": 300004855975700,
+    "unitsSubDAY": 2802451,
+    "unitsRedDAY": 1138850
+  },
+  {
+    "date": "2025-01-19T00:00:00",
+    "netAsset": 300004738441400,
+    "unitsSubDAY": 1805554,
+    "unitsRedDAY": 2980897
+  },
+  {
+    "date": "2025-01-20T00:00:00",
+    "netAsset": 300004788222100,
+    "unitsSubDAY": 2312441,
+    "unitsRedDAY": 1814634
+  },
+  {
+    "date": "2025-01-21T00:00:00",
+    "netAsset": 300004626366600,
+    "unitsSubDAY": 2182870,
+    "unitsRedDAY": 3801425
+  },
+  {
+    "date": "2025-01-22T00:00:00",
+    "netAsset": 300004798310500,
+    "unitsSubDAY": 3547779,
+    "unitsRedDAY": 1828340
+  },
+  {
+    "date": "2025-01-23T00:00:00",
+    "netAsset": 300004706887000,
+    "unitsSubDAY": 1125961,
+    "unitsRedDAY": 2040196
+  },
+  {
+    "date": "2025-01-24T00:00:00",
+    "netAsset": 300004625803200,
+    "unitsSubDAY": 1427575,
+    "unitsRedDAY": 2238413
+  },
+  {
+    "date": "2025-01-25T00:00:00",
+    "netAsset": 300004735532200,
+    "unitsSubDAY": 3503016,
+    "unitsRedDAY": 2405726
+  },
+  {
+    "date": "2025-01-26T00:00:00",
+    "netAsset": 300004683190900,
+    "unitsSubDAY": 2185021,
+    "unitsRedDAY": 2708434
+  },
+  {
+    "date": "2025-01-27T00:00:00",
+    "netAsset": 300004825225900,
+    "unitsSubDAY": 2881872,
+    "unitsRedDAY": 1461522
+  },
+  {
+    "date": "2025-01-28T00:00:00",
+    "netAsset": 300004795632400,
+    "unitsSubDAY": 1891668,
+    "unitsRedDAY": 2187603
+  },
+  {
+    "date": "2025-01-29T00:00:00",
+    "netAsset": 300004892676000,
+    "unitsSubDAY": 3984728,
+    "unitsRedDAY": 3014292
+  },
+  {
+    "date": "2025-01-30T00:00:00",
+    "netAsset": 300004938043600,
+    "unitsSubDAY": 3209869,
+    "unitsRedDAY": 2756193
+  },
+  {
+    "date": "2025-01-31T00:00:00",
+    "netAsset": 300004752465600,
+    "unitsSubDAY": 1538586,
+    "unitsRedDAY": 3394366
+  },
+  {
+    "date": "2025-02-01T00:00:00",
+    "netAsset": 300004633131700,
+    "unitsSubDAY": 2739587,
+    "unitsRedDAY": 3932926
+  },
+  {
+    "date": "2025-02-02T00:00:00",
+    "netAsset": 300004558170100,
+    "unitsSubDAY": 2583359,
+    "unitsRedDAY": 3332975
+  },
+  {
+    "date": "2025-02-03T00:00:00",
+    "netAsset": 300004266618900,
+    "unitsSubDAY": 1009132,
+    "unitsRedDAY": 3924644
+  },
+  {
+    "date": "2025-02-04T00:00:00",
+    "netAsset": 300004506941900,
+    "unitsSubDAY": 3984676,
+    "unitsRedDAY": 1581446
+  },
+  {
+    "date": "2025-02-05T00:00:00",
+    "netAsset": 300004706188600,
+    "unitsSubDAY": 3263514,
+    "unitsRedDAY": 1271047
+  },
+  {
+    "date": "2025-02-06T00:00:00",
+    "netAsset": 300004746783900,
+    "unitsSubDAY": 2492008,
+    "unitsRedDAY": 2086055
+  },
+  {
+    "date": "2025-02-07T00:00:00",
+    "netAsset": 300004731419500,
+    "unitsSubDAY": 3102717,
+    "unitsRedDAY": 3256361
+  },
+  {
+    "date": "2025-02-08T00:00:00",
+    "netAsset": 300004742079000,
+    "unitsSubDAY": 1860701,
+    "unitsRedDAY": 1754106
+  },
+  {
+    "date": "2025-02-09T00:00:00",
+    "netAsset": 300004800840600,
+    "unitsSubDAY": 2312450,
+    "unitsRedDAY": 1724834
   },
   {
     "date": "2025-02-10T00:00:00",
-    "netAsset": 410000000000000,
-    "unitsSubDAY": 4700000,
-    "unitsRedDAY": 3700000
+    "netAsset": 300004805832200,
+    "unitsSubDAY": 3147102,
+    "unitsRedDAY": 3097186
+  },
+  {
+    "date": "2025-02-11T00:00:00",
+    "netAsset": 300005040229500,
+    "unitsSubDAY": 3702197,
+    "unitsRedDAY": 1358224
+  },
+  {
+    "date": "2025-02-12T00:00:00",
+    "netAsset": 300005140389500,
+    "unitsSubDAY": 2952004,
+    "unitsRedDAY": 1950404
+  },
+  {
+    "date": "2025-02-13T00:00:00",
+    "netAsset": 300005193543100,
+    "unitsSubDAY": 2604504,
+    "unitsRedDAY": 2072968
+  },
+  {
+    "date": "2025-02-14T00:00:00",
+    "netAsset": 300005129046100,
+    "unitsSubDAY": 1947321,
+    "unitsRedDAY": 2592291
+  },
+  {
+    "date": "2025-02-15T00:00:00",
+    "netAsset": 300005137988500,
+    "unitsSubDAY": 1117636,
+    "unitsRedDAY": 1028212
+  },
+  {
+    "date": "2025-02-16T00:00:00",
+    "netAsset": 300005225978500,
+    "unitsSubDAY": 3877415,
+    "unitsRedDAY": 2997515
+  },
+  {
+    "date": "2025-02-17T00:00:00",
+    "netAsset": 300005263541000,
+    "unitsSubDAY": 2285104,
+    "unitsRedDAY": 1909479
+  },
+  {
+    "date": "2025-02-18T00:00:00",
+    "netAsset": 300005273630700,
+    "unitsSubDAY": 3044034,
+    "unitsRedDAY": 2943137
+  },
+  {
+    "date": "2025-02-19T00:00:00",
+    "netAsset": 300005386342700,
+    "unitsSubDAY": 3861085,
+    "unitsRedDAY": 2733965
+  },
+  {
+    "date": "2025-02-20T00:00:00",
+    "netAsset": 300005413240400,
+    "unitsSubDAY": 2158466,
+    "unitsRedDAY": 1889489
+  },
+  {
+    "date": "2025-02-21T00:00:00",
+    "netAsset": 300005448916800,
+    "unitsSubDAY": 1661326,
+    "unitsRedDAY": 1304562
+  },
+  {
+    "date": "2025-02-22T00:00:00",
+    "netAsset": 300005605546400,
+    "unitsSubDAY": 3344454,
+    "unitsRedDAY": 1778158
+  },
+  {
+    "date": "2025-02-23T00:00:00",
+    "netAsset": 300005436540600,
+    "unitsSubDAY": 1889080,
+    "unitsRedDAY": 3579138
+  },
+  {
+    "date": "2025-02-24T00:00:00",
+    "netAsset": 300005377736400,
+    "unitsSubDAY": 2138950,
+    "unitsRedDAY": 2726992
+  },
+  {
+    "date": "2025-02-25T00:00:00",
+    "netAsset": 300005358685500,
+    "unitsSubDAY": 2105648,
+    "unitsRedDAY": 2296157
+  },
+  {
+    "date": "2025-02-26T00:00:00",
+    "netAsset": 300005328689400,
+    "unitsSubDAY": 3406395,
+    "unitsRedDAY": 3706356
+  },
+  {
+    "date": "2025-02-27T00:00:00",
+    "netAsset": 300005180558000,
+    "unitsSubDAY": 1514635,
+    "unitsRedDAY": 2995949
+  },
+  {
+    "date": "2025-02-28T00:00:00",
+    "netAsset": 300005342882800,
+    "unitsSubDAY": 3627341,
+    "unitsRedDAY": 2004093
+  },
+  {
+    "date": "2025-03-01T00:00:00",
+    "netAsset": 300005380342500,
+    "unitsSubDAY": 1897221,
+    "unitsRedDAY": 1522624
+  },
+  {
+    "date": "2025-03-02T00:00:00",
+    "netAsset": 300005224040600,
+    "unitsSubDAY": 1988783,
+    "unitsRedDAY": 3551802
+  },
+  {
+    "date": "2025-03-03T00:00:00",
+    "netAsset": 300005132963500,
+    "unitsSubDAY": 2239561,
+    "unitsRedDAY": 3150332
+  },
+  {
+    "date": "2025-03-04T00:00:00",
+    "netAsset": 300005378315700,
+    "unitsSubDAY": 3948744,
+    "unitsRedDAY": 1495222
+  },
+  {
+    "date": "2025-03-05T00:00:00",
+    "netAsset": 300005246090900,
+    "unitsSubDAY": 2473940,
+    "unitsRedDAY": 3796188
+  },
+  {
+    "date": "2025-03-06T00:00:00",
+    "netAsset": 300005080634000,
+    "unitsSubDAY": 1366114,
+    "unitsRedDAY": 3020683
+  },
+  {
+    "date": "2025-03-07T00:00:00",
+    "netAsset": 300005155648200,
+    "unitsSubDAY": 2866565,
+    "unitsRedDAY": 2116423
+  },
+  {
+    "date": "2025-03-08T00:00:00",
+    "netAsset": 300005197787000,
+    "unitsSubDAY": 2378759,
+    "unitsRedDAY": 1957371
+  },
+  {
+    "date": "2025-03-09T00:00:00",
+    "netAsset": 300005341192700,
+    "unitsSubDAY": 3312565,
+    "unitsRedDAY": 1878508
+  },
+  {
+    "date": "2025-03-10T00:00:00",
+    "netAsset": 300005473694000,
+    "unitsSubDAY": 3769635,
+    "unitsRedDAY": 2444622
+  },
+  {
+    "date": "2025-03-11T00:00:00",
+    "netAsset": 300005321466400,
+    "unitsSubDAY": 1900297,
+    "unitsRedDAY": 3422573
   },
   {
     "date": "2025-03-12T00:00:00",
-    "netAsset": 415000000000000,
-    "unitsSubDAY": 4800000,
-    "unitsRedDAY": 3800000
+    "netAsset": 300005467594900,
+    "unitsSubDAY": 3301889,
+    "unitsRedDAY": 1840604
   },
   {
-    "date": "2025-04-22T00:00:00",
-    "netAsset": 552572824347067,
-    "unitsSubDAY": 3396517,
-    "unitsRedDAY": 4557308
+    "date": "2025-03-13T00:00:00",
+    "netAsset": 300005435350400,
+    "unitsSubDAY": 3676847,
+    "unitsRedDAY": 3999292
+  },
+  {
+    "date": "2025-03-14T00:00:00",
+    "netAsset": 300005540343500,
+    "unitsSubDAY": 2180083,
+    "unitsRedDAY": 1130152
+  },
+  {
+    "date": "2025-03-15T00:00:00",
+    "netAsset": 300005539382300,
+    "unitsSubDAY": 3048021,
+    "unitsRedDAY": 3057633
+  },
+  {
+    "date": "2025-03-16T00:00:00",
+    "netAsset": 300005476385000,
+    "unitsSubDAY": 2894154,
+    "unitsRedDAY": 3524127
+  },
+  {
+    "date": "2025-03-17T00:00:00",
+    "netAsset": 300005477407800,
+    "unitsSubDAY": 2253278,
+    "unitsRedDAY": 2243050
+  },
+  {
+    "date": "2025-03-18T00:00:00",
+    "netAsset": 300005511670200,
+    "unitsSubDAY": 2429196,
+    "unitsRedDAY": 2086572
+  },
+  {
+    "date": "2025-03-19T00:00:00",
+    "netAsset": 300005563391300,
+    "unitsSubDAY": 3579348,
+    "unitsRedDAY": 3062137
+  },
+  {
+    "date": "2025-03-20T00:00:00",
+    "netAsset": 300005559439800,
+    "unitsSubDAY": 3324350,
+    "unitsRedDAY": 3363865
+  },
+  {
+    "date": "2025-03-21T00:00:00",
+    "netAsset": 300005382477300,
+    "unitsSubDAY": 1547133,
+    "unitsRedDAY": 3316758
+  },
+  {
+    "date": "2025-03-22T00:00:00",
+    "netAsset": 300005342207400,
+    "unitsSubDAY": 1171068,
+    "unitsRedDAY": 1573767
+  },
+  {
+    "date": "2025-03-23T00:00:00",
+    "netAsset": 300005092278900,
+    "unitsSubDAY": 1121731,
+    "unitsRedDAY": 3621016
+  },
+  {
+    "date": "2025-03-24T00:00:00",
+    "netAsset": 300005079004800,
+    "unitsSubDAY": 3832964,
+    "unitsRedDAY": 3965705
+  },
+  {
+    "date": "2025-03-25T00:00:00",
+    "netAsset": 300005107719600,
+    "unitsSubDAY": 3290929,
+    "unitsRedDAY": 3003781
+  },
+  {
+    "date": "2025-03-26T00:00:00",
+    "netAsset": 300005243328500,
+    "unitsSubDAY": 2938048,
+    "unitsRedDAY": 1581959
+  },
+  {
+    "date": "2025-03-27T00:00:00",
+    "netAsset": 300005206577600,
+    "unitsSubDAY": 2482025,
+    "unitsRedDAY": 2849534
+  },
+  {
+    "date": "2025-03-28T00:00:00",
+    "netAsset": 300005235870800,
+    "unitsSubDAY": 3650120,
+    "unitsRedDAY": 3357188
+  },
+  {
+    "date": "2025-03-29T00:00:00",
+    "netAsset": 300005406099000,
+    "unitsSubDAY": 3078154,
+    "unitsRedDAY": 1375872
+  },
+  {
+    "date": "2025-03-30T00:00:00",
+    "netAsset": 300005148213100,
+    "unitsSubDAY": 1227521,
+    "unitsRedDAY": 3806380
+  },
+  {
+    "date": "2025-03-31T00:00:00",
+    "netAsset": 300004949568100,
+    "unitsSubDAY": 1052380,
+    "unitsRedDAY": 3038830
+  },
+  {
+    "date": "2025-04-01T00:00:00",
+    "netAsset": 300005047808800,
+    "unitsSubDAY": 3687086,
+    "unitsRedDAY": 2704679
+  },
+  {
+    "date": "2025-04-02T00:00:00",
+    "netAsset": 300005106930100,
+    "unitsSubDAY": 2109387,
+    "unitsRedDAY": 1518174
+  },
+  {
+    "date": "2025-04-03T00:00:00",
+    "netAsset": 300005217186800,
+    "unitsSubDAY": 3249921,
+    "unitsRedDAY": 2147354
+  },
+  {
+    "date": "2025-04-04T00:00:00",
+    "netAsset": 300005329862100,
+    "unitsSubDAY": 2770515,
+    "unitsRedDAY": 1643762
+  },
+  {
+    "date": "2025-04-05T00:00:00",
+    "netAsset": 300005102303500,
+    "unitsSubDAY": 1692152,
+    "unitsRedDAY": 3967738
+  },
+  {
+    "date": "2025-04-06T00:00:00",
+    "netAsset": 300005077301200,
+    "unitsSubDAY": 1617972,
+    "unitsRedDAY": 1867995
+  },
+  {
+    "date": "2025-04-07T00:00:00",
+    "netAsset": 300004849749000,
+    "unitsSubDAY": 1555013,
+    "unitsRedDAY": 3830535
+  },
+  {
+    "date": "2025-04-08T00:00:00",
+    "netAsset": 300004890036800,
+    "unitsSubDAY": 3628812,
+    "unitsRedDAY": 3225934
+  },
+  {
+    "date": "2025-04-09T00:00:00",
+    "netAsset": 300004829833200,
+    "unitsSubDAY": 3287999,
+    "unitsRedDAY": 3890035
+  },
+  {
+    "date": "2025-04-10T00:00:00",
+    "netAsset": 300004801397600,
+    "unitsSubDAY": 1435090,
+    "unitsRedDAY": 1719446
+  },
+  {
+    "date": "2025-04-11T00:00:00",
+    "netAsset": 300005043668400,
+    "unitsSubDAY": 3992703,
+    "unitsRedDAY": 1569995
+  },
+  {
+    "date": "2025-04-12T00:00:00",
+    "netAsset": 300005149042000,
+    "unitsSubDAY": 2576836,
+    "unitsRedDAY": 1523100
+  },
+  {
+    "date": "2025-04-13T00:00:00",
+    "netAsset": 300004971711200,
+    "unitsSubDAY": 2158865,
+    "unitsRedDAY": 3932173
+  },
+  {
+    "date": "2025-04-14T00:00:00",
+    "netAsset": 300005145471200,
+    "unitsSubDAY": 3847230,
+    "unitsRedDAY": 2109630
+  },
+  {
+    "date": "2025-04-15T00:00:00",
+    "netAsset": 300005167024900,
+    "unitsSubDAY": 1348857,
+    "unitsRedDAY": 1133320
+  },
+  {
+    "date": "2025-04-16T00:00:00",
+    "netAsset": 300004972165800,
+    "unitsSubDAY": 1664493,
+    "unitsRedDAY": 3613084
+  },
+  {
+    "date": "2025-04-17T00:00:00",
+    "netAsset": 300004868914100,
+    "unitsSubDAY": 2682267,
+    "unitsRedDAY": 3714784
+  },
+  {
+    "date": "2025-04-18T00:00:00",
+    "netAsset": 300004735505700,
+    "unitsSubDAY": 1036094,
+    "unitsRedDAY": 2370178
+  },
+  {
+    "date": "2025-04-19T00:00:00",
+    "netAsset": 300004761655600,
+    "unitsSubDAY": 3347840,
+    "unitsRedDAY": 3086341
+  },
+  {
+    "date": "2025-04-20T00:00:00",
+    "netAsset": 300004749299600,
+    "unitsSubDAY": 1020584,
+    "unitsRedDAY": 1144144
+  },
+  {
+    "date": "2025-04-21T00:00:00",
+    "netAsset": 300004890064700,
+    "unitsSubDAY": 3489237,
+    "unitsRedDAY": 2081586
   }
 ]

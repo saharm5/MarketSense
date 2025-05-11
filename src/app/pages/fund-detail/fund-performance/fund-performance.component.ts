@@ -6,12 +6,20 @@ import { isPlatformBrowser } from '@angular/common';
 import { DOCUMENT } from '@angular/common';
 import { CombinedChartComponent } from './combined-chart/combined-chart.component';
 import { MarketChartComponent } from '../../../core/shared/market-chart/market-chart.component';
-
 import * as Highcharts from 'highcharts';
 
 interface NetAssetData {
     date: string;
     netAsset: number;
+    unitsSubDAY: number;
+    unitsRedDAY: number;
+}
+
+interface FundReturn {
+    date: string;
+    netAsset: number;
+    unitsSubDAY: number;
+    unitsRedDAY: number;
 }
 
 interface MarketLineData {
@@ -54,10 +62,10 @@ interface PieChartData {
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
     isDarkMode = false;
-    allSeries: Highcharts.SeriesSplineOptions[] = []; 
+    allSeries: Highcharts.SeriesSplineOptions[] = [];
     netAssetSeries: Highcharts.SeriesSplineOptions[] = [];
+    fundReturnSeries: Highcharts.SeriesSplineOptions[] = [];
 
-    
     private observer?: MutationObserver;
     private dataSubscription?: Subscription;
 
@@ -69,6 +77,9 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
 
     OwnershipPieData: PieChartData[] = [];
     OwnershipAreaData: Highcharts.SeriesAreaOptions[] = [];
+
+    combinedChart: { title: string, pieData: PieChartData[], areaData: Highcharts.SeriesAreaOptions[] }[] = [];
+    marketChart: { title: string, series: Highcharts.SeriesSplineOptions[] }[] = [];
 
     readonly assetConfigs: {
         name: string;
@@ -101,16 +112,6 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
     ) { }
 
     ngOnInit(): void {
-        this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json').subscribe(data => {
-            this.netAssetSeries = [{
-                type: 'spline',
-                name: 'ارزش خالص دارایی‌ها',
-                color: '#f59e0b',
-                data: data.map(item => [new Date(item.date).getTime(), item.netAsset])
-            }];
-        });
-        
-
         if (isPlatformBrowser(this.platformId)) {
             this.updateTheme();
 
@@ -120,6 +121,46 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
                 attributeFilter: ['class']
             });
 
+            this.dataSubscription = this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json')
+                .subscribe((data) => {
+                    const getNetAsset = (
+                        name: string,
+                        color: string,
+                        extract: (item: NetAssetData) => number
+                    ): Highcharts.SeriesSplineOptions => ({
+                        type: 'spline',
+                        name,
+                        color,
+                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
+                    });
+
+                    this.netAssetSeries = [
+                        getNetAsset('ارزش خالص دارایی‌ها', '#F87171', item => item.netAsset),
+                        getNetAsset('ارزش صدور', '##ffffff00', item => item.unitsRedDAY),
+                        getNetAsset('NAV آماری', '##ffffff00', item => item.unitsSubDAY),
+                    ];
+                });
+
+            this.dataSubscription = this.http.get<FundReturn[]>('/assets/json/return-fund-data.json')
+                .subscribe((data) => {
+                    const getFundReturn = (
+                        name: string,
+                        color: string,
+                        extract: (item: FundReturn) => number
+                    ): Highcharts.SeriesSplineOptions => ({
+                        type: 'spline',
+                        name,
+                        color,
+                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
+                    });
+
+                    this.fundReturnSeries = [
+                        getFundReturn('ارزش خالص دارایی‌ها', '#F87171', item => item.netAsset),
+                        getFundReturn('ارزش صدور', '##ffffff00', item => item.unitsRedDAY),
+                        getFundReturn('NAV آماری', '##ffffff00', item => item.unitsSubDAY),
+                    ];
+                });
+
             this.dataSubscription = this.http.get<MarketLineData[]>('/assets/json/nav-comparison-data.json')
                 .subscribe((data) => {
                     const getSeries = (
@@ -127,10 +168,10 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
                         color: string,
                         extract: (item: MarketLineData) => number
                     ): Highcharts.SeriesSplineOptions => ({
-                        type: 'spline', 
+                        type: 'spline',
                         name,
                         color,
-                        data: data.map(item => [new Date(item.date).getTime(), extract(item)])
+                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
                     });
 
                     this.allSeries = [
@@ -141,7 +182,6 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
                 });
         }
 
-
         this.http.get<MarketData[]>('/assets/json/Asset-data.json').subscribe(data => {
             this.marketData = data;
             this.generateAssetData();
@@ -151,8 +191,18 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
             this.ownershipData = data;
             this.generateOwnershipData();
         });
-    }
 
+        this.combinedChart = [
+            { title: 'ترکیب دارایی‌ها', pieData: this.AssetPieData, areaData: this.AssetAreaData },
+            { title: 'میزان تملک سرمایه‌گذاران حقیقی و حقوقی', pieData: this.OwnershipPieData, areaData: this.OwnershipAreaData }
+        ];
+
+        this.marketChart = [
+            { title: 'نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری', series: this.allSeries },
+            { title: 'نمودار ارزش خالص دارایی‌ها', series: this.netAssetSeries },
+            { title: 'نمودار بازدهی صندوق', series: this.fundReturnSeries }
+        ];
+    }
 
     updateTheme(): void {
         this.isDarkMode = this.document.documentElement.classList.contains('dark');

@@ -77,35 +77,15 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
       },
       rangeSelector: {
         selected: 0,
-        inputEnabled: false,
+        inputEnabled: true,
         buttons: [
-          {
-            type: 'month',
-            count: 1,
-            text: '1m'
-          },
-          {
-            type: 'month',
-            count: 3,
-            text: '3m'
-          },
-          {
-            type: 'month',
-            count: 6,
-            text: '6m'
-          },
-          {
-            type: 'year',
-            count: 1,
-            text: '1y'
-          },
-          {
-            type: 'all',
-            text: 'همه'
-          }
+          { type: 'month', count: 1, text: '1m' },
+          { type: 'month', count: 3, text: '3m' },
+          { type: 'month', count: 6, text: '6m' },
+          { type: 'year', count: 1, text: '1y' },
+          { type: 'all', text: 'همه' }
         ]
       },
-
       xAxis: {
         labels: { style: { color: textColor } },
         type: 'datetime'

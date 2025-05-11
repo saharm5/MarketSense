@@ -74,36 +74,19 @@ export class MarketChartComponent implements OnInit, OnChanges, AfterViewInit {
       chart: {
         backgroundColor: bgColor,
         styledMode: false,
-      }, rangeSelector: {
-        selected: 0,
-        inputEnabled: false,
-        buttons: [
-          {
-            type: 'month',
-            count: 1,
-            text: '1m'
-          },
-          {
-            type: 'month',
-            count: 3,
-            text: '3m'
-          },
-          {
-            type: 'month',
-            count: 6,
-            text: '6m'
-          },
-          {
-            type: 'year',
-            count: 1,
-            text: '1y'
-          },
-          {
-            type: 'all',
-            text: 'همه'
-          }
-        ]
       },
+      rangeSelector: {
+        selected: 0,
+        inputEnabled: true,
+        buttons: [
+          { type: 'month', count: 1, text: '1m' },
+          { type: 'month', count: 3, text: '3m' },
+          { type: 'month', count: 6, text: '6m' },
+          { type: 'year', count: 1, text: '1y' },
+          { type: 'all', text: 'همه' }
+        ]
+      }
+      ,
       title: {
 
         align: 'right',
