@@ -139,7 +139,7 @@ export interface OwnershipData {
     providedIn: 'root'
 })
 export class FundDetailService {
-    private readonly TTL = 20 * 60 * 1000; // 20 دقیقه
+    private readonly TTL = 20 * 60 * 1000; 
 
     constructor(private http: HttpClient) { }
 

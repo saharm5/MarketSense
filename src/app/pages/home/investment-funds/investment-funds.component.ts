@@ -11,11 +11,12 @@ import {
   faProjectDiagram,
   faBuilding
 } from '@fortawesome/free-solid-svg-icons';
+import { SvgIconComponent } from "../../../core/svg-icon/svg-icon.component";
 
 @Component({
   selector: 'app-investment-funds',
   standalone: true,
-  imports: [CommonModule, FontAwesomeModule],
+  imports: [CommonModule, FontAwesomeModule, SvgIconComponent],
   templateUrl: './investment-funds.component.html',
   styleUrl: './investment-funds.component.css'
 })
@@ -24,49 +25,49 @@ export class InvestmentFundsComponent {
     {
       title: 'صندوق درآمد ثابت',
       link:"#",
-      icon: 'piggy-bank',
+      icon: 'assets/icons/bank.svg',
       description: 'سرمایه‌گذاری با ریسک پایین و سود ثابت.',
     },
     {
       title: 'صندوق سهامی',
       link:"#",
-      icon: 'chart-line',
+      icon: 'assets/icons/chart-line-up.svg',
       description: 'تمرکز بر سهام بورس با ریسک و بازده بیشتر.',
     },
     {
       title: 'صندوق مختلط',
       link:"#",
-      icon: 'balance-scale',
+      icon: 'assets/icons/scale.svg',
       description: 'ترکیبی از سهام و اوراق با درآمد ثابت.',
     },
     {
       title: 'صندوق طلا',
       link:"#",
-      icon: 'coins',
+      icon: 'assets/icons/coins.svg',
       description: 'سرمایه‌گذاری در اوراق بهادار مبتنی بر طلا.',
     },
     {
       title: 'صندوق ETF',
       link:"#",
-      icon: 'random',
+      icon: 'assets/icons/shuffle.svg',
       description: 'صندوق قابل معامله در بورس مانند سهام.',
     },
     {
       title: 'صندوق شاخصی',
       link:"#",
-      icon: 'chart-area',
+      icon: 'assets/icons/chart-area.svg',
       description: 'پیروی از شاخص‌های بازار مثل شاخص کل.',
     },
     {
       title: 'صندوق پروژه‌ای / خصوصی',
       link:"#",
-      icon: 'project-diagram',
+      icon: 'assets/icons/diagram-project.svg',
       description: 'سرمایه‌گذاری در پروژه‌ها یا شرکت‌های خاص.',
     },
     {
       title: 'صندوق زمین و ساختمان',
       link:"#",
-      icon: 'building',
+      icon: 'assets/icons/building.svg',
       description: 'متمرکز بر املاک، زمین و ساخت‌وساز.',
     },
   ];

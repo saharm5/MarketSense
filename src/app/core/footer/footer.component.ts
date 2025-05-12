@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { MailIconComponent } from '../../../assets/svg/mail-icon.component';
+import { SvgIconComponent } from "../svg-icon/svg-icon.component";
 
 interface FooterItem {
-  icon: string;
+
+  iconPath: string;
   label: string;
-  href?: string; // <== اینجا optional کردیم
+  href?: string; 
 }
 
 interface FooterSection {
@@ -16,7 +17,7 @@ interface FooterSection {
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, SvgIconComponent],
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
@@ -28,24 +29,24 @@ export class FooterComponent {
     {
       label: 'لینک‌ها',
       items: [
-        { icon: '📌', label: 'نمادهای برگزیده', href: '#' },
-        { icon: '⭐', label: 'دنبال شده‌ها', href: '#' },
-        { icon: '🏆', label: 'برترین تریدرها', href: '#' },
+        { iconPath: 'assets/icons/pin.svg', label: 'نمادهای برگزیده', href: '#' },
+        { iconPath: 'assets/icons/star.svg', label: 'دنبال شده‌ها', href: '#' },
+        { iconPath: 'assets/icons/trophy.svg', label: 'برترین تریدرها', href: '#' },
       ]
     },
     {
       label: 'ارتباط با ما',
       items: [
-        { icon: '📨', label: 'شکایات و پیشنهادات', href: '#' },
-        { icon: '❓', label: 'سوالات متداول (FAQ)', href: '#' },
-        { icon: '🌐', label: 'شبکه‌های اجتماعی', href: '#' },
+        { iconPath: 'assets/icons/mail.svg', label: 'شکایات و پیشنهادات', href: '#' },
+        { iconPath: 'assets/icons/questions.svg', label: 'سوالات متداول (FAQ)', href: '#' },
+        { iconPath: 'assets/icons/telegram.svg', label: 'شبکه‌های اجتماعی', href: '#' },
       ]
     },
     {
       label: 'تماس با ما',
       items: [
-        { icon: '📞', label: 'پشتیبانی فنی: 09123456789' },
-        { icon: '📈', label: 'تحلیلگر سرمایه‌گذاری: 09123456789' },
+        { iconPath: 'assets/icons/phone.svg', label: 'پشتیبانی فنی: 09123456789' },
+        { iconPath: 'assets/icons/chart-histogram.svg', label: 'تحلیلگر سرمایه‌گذاری: 09123456789' },
       ]
     }
   ];

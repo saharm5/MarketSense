@@ -15,7 +15,6 @@ nav a {
   color: #f9fafb;
 }
 
-/* حالت‌های موبایل */
 @media (max-width: 1024px) {
   .setting-panel {
     right: 50%;

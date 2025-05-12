@@ -33,28 +33,29 @@
 
 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4 pb-3">
-            <a routerLink="/login" class="px-2" aria-label="User Profile">
-                <fa-icon [icon]="['fas', 'user']"
-                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-[#fff]"></fa-icon>
-            </a>
+            <button routerLink="/login" class="flex items-center justify-center" aria-label="User Profile">
+                <app-svg-icon class="bg-gray-700 w-5 h-5 hover:bg-gray-900 dark:bg-[#fff] cursor-pointer"
+                    [path]="'assets/icons/user.svg'"> </app-svg-icon>
+            </button>
 
             <div class="relative">
-                <button type="button" (click)="toggleSetting($event)" class="px-2 setting-button">
-                    <fa-icon [icon]="['fas', 'cogs']"
-                        class="text-gray-700 hover:text-gray-900 w-6 h-6 dark:text-[#fff]"></fa-icon>
+                <button type="button" (click)="toggleSetting($event)" class="flex items-center justify-center setting-button">
+                    <app-svg-icon class="bg-gray-700 w-6 h-6 hover:bg-gray-900 dark:bg-[#fff]" [path]="'assets/icons/settings.svg'">
+                    </app-svg-icon>
                 </button>
 
                 <div *ngIf="settingOpen"
                     class="setting-panel bg-[#d0dce9]  dark:bg-[#081122] p-4 shadow-lg rounded-md absolute top-full -left-1/2 w-20 z-10">
                     <div class="flex flex-col items-center gap-2">
                         <button (click)="toggleTheme()"
-                            class="relative flex items-center justify-center w-10 h-10 pt-1 rounded-full  dark:bg-[#163B65] bg-gray-200 overflow-hidden">
+                            class="relative flex items-center justify-center w-10 h-10 rounded-full  dark:bg-[#163B65] bg-gray-200 overflow-hidden">
                             <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'"
                                 class="flex items-center justify-center">
-                                <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']"
-                                    class="text-yellow-400 text-2xl"></fa-icon>
-                                <fa-icon *ngIf="!isDarkTheme" [icon]="['fas', 'moon']"
-                                    class="text-blue-400 text-2xl"></fa-icon>
+                                <app-svg-icon *ngIf="isDarkTheme" class="bg-yellow-400 w-6 h-6"
+                                    [path]="'assets/icons/sun.svg'"> </app-svg-icon>
+                                <app-svg-icon *ngIf="!isDarkTheme" class="bg-blue-400 w-6 h-6"
+                                    [path]="'assets/icons/moon.svg'"> </app-svg-icon>
+
                             </div>
                         </button>
                     </div>
@@ -62,23 +63,28 @@
             </div>
         </div>
 
-        <div class="flex lg:hidden items-center gap-2">
+        <div class="flex lg:hidden items-center justify-center gap-3 p-2 pb-3">
             <!-- دکمه تغییر تم -->
             <button (click)="toggleTheme()"
-                class="relative flex items-center justify-center w-8 h-8 rounded-full  dark:bg-[#081122] bg-gray-200 overflow-hidden">
+                class="relative flex items-center justify-center rounded-full  dark:bg-[#081122] bg-gray-200 overflow-hidden">
                 <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'" class="flex items-center justify-center">
-                    <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']" class="text-yellow-400 text-xl"></fa-icon>
-                    <fa-icon *ngIf="!isDarkTheme" [icon]="['fas', 'moon']" class="text-blue-400 text-xl"></fa-icon>
+                    <app-svg-icon *ngIf="isDarkTheme" class="bg-yellow-400 w-6 h-6" [path]="'assets/icons/sun.svg'">
+                    </app-svg-icon>
+                    <app-svg-icon *ngIf="!isDarkTheme" class="bg-blue-400 w-6 h-6" [path]="'assets/icons/moon.svg'">
+                    </app-svg-icon>
                 </div>
             </button>
 
-            <a routerLink="/login" class="px-2" aria-label="User Profile">
-                <fa-icon [icon]="['fas', 'user']"
-                    class="text-gray-700 hover:text-gray-900 w-6 h-6 cursor-pointer dark:text-[#fff]"></fa-icon>
-            </a>
+            <button routerLink="/login" class="flex items-center justify-center" aria-label="User Profile">
+                <app-svg-icon class="bg-gray-700 w-5 h-5 hover:bg-gray-900 dark:bg-[#fff] cursor-pointer"
+                    [path]="'assets/icons/user.svg'"> </app-svg-icon>
 
-            <button type="button" (click)="toggleMenu()" class="p-2">
-                <fa-icon [icon]="['fas', 'bars']" class="w-6 h-6 dark:text-[#fff]"></fa-icon>
+            </button>
+
+            <button type="button" (click)="toggleMenu()" class="flex items-center justify-center">
+                <app-svg-icon class="bg-gray-700 w-5 h-5 hover:bg-gray-900 dark:bg-[#fff]"
+                    [path]="'assets/icons/list-simple.svg'"> </app-svg-icon>
+
             </button>
         </div>
 
@@ -91,8 +97,13 @@
                 <button type="button" (click)="toggleMobileSubMenu(item.label)"
                     class="w-full flex justify-between items-center px-6  hover:text-[#688b99] focus:outline-none">
                     {{ item.label }}
-                    <fa-icon [icon]="openSubMenu === item.label ? ['fas', 'chevron-up'] : ['fas', 'chevron-down']"
-                        class="w-4 h-4"></fa-icon>
+                    <ng-container *ngIf="openSubMenu === item.label; else plusIcon">
+                        <app-svg-icon class="bg-[#000000] w-4 h-4 dark:bg-[#fff]" [path]="'assets/icons/minus-small.svg'"></app-svg-icon>
+                    </ng-container>
+                    <ng-template #plusIcon>
+                        <app-svg-icon class="bg-[#000000] w-4 h-4 dark:bg-[#fff]" [path]="'assets/icons/plus-small.svg'"></app-svg-icon>
+                    </ng-template>
+                   
                 </button>
 
                 <div *ngIf="openSubMenu === item.label"

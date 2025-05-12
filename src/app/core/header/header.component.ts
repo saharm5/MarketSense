@@ -5,13 +5,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faSun, faMoon, faUser, faCogs, faBars, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { isPlatformBrowser } from '@angular/common';
+import { SvgIconComponent } from "../svg-icon/svg-icon.component";
 
 @Component({
   standalone: true,
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
-  imports: [CommonModule, FontAwesomeModule],
+  imports: [CommonModule, FontAwesomeModule, SvgIconComponent],
   animations: [
     trigger('fadeRotate', [
       state('light', style({ opacity: 1, transform: 'rotate(0deg)' })),

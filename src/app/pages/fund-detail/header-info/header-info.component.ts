@@ -1,11 +1,12 @@
 // C: \Users\Sanay\MarketSense\src\app\pages\fund - detail\header - info\header - info.component.ts
 import { Component, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SvgIconComponent } from "../../../core/svg-icon/svg-icon.component";
 
 @Component({
   selector: 'app-header-info',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, SvgIconComponent],
   templateUrl: './header-info.component.html',
   styleUrls: ['./header-info.component.css']
 })
