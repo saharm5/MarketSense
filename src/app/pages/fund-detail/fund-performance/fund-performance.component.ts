@@ -1,49 +1,11 @@
+// C: \Users\Sanay\MarketSense\src\app\pages\fund - detail\fund - performance\fund - performance.component.ts
 import { Component, OnInit, OnDestroy, inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
 import * as Highcharts from 'highcharts';
 import { CombinedChartComponent } from './combined-chart/combined-chart.component';
 import { LineChartComponent } from '../../../core/shared/line-chart/line-chart.component';
-
-interface NetAssetData {
-    date: string;
-    netAsset: number;
-    unitsSubDAY: number;
-    unitsRedDAY: number;
-}
-
-interface FundReturn {
-    date: string;
-    netAsset: number;
-    unitsSubDAY: number;
-    unitsRedDAY: number;
-}
-
-interface MarketLineData {
-    date: string;
-    issueNav: number;
-    cancelNav: number;
-    statisticalNav: number;
-}
-
-interface MarketData {
-    date: string;
-    fiveBest: number;
-    stock: number;
-    bond: number;
-    other: number;
-    cash: number;
-    deposit: number;
-    fundUnit: number;
-    commodity: number;
-}
-
-interface OwnershipData {
-    date: string;
-    insInvPercent: number;
-    retInvPercent: number;
-}
+import { FundDetailService, MarketData, OwnershipData } from '../../../services/fund.detail.service';
 
 interface PieChartData {
     name: string;
@@ -54,16 +16,15 @@ interface PieChartData {
 @Component({
     selector: 'app-fund-performance',
     standalone: true,
-    imports:  [CommonModule, CombinedChartComponent, LineChartComponent],
+    imports: [CommonModule, CombinedChartComponent, LineChartComponent],
     templateUrl: './fund-performance.component.html',
-    styleUrls:  ['./fund-performance.component.css']
+    styleUrls: ['./fund-performance.component.css']
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
     isDarkMode = false;
-    allSeries: Highcharts.SeriesLineOptions [] =  [];
-    netLineData: Highcharts.SeriesLineOptions [] =  [];
-    fundReturnSeries: Highcharts.SeriesLineOptions [] =  [];
-
+    allSeries: Highcharts.SeriesLineOptions[] = [];
+    netLineData: Highcharts.SeriesLineOptions[] = [];
+    fundReturnSeries: Highcharts.SeriesLineOptions[] = [];
 
     private observer?: MutationObserver;
     private subscriptions: Subscription[] = [];
@@ -98,7 +59,7 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
 
     private readonly document = inject(DOCUMENT);
     private readonly platformId = inject(PLATFORM_ID);
-    private readonly http = inject(HttpClient);
+    private readonly fundService = inject(FundDetailService);
 
     ngOnInit(): void {
         if (isPlatformBrowser(this.platformId)) {
@@ -112,15 +73,17 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
             this.loadLineChartData();
         }
 
-        this.http.get<MarketData[]>('/assets/json/Asset-data.json').subscribe(data => {
-            this.marketData = data;
-            this.generateAssetData();
-        });
+        this.subscriptions.push(
+            this.fundService.getMarketData().subscribe(data => {
+                this.marketData = data;
+                this.generateAssetData();
+            }),
 
-        this.http.get<OwnershipData[]>('/assets/json/Ownership-data.json').subscribe(data => {
-            this.ownershipData = data;
-            this.generateOwnershipData();
-        });
+            this.fundService.getOwnershipData().subscribe(data => {
+                this.ownershipData = data;
+                this.generateOwnershipData();
+            })
+        );
 
         this.combinedChart = [
             { title: 'ترکیب دارایی‌ها', pieData: this.AssetPieData, areaData: this.AssetAreaData },
@@ -129,35 +92,37 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
     }
 
     loadLineChartData(): void {
-        this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json').subscribe(data => {
-            this.netLineData = [
-                this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
-                this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
-                this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
-            ];
+        this.subscriptions.push(
+            this.fundService.getNetAssetData().subscribe(data => {
+                this.netLineData = [
+                    this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
+                    this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
+                    this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
+                ];
 
-            this.marketChart.push({ title: 'نمودار ارزش خالص دارایی‌ها', lineData: this.netLineData });
-        });
+                this.marketChart.push({ title: 'نمودار ارزش خالص دارایی‌ها', lineData: this.netLineData });
+            }),
 
-        this.http.get<FundReturn[]>('/assets/json/return-fund-data.json').subscribe(data => {
-            this.fundReturnSeries = [
-                this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
-                this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
-                this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
-            ];
+            this.fundService.getFundReturnData().subscribe(data => {
+                this.fundReturnSeries = [
+                    this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
+                    this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
+                    this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
+                ];
 
-            this.marketChart.push({ title: 'نمودار بازدهی صندوق', lineData: this.fundReturnSeries });
-        });
+                this.marketChart.push({ title: 'نمودار بازدهی صندوق', lineData: this.fundReturnSeries });
+            }),
 
-        this.http.get<MarketLineData[]>('/assets/json/nav-comparison-data.json').subscribe(data => {
-            this.allSeries = [
-                this.mapToLineSeries('ارزش ابطال', '#F87171', data, dataItem => dataItem.cancelNav),
-                this.mapToLineSeries('ارزش صدور', '#60A5FA', data, dataItem => dataItem.issueNav),
-                this.mapToLineSeries('NAV آماری', '#34D399', data, dataItem => dataItem.statisticalNav),
-            ];
+            this.fundService.getMarketLineData().subscribe(data => {
+                this.allSeries = [
+                    this.mapToLineSeries('ارزش ابطال', '#F87171', data, dataItem => dataItem.cancelNav),
+                    this.mapToLineSeries('ارزش صدور', '#60A5FA', data, dataItem => dataItem.issueNav),
+                    this.mapToLineSeries('NAV آماری', '#34D399', data, dataItem => dataItem.statisticalNav),
+                ];
 
-            this.marketChart.unshift({ title: 'نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری', lineData: this.allSeries });
-        });
+                this.marketChart.unshift({ title: 'نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری', lineData: this.allSeries });
+            })
+        );
     }
 
     mapToLineSeries<T extends { date: string }>(
@@ -173,7 +138,6 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
             data: data.map(item => [new Date(item.date).getTime(), extractor(item)]),
         };
     }
-
 
     generateAssetData(): void {
         if (!this.marketData.length) return;

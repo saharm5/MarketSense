@@ -1,11 +1,11 @@
-<div class="flex flex-col xl:flex-row xl:space-x-4 justify-center items-start">
-    <!-- نوار دکمه‌ها -->
+<!-- C:\Users\Sanay\MarketSense\src\app\pages\fund-detail\fund-detail.component.html -->
+<div class="flex flex-col">
     <app-header-info (toggleViewEvent)="onToggleView($event)"></app-header-info>
 
-    <!-- محتوای پویا -->
-    <div class="xl:w-4/5 w-full grid gap-4 mt-4 xl:mt-0">
-        <app-fund-performance *ngIf="showPerformance"></app-fund-performance>
-        <app-fund-info *ngIf="!showPerformance"></app-fund-info>
+    <div class="flex flex-col xl:flex-row xl:space-x-4 justify-center items-start">
+        <div class="xl:w-4/5 w-full grid gap-4 mt-4 xl:mt-0">
+            <app-fund-info *ngIf="!showPerformance"></app-fund-info>
+            <app-fund-performance *ngIf="showPerformance"></app-fund-performance>
+        </div>
     </div>
 </div>
-  

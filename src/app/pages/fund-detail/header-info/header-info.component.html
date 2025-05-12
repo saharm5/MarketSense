@@ -1,33 +1,35 @@
-<div>
-    <div>
-        <div>
-            <img src="" alt="">
-            <p></p>
+<div class="flex flex-col w-full bg-[#e1e9f1] text-[#000000] dark:bg-[#081122] dark:text-[#fff]">
+
+    <div class="flex md:flex-row flex-col justify-between  p-4">
+        <div class="flex  flex-row items-center gap-2 ">
+            <img class="h-10 w-auto" src="img/lotos-parsian.jpg" alt="lotos-parsian-nemad">
+            <p class="text-[#000000] dark:text-[#fff] font-bold text-2xl pb-0 text-end"> لوتوس پارسیان (در اوراق بهادار
+                با درآمد ثابت)
+            </p>
         </div>
-        <p></p>
-    </div>
-    <div>
-        <div class="flex flex-col items-center space-y-4">
-            <div
-                class="w-72 h-12 flex rounded-xl overflow-hidden border border-gray-300 shadow-md select-none text-sm font-medium">
-        
-                <!-- دکمه عملکرد -->
-                <button
-                    class="transition-all duration-300 bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center px-3 focus:outline-none focus:ring-2 ring-blue-400"
-                    [ngStyle]="{ width: leftWidth + '%' }" (click)="expand('left')">
-                    <span *ngIf="leftWidth > 50" class="ml-2">عملکرد</span> 📈
-                </button>
-        
-                <!-- دکمه اطلاعات -->
-                <button
-                    class="transition-all duration-300 bg-green-600 hover:bg-green-700 text-white flex items-center justify-center px-3 focus:outline-none focus:ring-2 ring-green-400"
-                    [ngStyle]="{ width: rightWidth + '%' }" (click)="expand('right')">
-                    <span *ngIf="rightWidth > 50" class="ml-2">اطلاعات</span> 📊
-                </button>
-        
-            </div>
-        </div>
-          
+        <p class="text-sm text-gray-400">تاریخ به‌روز رسانی 1404/02/01</p>
 
     </div>
+
+    <div class="w-60 h-10 flex flex-row overflow-hidden select-none text-sm font-medium gap-1 content-start">
+
+        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300 shadow-md 
+                       bg-[#f8f9fb] dark:bg-[#677588] hover:bg-[] text-[#000000] flex items-center justify-center px-3"
+            [ngClass]="{ 'text-[#F26827]': selectedView === 'performance' }" [ngStyle]="{ width: rightWidth + '%' }"
+            (click)="expand('right')">
+            📊
+            <span *ngIf="rightWidth > 50" class="mr-2 font-semibold">اطلاعات</span>
+        </button>
+        
+        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300 shadow-md 
+                       bg-[#f8f9fb] dark:bg-[#677588] hover:bg-[] text-[#000000] flex items-center justify-center px-3"
+            [ngClass]="{ 'text-[#F26827] ': selectedView === 'info' }" [ngStyle]="{ width: leftWidth + '%' }"
+            (click)="expand('left')">
+            📈
+            <span *ngIf="leftWidth > 50" class="mr-2 font-semibold">عملکرد</span>
+        </button>
+      
+
+    </div>
+
 </div>

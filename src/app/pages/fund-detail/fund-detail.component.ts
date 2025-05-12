@@ -1,3 +1,4 @@
+// C: \Users\Sanay\MarketSense\src\app\pages\fund - detail\fund - detail.component.ts
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FundPerformanceComponent } from './fund-performance/fund-performance.component';
