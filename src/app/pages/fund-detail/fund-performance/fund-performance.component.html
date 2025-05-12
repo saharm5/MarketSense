@@ -1,5 +1,6 @@
 <div class="flex flex-wrap justify-between gap-3 p-2 my-3">
 
+
     <div *ngFor="let item of combinedChart"
         class="flex flex-col w-full bg-[#fff] dark:bg-[#081122] border-2 dark:border border-[#e5e7eb] dark:border-[#163B65]  rounded-md shadow-md overflow-hidden">
         <div class="bg-[#e1e9f1] px-4 py-2 dark:bg-[#163B65]">
@@ -14,5 +15,4 @@
         </div>
         <app-line-chart class="p-2" [LineData]="item.lineData"></app-line-chart>
     </div>
-
-</div>
+    

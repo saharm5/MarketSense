@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { PLATFORM_ID } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { PieChartComponent } from "../../../../core/shared/pie-chart/pie-chart.component";
+import { PieChartComponent } from '../pie-chart/pie-chart.component';
 
 interface MarketData {
   date: string;

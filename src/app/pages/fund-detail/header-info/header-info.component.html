@@ -1,0 +1,33 @@
+<div>
+    <div>
+        <div>
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <p></p>
+    </div>
+    <div>
+        <div class="flex flex-col items-center space-y-4">
+            <div
+                class="w-72 h-12 flex rounded-xl overflow-hidden border border-gray-300 shadow-md select-none text-sm font-medium">
+        
+                <!-- دکمه عملکرد -->
+                <button
+                    class="transition-all duration-300 bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center px-3 focus:outline-none focus:ring-2 ring-blue-400"
+                    [ngStyle]="{ width: leftWidth + '%' }" (click)="expand('left')">
+                    <span *ngIf="leftWidth > 50" class="ml-2">عملکرد</span> 📈
+                </button>
+        
+                <!-- دکمه اطلاعات -->
+                <button
+                    class="transition-all duration-300 bg-green-600 hover:bg-green-700 text-white flex items-center justify-center px-3 focus:outline-none focus:ring-2 ring-green-400"
+                    [ngStyle]="{ width: rightWidth + '%' }" (click)="expand('right')">
+                    <span *ngIf="rightWidth > 50" class="ml-2">اطلاعات</span> 📊
+                </button>
+        
+            </div>
+        </div>
+          
+
+    </div>
+</div>

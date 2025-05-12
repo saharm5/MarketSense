@@ -2,8 +2,8 @@ import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core
 import { CommonModule, isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-import { AreaChartComponent } from '../../../../core/shared/area-chart/area-chart.component';
 import * as Highcharts from 'highcharts';
+import { AreaChartComponent } from '../area-chart/area-chart.component';
 
 interface MarketData {
   date: string;

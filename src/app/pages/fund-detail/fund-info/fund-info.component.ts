@@ -24,7 +24,7 @@ export class FundInfoComponent implements OnInit {
   fundPerformanceData: FundPerformanceSection[] = [];
 
   private http = inject(HttpClient);
-  constructor(@Inject(PLATFORM_ID) private platformId: object) { } 
+  constructor(@Inject(PLATFORM_ID) private platformId: object) { }
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {

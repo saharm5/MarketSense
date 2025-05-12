@@ -1,4 +1,3 @@
-// fund-performance.component.ts
 import { Component, OnInit, OnDestroy, inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -55,15 +54,16 @@ interface PieChartData {
 @Component({
     selector: 'app-fund-performance',
     standalone: true,
-    imports: [CommonModule, CombinedChartComponent, LineChartComponent],
+    imports:  [CommonModule, CombinedChartComponent, LineChartComponent],
     templateUrl: './fund-performance.component.html',
-    styleUrls: ['./fund-performance.component.css']
+    styleUrls:  ['./fund-performance.component.css']
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
     isDarkMode = false;
-    allSeries: Highcharts.SeriesLineOptions[] = [];
-    netLineData: Highcharts.SeriesLineOptions[] = [];
-    fundReturnSeries: Highcharts.SeriesLineOptions[] = [];
+    allSeries: Highcharts.SeriesLineOptions [] =  [];
+    netLineData: Highcharts.SeriesLineOptions [] =  [];
+    fundReturnSeries: Highcharts.SeriesLineOptions [] =  [];
+
 
     private observer?: MutationObserver;
     private subscriptions: Subscription[] = [];

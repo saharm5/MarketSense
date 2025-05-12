@@ -1,63 +1,11 @@
-<!-- <div class="flex justify-center">
+<div class="flex flex-col xl:flex-row xl:space-x-4 justify-center items-start">
+    <!-- نوار دکمه‌ها -->
+    <app-header-info (toggleViewEvent)="onToggleView($event)"></app-header-info>
 
-    <div class="xl:w-4/5 w-full grid gap-3 ">
-        <div class="w-full">
-            <app-fund-performance></app-fund-performance>
-        </div>
-        <div>
-            <app-fund-info></app-fund-info>
-        </div>
-    </div>
-</div> -->
-<div class="flex justify-center">
-    <div class="xl:w-4/5 w-full grid gap-3">
-<!-- اینجا مشکل داره و دوباره فچ میشه نباید بشه احتمال میدم باید فچ کردئن دیتارو بیارم توی این صفحه  -->
-        <!-- دکمه -->
-        <div class="w-full flex justify-end mb-4">
-            <button (click)="toggleView()"
-                class="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 transition">
-                {{ showPerformance ? 'نمایش اطلاعات صندوق' : 'نمایش عملکرد صندوق' }}
-            </button>
-        </div>
-
-        <!-- <div class="w-full" *ngIf="showPerformance">
-            <app-fund-performance></app-fund-performance>
-        </div>
-
-        <div *ngIf="!showPerformance">
-            <app-fund-info></app-fund-info>
-        </div> -->
-
-<!-- 
-        <div class="w-full" [hidden]="!showPerformance">
-            <app-fund-performance></app-fund-performance>
-        </div>
-        
-        <div [hidden]="showPerformance">
-            <app-fund-info></app-fund-info>
-        </div> -->
+    <!-- محتوای پویا -->
+    <div class="xl:w-4/5 w-full grid gap-4 mt-4 xl:mt-0">
+        <app-fund-performance *ngIf="showPerformance"></app-fund-performance>
+        <app-fund-info *ngIf="!showPerformance"></app-fund-info>
     </div>
 </div>
-<div class="flex justify-center">
-    <div class="xl:w-4/5 w-full grid gap-3">
-
-        <!-- دکمه -->
-        <div class="w-full flex justify-end mb-4">
-            <button (click)="toggleView()"
-                class="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 transition">
-                {{ showPerformance ? 'نمایش اطلاعات صندوق' : 'نمایش عملکرد صندوق' }}
-            </button>
-        </div>
-
-        <div class="w-full" [hidden]="!showPerformance">
-            <app-fund-performance></app-fund-performance>
-        </div>
-
-        <div [hidden]="showPerformance">
-            <app-fund-info></app-fund-info>
-        </div>
-
-    </div>
-</div>
-  
   
