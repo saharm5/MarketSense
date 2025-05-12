@@ -6,7 +6,7 @@
     </div>
     <div class=" sm:px-4 px-0">
         <div>
-            <h2 class="text-2xl font-semibold text-right px-16">صندوق های برتر روز</h2>
+            <h2 class="text-2xl  dark:text-[#000000] font-semibold text-right px-16">صندوق های برتر روز</h2>
         </div>
         <app-top-funds class="w-full"></app-top-funds>
     </div>
@@ -14,7 +14,7 @@
     <div class="my-16 sm:m-4 sm:px-4 m-2 flex flex-wrap justify-between gap-8 text-center lg:text-right">
         <!-- بازار بورس -->
         <div
-            class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+            class="bg-[#fff] dark:bg-[#081122] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border dark:border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
             <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
                 <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار شاخص بازار بورس</a>
                 <a href="#"
@@ -22,14 +22,14 @@
                     مشاهده آمار
                 </a>
             </div>
-            <app-market-chart *ngIf="volumeData.length" [title]="''" [seriesData]="volumeData" [seriesName]="'بورس'"
-                [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
-            </app-market-chart>
+                              <app-line-chart class="p-2" [LineData]="allSeries"></app-line-chart>
+
+
         </div>
 
         <!-- فرابورس -->
         <div
-            class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+            class="bg-[#fff] dark:bg-[#081122] flex flex-col w-full lg:max-w-[48%] p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
             <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
                 <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار شاخص بازار فرابورس</a>
                 <a href="#"
@@ -37,14 +37,14 @@
                     مشاهده آمار
                 </a>
             </div>
-            <app-market-chart *ngIf="priceData.length" [title]="''" [seriesData]="priceData" [seriesName]="'فرابورس'"
-                [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
-            </app-market-chart>
+                       <app-line-chart class="p-2" [LineData]="allSeries"></app-line-chart>
+
+
         </div>
     </div>
     <div class="px-10">
         <div>
-            <h2 class="text-2xl font-semibold px-6 py-2">
+            <h2 class="text-2xl  dark:text-[#000000] font-semibold px-6 py-2">
                 انواع صندوق های سرمایه‌گذاری
             </h2>
         </div>
@@ -54,7 +54,7 @@
     <div class="my-16  sm:m-4 sm:px-4 m-2  flex flex-wrap justify-center gap-8 text-center lg:text-right ">
         <!-- نمودار حجم معاملات بورس -->
         <div
-            class="bg-[#fff] dark:bg-[#264553] flex flex-col w-full p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+            class="bg-[#fff] dark:bg-[#081122] flex flex-col w-full p-6 md:p-10 gap-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
             <div class="flex sm:flex-row flex-col gap-4 justify-between items-center">
                 <a href="#" class="text-xl md:text-2xl font-semibold dark:text-[#fff]">نمودار حجم معاملات بورس</a>
                 <a href="#"
@@ -62,9 +62,9 @@
                     مشاهده آمار
                 </a>
             </div>
-            <app-market-chart *ngIf="volumeData.length" [title]="''" [seriesData]="volumeData" [seriesName]="'بورس'"
-                [color]="'#00C8B5'" [isDarkMode]="isDarkMode">
-            </app-market-chart>
+                       <app-line-chart class="p-2" [LineData]="allSeries"></app-line-chart>
+
+
         </div>
     </div>
 

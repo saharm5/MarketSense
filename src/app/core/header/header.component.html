@@ -1,5 +1,5 @@
 <!-- C:\Users\Sanay\MarketSense\src\app\core\header\header.component.html -->
-<header class="sticky top-0  w-full z-50 bg-[#e1e9f1] shadow-md text-[#000000] dark:bg-[#264553] dark:text-[#fff]">
+<header class="sticky top-0  w-full z-50 bg-[#e1e9f1] shadow-md text-[#000000] dark:bg-[#081122] dark:text-[#fff]">
     <nav class="mx-auto flex items-end justify-between lg:px-11" aria-label="Global">
 
         <div class="flex lg:flex-1  items-center">
@@ -17,7 +17,7 @@
                         {{ item.label }}
                     </button>
                     <div
-                        class="absolute right-0 top-full hidden group-hover:grid grid-flow-col-dense gap-8 bg-[#e1e9f1]   shadow-lg z-50 rounded-md p-6 min-w-max  dark:bg-[#264553]">
+                        class="absolute right-0 top-full hidden group-hover:grid grid-flow-col-dense gap-8 bg-[#e1e9f1]   shadow-lg z-50 rounded-md p-6 min-w-max  dark:bg-[#081122]">
                         <div *ngFor="let sub of item.submenu">
                             <h3 class=" font-bold mb-4 border-b border-gray-600 pb-2">{{ sub.title }}</h3>
                             <ul class="space-y-2 text-sm min-w-[150px] px-3">
@@ -45,10 +45,10 @@
                 </button>
 
                 <div *ngIf="settingOpen"
-                    class="setting-panel bg-[#d0dce9]  dark:bg-[#264553] p-4 shadow-lg rounded-md absolute top-full -left-1/2 w-20 z-10">
+                    class="setting-panel bg-[#d0dce9]  dark:bg-[#081122] p-4 shadow-lg rounded-md absolute top-full -left-1/2 w-20 z-10">
                     <div class="flex flex-col items-center gap-2">
                         <button (click)="toggleTheme()"
-                            class="relative flex items-center justify-center w-10 h-10 pt-1 rounded-full  dark:bg-[#416372] bg-gray-200 overflow-hidden">
+                            class="relative flex items-center justify-center w-10 h-10 pt-1 rounded-full  dark:bg-[#163B65] bg-gray-200 overflow-hidden">
                             <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'"
                                 class="flex items-center justify-center">
                                 <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']"
@@ -65,7 +65,7 @@
         <div class="flex lg:hidden items-center gap-2">
             <!-- دکمه تغییر تم -->
             <button (click)="toggleTheme()"
-                class="relative flex items-center justify-center w-8 h-8 rounded-full  dark:bg-[#264553] bg-gray-200 overflow-hidden">
+                class="relative flex items-center justify-center w-8 h-8 rounded-full  dark:bg-[#081122] bg-gray-200 overflow-hidden">
                 <div [@fadeRotate]="isDarkTheme ? 'dark' : 'light'" class="flex items-center justify-center">
                     <fa-icon *ngIf="isDarkTheme" [icon]="['fas', 'sun']" class="text-yellow-400 text-xl"></fa-icon>
                     <fa-icon *ngIf="!isDarkTheme" [icon]="['fas', 'moon']" class="text-blue-400 text-xl"></fa-icon>
@@ -84,7 +84,7 @@
 
     </nav>
 
-    <div *ngIf="menuOpen" class="lg:hidden bg-[#e1e9f1] transition-all duration-500 overflow-hidden  dark:bg-[#264553]">
+    <div *ngIf="menuOpen" class="lg:hidden bg-[#e1e9f1] transition-all duration-500 overflow-hidden  dark:bg-[#081122]">
         <div class="flex flex-col space-y-2 py-6">
             <div *ngFor="let item of menuItems">
 

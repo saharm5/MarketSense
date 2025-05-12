@@ -7,11 +7,16 @@ import { FundInfoComponent } from "./fund-info/fund-info.component";
 @Component({
   selector: 'app-fund-detail',
   standalone: true,
-  imports: [CommonModule, FundPerformanceComponent, FundInfoComponent],
+  imports: [CommonModule, FundInfoComponent, FundPerformanceComponent],
   templateUrl: './fund-detail.component.html',
   styleUrls: ['./fund-detail.component.css']
 })
 export class FundDetailComponent {
- 
+  showPerformance = true;
+
+  toggleView() {
+    this.showPerformance = !this.showPerformance;
+  }
+  
 
 }

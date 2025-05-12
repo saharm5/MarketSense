@@ -10,10 +10,10 @@ module.exports = {
         sans: ['Vazirmatn', 'sans-serif'],
       },
       colors: {
-        'chart-bg': '#264553',
+        'chart-bg': '#081122',
         chart: {
           light: '#ffffff',
-          dark: '#264553',
+          dark: '#081122',
         },
         text: {
           light: '#000000',

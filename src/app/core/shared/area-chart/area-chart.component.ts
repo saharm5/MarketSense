@@ -109,7 +109,7 @@ export class AreaChartComponent implements OnInit, OnChanges, AfterViewInit {
           name: this.seriesName,
           data: this.seriesData,
           color: this.color,
-          fillOpacity: 0.3,
+          fillOpacity: 0.9,
         },
       ],
     };

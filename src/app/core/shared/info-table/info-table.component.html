@@ -1,28 +1,70 @@
+<div class="flex sm:flex-row gap-2 flex-col">
+    <div class="flex flex-col w-full gap-2">
+        <ng-container *ngFor="let section of fundPerformance; let i = index">
+            <div *ngIf="i % 2 === 0"
+                class="w-full rounded-md shadow-md overflow-hidden bg-[#fff] dark:bg-[#081122] flex flex-col">
+                <table class="w-full h-full text-sm text-right rtl:text-right border-collapse flex-grow">
+                    <thead [ngClass]="getHeaderClass(section)"
+                        class="font-medium text-[#000000] dark:bg-[#163B65] bg-[#e1e9f1] dark:text-[#fff]">
+                        <tr>
+                            <th scope="col" class="px-4 py-3 text-center" colspan="2">
+                                {{ section.name }}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 dark:divide-gray-600">
+                        <tr *ngFor="let item of section.items">
+                            <td class="px-4 py-2 text-gray-600 dark:text-gray-200">{{ item.title }}</td>
+                            <td class="px-4 py-2 text-left font-medium" [ngClass]="{
+                    'text-[#000000] dark:text-[#fff]': isString(item.value),
+                    'text-red-500 dark:text-red-400': isNegative(item.value),
+                    'text-gray-500 dark:text-gray-400': isZero(item.value),
+                    'text-green-600 dark:text-green-400': isPositive(item.value)
+                  }">
+                                <ng-container *ngIf="!isString(item.value); else stringVal">
+                                    {{ item.value | number: '1.2-2' }}%
+                                </ng-container>
+                                <ng-template #stringVal>{{ item.value }}</ng-template>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </ng-container>
+    </div>
 
-<div *ngFor="let section of fundPerformance">
-    <table class="min-w-full divide-y divide-gray-200 text-sm text-right rtl:text-right">
-        <thead [ngClass]="getHeaderClass(section)" class="font-bold text-gray-800">
-            <tr>
-                <th scope="col" class="px-4 py-3 text-center" colspan="2">
-                    {{ section.name }}
-                </th>
-            </tr>
-        </thead>
-        <tbody class="bg-white divide-y divide-gray-100">
-            <tr *ngFor="let item of section.items">
-                <td class="px-4 py-2 text-gray-600">{{ item.title }}</td>
-                <td class="px-4 py-2 text-left font-semibold" [ngClass]="{
-          'text-black': isString(item.value),
-          'text-red-500': isNegative(item.value),
-          'text-gray-500': isZero(item.value),
-          'text-green-600': isPositive(item.value)
-        }">
-                    <ng-container *ngIf="!isString(item.value); else stringVal">
-                        {{ item.value | number: '1.2-2' }}%
-                    </ng-container>
-                    <ng-template #stringVal>{{ item.value }}</ng-template>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="flex flex-col w-full gap-2">
+        <ng-container *ngFor="let section of fundPerformance; let i = index">
+            <div *ngIf="i % 2 === 1"
+                class="w-full rounded-md shadow-md overflow-hidden bg-[#fff] dark:bg-[#081122] flex flex-col">
+                <table class="w-full h-full text-sm text-right rtl:text-right border-collapse flex-grow">
+                    <thead [ngClass]="getHeaderClass(section)"
+                        class="font-medium text-[#000000] dark:bg-[#163B65] bg-[#e1e9f1] dark:text-[#fff]">
+                        <tr>
+                            <th scope="col" class="px-4 py-3 text-center" colspan="2">
+                                {{ section.name }}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 dark:divide-gray-600">
+                        <tr *ngFor="let item of section.items">
+                            <td class="px-4 py-2 text-gray-600 dark:text-gray-200">{{ item.title }}</td>
+                            <td class="px-4 py-2 text-left font-medium" [ngClass]="{
+                    'text-[#000000] dark:text-[#fff]': isString(item.value),
+                    'text-red-500 dark:text-red-400': isNegative(item.value),
+                    'text-gray-500 dark:text-gray-400': isZero(item.value),
+                    'text-green-600 dark:text-green-400': isPositive(item.value)
+                  }">
+                                <ng-container *ngIf="!isString(item.value); else stringVal">
+                                    {{ item.value | number: '1.2-2' }}%
+                                </ng-container>
+                                <ng-template #stringVal>{{ item.value }}</ng-template>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </ng-container>
+    </div>
 </div>
+  

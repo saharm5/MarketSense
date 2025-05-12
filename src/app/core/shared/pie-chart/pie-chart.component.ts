@@ -45,7 +45,7 @@ export class PieChartComponent implements OnChanges {
 
         const textColor =
             root.getPropertyValue('--text-color') || (this.isDarkMode ? '#fff' : '#000');
-        const bgColor = this.isDarkMode ? '#1f2937' : '#ffffff';
+        const bgColor = this.isDarkMode ? '#081122' : '#ffffff';
         const isSmallScreen = isPlatformBrowser(this.platformId) && window.innerWidth < 400;
         this.chartOptions = {
             credits: {
@@ -69,9 +69,9 @@ export class PieChartComponent implements OnChanges {
                 point: { valueSuffix: '%' }
             },
             legend: {
-                layout: 'horizontal',       // همیشه ردیفی
-                align: 'center',            // وسط‌چین
-                verticalAlign: 'bottom',       // بالای چارت یا می‌تونی بزاری 'bottom'
+                layout: 'horizontal',      
+                align: 'center',            
+                verticalAlign: 'bottom',       
                 itemMarginTop: 4,
                 itemMarginBottom: 4,
                 symbolHeight: 10,
@@ -79,7 +79,7 @@ export class PieChartComponent implements OnChanges {
                 itemStyle: {
                     color: textColor,
                     fontSize: isSmallScreen ? '10px' : '12px',
-                    whiteSpace: 'nowrap'  // مهم: از شکستن متن جلوگیری می‌کنه
+                    whiteSpace: 'nowrap'  
                 }
             },
             plotOptions: {

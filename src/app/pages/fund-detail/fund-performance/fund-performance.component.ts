@@ -1,12 +1,11 @@
-import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// fund-performance.component.ts
+import { Component, OnInit, OnDestroy, inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-import { isPlatformBrowser } from '@angular/common';
-import { DOCUMENT } from '@angular/common';
-import { CombinedChartComponent } from './combined-chart/combined-chart.component';
-import { MarketChartComponent } from '../../../core/shared/market-chart/market-chart.component';
 import * as Highcharts from 'highcharts';
+import { CombinedChartComponent } from './combined-chart/combined-chart.component';
+import { LineChartComponent } from '../../../core/shared/line-chart/line-chart.component';
 
 interface NetAssetData {
     date: string;
@@ -56,18 +55,18 @@ interface PieChartData {
 @Component({
     selector: 'app-fund-performance',
     standalone: true,
-    imports: [CommonModule, CombinedChartComponent, MarketChartComponent],
+    imports: [CommonModule, CombinedChartComponent, LineChartComponent],
     templateUrl: './fund-performance.component.html',
     styleUrls: ['./fund-performance.component.css']
 })
 export class FundPerformanceComponent implements OnInit, OnDestroy {
     isDarkMode = false;
-    allSeries: Highcharts.SeriesSplineOptions[] = [];
-    netAssetSeries: Highcharts.SeriesSplineOptions[] = [];
-    fundReturnSeries: Highcharts.SeriesSplineOptions[] = [];
+    allSeries: Highcharts.SeriesLineOptions[] = [];
+    netLineData: Highcharts.SeriesLineOptions[] = [];
+    fundReturnSeries: Highcharts.SeriesLineOptions[] = [];
 
     private observer?: MutationObserver;
-    private dataSubscription?: Subscription;
+    private subscriptions: Subscription[] = [];
 
     marketData: MarketData[] = [];
     ownershipData: OwnershipData[] = [];
@@ -78,108 +77,39 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
     OwnershipPieData: PieChartData[] = [];
     OwnershipAreaData: Highcharts.SeriesAreaOptions[] = [];
 
-    combinedChart: { title: string, pieData: PieChartData[], areaData: Highcharts.SeriesAreaOptions[] }[] = [];
-    marketChart: { title: string, series: Highcharts.SeriesSplineOptions[] }[] = [];
+    combinedChart: { title: string; pieData: PieChartData[]; areaData: Highcharts.SeriesAreaOptions[] }[] = [];
+    marketChart: { title: string; lineData: Highcharts.SeriesLineOptions[] }[] = [];
 
-    readonly assetConfigs: {
-        name: string;
-        key: keyof MarketData;
-        color: string;
-    }[] = [
-            { name: 'واحد صندوق', key: 'fundUnit', color: '#8B5CF6' },
-            { name: 'گواهی سپرده کالایی', key: 'commodity', color: '#6366F1' },
-            { name: 'سایر سهام', key: 'stock', color: '#00C8B5' },
-            { name: 'سایر دارایی ها', key: 'other', color: '#22C55E' },
-            { name: 'اوراق مشارکت', key: 'bond', color: '#F26827' },
-            { name: 'وجه نقد', key: 'cash', color: '#14B8A6' },
-            { name: 'سپرده بانکی', key: 'deposit', color: '#0EA5E9' },
-            { name: 'پنج سهم با بیشترین سهم', key: 'fiveBest', color: '#A855F7' }
-        ];
+    readonly assetConfigs = [
+        { name: 'واحد صندوق', key: 'fundUnit', color: '#8B5CF6' },
+        { name: 'گواهی سپرده کالایی', key: 'commodity', color: '#6366F1' },
+        { name: 'سایر سهام', key: 'stock', color: '#00C8B5' },
+        { name: 'سایر دارایی ها', key: 'other', color: '#22C55E' },
+        { name: 'اوراق مشارکت', key: 'bond', color: '#F26827' },
+        { name: 'وجه نقد', key: 'cash', color: '#14B8A6' },
+        { name: 'سپرده بانکی', key: 'deposit', color: '#0EA5E9' },
+        { name: 'پنج سهم با بیشترین سهم', key: 'fiveBest', color: '#A855F7' }
+    ];
 
-    readonly ownershipConfigs: {
-        name: string;
-        key: keyof OwnershipData;
-        color: string;
-    }[] = [
-            { name: 'سرمایه‌گذاران حقوقی', key: 'insInvPercent', color: '#71d2e4' },
-            { name: 'سرمایه‌گذاران حقیقی', key: 'retInvPercent', color: '#f26827' }
-        ];
+    readonly ownershipConfigs = [
+        { name: 'سرمایه‌گذاران حقوقی', key: 'insInvPercent', color: '#71d2e4' },
+        { name: 'سرمایه‌گذاران حقیقی', key: 'retInvPercent', color: '#f26827' }
+    ];
 
-    constructor(
-        private http: HttpClient,
-        @Inject(DOCUMENT) private document: Document,
-        @Inject(PLATFORM_ID) private platformId: object
-    ) { }
+    private readonly document = inject(DOCUMENT);
+    private readonly platformId = inject(PLATFORM_ID);
+    private readonly http = inject(HttpClient);
 
     ngOnInit(): void {
         if (isPlatformBrowser(this.platformId)) {
             this.updateTheme();
-
             this.observer = new MutationObserver(() => this.updateTheme());
             this.observer.observe(this.document.documentElement, {
                 attributes: true,
                 attributeFilter: ['class']
             });
 
-            this.dataSubscription = this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json')
-                .subscribe((data) => {
-                    const getNetAsset = (
-                        name: string,
-                        color: string,
-                        extract: (item: NetAssetData) => number
-                    ): Highcharts.SeriesSplineOptions => ({
-                        type: 'spline',
-                        name,
-                        color,
-                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
-                    });
-
-                    this.netAssetSeries = [
-                        getNetAsset('ارزش خالص دارایی‌ها', '#F87171', item => item.netAsset),
-                        getNetAsset('ارزش صدور', '##ffffff00', item => item.unitsRedDAY),
-                        getNetAsset('NAV آماری', '##ffffff00', item => item.unitsSubDAY),
-                    ];
-                });
-
-            this.dataSubscription = this.http.get<FundReturn[]>('/assets/json/return-fund-data.json')
-                .subscribe((data) => {
-                    const getFundReturn = (
-                        name: string,
-                        color: string,
-                        extract: (item: FundReturn) => number
-                    ): Highcharts.SeriesSplineOptions => ({
-                        type: 'spline',
-                        name,
-                        color,
-                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
-                    });
-
-                    this.fundReturnSeries = [
-                        getFundReturn('ارزش خالص دارایی‌ها', '#F87171', item => item.netAsset),
-                        getFundReturn('ارزش صدور', '##ffffff00', item => item.unitsRedDAY),
-                        getFundReturn('NAV آماری', '##ffffff00', item => item.unitsSubDAY),
-                    ];
-                });
-
-            this.dataSubscription = this.http.get<MarketLineData[]>('/assets/json/nav-comparison-data.json')
-                .subscribe((data) => {
-                    const getSeries = (
-                        name: string,
-                        color: string,
-                        extract: (item: MarketLineData) => number
-                    ): Highcharts.SeriesSplineOptions => ({
-                        type: 'spline',
-                        name,
-                        color,
-                        data: data.map(item => [new Date(item.date).getTime(), extract(item)]),
-                    });
-
-                    this.allSeries = [
-                        getSeries('ارزش ابطال', '#F87171', item => item.cancelNav),
-                        getSeries('ارزش صدور', '#60A5FA', item => item.issueNav),
-                        getSeries('NAV آماری', '#34D399', item => item.statisticalNav),
-                    ];
-                });
+            this.loadLineChartData();
         }
 
         this.http.get<MarketData[]>('/assets/json/Asset-data.json').subscribe(data => {
@@ -196,17 +126,54 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
             { title: 'ترکیب دارایی‌ها', pieData: this.AssetPieData, areaData: this.AssetAreaData },
             { title: 'میزان تملک سرمایه‌گذاران حقیقی و حقوقی', pieData: this.OwnershipPieData, areaData: this.OwnershipAreaData }
         ];
-
-        this.marketChart = [
-            { title: 'نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری', series: this.allSeries },
-            { title: 'نمودار ارزش خالص دارایی‌ها', series: this.netAssetSeries },
-            { title: 'نمودار بازدهی صندوق', series: this.fundReturnSeries }
-        ];
     }
 
-    updateTheme(): void {
-        this.isDarkMode = this.document.documentElement.classList.contains('dark');
+    loadLineChartData(): void {
+        this.http.get<NetAssetData[]>('/assets/json/asset-comparison-value-data.json').subscribe(data => {
+            this.netLineData = [
+                this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
+                this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
+                this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
+            ];
+
+            this.marketChart.push({ title: 'نمودار ارزش خالص دارایی‌ها', lineData: this.netLineData });
+        });
+
+        this.http.get<FundReturn[]>('/assets/json/return-fund-data.json').subscribe(data => {
+            this.fundReturnSeries = [
+                this.mapToLineSeries('ارزش خالص دارایی‌ها', '#F87171', data, dataItem => dataItem.netAsset),
+                this.mapToLineSeries('ارزش صدور', '#ffffff00', data, dataItem => dataItem.unitsRedDAY),
+                this.mapToLineSeries('NAV آماری', '#ffffff00', data, dataItem => dataItem.unitsSubDAY),
+            ];
+
+            this.marketChart.push({ title: 'نمودار بازدهی صندوق', lineData: this.fundReturnSeries });
+        });
+
+        this.http.get<MarketLineData[]>('/assets/json/nav-comparison-data.json').subscribe(data => {
+            this.allSeries = [
+                this.mapToLineSeries('ارزش ابطال', '#F87171', data, dataItem => dataItem.cancelNav),
+                this.mapToLineSeries('ارزش صدور', '#60A5FA', data, dataItem => dataItem.issueNav),
+                this.mapToLineSeries('NAV آماری', '#34D399', data, dataItem => dataItem.statisticalNav),
+            ];
+
+            this.marketChart.unshift({ title: 'نمودار مقایسه قیمت صدور، ابطال و آماری واحدهای سرمایه‌گذاری', lineData: this.allSeries });
+        });
     }
+
+    mapToLineSeries<T extends { date: string }>(
+        name: string,
+        color: string,
+        data: T[],
+        extractor: (item: T) => number
+    ): Highcharts.SeriesLineOptions {
+        return {
+            type: 'line',
+            name,
+            color,
+            data: data.map(item => [new Date(item.date).getTime(), extractor(item)]),
+        };
+    }
+
 
     generateAssetData(): void {
         if (!this.marketData.length) return;
@@ -222,10 +189,7 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
         this.AssetAreaData = this.assetConfigs.map(cfg => ({
             type: 'area',
             name: cfg.name,
-            data: this.marketData.map(item => [
-                new Date(item.date).getTime(),
-                Number(item[cfg.key as keyof MarketData])
-            ]),
+            data: this.marketData.map(item => [new Date(item.date).getTime(), Number(item[cfg.key as keyof MarketData])]),
             color: cfg.color,
             fillOpacity: 0.3
         }));
@@ -245,17 +209,18 @@ export class FundPerformanceComponent implements OnInit, OnDestroy {
         this.OwnershipAreaData = this.ownershipConfigs.map(cfg => ({
             type: 'area',
             name: cfg.name,
-            data: this.ownershipData.map(item => [
-                new Date(item.date).getTime(),
-                Number(item[cfg.key as keyof OwnershipData])
-            ]),
+            data: this.ownershipData.map(item => [new Date(item.date).getTime(), Number(item[cfg.key as keyof OwnershipData])]),
             color: cfg.color,
             fillOpacity: 0.3
         }));
     }
 
+    updateTheme(): void {
+        this.isDarkMode = this.document.documentElement.classList.contains('dark');
+    }
+
     ngOnDestroy(): void {
         this.observer?.disconnect();
-        this.dataSubscription?.unsubscribe();
+        this.subscriptions.forEach(sub => sub.unsubscribe());
     }
 }

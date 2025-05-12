@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AssetCompositionComponent } from './asset-composition.component';
+import { AssetCompositionComponent } from './line-chart.component';
 
 describe('AssetCompositionComponent', () => {
   let component: AssetCompositionComponent;

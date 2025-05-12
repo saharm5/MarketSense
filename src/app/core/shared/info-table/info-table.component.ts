@@ -47,26 +47,27 @@ export class InfoTableComponent {
   }): string {
     if (section.name !== 'اطلاعات بازده صندوق') {
 
-      return 'bg-gray-100';
+      return 'bg-[#e1e9f1]';
     }
 
     const monthlyReturn = this.getMonthlyReturn(section);
 
     if (monthlyReturn === null) {
 
-      return 'bg-gray-100';
+      return 'bg-[#e1e9f1]';
     }
 
     if (monthlyReturn > 0) {
 
-      return 'bg-green-100';
+      return 'bg-green-100 dark:bg-green-800';
     }
 
     if (monthlyReturn < 0) {
 
-      return 'bg-red-100';
+      return 'bg-red-100 dark:bg-red-800' ;
     }
 
-    return 'bg-gray-200';
+    return 'bg-[#e1e9f1]';
+
   }
 }
