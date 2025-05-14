@@ -2,7 +2,6 @@ import { Component, Inject, OnInit, OnDestroy, PLATFORM_ID } from '@angular/core
 import { HttpClient } from '@angular/common/http';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { forkJoin, Subscription } from 'rxjs';
-
 import { TopFundsComponent } from "./top-funds/top-funds.component";
 import { BannerComponent } from "./banner/banner.component";
 import { SearchBarComponent } from "../../core/shared/search-bar/search-bar.component";

@@ -12,22 +12,22 @@
 
     <div class="w-60 h-10 flex flex-row overflow-hidden select-none text-sm font-medium gap-1 content-start">
 
-        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300 shadow-md 
+        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300  dark:border-gray-400 shadow-md 
                        bg-[#f8f9fb] dark:bg-[#677588] hover:bg-[] text-[#000000] flex items-center justify-center px-3"
             [ngClass]="{ 'text-[#F26827]': selectedView === 'performance' }" [ngStyle]="{ width: rightWidth + '%' }"
             (click)="expand('right')">
 
             <app-svg-icon [ngClass]="selectedView === 'performance' ? 'bg-[#F26827]' : 'bg-black'"
-                class="w-4 h-4 dark:bg-white" [path]="'assets/icons/list.svg'">
+                class="w-4 h-4" [path]="'assets/icons/list.svg'">
             </app-svg-icon>
             <p *ngIf="rightWidth > 50" class="mr-2 font-semibold">اطلاعات</p>
         </button>
 
-        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300 shadow-md 
+        <button class="transition-all duration-300 rounded-t-xl border-t border-l border-r border-gray-300 dark:border-gray-400 shadow-md 
                        bg-[#f8f9fb] dark:bg-[#677588] hover:bg-[] text-[#000000] flex items-center justify-center px-3"
             [ngClass]="{ 'text-[#F26827] ': selectedView === 'info' }" [ngStyle]="{ width: leftWidth + '%' }"
             (click)="expand('left')">
-            <app-svg-icon [ngClass]="selectedView === 'info' ? 'bg-[#F26827]' : 'bg-black'" class="scale-x-[-1] w-4 h-4 dark:bg-white"
+            <app-svg-icon [ngClass]="selectedView === 'info' ? 'bg-[#F26827]' : 'bg-black'" class="scale-x-[-1] w-4 h-4"
                 [path]="'assets/icons/chart-bar.svg'">
             </app-svg-icon>
             <span *ngIf="leftWidth > 50" class="mr-2 font-semibold">عملکرد</span>

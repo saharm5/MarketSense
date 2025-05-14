@@ -1,4 +1,3 @@
-// C: \Users\Sanay\market - sens - front - last\src\app\pages\home\top - funds\top - funds.component.ts
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule, isPlatformBrowser } from '@angular/common';

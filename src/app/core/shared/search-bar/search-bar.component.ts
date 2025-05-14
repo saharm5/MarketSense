@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -16,7 +16,7 @@ export class SearchBarComponent {
   search = '';
   faSearch = faSearch;
 
-  constructor(private router: Router) { }
+  constructor(@Inject(Router) private router: Router) { }
 
   handleSearch(event: Event): void {
     event.preventDefault();
