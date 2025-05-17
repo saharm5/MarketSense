@@ -1,0 +1,12 @@
+/* استایل دلخواه شما برای بهتر شدن ظاهر */
+:host {
+    display: block;
+    color: white;
+    font-family: 'Vazir', Tahoma, sans-serif;
+  }
+  
+  /* استایل برای بهتر دیده شدن چک‌باکس‌ها */
+  input[type='checkbox'].accent-green-500:checked {
+    accent-color: #22c55e; /* رنگ سبز Tailwind */
+  }
+  

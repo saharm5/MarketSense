@@ -1,7 +1,8 @@
-    
-import { Injectable } from '@angular/core';
+// C: \Users\Sanay\MarketSense\src\app\services\fund.detail.service.ts
+import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { isPlatformBrowser } from '@angular/common';
 
 export interface FundPerformanceItem {
     title: string;
@@ -52,15 +53,54 @@ export interface OwnershipData {
     retInvPercent: number;
 }
 
+export interface FundTreeMapDataItem {
+    id: string;
+    name: string;
+    value: number;
+    parent?: string;
+    custom?: {
+        regNo?: string;
+        fundType?: number;
+        typeOfInvest?: string;
+        fundSize?: number;
+        initiationDate?: string;
+        dailyEfficiency?: number;
+        weeklyEfficiency?: number;
+        monthlyEfficiency?: number;
+        quarterlyEfficiency?: number;
+        sixMonthEfficiency?: number;
+        annualEfficiency?: number;
+        efficiency?: number;
+        cancelNav?: number;
+        issueNav?: number;
+        statisticalNav?: number;
+        netAsset?: number;
+        manager?: string;
+        guarantor?: string;
+        date?: string;
+        alpha?: number | null;
+        beta?: number | null;
+    };
+}
+
+
 @Injectable({
     providedIn: 'root'
 })
 export class FundDetailService {
-    private readonly TTL = 20 * 60 * 1000; 
+    private readonly TTL = 20 * 60 * 1000; // 20 دقیقه
 
-    constructor(private http: HttpClient) { }
+    constructor(
+        private http: HttpClient,
+        @Inject(PLATFORM_ID) private platformId: object
+    ) { }
 
     private getWithCache<T>(url: string, cacheKey: string): Observable<T> {
+        // اگر سرور هستیم localStorage وجود ندارد
+        if (!isPlatformBrowser(this.platformId)) {
+            return this.http.get<T>(url);
+        }
+
         const cached = localStorage.getItem(cacheKey);
 
         if (cached) {
@@ -111,4 +151,20 @@ export class FundDetailService {
     getOwnershipData(): Observable<OwnershipData[]> {
         return this.getWithCache('/assets/json/Ownership-data.json', 'ownershipDataCache');
     }
+
+    getFundTreeMapData(): Observable<FundTreeMapDataItem[]> {
+        return new Observable(observer => {
+            this.getWithCache<{ items: FundTreeMapDataItem[] }>(
+                'assets/json/fund-treemap.json',
+                'fundTreeMapCache'
+            ).subscribe({
+                next: (res) => {
+                    observer.next(res.items || []);
+                    observer.complete();
+                },
+                error: (err) => observer.error(err)
+            });
+        });
+    }
+
 }
