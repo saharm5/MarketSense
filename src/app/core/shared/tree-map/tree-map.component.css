@@ -9,7 +9,7 @@
   fill: #ffffff !important;
 }
 
-/* رنگ پس‌زمینه tooltip */
+/*  tooltip */
 :host ::ng-deep .highcharts-tooltip {
   background: #ffffff !important;
   border-radius: 8px;
@@ -20,12 +20,12 @@
   font-size: 13px;
 }
 
-/* خطوط راهنمای legend */
+/*  legend */
 :host ::ng-deep .highcharts-coloraxis-labels text {
   fill: #ffffff !important;
 }
 
-/* حالت hover بر روی داده‌های treemap */
+/* hover treemap */
 :host ::ng-deep .highcharts-point:hover {
   stroke: #ffffff !important;
   stroke-width: 2px;
@@ -37,7 +37,7 @@
   stroke: #2e7d32;
 }
 
-/* عنوان دسته‌بندی‌های treemap */
+/* treemap */
 :host ::ng-deep .highcharts-level-1 .highcharts-data-label {
   font-size: 14px !important;
   font-weight: bold !important;
@@ -45,7 +45,7 @@
   text-shadow: none !important;
 }
 
-/* دکمه‌های export */
+/* export */
 :host ::ng-deep .highcharts-contextbutton {
   fill: #444 !important;
   stroke: #ccc !important;

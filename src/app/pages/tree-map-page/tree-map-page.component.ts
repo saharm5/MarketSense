@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { TreeMapComponent, ParentCategory, FundItem } from '../../core/shared/tree-map/tree-map.component';
 
+
 @Component({
   selector: 'app-tree-map-page',
   standalone: true,

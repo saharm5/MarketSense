@@ -10,9 +10,9 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule, UrlTree } from '@angular/router';
 
 interface BannerItem {
-  image: string; // از any به string تغییر یافت
+  image: string; 
   buttonLink: string | string[] | UrlTree | null | undefined;
-  buttonText: string; // از any به string تغییر یافت
+  buttonText: string;
   imageUrl: string;
   title?: string;
   description?: string;

@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { SvgIconComponent } from "../svg-icon/svg-icon.component";
 
 interface FooterItem {
-
   iconPath: string;
   label: string;
   href?: string; 

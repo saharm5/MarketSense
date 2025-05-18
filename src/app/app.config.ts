@@ -12,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideClientHydration(withEventReplay()),
     provideAnimations(),
-    provideHttpClient(withFetch()), // ✅ مهم برای SSR + fetch
+    provideHttpClient(withFetch()),
     provideCharts(),
   ]
 };

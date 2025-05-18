@@ -107,7 +107,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   loadVolumePriceData(): void {
     this.dataSubscription = forkJoin({
       volume: this.http.get<MarketData[]>('/assets/json/volume-data.json'),
-      price: this.http.get<MarketData[]>('/assets/json/volume-data.json') // اگر متفاوت‌اند، آدرس price رو تغییر بده
+      price: this.http.get<MarketData[]>('/assets/json/volume-data.json') 
     }).subscribe(({ volume, price }) => {
       this.volumeData = volume.map(item => [item.time, item.volume]);
       this.priceData = price.map(item => [item.time, item.volume]);

@@ -88,15 +88,15 @@ export interface FundTreeMapDataItem {
     providedIn: 'root'
 })
 export class FundDetailService {
-    private readonly TTL = 20 * 60 * 1000; // 20 دقیقه
-
+    private readonly TTL = 20 * 60 * 1000;
+    
     constructor(
         private http: HttpClient,
         @Inject(PLATFORM_ID) private platformId: object
     ) { }
 
     private getWithCache<T>(url: string, cacheKey: string): Observable<T> {
-        // اگر سرور هستیم localStorage وجود ندارد
+
         if (!isPlatformBrowser(this.platformId)) {
             return this.http.get<T>(url);
         }

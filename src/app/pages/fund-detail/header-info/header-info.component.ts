@@ -14,7 +14,7 @@ export class HeaderInfoComponent {
   leftWidth = 30;
   rightWidth = 70;
 
-  selectedView: 'performance' | 'info' = 'performance';  // مقدار اولیه
+  selectedView: 'performance' | 'info' = 'performance';  
 
   @Output() toggleViewEvent = new EventEmitter<'performance' | 'info'>();
 
