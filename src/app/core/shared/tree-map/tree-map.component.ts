@@ -4,9 +4,9 @@
 import {
   Component,
   Inject,
-  PLATFORM_ID,
   Input,
   OnInit,
+  PLATFORM_ID,
 } from '@angular/core';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import { HighchartsChartModule } from 'highcharts-angular';
@@ -53,27 +53,34 @@ export class TreeMapComponent implements OnInit {
   Highcharts: typeof Highcharts | null = null;
   chartOptions: Highcharts.Options = {};
   allCategories: ParentCategory[] = [];
-  selectedFundTypes: number[] = [4, 6, 7];
 
-  constructor(@Inject(PLATFORM_ID) private platformId: object) { }
+  selectedFundTypes: number[] = [4, 6, 7];
+  tempSelectedFundTypes: number[] = [];
+
+  constructor(@Inject(PLATFORM_ID) private readonly platformId: object) { }
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       import('highcharts/modules/treemap').then(() => {
         this.Highcharts = Highcharts;
-
         this.allCategories = [...this.parentCategories];
-
+        this.tempSelectedFundTypes = [...this.selectedFundTypes];
         this.filterData();
       });
     }
   }
 
+  onTempToggleFundType(fundType: number) {
+    if (this.tempSelectedFundTypes.includes(fundType)) {
+      this.tempSelectedFundTypes = this.tempSelectedFundTypes.filter(ft => ft !== fundType);
+    } else {
+      this.tempSelectedFundTypes.push(fundType);
+    }
+  }
 
-  onToggleFundType(fundType: number, checked: boolean) {
-    this.selectedFundTypes = checked
-      ? [...this.selectedFundTypes, fundType]
-      : this.selectedFundTypes.filter((ft) => ft !== fundType);
+  applySelectedFundTypes() {
+    this.selectedFundTypes = [...this.tempSelectedFundTypes];
+    this.filterData();
   }
 
   filterData() {
@@ -102,32 +109,23 @@ export class TreeMapComponent implements OnInit {
       }));
 
     const allData = [...parentNodes, ...fundNodes];
-    const colorValues = fundNodes.map((n) => n.colorValue).filter((v) => !isNaN(v));
+    const colorValues = fundNodes.map(n => n.colorValue).filter(v => !isNaN(v));
     const min = colorValues.length ? Math.min(...colorValues) : 0;
     const max = colorValues.length ? Math.max(...colorValues) : 100;
 
     this.chartOptions = {
-      chart: {
-        backgroundColor: '#1e1e2f',
-      },
+      chart: { backgroundColor: '#1e1e2f' },
       title: {
         text: 'نقشه درختی بازدهی صندوق‌ها',
-        style: {
-          color: '#fff',
-          fontSize: '20px',
-        },
+        style: { color: '#ffffff', fontSize: '18px' },
       },
       tooltip: {
         useHTML: true,
-        backgroundColor: '#fff',
-        borderColor: '#ddd',
+        backgroundColor: '#ffffff',
+        borderColor: '#dddddd',
         borderRadius: 8,
         shadow: true,
-        style: {
-          fontSize: '13px',
-          color: '#000',
-          direction: 'rtl',
-        },
+        style: { fontSize: '13px', color: '#000', direction: 'rtl' },
         formatter: function (this: any) {
           const c = this.point.custom || {};
           const format = (n: number | undefined | null) =>
@@ -167,6 +165,7 @@ export class TreeMapComponent implements OnInit {
               color: '#fff',
               fontSize: '12px',
               textOutline: 'none',
+              fontWeight: 'normal',
             },
           },
           levels: [
@@ -178,12 +177,12 @@ export class TreeMapComponent implements OnInit {
                 style: {
                   fontWeight: 'bold',
                   fontSize: '14px',
-                  color: '#fff',
+                  color: '#ffffff',
                   textOutline: 'none',
                 },
               },
-              borderColor: '#444',
-              borderWidth: 2,
+              borderColor: '#ffffff',
+              borderWidth: 1.5,
             },
           ],
           data: allData,
@@ -193,27 +192,15 @@ export class TreeMapComponent implements OnInit {
       colorAxis: {
         min,
         max,
-        minColor: '#ffcdd2',
-        maxColor: '#388e3c',
+        minColor: '#116611',
+        maxColor: '#55cc55',
         labels: {
           style: {
             color: '#fff',
           },
         },
       },
-      legend: {
-        enabled: true,
-        itemStyle: {
-          color: '#fff',
-          fontSize: '13px',
-        },
-        title: {
-          text: 'بازده روزانه',
-          style: {
-            color: '#fff',
-          },
-        },
-      },
+      legend: { enabled: false },
       credits: { enabled: false },
       exporting: {
         enabled: true,

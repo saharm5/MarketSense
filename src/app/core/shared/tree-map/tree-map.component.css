@@ -1,12 +1,82 @@
-/* استایل دلخواه شما برای بهتر شدن ظاهر */
-:host {
-    display: block;
-    color: white;
-    font-family: 'Vazir', Tahoma, sans-serif;
-  }
-  
-  /* استایل برای بهتر دیده شدن چک‌باکس‌ها */
-  input[type='checkbox'].accent-green-500:checked {
-    accent-color: #22c55e; /* رنگ سبز Tailwind */
-  }
-  
+/* پس‌زمینه کل کارت */
+:host ::ng-deep .highcharts-container {
+  background-color: #1e1e2f !important;
+}
+
+/* رنگ متن نمودار */
+:host ::ng-deep .highcharts-title,
+:host ::ng-deep .highcharts-data-label text {
+  fill: #ffffff !important;
+}
+
+/* رنگ پس‌زمینه tooltip */
+:host ::ng-deep .highcharts-tooltip {
+  background: #ffffff !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  direction: rtl;
+  font-family: 'Vazir', sans-serif;
+  font-size: 13px;
+}
+
+/* خطوط راهنمای legend */
+:host ::ng-deep .highcharts-coloraxis-labels text {
+  fill: #ffffff !important;
+}
+
+/* حالت hover بر روی داده‌های treemap */
+:host ::ng-deep .highcharts-point:hover {
+  stroke: #ffffff !important;
+  stroke-width: 2px;
+  opacity: 0.9;
+}
+
+/* خطوط اطراف دسته‌بندی‌ها */
+:host ::ng-deep .highcharts-series-0 .highcharts-point {
+  stroke: #2e7d32;
+}
+
+/* عنوان دسته‌بندی‌های treemap */
+:host ::ng-deep .highcharts-level-1 .highcharts-data-label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  fill: #ffffff !important;
+  text-shadow: none !important;
+}
+
+/* دکمه‌های export */
+:host ::ng-deep .highcharts-contextbutton {
+  fill: #444 !important;
+  stroke: #ccc !important;
+}
+
+
+.loading {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 100px 0;
+  background-color: #1e1e2f;
+}
+.filter-panel {
+  margin-top: 20px;
+  color: white;
+  direction: rtl;
+}
+.filter-panel label {
+  margin-right: 15px;
+  user-select: none;
+}
+button {
+  margin-left: 15px;
+  padding: 6px 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
