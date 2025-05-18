@@ -6,8 +6,6 @@
 /build/
 /out-tsc/
 
-# Environment files
-/src/environments/*.ts
 
 # IDE settings
 /.vscode/
